@@ -1,0 +1,83 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\PROGRAMACION SOFT\\Probando\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|d:\\programacion soft\\probando\\lib_dominio\\entidades\\ordenesdiscos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\entidades\\ordenesdiscos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|d:\\programacion soft\\probando\\lib_dominio\\entidades\\discos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\entidades\\discos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|d:\\programacion soft\\probando\\lib_dominio\\entidades\\ordenes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\entidades\\ordenes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrdenesDiscos.cs",
+              "DocumentMoniker": "D:\\PROGRAMACION SOFT\\Probando\\lib_dominio\\Entidades\\OrdenesDiscos.cs",
+              "RelativeDocumentMoniker": "lib_dominio\\Entidades\\OrdenesDiscos.cs",
+              "ToolTip": "D:\\PROGRAMACION SOFT\\Probando\\lib_dominio\\Entidades\\OrdenesDiscos.cs",
+              "RelativeToolTip": "lib_dominio\\Entidades\\OrdenesDiscos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T18:08:48.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Ordenes.cs",
+              "DocumentMoniker": "D:\\PROGRAMACION SOFT\\Probando\\lib_dominio\\Entidades\\Ordenes.cs",
+              "RelativeDocumentMoniker": "lib_dominio\\Entidades\\Ordenes.cs",
+              "ToolTip": "D:\\PROGRAMACION SOFT\\Probando\\lib_dominio\\Entidades\\Ordenes.cs",
+              "RelativeToolTip": "lib_dominio\\Entidades\\Ordenes.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T18:08:18.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Discos.cs",
+              "DocumentMoniker": "D:\\PROGRAMACION SOFT\\Probando\\lib_dominio\\Entidades\\Discos.cs",
+              "RelativeDocumentMoniker": "lib_dominio\\Entidades\\Discos.cs",
+              "ToolTip": "D:\\PROGRAMACION SOFT\\Probando\\lib_dominio\\Entidades\\Discos.cs",
+              "RelativeToolTip": "lib_dominio\\Entidades\\Discos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T17:39:03.134Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

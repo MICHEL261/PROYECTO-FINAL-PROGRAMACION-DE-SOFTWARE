@@ -1,0 +1,17 @@
+E:\MICHEL\PROGRAMACION\8-10 Mar-Jue Javier Torres - Michel Cardona\TiendaDeDiscos\lib_aplicaciones\obj\Debug\net8.0\lib_aplicaciones.csproj.AssemblyReference.cache
+E:\MICHEL\PROGRAMACION\8-10 Mar-Jue Javier Torres - Michel Cardona\TiendaDeDiscos\lib_aplicaciones\obj\Debug\net8.0\lib_aplicaciones.GeneratedMSBuildEditorConfig.editorconfig
+E:\MICHEL\PROGRAMACION\8-10 Mar-Jue Javier Torres - Michel Cardona\TiendaDeDiscos\lib_aplicaciones\obj\Debug\net8.0\lib_aplicaciones.AssemblyInfoInputs.cache
+E:\MICHEL\PROGRAMACION\8-10 Mar-Jue Javier Torres - Michel Cardona\TiendaDeDiscos\lib_aplicaciones\obj\Debug\net8.0\lib_aplicaciones.AssemblyInfo.cs
+E:\MICHEL\PROGRAMACION\8-10 Mar-Jue Javier Torres - Michel Cardona\TiendaDeDiscos\lib_aplicaciones\obj\Debug\net8.0\lib_aplicaciones.csproj.CoreCompileInputs.cache
+E:\MICHEL\PROGRAMACION\8-10 Mar-Jue Javier Torres - Michel Cardona\TiendaDeDiscos\lib_aplicaciones\bin\Debug\net8.0\lib_aplicaciones.deps.json
+E:\MICHEL\PROGRAMACION\8-10 Mar-Jue Javier Torres - Michel Cardona\TiendaDeDiscos\lib_aplicaciones\bin\Debug\net8.0\lib_aplicaciones.dll
+E:\MICHEL\PROGRAMACION\8-10 Mar-Jue Javier Torres - Michel Cardona\TiendaDeDiscos\lib_aplicaciones\bin\Debug\net8.0\lib_aplicaciones.pdb
+E:\MICHEL\PROGRAMACION\8-10 Mar-Jue Javier Torres - Michel Cardona\TiendaDeDiscos\lib_aplicaciones\bin\Debug\net8.0\lib_dominio.dll
+E:\MICHEL\PROGRAMACION\8-10 Mar-Jue Javier Torres - Michel Cardona\TiendaDeDiscos\lib_aplicaciones\bin\Debug\net8.0\lib_repositorios.dll
+E:\MICHEL\PROGRAMACION\8-10 Mar-Jue Javier Torres - Michel Cardona\TiendaDeDiscos\lib_aplicaciones\bin\Debug\net8.0\lib_dominio.pdb
+E:\MICHEL\PROGRAMACION\8-10 Mar-Jue Javier Torres - Michel Cardona\TiendaDeDiscos\lib_aplicaciones\bin\Debug\net8.0\lib_repositorios.pdb
+E:\MICHEL\PROGRAMACION\8-10 Mar-Jue Javier Torres - Michel Cardona\TiendaDeDiscos\lib_aplicaciones\obj\Debug\net8.0\lib_apli.7723F211.Up2Date
+E:\MICHEL\PROGRAMACION\8-10 Mar-Jue Javier Torres - Michel Cardona\TiendaDeDiscos\lib_aplicaciones\obj\Debug\net8.0\lib_aplicaciones.dll
+E:\MICHEL\PROGRAMACION\8-10 Mar-Jue Javier Torres - Michel Cardona\TiendaDeDiscos\lib_aplicaciones\obj\Debug\net8.0\refint\lib_aplicaciones.dll
+E:\MICHEL\PROGRAMACION\8-10 Mar-Jue Javier Torres - Michel Cardona\TiendaDeDiscos\lib_aplicaciones\obj\Debug\net8.0\lib_aplicaciones.pdb
+E:\MICHEL\PROGRAMACION\8-10 Mar-Jue Javier Torres - Michel Cardona\TiendaDeDiscos\lib_aplicaciones\obj\Debug\net8.0\ref\lib_aplicaciones.dll

@@ -1,0 +1,72 @@
+C:\Users\ASUS\source\repos\Probando\lib_dominio\bin\Debug\net8.0\lib_dominio.deps.json
+C:\Users\ASUS\source\repos\Probando\lib_dominio\bin\Debug\net8.0\lib_dominio.dll
+C:\Users\ASUS\source\repos\Probando\lib_dominio\bin\Debug\net8.0\lib_dominio.pdb
+C:\Users\ASUS\source\repos\Probando\lib_dominio\obj\Debug\net8.0\lib_dominio.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\Probando\lib_dominio\obj\Debug\net8.0\lib_dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\source\repos\Probando\lib_dominio\obj\Debug\net8.0\lib_dominio.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\Probando\lib_dominio\obj\Debug\net8.0\lib_dominio.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\Probando\lib_dominio\obj\Debug\net8.0\lib_dominio.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\Probando\lib_dominio\obj\Debug\net8.0\lib_dominio.dll
+C:\Users\ASUS\source\repos\Probando\lib_dominio\obj\Debug\net8.0\refint\lib_dominio.dll
+C:\Users\ASUS\source\repos\Probando\lib_dominio\obj\Debug\net8.0\lib_dominio.pdb
+C:\Users\ASUS\source\repos\Probando\lib_dominio\obj\Debug\net8.0\ref\lib_dominio.dll
+D:\PROGRAMACION SOFT\Probando\lib_dominio\bin\Debug\net8.0\lib_dominio.deps.json
+D:\PROGRAMACION SOFT\Probando\lib_dominio\bin\Debug\net8.0\lib_dominio.dll
+D:\PROGRAMACION SOFT\Probando\lib_dominio\bin\Debug\net8.0\lib_dominio.pdb
+D:\PROGRAMACION SOFT\Probando\lib_dominio\obj\Debug\net8.0\lib_dominio.csproj.AssemblyReference.cache
+D:\PROGRAMACION SOFT\Probando\lib_dominio\obj\Debug\net8.0\lib_dominio.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROGRAMACION SOFT\Probando\lib_dominio\obj\Debug\net8.0\lib_dominio.AssemblyInfoInputs.cache
+D:\PROGRAMACION SOFT\Probando\lib_dominio\obj\Debug\net8.0\lib_dominio.AssemblyInfo.cs
+D:\PROGRAMACION SOFT\Probando\lib_dominio\obj\Debug\net8.0\lib_dominio.csproj.CoreCompileInputs.cache
+D:\PROGRAMACION SOFT\Probando\lib_dominio\obj\Debug\net8.0\lib_dominio.dll
+D:\PROGRAMACION SOFT\Probando\lib_dominio\obj\Debug\net8.0\refint\lib_dominio.dll
+D:\PROGRAMACION SOFT\Probando\lib_dominio\obj\Debug\net8.0\lib_dominio.pdb
+D:\PROGRAMACION SOFT\Probando\lib_dominio\obj\Debug\net8.0\ref\lib_dominio.dll
+D:\PROGRAMACION SOFT\TiendaDeDiscos\lib_dominio\bin\Debug\net8.0\lib_dominio.deps.json
+D:\PROGRAMACION SOFT\TiendaDeDiscos\lib_dominio\bin\Debug\net8.0\lib_dominio.dll
+D:\PROGRAMACION SOFT\TiendaDeDiscos\lib_dominio\bin\Debug\net8.0\lib_dominio.pdb
+D:\PROGRAMACION SOFT\TiendaDeDiscos\lib_dominio\obj\Debug\net8.0\lib_dominio.csproj.AssemblyReference.cache
+D:\PROGRAMACION SOFT\TiendaDeDiscos\lib_dominio\obj\Debug\net8.0\lib_dominio.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROGRAMACION SOFT\TiendaDeDiscos\lib_dominio\obj\Debug\net8.0\lib_dominio.AssemblyInfoInputs.cache
+D:\PROGRAMACION SOFT\TiendaDeDiscos\lib_dominio\obj\Debug\net8.0\lib_dominio.AssemblyInfo.cs
+D:\PROGRAMACION SOFT\TiendaDeDiscos\lib_dominio\obj\Debug\net8.0\lib_dominio.csproj.CoreCompileInputs.cache
+D:\PROGRAMACION SOFT\TiendaDeDiscos\lib_dominio\obj\Debug\net8.0\lib_dominio.dll
+D:\PROGRAMACION SOFT\TiendaDeDiscos\lib_dominio\obj\Debug\net8.0\refint\lib_dominio.dll
+D:\PROGRAMACION SOFT\TiendaDeDiscos\lib_dominio\obj\Debug\net8.0\lib_dominio.pdb
+D:\PROGRAMACION SOFT\TiendaDeDiscos\lib_dominio\obj\Debug\net8.0\ref\lib_dominio.dll
+E:\MICHEL\TiendaDeDiscos\lib_dominio\bin\Debug\net8.0\lib_dominio.deps.json
+E:\MICHEL\TiendaDeDiscos\lib_dominio\bin\Debug\net8.0\lib_dominio.dll
+E:\MICHEL\TiendaDeDiscos\lib_dominio\bin\Debug\net8.0\lib_dominio.pdb
+E:\MICHEL\TiendaDeDiscos\lib_dominio\obj\Debug\net8.0\lib_dominio.csproj.AssemblyReference.cache
+E:\MICHEL\TiendaDeDiscos\lib_dominio\obj\Debug\net8.0\lib_dominio.GeneratedMSBuildEditorConfig.editorconfig
+E:\MICHEL\TiendaDeDiscos\lib_dominio\obj\Debug\net8.0\lib_dominio.AssemblyInfoInputs.cache
+E:\MICHEL\TiendaDeDiscos\lib_dominio\obj\Debug\net8.0\lib_dominio.AssemblyInfo.cs
+E:\MICHEL\TiendaDeDiscos\lib_dominio\obj\Debug\net8.0\lib_dominio.csproj.CoreCompileInputs.cache
+E:\MICHEL\TiendaDeDiscos\lib_dominio\obj\Debug\net8.0\lib_dominio.dll
+E:\MICHEL\TiendaDeDiscos\lib_dominio\obj\Debug\net8.0\refint\lib_dominio.dll
+E:\MICHEL\TiendaDeDiscos\lib_dominio\obj\Debug\net8.0\lib_dominio.pdb
+E:\MICHEL\TiendaDeDiscos\lib_dominio\obj\Debug\net8.0\ref\lib_dominio.dll
+D:\PROGRAMACION SOFT\TiendaDeDiscos0\TiendaDeDiscos\lib_dominio\bin\Debug\net8.0\lib_dominio.deps.json
+D:\PROGRAMACION SOFT\TiendaDeDiscos0\TiendaDeDiscos\lib_dominio\bin\Debug\net8.0\lib_dominio.dll
+D:\PROGRAMACION SOFT\TiendaDeDiscos0\TiendaDeDiscos\lib_dominio\bin\Debug\net8.0\lib_dominio.pdb
+D:\PROGRAMACION SOFT\TiendaDeDiscos0\TiendaDeDiscos\lib_dominio\obj\Debug\net8.0\lib_dominio.csproj.AssemblyReference.cache
+D:\PROGRAMACION SOFT\TiendaDeDiscos0\TiendaDeDiscos\lib_dominio\obj\Debug\net8.0\lib_dominio.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROGRAMACION SOFT\TiendaDeDiscos0\TiendaDeDiscos\lib_dominio\obj\Debug\net8.0\lib_dominio.AssemblyInfoInputs.cache
+D:\PROGRAMACION SOFT\TiendaDeDiscos0\TiendaDeDiscos\lib_dominio\obj\Debug\net8.0\lib_dominio.AssemblyInfo.cs
+D:\PROGRAMACION SOFT\TiendaDeDiscos0\TiendaDeDiscos\lib_dominio\obj\Debug\net8.0\lib_dominio.csproj.CoreCompileInputs.cache
+D:\PROGRAMACION SOFT\TiendaDeDiscos0\TiendaDeDiscos\lib_dominio\obj\Debug\net8.0\lib_dominio.dll
+D:\PROGRAMACION SOFT\TiendaDeDiscos0\TiendaDeDiscos\lib_dominio\obj\Debug\net8.0\refint\lib_dominio.dll
+D:\PROGRAMACION SOFT\TiendaDeDiscos0\TiendaDeDiscos\lib_dominio\obj\Debug\net8.0\lib_dominio.pdb
+D:\PROGRAMACION SOFT\TiendaDeDiscos0\TiendaDeDiscos\lib_dominio\obj\Debug\net8.0\ref\lib_dominio.dll
+E:\MICHEL\PROGRAMACION\8-10 Mar-Jue Javier Torres - Michel Cardona\TiendaDeDiscos\lib_dominio\bin\Debug\net8.0\lib_dominio.deps.json
+E:\MICHEL\PROGRAMACION\8-10 Mar-Jue Javier Torres - Michel Cardona\TiendaDeDiscos\lib_dominio\bin\Debug\net8.0\lib_dominio.dll
+E:\MICHEL\PROGRAMACION\8-10 Mar-Jue Javier Torres - Michel Cardona\TiendaDeDiscos\lib_dominio\bin\Debug\net8.0\lib_dominio.pdb
+E:\MICHEL\PROGRAMACION\8-10 Mar-Jue Javier Torres - Michel Cardona\TiendaDeDiscos\lib_dominio\obj\Debug\net8.0\lib_dominio.csproj.AssemblyReference.cache
+E:\MICHEL\PROGRAMACION\8-10 Mar-Jue Javier Torres - Michel Cardona\TiendaDeDiscos\lib_dominio\obj\Debug\net8.0\lib_dominio.GeneratedMSBuildEditorConfig.editorconfig
+E:\MICHEL\PROGRAMACION\8-10 Mar-Jue Javier Torres - Michel Cardona\TiendaDeDiscos\lib_dominio\obj\Debug\net8.0\lib_dominio.AssemblyInfoInputs.cache
+E:\MICHEL\PROGRAMACION\8-10 Mar-Jue Javier Torres - Michel Cardona\TiendaDeDiscos\lib_dominio\obj\Debug\net8.0\lib_dominio.AssemblyInfo.cs
+E:\MICHEL\PROGRAMACION\8-10 Mar-Jue Javier Torres - Michel Cardona\TiendaDeDiscos\lib_dominio\obj\Debug\net8.0\lib_dominio.csproj.CoreCompileInputs.cache
+E:\MICHEL\PROGRAMACION\8-10 Mar-Jue Javier Torres - Michel Cardona\TiendaDeDiscos\lib_dominio\obj\Debug\net8.0\lib_dominio.dll
+E:\MICHEL\PROGRAMACION\8-10 Mar-Jue Javier Torres - Michel Cardona\TiendaDeDiscos\lib_dominio\obj\Debug\net8.0\refint\lib_dominio.dll
+E:\MICHEL\PROGRAMACION\8-10 Mar-Jue Javier Torres - Michel Cardona\TiendaDeDiscos\lib_dominio\obj\Debug\net8.0\lib_dominio.pdb
+E:\MICHEL\PROGRAMACION\8-10 Mar-Jue Javier Torres - Michel Cardona\TiendaDeDiscos\lib_dominio\obj\Debug\net8.0\ref\lib_dominio.dll

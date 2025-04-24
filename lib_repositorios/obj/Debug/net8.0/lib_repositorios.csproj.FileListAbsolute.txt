@@ -1,0 +1,90 @@
+C:\Users\ASUS\source\repos\Probando\lib_repositorios\bin\Debug\net8.0\lib_repositorios.deps.json
+C:\Users\ASUS\source\repos\Probando\lib_repositorios\bin\Debug\net8.0\lib_repositorios.dll
+C:\Users\ASUS\source\repos\Probando\lib_repositorios\bin\Debug\net8.0\lib_repositorios.pdb
+C:\Users\ASUS\source\repos\Probando\lib_repositorios\bin\Debug\net8.0\lib_dominio.dll
+C:\Users\ASUS\source\repos\Probando\lib_repositorios\bin\Debug\net8.0\lib_dominio.pdb
+C:\Users\ASUS\source\repos\Probando\lib_repositorios\obj\Debug\net8.0\lib_repositorios.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\Probando\lib_repositorios\obj\Debug\net8.0\lib_repositorios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\source\repos\Probando\lib_repositorios\obj\Debug\net8.0\lib_repositorios.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\Probando\lib_repositorios\obj\Debug\net8.0\lib_repositorios.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\Probando\lib_repositorios\obj\Debug\net8.0\lib_repositorios.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\Probando\lib_repositorios\obj\Debug\net8.0\lib_repo.695687AF.Up2Date
+C:\Users\ASUS\source\repos\Probando\lib_repositorios\obj\Debug\net8.0\lib_repositorios.dll
+C:\Users\ASUS\source\repos\Probando\lib_repositorios\obj\Debug\net8.0\refint\lib_repositorios.dll
+C:\Users\ASUS\source\repos\Probando\lib_repositorios\obj\Debug\net8.0\lib_repositorios.pdb
+C:\Users\ASUS\source\repos\Probando\lib_repositorios\obj\Debug\net8.0\ref\lib_repositorios.dll
+D:\PROGRAMACION SOFT\Probando\lib_repositorios\bin\Debug\net8.0\lib_repositorios.deps.json
+D:\PROGRAMACION SOFT\Probando\lib_repositorios\bin\Debug\net8.0\lib_repositorios.dll
+D:\PROGRAMACION SOFT\Probando\lib_repositorios\bin\Debug\net8.0\lib_repositorios.pdb
+D:\PROGRAMACION SOFT\Probando\lib_repositorios\bin\Debug\net8.0\lib_dominio.dll
+D:\PROGRAMACION SOFT\Probando\lib_repositorios\bin\Debug\net8.0\lib_dominio.pdb
+D:\PROGRAMACION SOFT\Probando\lib_repositorios\obj\Debug\net8.0\lib_repositorios.csproj.AssemblyReference.cache
+D:\PROGRAMACION SOFT\Probando\lib_repositorios\obj\Debug\net8.0\lib_repositorios.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROGRAMACION SOFT\Probando\lib_repositorios\obj\Debug\net8.0\lib_repositorios.AssemblyInfoInputs.cache
+D:\PROGRAMACION SOFT\Probando\lib_repositorios\obj\Debug\net8.0\lib_repositorios.AssemblyInfo.cs
+D:\PROGRAMACION SOFT\Probando\lib_repositorios\obj\Debug\net8.0\lib_repositorios.csproj.CoreCompileInputs.cache
+D:\PROGRAMACION SOFT\Probando\lib_repositorios\obj\Debug\net8.0\lib_repo.695687AF.Up2Date
+D:\PROGRAMACION SOFT\Probando\lib_repositorios\obj\Debug\net8.0\lib_repositorios.dll
+D:\PROGRAMACION SOFT\Probando\lib_repositorios\obj\Debug\net8.0\refint\lib_repositorios.dll
+D:\PROGRAMACION SOFT\Probando\lib_repositorios\obj\Debug\net8.0\lib_repositorios.pdb
+D:\PROGRAMACION SOFT\Probando\lib_repositorios\obj\Debug\net8.0\ref\lib_repositorios.dll
+D:\PROGRAMACION SOFT\TiendaDeDiscos\lib_repositorios\bin\Debug\net8.0\lib_repositorios.deps.json
+D:\PROGRAMACION SOFT\TiendaDeDiscos\lib_repositorios\bin\Debug\net8.0\lib_repositorios.dll
+D:\PROGRAMACION SOFT\TiendaDeDiscos\lib_repositorios\bin\Debug\net8.0\lib_repositorios.pdb
+D:\PROGRAMACION SOFT\TiendaDeDiscos\lib_repositorios\bin\Debug\net8.0\lib_dominio.dll
+D:\PROGRAMACION SOFT\TiendaDeDiscos\lib_repositorios\bin\Debug\net8.0\lib_dominio.pdb
+D:\PROGRAMACION SOFT\TiendaDeDiscos\lib_repositorios\obj\Debug\net8.0\lib_repositorios.csproj.AssemblyReference.cache
+D:\PROGRAMACION SOFT\TiendaDeDiscos\lib_repositorios\obj\Debug\net8.0\lib_repositorios.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROGRAMACION SOFT\TiendaDeDiscos\lib_repositorios\obj\Debug\net8.0\lib_repositorios.AssemblyInfoInputs.cache
+D:\PROGRAMACION SOFT\TiendaDeDiscos\lib_repositorios\obj\Debug\net8.0\lib_repositorios.AssemblyInfo.cs
+D:\PROGRAMACION SOFT\TiendaDeDiscos\lib_repositorios\obj\Debug\net8.0\lib_repositorios.csproj.CoreCompileInputs.cache
+D:\PROGRAMACION SOFT\TiendaDeDiscos\lib_repositorios\obj\Debug\net8.0\lib_repo.695687AF.Up2Date
+D:\PROGRAMACION SOFT\TiendaDeDiscos\lib_repositorios\obj\Debug\net8.0\lib_repositorios.dll
+D:\PROGRAMACION SOFT\TiendaDeDiscos\lib_repositorios\obj\Debug\net8.0\refint\lib_repositorios.dll
+D:\PROGRAMACION SOFT\TiendaDeDiscos\lib_repositorios\obj\Debug\net8.0\lib_repositorios.pdb
+D:\PROGRAMACION SOFT\TiendaDeDiscos\lib_repositorios\obj\Debug\net8.0\ref\lib_repositorios.dll
+E:\MICHEL\TiendaDeDiscos\lib_repositorios\bin\Debug\net8.0\lib_repositorios.deps.json
+E:\MICHEL\TiendaDeDiscos\lib_repositorios\bin\Debug\net8.0\lib_repositorios.dll
+E:\MICHEL\TiendaDeDiscos\lib_repositorios\bin\Debug\net8.0\lib_repositorios.pdb
+E:\MICHEL\TiendaDeDiscos\lib_repositorios\bin\Debug\net8.0\lib_dominio.dll
+E:\MICHEL\TiendaDeDiscos\lib_repositorios\bin\Debug\net8.0\lib_dominio.pdb
+E:\MICHEL\TiendaDeDiscos\lib_repositorios\obj\Debug\net8.0\lib_repositorios.csproj.AssemblyReference.cache
+E:\MICHEL\TiendaDeDiscos\lib_repositorios\obj\Debug\net8.0\lib_repositorios.GeneratedMSBuildEditorConfig.editorconfig
+E:\MICHEL\TiendaDeDiscos\lib_repositorios\obj\Debug\net8.0\lib_repositorios.AssemblyInfoInputs.cache
+E:\MICHEL\TiendaDeDiscos\lib_repositorios\obj\Debug\net8.0\lib_repositorios.AssemblyInfo.cs
+E:\MICHEL\TiendaDeDiscos\lib_repositorios\obj\Debug\net8.0\lib_repositorios.csproj.CoreCompileInputs.cache
+E:\MICHEL\TiendaDeDiscos\lib_repositorios\obj\Debug\net8.0\lib_repo.695687AF.Up2Date
+E:\MICHEL\TiendaDeDiscos\lib_repositorios\obj\Debug\net8.0\lib_repositorios.dll
+E:\MICHEL\TiendaDeDiscos\lib_repositorios\obj\Debug\net8.0\refint\lib_repositorios.dll
+E:\MICHEL\TiendaDeDiscos\lib_repositorios\obj\Debug\net8.0\lib_repositorios.pdb
+E:\MICHEL\TiendaDeDiscos\lib_repositorios\obj\Debug\net8.0\ref\lib_repositorios.dll
+D:\PROGRAMACION SOFT\TiendaDeDiscos0\TiendaDeDiscos\lib_repositorios\bin\Debug\net8.0\lib_repositorios.deps.json
+D:\PROGRAMACION SOFT\TiendaDeDiscos0\TiendaDeDiscos\lib_repositorios\bin\Debug\net8.0\lib_repositorios.dll
+D:\PROGRAMACION SOFT\TiendaDeDiscos0\TiendaDeDiscos\lib_repositorios\bin\Debug\net8.0\lib_repositorios.pdb
+D:\PROGRAMACION SOFT\TiendaDeDiscos0\TiendaDeDiscos\lib_repositorios\bin\Debug\net8.0\lib_dominio.dll
+D:\PROGRAMACION SOFT\TiendaDeDiscos0\TiendaDeDiscos\lib_repositorios\bin\Debug\net8.0\lib_dominio.pdb
+D:\PROGRAMACION SOFT\TiendaDeDiscos0\TiendaDeDiscos\lib_repositorios\obj\Debug\net8.0\lib_repositorios.csproj.AssemblyReference.cache
+D:\PROGRAMACION SOFT\TiendaDeDiscos0\TiendaDeDiscos\lib_repositorios\obj\Debug\net8.0\lib_repositorios.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROGRAMACION SOFT\TiendaDeDiscos0\TiendaDeDiscos\lib_repositorios\obj\Debug\net8.0\lib_repositorios.AssemblyInfoInputs.cache
+D:\PROGRAMACION SOFT\TiendaDeDiscos0\TiendaDeDiscos\lib_repositorios\obj\Debug\net8.0\lib_repositorios.AssemblyInfo.cs
+D:\PROGRAMACION SOFT\TiendaDeDiscos0\TiendaDeDiscos\lib_repositorios\obj\Debug\net8.0\lib_repositorios.csproj.CoreCompileInputs.cache
+D:\PROGRAMACION SOFT\TiendaDeDiscos0\TiendaDeDiscos\lib_repositorios\obj\Debug\net8.0\lib_repo.695687AF.Up2Date
+D:\PROGRAMACION SOFT\TiendaDeDiscos0\TiendaDeDiscos\lib_repositorios\obj\Debug\net8.0\lib_repositorios.dll
+D:\PROGRAMACION SOFT\TiendaDeDiscos0\TiendaDeDiscos\lib_repositorios\obj\Debug\net8.0\refint\lib_repositorios.dll
+D:\PROGRAMACION SOFT\TiendaDeDiscos0\TiendaDeDiscos\lib_repositorios\obj\Debug\net8.0\lib_repositorios.pdb
+D:\PROGRAMACION SOFT\TiendaDeDiscos0\TiendaDeDiscos\lib_repositorios\obj\Debug\net8.0\ref\lib_repositorios.dll
+E:\MICHEL\PROGRAMACION\8-10 Mar-Jue Javier Torres - Michel Cardona\TiendaDeDiscos\lib_repositorios\bin\Debug\net8.0\lib_repositorios.deps.json
+E:\MICHEL\PROGRAMACION\8-10 Mar-Jue Javier Torres - Michel Cardona\TiendaDeDiscos\lib_repositorios\bin\Debug\net8.0\lib_repositorios.dll
+E:\MICHEL\PROGRAMACION\8-10 Mar-Jue Javier Torres - Michel Cardona\TiendaDeDiscos\lib_repositorios\bin\Debug\net8.0\lib_repositorios.pdb
+E:\MICHEL\PROGRAMACION\8-10 Mar-Jue Javier Torres - Michel Cardona\TiendaDeDiscos\lib_repositorios\bin\Debug\net8.0\lib_dominio.dll
+E:\MICHEL\PROGRAMACION\8-10 Mar-Jue Javier Torres - Michel Cardona\TiendaDeDiscos\lib_repositorios\bin\Debug\net8.0\lib_dominio.pdb
+E:\MICHEL\PROGRAMACION\8-10 Mar-Jue Javier Torres - Michel Cardona\TiendaDeDiscos\lib_repositorios\obj\Debug\net8.0\lib_repositorios.csproj.AssemblyReference.cache
+E:\MICHEL\PROGRAMACION\8-10 Mar-Jue Javier Torres - Michel Cardona\TiendaDeDiscos\lib_repositorios\obj\Debug\net8.0\lib_repositorios.GeneratedMSBuildEditorConfig.editorconfig
+E:\MICHEL\PROGRAMACION\8-10 Mar-Jue Javier Torres - Michel Cardona\TiendaDeDiscos\lib_repositorios\obj\Debug\net8.0\lib_repositorios.AssemblyInfoInputs.cache
+E:\MICHEL\PROGRAMACION\8-10 Mar-Jue Javier Torres - Michel Cardona\TiendaDeDiscos\lib_repositorios\obj\Debug\net8.0\lib_repositorios.AssemblyInfo.cs
+E:\MICHEL\PROGRAMACION\8-10 Mar-Jue Javier Torres - Michel Cardona\TiendaDeDiscos\lib_repositorios\obj\Debug\net8.0\lib_repositorios.csproj.CoreCompileInputs.cache
+E:\MICHEL\PROGRAMACION\8-10 Mar-Jue Javier Torres - Michel Cardona\TiendaDeDiscos\lib_repositorios\obj\Debug\net8.0\lib_repo.695687AF.Up2Date
+E:\MICHEL\PROGRAMACION\8-10 Mar-Jue Javier Torres - Michel Cardona\TiendaDeDiscos\lib_repositorios\obj\Debug\net8.0\lib_repositorios.dll
+E:\MICHEL\PROGRAMACION\8-10 Mar-Jue Javier Torres - Michel Cardona\TiendaDeDiscos\lib_repositorios\obj\Debug\net8.0\refint\lib_repositorios.dll
+E:\MICHEL\PROGRAMACION\8-10 Mar-Jue Javier Torres - Michel Cardona\TiendaDeDiscos\lib_repositorios\obj\Debug\net8.0\lib_repositorios.pdb
+E:\MICHEL\PROGRAMACION\8-10 Mar-Jue Javier Torres - Michel Cardona\TiendaDeDiscos\lib_repositorios\obj\Debug\net8.0\ref\lib_repositorios.dll
