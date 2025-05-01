@@ -16,6 +16,8 @@ namespace lib_repositorios.Interfaces
         DbSet<Pagos>? Pagos { get; set; }
         DbSet<Ordenes>? Ordenes { get; set; }
         DbSet<OrdenesDiscos>? OrdenesDiscos { get; set; }
+        DbSet<Auditorias>? Auditorias { get; set; }
+
 
 
         EntityEntry<T> Entry<T>(T entity) where T : class;

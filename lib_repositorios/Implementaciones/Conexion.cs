@@ -22,6 +22,7 @@ namespace lib_repositorios.Implementaciones
         public DbSet<Pagos>? Pagos { get; set; }
         public DbSet<Ordenes>? Ordenes { get; set; }
         public DbSet<OrdenesDiscos>? OrdenesDiscos { get; set; }
+        public DbSet<Auditorias>? Auditorias { get; set; }
 
 
 

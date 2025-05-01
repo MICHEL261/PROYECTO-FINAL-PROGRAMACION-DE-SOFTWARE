@@ -15,3 +15,4 @@ E:\MICHEL\PROGRAMACION\8-10 Mar-Jue Javier Torres - Michel Cardona\TiendaDeDisco
 E:\MICHEL\PROGRAMACION\8-10 Mar-Jue Javier Torres - Michel Cardona\TiendaDeDiscos\lib_aplicaciones\obj\Debug\net8.0\refint\lib_aplicaciones.dll
 E:\MICHEL\PROGRAMACION\8-10 Mar-Jue Javier Torres - Michel Cardona\TiendaDeDiscos\lib_aplicaciones\obj\Debug\net8.0\lib_aplicaciones.pdb
 E:\MICHEL\PROGRAMACION\8-10 Mar-Jue Javier Torres - Michel Cardona\TiendaDeDiscos\lib_aplicaciones\obj\Debug\net8.0\ref\lib_aplicaciones.dll
+E:\MICHEL\PROGRAMACION\8-10 Mar-Jue Javier Torres - Michel Cardona\TiendaDeDiscos\lib_aplicaciones\obj\Debug\net8.0\lib_aplicaciones.sourcelink.json

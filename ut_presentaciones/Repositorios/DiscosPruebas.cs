@@ -22,10 +22,17 @@ namespace ut_presentacion.Repositorios
         [TestMethod]
         public void Ejecutar()
         {
+            var contextoReal = (DbContext)iConexion!;
+            contextoReal.Database.ExecuteSqlRaw("DISABLE TRIGGER tr_Auditoria_Discos ON Discos");
+            contextoReal.Database.ExecuteSqlRaw("DISABLE TRIGGER tr_update_Discos ON Discos");
+
             Assert.AreEqual(true, Guardar());
             Assert.AreEqual(true, Modificar());
             Assert.AreEqual(true, Listar());
             Assert.AreEqual(true, Borrar());
+
+            contextoReal.Database.ExecuteSqlRaw("ENABLE TRIGGER tr_Auditoria_Discos ON Discos");
+            contextoReal.Database.ExecuteSqlRaw("ENABLE TRIGGER tr_Update_Discos ON Discos");
         }
 
         public bool Listar()

@@ -248,3 +248,4 @@ E:\MICHEL\PROGRAMACION\8-10 Mar-Jue Javier Torres - Michel Cardona\TiendaDeDisco
 E:\MICHEL\PROGRAMACION\8-10 Mar-Jue Javier Torres - Michel Cardona\TiendaDeDiscos\asp_servicios\bin\Debug\net8.0\lib_repositorios.pdb
 E:\MICHEL\PROGRAMACION\8-10 Mar-Jue Javier Torres - Michel Cardona\TiendaDeDiscos\asp_servicios\bin\Debug\net8.0\ut_presentaciones.pdb
 E:\MICHEL\PROGRAMACION\8-10 Mar-Jue Javier Torres - Michel Cardona\TiendaDeDiscos\asp_servicios\obj\Debug\net8.0\asp_serv.1BB33DF7.Up2Date
+E:\MICHEL\PROGRAMACION\8-10 Mar-Jue Javier Torres - Michel Cardona\TiendaDeDiscos\asp_servicios\obj\Debug\net8.0\asp_servicios.sourcelink.json

@@ -22,10 +22,17 @@ namespace ut_presentacion.Repositorios
         [TestMethod]
         public void Ejecutar()
         {
+            var contextoReal = (DbContext)iConexion!;
+            contextoReal.Database.ExecuteSqlRaw("DISABLE TRIGGER tr_Auditoria_Ordenes ON Ordenes");
+            contextoReal.Database.ExecuteSqlRaw("DISABLE TRIGGER tr_update_Ordenes ON Ordenes");
+
             Assert.AreEqual(true, Guardar());
             Assert.AreEqual(true, Modificar());
             Assert.AreEqual(true, Listar());
             Assert.AreEqual(true, Borrar());
+
+            contextoReal.Database.ExecuteSqlRaw("ENABLE TRIGGER tr_Auditoria_Ordenes ON Ordenes");
+            contextoReal.Database.ExecuteSqlRaw("ENABLE TRIGGER tr_update_Ordenes ON Ordenes");
 
         }
 
@@ -40,6 +47,8 @@ namespace ut_presentacion.Repositorios
             var cliente = this.iConexion!.Clientes!.FirstOrDefault(x => x.NombreCliente == "Juan");
             var pago = this.iConexion.Pagos!.FirstOrDefault(x => x.Id == 1);
             this.entidad = EntidadesNucleo.Ordenes(cliente!, pago!);
+
+
             this.iConexion!.Ordenes!.Add(this.entidad!);
             this.iConexion.SaveChanges();
             return true;

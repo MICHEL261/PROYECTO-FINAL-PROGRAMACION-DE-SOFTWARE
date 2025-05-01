@@ -68,6 +68,221 @@ CREATE TABLE [OrdenesDiscos] (
     FOREIGN KEY ([Formato]) REFERENCES [Formatos]([Id])
 );
 
+CREATE TABLE [Auditorias] (
+    [Id] INT NOT NULL PRIMARY KEY IDENTITY(1,1),
+    [Entidad] varchar(200) NOT NULL,
+    [Operacion] varchar(200) NOT NULL,
+    [Fecha] smalldatetime NOT NULL,
+    [Datos] varchar(200) NOT NULL
+);
+go
+
+
+
+
+CREATE TRIGGER tr_Auditoria_Ordenes
+ON Ordenes
+AFTER INSERT
+AS
+BEGIN
+    
+
+    INSERT INTO Auditorias(Entidad, Operacion, Fecha, Datos)
+    VALUES ('Ordenes', 'se ingresó un Disco nuevo para ser asignado a una orden', SYSDATETIME(),( select*from inserted for json auto));
+END;
+GO
+
+CREATE TRIGGER tr_update_Ordenes
+ON Ordenes
+AFTER update
+AS
+BEGIN
+    
+
+    INSERT INTO Auditorias(Entidad, Operacion, Fecha, Datos)
+    VALUES ('Ordenes', 'se se actualizo un Disco asignado a una orden', SYSDATETIME(),( select*from inserted for json auto));
+END;
+GO
+
+CREATE TRIGGER tr_Auditoria_Artistas
+ON Artistas
+AFTER INSERT
+AS
+BEGIN
+    
+
+    
+    INSERT INTO Auditorias(Entidad, Operacion, Fecha, Datos)
+    VALUES ('Artistas', 'se ingresó un Artista nuevo', SYSDATETIME(),( select*from inserted for json auto));
+END;
+GO
+
+CREATE TRIGGER tr_Update_Artistas
+ON Artistas
+AFTER update
+AS
+BEGIN
+    
+
+    INSERT INTO Auditorias(Entidad, Operacion, Fecha, Datos)
+    VALUES ('Artistas', 'se actualizo un Artista nuevo', SYSDATETIME(),( select*from inserted for json auto));
+END;
+GO
+
+
+CREATE TRIGGER tr_Auditoria_Clientes
+ON Clientes
+AFTER INSERT
+AS
+BEGIN
+    
+
+    INSERT INTO Auditorias(Entidad, Operacion, Fecha, Datos)
+    VALUES ('Clientes', 'se ingresó un Cliente nuevo', SYSDATETIME(),( select*from inserted for json auto));
+END;
+GO
+
+CREATE TRIGGER tr_Update_Clientes
+ON Clientes
+AFTER update
+AS
+BEGIN
+    
+
+    INSERT INTO Auditorias(Entidad, Operacion, Fecha, Datos)
+    VALUES ('Clientes', 'se actualizo un Cliente', SYSDATETIME(),( select*from inserted for json auto));
+END;
+GO
+
+CREATE TRIGGER tr_Auditoria_Discos
+ON Discos
+AFTER INSERT
+AS
+BEGIN
+    
+
+    INSERT INTO Auditorias(Entidad, Operacion, Fecha, Datos)
+    VALUES ('Discos', 'se ingresó un Disco nuevo', SYSDATETIME(),( select*from inserted for json auto));
+END;
+GO
+
+CREATE TRIGGER tr_update_Discos
+ON Discos
+AFTER update
+AS
+BEGIN
+    
+
+
+    INSERT INTO Auditorias(Entidad, Operacion, Fecha, Datos)
+    VALUES ('Discos', 'se actualizo un Disco', SYSDATETIME(),( select*from inserted for json auto));
+END;
+GO
+
+
+CREATE TRIGGER tr_Auditoria_Formatos
+ON Formatos
+AFTER INSERT
+AS
+BEGIN
+    
+
+    
+    INSERT INTO Auditorias(Entidad, Operacion, Fecha, Datos)
+    VALUES ('Formatos', 'se ingresó un Formato nuevo', SYSDATETIME(),( select*from inserted for json auto));
+END;
+GO
+
+CREATE TRIGGER tr_update_Formatos
+ON Formatos
+AFTER update
+AS
+BEGIN
+    
+
+    INSERT INTO Auditorias(Entidad, Operacion, Fecha, Datos)
+    VALUES ('Formatos', 'se actualizo un Formato', SYSDATETIME(),( select*from inserted for json auto));
+END;
+GO
+
+
+CREATE TRIGGER tr_Auditoria_Marcas
+ON Marcas
+AFTER INSERT
+AS
+BEGIN
+    
+
+   
+    INSERT INTO Auditorias(Entidad, Operacion, Fecha, Datos)
+    VALUES ('Marcas', 'se ingresó una Marca nuevo', SYSDATETIME(),( select*from inserted for json auto));
+END;
+GO
+
+CREATE TRIGGER tr_update_Marcas
+ON Marcas
+AFTER update
+AS
+BEGIN
+    
+
+    INSERT INTO Auditorias(Entidad, Operacion, Fecha, Datos)
+    VALUES ('Marcas', 'se actualizo una Marca', SYSDATETIME(),( select*from inserted for json auto));
+END;
+GO
+
+CREATE TRIGGER tr_Auditoria_OrdenesDiscos
+ON OrdenesDiscos
+AFTER INSERT
+AS
+BEGIN
+    
+
+    
+    INSERT INTO Auditorias(Entidad, Operacion, Fecha, Datos)
+    VALUES ('OrdenesDiscos', 'se ingresó un detalle de orden nuevo', SYSDATETIME(),( select*from inserted for json auto));
+END;
+GO
+CREATE TRIGGER tr_update_OrdenesDiscos
+ON OrdenesDiscos
+AFTER update
+AS
+BEGIN
+    
+
+   
+    INSERT INTO Auditorias(Entidad, Operacion, Fecha, Datos)
+    VALUES ('OrdenesDiscos', 'se actualizo un detalle de orden', SYSDATETIME(),( select*from inserted for json auto));
+END;
+GO
+
+CREATE TRIGGER tr_Auditoria_Pagos
+ON Pagos
+AFTER INSERT
+AS
+BEGIN
+    
+
+   
+    INSERT INTO Auditorias(Entidad, Operacion, Fecha, Datos)
+    VALUES ('Pagos', 'se ingresó un Pago nuevo', SYSDATETIME(),( select*from inserted for json auto));
+END;
+GO
+
+
+CREATE TRIGGER tr_update_Pagos
+ON Pagos
+AFTER update
+AS
+BEGIN
+    
+
+  
+    INSERT INTO Auditorias(Entidad, Operacion, Fecha, Datos)
+    VALUES ('Pagos', 'se actualizo un Pago', SYSDATETIME(),( select*from inserted for json auto));
+END;
+GO
+
 INSERT INTO [Clientes] (NombreCliente, ApellidoCliente, DireccionCliente, TelefonoCliente)
 VALUES ('Juan', 'Perez', 'Calle 45', '304258299');
 
@@ -92,5 +307,4 @@ VALUES ('2024-11-02', 1, 1, 1000);
 INSERT INTO [OrdenesDiscos] ([Orden], [Disco], [Formato], [Cantidad], [ValorUnitario])
 VALUES (1, 1, 1, 1, 100);
 
-
-
+select*from Auditorias

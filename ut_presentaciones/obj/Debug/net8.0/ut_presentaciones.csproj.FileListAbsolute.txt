@@ -1374,3 +1374,4 @@ E:\MICHEL\PROGRAMACION\8-10 Mar-Jue Javier Torres - Michel Cardona\TiendaDeDisco
 E:\MICHEL\PROGRAMACION\8-10 Mar-Jue Javier Torres - Michel Cardona\TiendaDeDiscos\ut_presentaciones\obj\Debug\net8.0\ref\ut_presentaciones.dll
 E:\MICHEL\PROGRAMACION\8-10 Mar-Jue Javier Torres - Michel Cardona\TiendaDeDiscos\ut_presentaciones\bin\Debug\net8.0\lib_aplicaciones.dll
 E:\MICHEL\PROGRAMACION\8-10 Mar-Jue Javier Torres - Michel Cardona\TiendaDeDiscos\ut_presentaciones\bin\Debug\net8.0\lib_aplicaciones.pdb
+E:\MICHEL\PROGRAMACION\8-10 Mar-Jue Javier Torres - Michel Cardona\TiendaDeDiscos\ut_presentaciones\obj\Debug\net8.0\ut_presentaciones.sourcelink.json
