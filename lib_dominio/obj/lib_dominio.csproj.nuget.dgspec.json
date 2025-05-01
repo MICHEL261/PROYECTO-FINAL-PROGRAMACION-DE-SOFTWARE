@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\MICHEL\\PROGRAMACION\\8-10 Mar-Jue Javier Torres - Michel Cardona\\TiendaDeDiscos\\lib_dominio\\lib_dominio.csproj": {}
+    "C:\\Users\\ASUS\\Source\\Repos\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\lib_dominio.csproj": {}
   },
   "projects": {
-    "E:\\MICHEL\\PROGRAMACION\\8-10 Mar-Jue Javier Torres - Michel Cardona\\TiendaDeDiscos\\lib_dominio\\lib_dominio.csproj": {
+    "C:\\Users\\ASUS\\Source\\Repos\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\lib_dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\MICHEL\\PROGRAMACION\\8-10 Mar-Jue Javier Torres - Michel Cardona\\TiendaDeDiscos\\lib_dominio\\lib_dominio.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\Source\\Repos\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\lib_dominio.csproj",
         "projectName": "lib_dominio",
-        "projectPath": "E:\\MICHEL\\PROGRAMACION\\8-10 Mar-Jue Javier Torres - Michel Cardona\\TiendaDeDiscos\\lib_dominio\\lib_dominio.csproj",
-        "packagesPath": "C:\\Users\\paplo\\.nuget\\packages\\",
-        "outputPath": "E:\\MICHEL\\PROGRAMACION\\8-10 Mar-Jue Javier Torres - Michel Cardona\\TiendaDeDiscos\\lib_dominio\\obj\\",
+        "projectPath": "C:\\Users\\ASUS\\Source\\Repos\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\lib_dominio.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ASUS\\Source\\Repos\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\paplo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -71,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

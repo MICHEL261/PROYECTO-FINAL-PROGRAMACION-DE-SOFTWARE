@@ -46,6 +46,9 @@ namespace ut_presentacion.Repositorios
             this.entidad = EntidadesNucleo.Marcas()!;
             this.iConexion!.Marcas!.Add(this.entidad);
             this.iConexion.SaveChanges();
+            var contextoReal = (DbContext)iConexion!;
+
+            contextoReal.Database.ExecuteSqlRaw("DISABLE TRIGGER tr_Auditoria_Marcas ON Marcas");
             return true;
         }
 

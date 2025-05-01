@@ -30,6 +30,9 @@ namespace asp_servicios
             services.AddScoped<iArtistasAplicacion, ArtistasAplicacion>();
             services.AddScoped<iDiscosAplicacion, DiscosAplicacion>();
             services.AddScoped<iFormatosAplicacion, FormatosAplicacion>();
+            services.AddScoped<IMarcasAplicacion, MarcasAplicacion>();
+            services.AddScoped<IOrdenesAplicacion, OrdenesAplicacion>();
+            services.AddScoped<IOrdenesDiscosAplicacion, OrdenesDiscosAplicacion>();
 
             // Controladores
             services.AddScoped<TokenController, TokenController>();
