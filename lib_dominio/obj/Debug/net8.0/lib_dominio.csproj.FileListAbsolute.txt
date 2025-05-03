@@ -84,3 +84,16 @@ C:\Users\ASUS\Source\Repos\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\lib_dominio\o
 C:\Users\ASUS\Source\Repos\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\lib_dominio\obj\Debug\net8.0\refint\lib_dominio.dll
 C:\Users\ASUS\Source\Repos\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\lib_dominio\obj\Debug\net8.0\lib_dominio.pdb
 C:\Users\ASUS\Source\Repos\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\lib_dominio\obj\Debug\net8.0\ref\lib_dominio.dll
+E:\MICHEL\PROGRAMACION\proyecto discos musicales\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\lib_dominio\bin\Debug\net8.0\lib_dominio.deps.json
+E:\MICHEL\PROGRAMACION\proyecto discos musicales\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\lib_dominio\bin\Debug\net8.0\lib_dominio.dll
+E:\MICHEL\PROGRAMACION\proyecto discos musicales\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\lib_dominio\bin\Debug\net8.0\lib_dominio.pdb
+E:\MICHEL\PROGRAMACION\proyecto discos musicales\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\lib_dominio\obj\Debug\net8.0\lib_dominio.csproj.AssemblyReference.cache
+E:\MICHEL\PROGRAMACION\proyecto discos musicales\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\lib_dominio\obj\Debug\net8.0\lib_dominio.GeneratedMSBuildEditorConfig.editorconfig
+E:\MICHEL\PROGRAMACION\proyecto discos musicales\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\lib_dominio\obj\Debug\net8.0\lib_dominio.AssemblyInfoInputs.cache
+E:\MICHEL\PROGRAMACION\proyecto discos musicales\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\lib_dominio\obj\Debug\net8.0\lib_dominio.AssemblyInfo.cs
+E:\MICHEL\PROGRAMACION\proyecto discos musicales\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\lib_dominio\obj\Debug\net8.0\lib_dominio.csproj.CoreCompileInputs.cache
+E:\MICHEL\PROGRAMACION\proyecto discos musicales\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\lib_dominio\obj\Debug\net8.0\lib_dominio.sourcelink.json
+E:\MICHEL\PROGRAMACION\proyecto discos musicales\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\lib_dominio\obj\Debug\net8.0\lib_dominio.dll
+E:\MICHEL\PROGRAMACION\proyecto discos musicales\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\lib_dominio\obj\Debug\net8.0\refint\lib_dominio.dll
+E:\MICHEL\PROGRAMACION\proyecto discos musicales\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\lib_dominio\obj\Debug\net8.0\lib_dominio.pdb
+E:\MICHEL\PROGRAMACION\proyecto discos musicales\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\lib_dominio\obj\Debug\net8.0\ref\lib_dominio.dll

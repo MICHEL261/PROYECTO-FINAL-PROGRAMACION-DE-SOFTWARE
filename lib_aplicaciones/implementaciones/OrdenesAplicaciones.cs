@@ -63,6 +63,8 @@ namespace lib_aplicaciones.Implementaciones
 
 
         {
+
+
             if (entidad == null)
                 throw new Exception("lbFaltaInformacion");
 

@@ -105,3 +105,19 @@ C:\Users\ASUS\Source\Repos\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\lib_repositor
 C:\Users\ASUS\Source\Repos\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\lib_repositorios\obj\Debug\net8.0\refint\lib_repositorios.dll
 C:\Users\ASUS\Source\Repos\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\lib_repositorios\obj\Debug\net8.0\lib_repositorios.pdb
 C:\Users\ASUS\Source\Repos\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\lib_repositorios\obj\Debug\net8.0\ref\lib_repositorios.dll
+E:\MICHEL\PROGRAMACION\proyecto discos musicales\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\lib_repositorios\bin\Debug\net8.0\lib_repositorios.deps.json
+E:\MICHEL\PROGRAMACION\proyecto discos musicales\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\lib_repositorios\bin\Debug\net8.0\lib_repositorios.dll
+E:\MICHEL\PROGRAMACION\proyecto discos musicales\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\lib_repositorios\bin\Debug\net8.0\lib_repositorios.pdb
+E:\MICHEL\PROGRAMACION\proyecto discos musicales\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\lib_repositorios\bin\Debug\net8.0\lib_dominio.dll
+E:\MICHEL\PROGRAMACION\proyecto discos musicales\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\lib_repositorios\bin\Debug\net8.0\lib_dominio.pdb
+E:\MICHEL\PROGRAMACION\proyecto discos musicales\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\lib_repositorios\obj\Debug\net8.0\lib_repositorios.csproj.AssemblyReference.cache
+E:\MICHEL\PROGRAMACION\proyecto discos musicales\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\lib_repositorios\obj\Debug\net8.0\lib_repositorios.GeneratedMSBuildEditorConfig.editorconfig
+E:\MICHEL\PROGRAMACION\proyecto discos musicales\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\lib_repositorios\obj\Debug\net8.0\lib_repositorios.AssemblyInfoInputs.cache
+E:\MICHEL\PROGRAMACION\proyecto discos musicales\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\lib_repositorios\obj\Debug\net8.0\lib_repositorios.AssemblyInfo.cs
+E:\MICHEL\PROGRAMACION\proyecto discos musicales\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\lib_repositorios\obj\Debug\net8.0\lib_repositorios.csproj.CoreCompileInputs.cache
+E:\MICHEL\PROGRAMACION\proyecto discos musicales\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\lib_repositorios\obj\Debug\net8.0\lib_repositorios.sourcelink.json
+E:\MICHEL\PROGRAMACION\proyecto discos musicales\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\lib_repositorios\obj\Debug\net8.0\lib_repo.695687AF.Up2Date
+E:\MICHEL\PROGRAMACION\proyecto discos musicales\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\lib_repositorios\obj\Debug\net8.0\lib_repositorios.dll
+E:\MICHEL\PROGRAMACION\proyecto discos musicales\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\lib_repositorios\obj\Debug\net8.0\refint\lib_repositorios.dll
+E:\MICHEL\PROGRAMACION\proyecto discos musicales\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\lib_repositorios\obj\Debug\net8.0\lib_repositorios.pdb
+E:\MICHEL\PROGRAMACION\proyecto discos musicales\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\lib_repositorios\obj\Debug\net8.0\ref\lib_repositorios.dll
