@@ -53,10 +53,23 @@ namespace ut_presentacion.Repositorios
             this.iConexion.SaveChanges();
             return true;
         }
+      
 
         public bool Modificar()
         {
-            this.entidad!.MontoTotal = 23445;
+            var orden = this.iConexion.Ordenes!.FirstOrDefault(x => x.Id == 1);
+
+           
+                if (orden != null)
+            {
+                var ordenesDiscosPruebas = new OrdenesDiscosPruebas();
+
+                this.entidad!.MontoTotal = ordenesDiscosPruebas.CalcularMontoTotal(orden);
+               
+
+            }
+
+            
 
             var entry = this.iConexion!.Entry<Ordenes>(this.entidad);
             entry.State = EntityState.Modified;

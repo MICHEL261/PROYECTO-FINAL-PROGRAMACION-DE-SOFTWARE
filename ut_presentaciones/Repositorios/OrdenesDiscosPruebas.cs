@@ -69,5 +69,25 @@ namespace ut_presentacion.Repositorios
             this.iConexion!.SaveChanges();
             return true;
         }
+
+        public decimal CalcularMontoTotal(Ordenes? orden)
+        {
+            
+            var respuesta = 0.0m;
+            
+            var entidades = this.iConexion!.OrdenesDiscos!.Where(p => p.Orden == orden!.Id).ToList();
+            if (orden == null)
+            {
+                throw new Exception("La orden no existe.");
+            }
+            
+
+                foreach (var elemento in entidades)
+                    respuesta += elemento.Cantidad * elemento.ValorUnitario;
+
+            
+
+            return respuesta;
+        }
     }
 }

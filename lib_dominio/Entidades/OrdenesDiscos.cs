@@ -14,5 +14,7 @@ namespace lib_dominio.Entidades
         [ForeignKey("Disco")] public Discos? _Disco { get; set; }
         [ForeignKey("Formato")] public Formatos? _Formato { get; set; } 
 
+
+
     }
 }

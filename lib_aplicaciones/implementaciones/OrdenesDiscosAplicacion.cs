@@ -75,11 +75,11 @@ namespace lib_aplicaciones.Implementaciones
             this.IConexion.SaveChanges();
             return entidad;
         }
-        public decimal CalcularMontoTotal(OrdenesDiscos? entidad)
+        public decimal CalcularMontoTotal(Ordenes? orden)
         {
             var respuesta = 0.0m;
 
-            var entidades = this.IConexion!.OrdenesDiscos!.Where(p => p.Orden == entidad!.Orden).ToList();
+            var entidades = this.IConexion!.OrdenesDiscos!.Where(p => p.Orden == orden!.Id).ToList();
             if (entidades == null) {
                 throw new Exception("La orden no existe.");
             }
