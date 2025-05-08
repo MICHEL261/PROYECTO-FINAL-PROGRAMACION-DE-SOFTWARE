@@ -3,55 +3,159 @@
   "WorkspaceRootPath": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_dominio\\entidades\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\entidades\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\ut_presentaciones\\repositorios\\ordenespruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|solutionrelative:ut_presentaciones\\repositorios\\ordenespruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_dominio\\entidades\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\entidades\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\ut_presentaciones\\repositorios\\ordenesdiscospruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|solutionrelative:ut_presentaciones\\repositorios\\ordenesdiscospruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5E06A85-5826-4B35-87B5-BF67246A90DA}|lib_repositorios\\lib_repositorios.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_repositorios\\interfaces\\iconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5E06A85-5826-4B35-87B5-BF67246A90DA}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\interfaces\\iconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_aplicaciones\\implementaciones\\ordenesdiscosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\implementaciones\\ordenesdiscosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_aplicaciones\\interfaces\\iordenesdiscosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\interfaces\\iordenesdiscosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\ut_presentaciones\\repositorios\\discospruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|solutionrelative:ut_presentaciones\\repositorios\\discospruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\ut_presentaciones\\repositorios\\formatospruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|solutionrelative:ut_presentaciones\\repositorios\\formatospruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{816D6C37-4A76-4881-B17A-733B504FD9FC}|asp_servicios\\asp_servicios.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\asp_servicios\\controllers\\ordenesdiscoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{816D6C37-4A76-4881-B17A-733B504FD9FC}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\ordenesdiscoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_dominio\\entidades\\ordenesdiscos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\entidades\\ordenesdiscos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5E06A85-5826-4B35-87B5-BF67246A90DA}|lib_repositorios\\lib_repositorios.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_repositorios\\implementaciones\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5E06A85-5826-4B35-87B5-BF67246A90DA}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\implementaciones\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B5E06A85-5826-4B35-87B5-BF67246A90DA}|lib_repositorios\\lib_repositorios.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_repositorios\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
       "RelativeMoniker": "D:0:0:{B5E06A85-5826-4B35-87B5-BF67246A90DA}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\ut_presentaciones\\repositorios\\marcaspruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|solutionrelative:ut_presentaciones\\repositorios\\marcaspruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\ut_presentaciones\\nucleo\\entidadesnucleo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|solutionrelative:ut_presentaciones\\nucleo\\entidadesnucleo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_dominio\\nucleo\\encriptarconversor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\nucleo\\encriptarconversor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_aplicaciones\\interfaces\\iordenesaplicaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\interfaces\\iordenesaplicaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_aplicaciones\\implementaciones\\ordenesdiscosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\implementaciones\\ordenesdiscosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_aplicaciones\\implementaciones\\pagosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\implementaciones\\pagosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_aplicaciones\\implementaciones\\artistasaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\implementaciones\\artistasaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_aplicaciones\\implementaciones\\clientesaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\implementaciones\\clientesaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_aplicaciones\\implementaciones\\discosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\implementaciones\\discosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_aplicaciones\\implementaciones\\formatosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\implementaciones\\formatosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_aplicaciones\\implementaciones\\marcasaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\implementaciones\\marcasaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_aplicaciones\\implementaciones\\ordenesaplicaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\implementaciones\\ordenesaplicaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_aplicaciones\\interfaces\\iordenesaplicaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\interfaces\\iordenesaplicaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_aplicaciones\\interfaces\\iformatosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\interfaces\\iformatosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\ut_presentaciones\\repositorios\\formatospruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|solutionrelative:ut_presentaciones\\repositorios\\formatospruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\ut_presentaciones\\repositorios\\clientespruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|solutionrelative:ut_presentaciones\\repositorios\\clientespruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\ut_presentaciones\\repositorios\\artistaspruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|solutionrelative:ut_presentaciones\\repositorios\\artistaspruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\ut_presentaciones\\repositorios\\discospruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|solutionrelative:ut_presentaciones\\repositorios\\discospruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\ut_presentaciones\\repositorios\\marcaspruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|solutionrelative:ut_presentaciones\\repositorios\\marcaspruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\ut_presentaciones\\repositorios\\ordenesdiscospruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|solutionrelative:ut_presentaciones\\repositorios\\ordenesdiscospruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\ut_presentaciones\\repositorios\\ordenespruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|solutionrelative:ut_presentaciones\\repositorios\\ordenespruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\ut_presentaciones\\repositorios\\pagospruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|solutionrelative:ut_presentaciones\\repositorios\\pagospruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_aplicaciones\\interfaces\\iordenesdiscosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\interfaces\\iordenesdiscosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_dominio\\nucleo\\logconversor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\nucleo\\logconversor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_dominio\\nucleo\\jsonconversor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\nucleo\\jsonconversor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_dominio\\nucleo\\enumerables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\nucleo\\enumerables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_dominio\\nucleo\\encodinghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\nucleo\\encodinghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_dominio\\nucleo\\datosgenerales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\nucleo\\datosgenerales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_dominio\\entidades\\discos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\entidades\\discos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_dominio\\entidades\\formatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\entidades\\formatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_dominio\\entidades\\ordenesdiscos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\entidades\\ordenesdiscos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_dominio\\entidades\\pagos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\entidades\\pagos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_dominio\\entidades\\ordenes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\entidades\\ordenes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_dominio\\entidades\\marcas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\entidades\\marcas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{816D6C37-4A76-4881-B17A-733B504FD9FC}|asp_servicios\\asp_servicios.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\asp_servicios\\controllers\\ordenesdiscoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{816D6C37-4A76-4881-B17A-733B504FD9FC}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\ordenesdiscoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_aplicaciones\\interfaces\\imarcasaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -60,10 +164,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_dominio\\entidades\\auditorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\entidades\\auditorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\ut_presentaciones\\repositorios\\artistaspruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|solutionrelative:ut_presentaciones\\repositorios\\artistaspruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{816D6C37-4A76-4881-B17A-733B504FD9FC}|asp_servicios\\asp_servicios.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\asp_servicios\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -82,22 +182,6 @@
       "RelativeMoniker": "D:0:0:{816D6C37-4A76-4881-B17A-733B504FD9FC}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_aplicaciones\\implementaciones\\pagosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\implementaciones\\pagosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5E06A85-5826-4B35-87B5-BF67246A90DA}|lib_repositorios\\lib_repositorios.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_repositorios\\interfaces\\iconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5E06A85-5826-4B35-87B5-BF67246A90DA}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\interfaces\\iconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5E06A85-5826-4B35-87B5-BF67246A90DA}|lib_repositorios\\lib_repositorios.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_repositorios\\implementaciones\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5E06A85-5826-4B35-87B5-BF67246A90DA}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\implementaciones\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_aplicaciones\\implementaciones\\artistasaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\implementaciones\\artistasaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{816D6C37-4A76-4881-B17A-733B504FD9FC}|asp_servicios\\asp_servicios.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\asp_servicios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{816D6C37-4A76-4881-B17A-733B504FD9FC}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -114,14 +198,6 @@
       "RelativeMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\interfaces\\ipagosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_dominio\\entidades\\pagos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\entidades\\pagos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_dominio\\nucleo\\datosgenerales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\nucleo\\datosgenerales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{816D6C37-4A76-4881-B17A-733B504FD9FC}|asp_servicios\\asp_servicios.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\asp_servicios\\controllers\\formatoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{816D6C37-4A76-4881-B17A-733B504FD9FC}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\formatoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -134,24 +210,16 @@
       "RelativeMoniker": "D:0:0:{816D6C37-4A76-4881-B17A-733B504FD9FC}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\ut_presentaciones\\repositorios\\pagospruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|solutionrelative:ut_presentaciones\\repositorios\\pagospruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\ut_presentaciones\\repositorios\\clientespruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|solutionrelative:ut_presentaciones\\repositorios\\clientespruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_aplicaciones\\interfaces\\idiscosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\interfaces\\idiscosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_aplicaciones\\interfaces\\iformatosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\interfaces\\iformatosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\RegistrarUsuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:lib_dominio\\Entidades\\RegistrarUsuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_dominio\\entidades\\ordenes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\entidades\\ordenes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5E06A85-5826-4B35-87B5-BF67246A90DA}|lib_repositorios\\lib_repositorios.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_repositorios\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{B5E06A85-5826-4B35-87B5-BF67246A90DA}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -164,186 +232,8 @@
           "SelectedChildIndex": 8,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:139:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "script.sql",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_repositorios\\script.sql",
-              "RelativeDocumentMoniker": "lib_repositorios\\script.sql",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_repositorios\\script.sql",
-              "RelativeToolTip": "lib_repositorios\\script.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-04-29T19:36:37.975Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FormatosPruebas.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\FormatosPruebas.cs",
-              "RelativeDocumentMoniker": "ut_presentaciones\\Repositorios\\FormatosPruebas.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\FormatosPruebas.cs",
-              "RelativeToolTip": "ut_presentaciones\\Repositorios\\FormatosPruebas.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAnwCMAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T01:02:28.02Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DiscosPruebas.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\DiscosPruebas.cs",
-              "RelativeDocumentMoniker": "ut_presentaciones\\Repositorios\\DiscosPruebas.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\DiscosPruebas.cs",
-              "RelativeToolTip": "ut_presentaciones\\Repositorios\\DiscosPruebas.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAewCMAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T01:02:24.464Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "OrdenesDiscosAplicacion.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\OrdenesDiscosAplicacion.cs",
-              "RelativeDocumentMoniker": "lib_aplicaciones\\implementaciones\\OrdenesDiscosAplicacion.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\OrdenesDiscosAplicacion.cs",
-              "RelativeToolTip": "lib_aplicaciones\\implementaciones\\OrdenesDiscosAplicacion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T00:54:01.067Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IOrdenesDiscosAplicacion.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\interfaces\\IOrdenesDiscosAplicacion.cs",
-              "RelativeDocumentMoniker": "lib_aplicaciones\\interfaces\\IOrdenesDiscosAplicacion.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\interfaces\\IOrdenesDiscosAplicacion.cs",
-              "RelativeToolTip": "lib_aplicaciones\\interfaces\\IOrdenesDiscosAplicacion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T00:55:50.293Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Microsoft.Common.CurrentVersion.targets",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ViewState": "AgIAALcTAAAAAAAAAAAjwMYTAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-05-01T01:14:35.398Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OrdenesPruebas.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\OrdenesPruebas.cs",
-              "RelativeDocumentMoniker": "ut_presentaciones\\Repositorios\\OrdenesPruebas.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\OrdenesPruebas.cs",
-              "RelativeToolTip": "ut_presentaciones\\Repositorios\\OrdenesPruebas.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAUwEwAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T20:23:49.09Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OrdenesDiscosPruebas.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\OrdenesDiscosPruebas.cs",
-              "RelativeDocumentMoniker": "ut_presentaciones\\Repositorios\\OrdenesDiscosPruebas.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\OrdenesDiscosPruebas.cs",
-              "RelativeToolTip": "ut_presentaciones\\Repositorios\\OrdenesDiscosPruebas.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAUwBMAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T01:02:06.266Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "OrdenesDiscos.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\OrdenesDiscos.cs",
-              "RelativeDocumentMoniker": "lib_dominio\\Entidades\\OrdenesDiscos.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\OrdenesDiscos.cs",
-              "RelativeToolTip": "lib_dominio\\Entidades\\OrdenesDiscos.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAA0wBAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T21:15:50.313Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MarcasPruebas.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\MarcasPruebas.cs",
-              "RelativeDocumentMoniker": "ut_presentaciones\\Repositorios\\MarcasPruebas.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\MarcasPruebas.cs",
-              "RelativeToolTip": "ut_presentaciones\\Repositorios\\MarcasPruebas.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAcwCMAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T01:02:33.034Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "ArtistasController.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\ArtistasController.cs",
-              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\ArtistasController.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\ArtistasController.cs",
-              "RelativeToolTip": "asp_servicios\\Controllers\\ArtistasController.cs",
-              "ViewState": "AgIAAHMAAAAAAAAAAAAowC4AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T23:52:06.121Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "PagosController.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\PagosController.cs",
-              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\PagosController.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\PagosController.cs",
-              "RelativeToolTip": "asp_servicios\\Controllers\\PagosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T00:37:52.601Z"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "OrdenesDiscosController.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\OrdenesDiscosController.cs",
-              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\OrdenesDiscosController.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\OrdenesDiscosController.cs",
-              "RelativeToolTip": "asp_servicios\\Controllers\\OrdenesDiscosController.cs",
-              "ViewState": "AgIAAJcAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T00:52:23.984Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "OrdenesAplicaciones.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\OrdenesAplicaciones.cs",
-              "RelativeDocumentMoniker": "lib_aplicaciones\\implementaciones\\OrdenesAplicaciones.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\OrdenesAplicaciones.cs",
-              "RelativeToolTip": "lib_aplicaciones\\implementaciones\\OrdenesAplicaciones.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAA4wEIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T00:56:32.646Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "IOrdenesAplicaciones.cs",
               "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\interfaces\\IOrdenesAplicaciones.cs",
               "RelativeDocumentMoniker": "lib_aplicaciones\\interfaces\\IOrdenesAplicaciones.cs",
@@ -355,247 +245,239 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "IMarcasAplicacion.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\interfaces\\IMarcasAplicacion.cs",
-              "RelativeDocumentMoniker": "lib_aplicaciones\\interfaces\\IMarcasAplicacion.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\interfaces\\IMarcasAplicacion.cs",
-              "RelativeToolTip": "lib_aplicaciones\\interfaces\\IMarcasAplicacion.cs",
+              "DocumentIndex": 6,
+              "Title": "EncriptarConversor.cs",
+              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Nucleo\\EncriptarConversor.cs",
+              "RelativeDocumentMoniker": "lib_dominio\\Nucleo\\EncriptarConversor.cs",
+              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Nucleo\\EncriptarConversor.cs",
+              "RelativeToolTip": "lib_dominio\\Nucleo\\EncriptarConversor.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T01:03:18.915Z"
+              "WhenOpened": "2025-05-06T19:48:37.623Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "PagosAplicacion.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\PagosAplicacion.cs",
-              "RelativeDocumentMoniker": "lib_aplicaciones\\implementaciones\\PagosAplicacion.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\PagosAplicacion.cs",
-              "RelativeToolTip": "lib_aplicaciones\\implementaciones\\PagosAplicacion.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowDwAAABFAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "EntidadesNucleo.cs",
+              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Nucleo\\EntidadesNucleo.cs",
+              "RelativeDocumentMoniker": "ut_presentaciones\\Nucleo\\EntidadesNucleo.cs",
+              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Nucleo\\EntidadesNucleo.cs",
+              "RelativeToolTip": "ut_presentaciones\\Nucleo\\EntidadesNucleo.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAuwF4AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T00:39:31.133Z"
+              "WhenOpened": "2025-05-06T19:41:29.99Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 4,
+              "Title": "script.sql ",
+              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_repositorios\\script.sql",
+              "RelativeDocumentMoniker": "lib_repositorios\\script.sql",
+              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_repositorios\\script.sql",
+              "RelativeToolTip": "lib_repositorios\\script.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-04-29T19:36:37.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FormatosAplicacion.cs",
+              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\FormatosAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_aplicaciones\\implementaciones\\FormatosAplicacion.cs",
+              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\FormatosAplicacion.cs",
+              "RelativeToolTip": "lib_aplicaciones\\implementaciones\\FormatosAplicacion.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T20:27:58.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MarcasAplicacion.cs",
+              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\MarcasAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_aplicaciones\\implementaciones\\MarcasAplicacion.cs",
+              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\MarcasAplicacion.cs",
+              "RelativeToolTip": "lib_aplicaciones\\implementaciones\\MarcasAplicacion.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T20:27:51.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Conexion.cs",
               "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_repositorios\\Implementaciones\\Conexion.cs",
               "RelativeDocumentMoniker": "lib_repositorios\\Implementaciones\\Conexion.cs",
               "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_repositorios\\Implementaciones\\Conexion.cs",
               "RelativeToolTip": "lib_repositorios\\Implementaciones\\Conexion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA6wAcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T20:35:48.069Z"
+              "WhenOpened": "2025-04-29T20:35:48.069Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 2,
               "Title": "IConexion.cs",
               "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_repositorios\\Interfaces\\IConexion.cs",
               "RelativeDocumentMoniker": "lib_repositorios\\Interfaces\\IConexion.cs",
               "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_repositorios\\Interfaces\\IConexion.cs",
               "RelativeToolTip": "lib_repositorios\\Interfaces\\IConexion.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBIAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAIwBgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T20:36:09.545Z"
+              "WhenOpened": "2025-04-29T20:36:09.545Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ArtistasPruebas.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\ArtistasPruebas.cs",
-              "RelativeDocumentMoniker": "ut_presentaciones\\Repositorios\\ArtistasPruebas.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\ArtistasPruebas.cs",
-              "RelativeToolTip": "ut_presentaciones\\Repositorios\\ArtistasPruebas.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAowDYAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Usuarios.cs",
+              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Usuarios.cs",
+              "RelativeDocumentMoniker": "lib_dominio\\Entidades\\Usuarios.cs",
+              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Usuarios.cs",
+              "RelativeToolTip": "lib_dominio\\Entidades\\Usuarios.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T01:02:16.589Z"
+              "WhenOpened": "2025-05-06T18:50:51.875Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Auditorias.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Auditorias.cs",
-              "RelativeDocumentMoniker": "lib_dominio\\Entidades\\Auditorias.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Auditorias.cs",
-              "RelativeToolTip": "lib_dominio\\Entidades\\Auditorias.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Roles.cs",
+              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Roles.cs",
+              "RelativeDocumentMoniker": "lib_dominio\\Entidades\\Roles.cs",
+              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Roles.cs",
+              "RelativeToolTip": "lib_dominio\\Entidades\\Roles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T19:32:03.447Z"
+              "WhenOpened": "2025-05-06T18:52:47.795Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Program.cs",
-              "RelativeDocumentMoniker": "asp_servicios\\Program.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Program.cs",
-              "RelativeToolTip": "asp_servicios\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "OrdenesDiscosAplicacion.cs",
+              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\OrdenesDiscosAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_aplicaciones\\implementaciones\\OrdenesDiscosAplicacion.cs",
+              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\OrdenesDiscosAplicacion.cs",
+              "RelativeToolTip": "lib_aplicaciones\\implementaciones\\OrdenesDiscosAplicacion.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAuwFkAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T00:47:58.56Z"
+              "WhenOpened": "2025-05-03T00:54:01.067Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 9,
+              "Title": "PagosAplicacion.cs",
+              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\PagosAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_aplicaciones\\implementaciones\\PagosAplicacion.cs",
+              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\PagosAplicacion.cs",
+              "RelativeToolTip": "lib_aplicaciones\\implementaciones\\PagosAplicacion.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwDwAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T00:39:31.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "ArtistasAplicacion.cs",
               "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\ArtistasAplicacion.cs",
               "RelativeDocumentMoniker": "lib_aplicaciones\\implementaciones\\ArtistasAplicacion.cs",
               "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\ArtistasAplicacion.cs",
               "RelativeToolTip": "lib_aplicaciones\\implementaciones\\ArtistasAplicacion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-03T00:48:05.485Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Startup.cs",
-              "RelativeDocumentMoniker": "asp_servicios\\Startup.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Startup.cs",
-              "RelativeToolTip": "asp_servicios\\Startup.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAwwCQAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "DiscosAplicacion.cs",
+              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\DiscosAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_aplicaciones\\implementaciones\\DiscosAplicacion.cs",
+              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\DiscosAplicacion.cs",
+              "RelativeToolTip": "lib_aplicaciones\\implementaciones\\DiscosAplicacion.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T04:17:45.85Z"
+              "WhenOpened": "2025-05-08T20:28:05.536Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "TokenController.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\TokenController.cs",
-              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\TokenController.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\TokenController.cs",
-              "RelativeToolTip": "asp_servicios\\Controllers\\TokenController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAQAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "ClientesAplicacion.cs",
+              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\ClientesAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_aplicaciones\\implementaciones\\ClientesAplicacion.cs",
+              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\ClientesAplicacion.cs",
+              "RelativeToolTip": "lib_aplicaciones\\implementaciones\\ClientesAplicacion.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T23:47:00.837Z"
+              "WhenOpened": "2025-05-08T20:28:10.631Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "Configuracion.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\nucleo\\Configuracion.cs",
-              "RelativeDocumentMoniker": "asp_servicios\\nucleo\\Configuracion.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\nucleo\\Configuracion.cs",
-              "RelativeToolTip": "asp_servicios\\nucleo\\Configuracion.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "FormatosPruebas.cs",
+              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\FormatosPruebas.cs",
+              "RelativeDocumentMoniker": "ut_presentaciones\\Repositorios\\FormatosPruebas.cs",
+              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\FormatosPruebas.cs",
+              "RelativeToolTip": "ut_presentaciones\\Repositorios\\FormatosPruebas.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAIAwwBsAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T20:37:33.361Z"
+              "WhenOpened": "2025-05-01T01:02:28.02Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "secrets.json",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\secrets.json",
-              "RelativeDocumentMoniker": "secrets.json",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\secrets.json",
-              "RelativeToolTip": "secrets.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-01T02:51:14.978Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Pagos.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Pagos.cs",
-              "RelativeDocumentMoniker": "lib_dominio\\Entidades\\Pagos.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Pagos.cs",
-              "RelativeToolTip": "lib_dominio\\Entidades\\Pagos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T21:15:47.969Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "TestPlatformEntryPoint.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\obj\\Debug\\net8.0\\TestPlatformEntryPoint.cs",
-              "RelativeDocumentMoniker": "asp_servicios\\obj\\Debug\\net8.0\\TestPlatformEntryPoint.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\obj\\Debug\\net8.0\\TestPlatformEntryPoint.cs",
-              "RelativeToolTip": "asp_servicios\\obj\\Debug\\net8.0\\TestPlatformEntryPoint.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T04:00:18.161Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "FormatosController.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\FormatosController.cs",
-              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\FormatosController.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\FormatosController.cs",
-              "RelativeToolTip": "asp_servicios\\Controllers\\FormatosController.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAgwBwAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T21:17:14.361Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "iPagosAplicacion.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\interfaces\\iPagosAplicacion.cs",
-              "RelativeDocumentMoniker": "lib_aplicaciones\\interfaces\\iPagosAplicacion.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\interfaces\\iPagosAplicacion.cs",
-              "RelativeToolTip": "lib_aplicaciones\\interfaces\\iPagosAplicacion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T00:40:36.878Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "DatosGenerales.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Nucleo\\DatosGenerales.cs",
-              "RelativeDocumentMoniker": "lib_dominio\\Nucleo\\DatosGenerales.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Nucleo\\DatosGenerales.cs",
-              "RelativeToolTip": "lib_dominio\\Nucleo\\DatosGenerales.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T03:11:35.322Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "ClientesController.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\ClientesController.cs",
-              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\ClientesController.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\ClientesController.cs",
-              "RelativeToolTip": "asp_servicios\\Controllers\\ClientesController.cs",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T21:16:09.797Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "PagosPruebas.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\PagosPruebas.cs",
-              "RelativeDocumentMoniker": "ut_presentaciones\\Repositorios\\PagosPruebas.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\PagosPruebas.cs",
-              "RelativeToolTip": "ut_presentaciones\\Repositorios\\PagosPruebas.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T01:02:11.465Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 18,
               "Title": "ClientesPruebas.cs",
               "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\ClientesPruebas.cs",
               "RelativeDocumentMoniker": "ut_presentaciones\\Repositorios\\ClientesPruebas.cs",
               "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\ClientesPruebas.cs",
               "RelativeToolTip": "ut_presentaciones\\Repositorios\\ClientesPruebas.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAD4vyQAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAD4vxsAAABiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-01T01:02:20.437Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 19,
+              "Title": "ArtistasPruebas.cs",
+              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\ArtistasPruebas.cs",
+              "RelativeDocumentMoniker": "ut_presentaciones\\Repositorios\\ArtistasPruebas.cs",
+              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\ArtistasPruebas.cs",
+              "RelativeToolTip": "ut_presentaciones\\Repositorios\\ArtistasPruebas.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T01:02:16.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DiscosPruebas.cs",
+              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\DiscosPruebas.cs",
+              "RelativeDocumentMoniker": "ut_presentaciones\\Repositorios\\DiscosPruebas.cs",
+              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\DiscosPruebas.cs",
+              "RelativeToolTip": "ut_presentaciones\\Repositorios\\DiscosPruebas.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAApwBsAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T01:02:24.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MarcasPruebas.cs",
+              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\MarcasPruebas.cs",
+              "RelativeDocumentMoniker": "ut_presentaciones\\Repositorios\\MarcasPruebas.cs",
+              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\MarcasPruebas.cs",
+              "RelativeToolTip": "ut_presentaciones\\Repositorios\\MarcasPruebas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T01:02:33.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "iFormatosAplicacion.cs",
               "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\interfaces\\iFormatosAplicacion.cs",
               "RelativeDocumentMoniker": "lib_aplicaciones\\interfaces\\iFormatosAplicacion.cs",
@@ -607,7 +489,389 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "OrdenesAplicaciones.cs",
+              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\OrdenesAplicaciones.cs",
+              "RelativeDocumentMoniker": "lib_aplicaciones\\implementaciones\\OrdenesAplicaciones.cs",
+              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\OrdenesAplicaciones.cs",
+              "RelativeToolTip": "lib_aplicaciones\\implementaciones\\OrdenesAplicaciones.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T00:56:32.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "OrdenesDiscosPruebas.cs",
+              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\OrdenesDiscosPruebas.cs",
+              "RelativeDocumentMoniker": "ut_presentaciones\\Repositorios\\OrdenesDiscosPruebas.cs",
+              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\OrdenesDiscosPruebas.cs",
+              "RelativeToolTip": "ut_presentaciones\\Repositorios\\OrdenesDiscosPruebas.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAADwvyQAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T01:02:06.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "OrdenesPruebas.cs",
+              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\OrdenesPruebas.cs",
+              "RelativeDocumentMoniker": "ut_presentaciones\\Repositorios\\OrdenesPruebas.cs",
+              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\OrdenesPruebas.cs",
+              "RelativeToolTip": "ut_presentaciones\\Repositorios\\OrdenesPruebas.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwB0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T20:23:49.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "PagosPruebas.cs",
+              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\PagosPruebas.cs",
+              "RelativeDocumentMoniker": "ut_presentaciones\\Repositorios\\PagosPruebas.cs",
+              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\PagosPruebas.cs",
+              "RelativeToolTip": "ut_presentaciones\\Repositorios\\PagosPruebas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T01:02:11.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "RegistrarUsuarios.cs",
+              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\RegistrarUsuarios.cs",
+              "RelativeDocumentMoniker": "lib_dominio\\Entidades\\RegistrarUsuarios.cs",
+              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\RegistrarUsuarios.cs",
+              "RelativeToolTip": "lib_dominio\\Entidades\\RegistrarUsuarios.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T18:48:24.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAMkTAAAAAAAAAAAjwMYTAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-05-01T01:14:35.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IOrdenesDiscosAplicacion.cs",
+              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\interfaces\\IOrdenesDiscosAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_aplicaciones\\interfaces\\IOrdenesDiscosAplicacion.cs",
+              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\interfaces\\IOrdenesDiscosAplicacion.cs",
+              "RelativeToolTip": "lib_aplicaciones\\interfaces\\IOrdenesDiscosAplicacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T00:55:50.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "LogConversor.cs",
+              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Nucleo\\LogConversor.cs",
+              "RelativeDocumentMoniker": "lib_dominio\\Nucleo\\LogConversor.cs",
+              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Nucleo\\LogConversor.cs",
+              "RelativeToolTip": "lib_dominio\\Nucleo\\LogConversor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T19:48:41.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "JsonConversor.cs",
+              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Nucleo\\JsonConversor.cs",
+              "RelativeDocumentMoniker": "lib_dominio\\Nucleo\\JsonConversor.cs",
+              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Nucleo\\JsonConversor.cs",
+              "RelativeToolTip": "lib_dominio\\Nucleo\\JsonConversor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T19:48:40.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Enumerables.cs",
+              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Nucleo\\Enumerables.cs",
+              "RelativeDocumentMoniker": "lib_dominio\\Nucleo\\Enumerables.cs",
+              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Nucleo\\Enumerables.cs",
+              "RelativeToolTip": "lib_dominio\\Nucleo\\Enumerables.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T19:48:38.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "EncodingHelper.cs",
+              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Nucleo\\EncodingHelper.cs",
+              "RelativeDocumentMoniker": "lib_dominio\\Nucleo\\EncodingHelper.cs",
+              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Nucleo\\EncodingHelper.cs",
+              "RelativeToolTip": "lib_dominio\\Nucleo\\EncodingHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T19:48:36.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Discos.cs",
+              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Discos.cs",
+              "RelativeDocumentMoniker": "lib_dominio\\Entidades\\Discos.cs",
+              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Discos.cs",
+              "RelativeToolTip": "lib_dominio\\Entidades\\Discos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T19:32:55.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Formatos.cs",
+              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Formatos.cs",
+              "RelativeDocumentMoniker": "lib_dominio\\Entidades\\Formatos.cs",
+              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Formatos.cs",
+              "RelativeToolTip": "lib_dominio\\Entidades\\Formatos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T19:32:54.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Marcas.cs",
+              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Marcas.cs",
+              "RelativeDocumentMoniker": "lib_dominio\\Entidades\\Marcas.cs",
+              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Marcas.cs",
+              "RelativeToolTip": "lib_dominio\\Entidades\\Marcas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T18:56:16.748Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 35,
+              "Title": "Pagos.cs",
+              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Pagos.cs",
+              "RelativeDocumentMoniker": "lib_dominio\\Entidades\\Pagos.cs",
+              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Pagos.cs",
+              "RelativeToolTip": "lib_dominio\\Entidades\\Pagos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T21:15:47.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Ordenes.cs",
+              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Ordenes.cs",
+              "RelativeDocumentMoniker": "lib_dominio\\Entidades\\Ordenes.cs",
+              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Ordenes.cs",
+              "RelativeToolTip": "lib_dominio\\Entidades\\Ordenes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T21:15:51.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "OrdenesDiscos.cs",
+              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\OrdenesDiscos.cs",
+              "RelativeDocumentMoniker": "lib_dominio\\Entidades\\OrdenesDiscos.cs",
+              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\OrdenesDiscos.cs",
+              "RelativeToolTip": "lib_dominio\\Entidades\\OrdenesDiscos.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAIwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T21:15:50.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "DatosGenerales.cs",
+              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Nucleo\\DatosGenerales.cs",
+              "RelativeDocumentMoniker": "lib_dominio\\Nucleo\\DatosGenerales.cs",
+              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Nucleo\\DatosGenerales.cs",
+              "RelativeToolTip": "lib_dominio\\Nucleo\\DatosGenerales.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T03:11:35.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ArtistasController.cs",
+              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\ArtistasController.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\ArtistasController.cs",
+              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\ArtistasController.cs",
+              "RelativeToolTip": "asp_servicios\\Controllers\\ArtistasController.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAowC4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T23:52:06.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "PagosController.cs",
+              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\PagosController.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\PagosController.cs",
+              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\PagosController.cs",
+              "RelativeToolTip": "asp_servicios\\Controllers\\PagosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T00:37:52.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "OrdenesDiscosController.cs",
+              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\OrdenesDiscosController.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\OrdenesDiscosController.cs",
+              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\OrdenesDiscosController.cs",
+              "RelativeToolTip": "asp_servicios\\Controllers\\OrdenesDiscosController.cs",
+              "ViewState": "AgIAAJcAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T00:52:23.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IMarcasAplicacion.cs",
+              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\interfaces\\IMarcasAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_aplicaciones\\interfaces\\IMarcasAplicacion.cs",
+              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\interfaces\\IMarcasAplicacion.cs",
+              "RelativeToolTip": "lib_aplicaciones\\interfaces\\IMarcasAplicacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T01:03:18.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Auditorias.cs",
+              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Auditorias.cs",
+              "RelativeDocumentMoniker": "lib_dominio\\Entidades\\Auditorias.cs",
+              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Auditorias.cs",
+              "RelativeToolTip": "lib_dominio\\Entidades\\Auditorias.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T19:32:03.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Program.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\Program.cs",
+              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Program.cs",
+              "RelativeToolTip": "asp_servicios\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T00:47:58.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Startup.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\Startup.cs",
+              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Startup.cs",
+              "RelativeToolTip": "asp_servicios\\Startup.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAwwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T04:17:45.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "TokenController.cs",
+              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\TokenController.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\TokenController.cs",
+              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\TokenController.cs",
+              "RelativeToolTip": "asp_servicios\\Controllers\\TokenController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T23:47:00.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Configuracion.cs",
+              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\nucleo\\Configuracion.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\nucleo\\Configuracion.cs",
+              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\nucleo\\Configuracion.cs",
+              "RelativeToolTip": "asp_servicios\\nucleo\\Configuracion.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T20:37:33.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "secrets.json",
+              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\secrets.json",
+              "RelativeDocumentMoniker": "secrets.json",
+              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\secrets.json",
+              "RelativeToolTip": "secrets.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-01T02:51:14.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "TestPlatformEntryPoint.cs",
+              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\obj\\Debug\\net8.0\\TestPlatformEntryPoint.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\obj\\Debug\\net8.0\\TestPlatformEntryPoint.cs",
+              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\obj\\Debug\\net8.0\\TestPlatformEntryPoint.cs",
+              "RelativeToolTip": "asp_servicios\\obj\\Debug\\net8.0\\TestPlatformEntryPoint.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T04:00:18.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "FormatosController.cs",
+              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\FormatosController.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\FormatosController.cs",
+              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\FormatosController.cs",
+              "RelativeToolTip": "asp_servicios\\Controllers\\FormatosController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwBwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T21:17:14.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "iPagosAplicacion.cs",
+              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\interfaces\\iPagosAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_aplicaciones\\interfaces\\iPagosAplicacion.cs",
+              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\interfaces\\iPagosAplicacion.cs",
+              "RelativeToolTip": "lib_aplicaciones\\interfaces\\iPagosAplicacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T00:40:36.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "ClientesController.cs",
+              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\ClientesController.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\ClientesController.cs",
+              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\ClientesController.cs",
+              "RelativeToolTip": "asp_servicios\\Controllers\\ClientesController.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T21:16:09.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
               "Title": "iDiscosAplicacion.cs",
               "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\interfaces\\iDiscosAplicacion.cs",
               "RelativeDocumentMoniker": "lib_aplicaciones\\interfaces\\iDiscosAplicacion.cs",
@@ -616,18 +880,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-01T01:32:44.485Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "Ordenes.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Ordenes.cs",
-              "RelativeDocumentMoniker": "lib_dominio\\Entidades\\Ordenes.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Ordenes.cs",
-              "RelativeToolTip": "lib_dominio\\Entidades\\Ordenes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T21:15:51.482Z"
             }
           ]
         }

@@ -25,6 +25,7 @@ namespace ut_presentacion.Repositorios
             var contextoReal = (DbContext)iConexion!;
             contextoReal.Database.ExecuteSqlRaw("DISABLE TRIGGER tr_Auditoria_Pagos ON Pagos");
             contextoReal.Database.ExecuteSqlRaw("DISABLE TRIGGER tr_Update_Pagos ON Pagos");
+            contextoReal.Database.ExecuteSqlRaw("DISABLE TRIGGER tr_Delete_Pagos ON Pagos");
             Assert.AreEqual(true, Guardar());
             Assert.AreEqual(true, Modificar());
             Assert.AreEqual(true, Listar());
@@ -32,6 +33,7 @@ namespace ut_presentacion.Repositorios
 
             contextoReal.Database.ExecuteSqlRaw("ENABLE TRIGGER tr_Auditoria_Pagos ON Pagos");
             contextoReal.Database.ExecuteSqlRaw("ENABLE TRIGGER tr_Update_Pagos ON Pagos");
+            contextoReal.Database.ExecuteSqlRaw("ENABLE TRIGGER tr_Delete_Pagos ON Pagos");
         }
 
         public bool Listar()

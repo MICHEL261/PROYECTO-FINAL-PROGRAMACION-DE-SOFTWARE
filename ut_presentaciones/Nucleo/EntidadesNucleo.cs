@@ -73,6 +73,30 @@ namespace ut_presentacion.Nucleo
             return entidad;
 
         }
+        public static Roles? Roles() { 
+            var entidad = new Roles();
+            entidad.NombreRol = "administrador";
+            entidad.Descripcion = "crear, guardar, editar";
+            
+            return entidad;
+
+        }
+
+        public static Usuarios? Usuarios(Roles Rol)
+        {
+            var entidad = new Usuarios();
+            entidad.Nombre = "administrador";
+            entidad.Apellido = "ramirez";
+            entidad.Email = "maria@gmail.com";
+            entidad.NombreUsuario = "mariaG";
+            entidad.Contraseña = "contraseña";
+            entidad.Rol = Rol.Id;
+
+            return entidad;
+
+        }
+
+     
 
     }
 }

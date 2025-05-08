@@ -25,6 +25,7 @@ namespace ut_presentacion.Repositorios
             var contextoReal = (DbContext)iConexion!;
             contextoReal.Database.ExecuteSqlRaw("DISABLE TRIGGER tr_Auditoria_Formatos ON Formatos");
             contextoReal.Database.ExecuteSqlRaw("DISABLE TRIGGER tr_Update_Formatos ON Formatos");
+            contextoReal.Database.ExecuteSqlRaw("DISABLE TRIGGER tr_Delete_Formatos ON Formatos");
 
             Assert.AreEqual(true, Guardar());
             Assert.AreEqual(true, Modificar());
@@ -33,6 +34,7 @@ namespace ut_presentacion.Repositorios
 
             contextoReal.Database.ExecuteSqlRaw("ENABLE TRIGGER tr_Auditoria_Formatos ON Formatos");
             contextoReal.Database.ExecuteSqlRaw("ENABLE TRIGGER tr_Update_Formatos ON Formatos");
+            contextoReal.Database.ExecuteSqlRaw("ENABLE TRIGGER tr_Delete_Formatos ON Formatos");
         }
 
         public bool Listar()

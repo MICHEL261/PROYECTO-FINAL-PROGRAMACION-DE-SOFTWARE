@@ -17,6 +17,9 @@ namespace lib_repositorios.Interfaces
         DbSet<Ordenes>? Ordenes { get; set; }
         DbSet<OrdenesDiscos>? OrdenesDiscos { get; set; }
         DbSet<Auditorias>? Auditorias { get; set; }
+        DbSet<Roles>? Roles { get; set; }
+        DbSet<Usuarios>? Usuarios { get; set; }
+       
 
 
 

@@ -23,8 +23,10 @@ namespace ut_presentacion.Repositorios
         public void Ejecutar()
         {
             var contextoReal = (DbContext)iConexion!;
-            contextoReal.Database.ExecuteSqlRaw("DISABLE TRIGGER tr_Auditoria_Clientes ON clientes");
+            contextoReal.Database.ExecuteSqlRaw("DISABLE TRIGGER tr_Auditoria_Clientes ON Clientes");
             contextoReal.Database.ExecuteSqlRaw("DISABLE TRIGGER tr_update_Clientes ON Clientes");
+            contextoReal.Database.ExecuteSqlRaw("DISABLE TRIGGER tr_Delete_Clientes ON Clientes");
+
 
             Assert.AreEqual(true, Guardar());
             Assert.AreEqual(true, Modificar());

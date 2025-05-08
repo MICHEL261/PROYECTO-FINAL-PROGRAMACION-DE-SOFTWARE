@@ -77,15 +77,37 @@ CREATE TABLE [Auditorias] (
 );
 go
 
+CREATE TABLE [Roles] (
+    [Id] INT NOT NULL PRIMARY KEY IDENTITY(1,1),
+    [NombreRol] varchar(50) NOT NULL,
+[Descripcion] varchar(200) NOT NULL
+   
+);
+go
+
+CREATE TABLE [Usuarios] (
+    [Id] INT NOT NULL PRIMARY KEY IDENTITY(1,1),
+    [Nombre] varchar(50) NOT NULL,
+    [Apellido] varchar(50) NOT NULL,
+    [Email]  varchar(100)NOT NULL unique,
+    [NombreUsuario] varchar(50) NOT NULL,
+[Contraseña] varchar(50) NOT NULL,
+[Rol] int NOT NULL
+
+   
+    FOREIGN KEY (Rol) REFERENCES Roles(Id)  
+);
+go
 
 
 
+---------------------------------------------------------------------------------------------------------------------------------------------
 CREATE TRIGGER tr_Auditoria_Ordenes
 ON Ordenes
 AFTER INSERT
 AS
 BEGIN
-    
+   
 
     INSERT INTO Auditorias(Entidad, Operacion, Fecha, Datos)
     VALUES ('Ordenes', 'se ingresó un Disco nuevo para ser asignado a una orden', SYSDATETIME(),( select*from inserted for json auto));
@@ -97,21 +119,35 @@ ON Ordenes
 AFTER update
 AS
 BEGIN
-    
+   
 
     INSERT INTO Auditorias(Entidad, Operacion, Fecha, Datos)
     VALUES ('Ordenes', 'se se actualizo un Disco asignado a una orden', SYSDATETIME(),( select*from inserted for json auto));
 END;
 GO
+GO
 
+CREATE TRIGGER tr_Delete_Ordenes
+ON Ordenes
+after delete
+AS
+BEGIN
+    DECLARE @datos NVARCHAR(MAX);
+
+    SELECT @datos = (SELECT * FROM deleted FOR JSON AUTO);
+
+    INSERT INTO Auditorias(Entidad, Operacion, Fecha, Datos)
+    VALUES ('Ordenes', 'se elimino una orden', SYSDATETIME(),@datos);
+END;
+--------------------------------------------------------------------------------------------------------------------------------------------------
 CREATE TRIGGER tr_Auditoria_Artistas
 ON Artistas
 AFTER INSERT
 AS
 BEGIN
-    
+   
 
-    
+   
     INSERT INTO Auditorias(Entidad, Operacion, Fecha, Datos)
     VALUES ('Artistas', 'se ingresó un Artista nuevo', SYSDATETIME(),( select*from inserted for json auto));
 END;
@@ -122,44 +158,73 @@ ON Artistas
 AFTER update
 AS
 BEGIN
-    
+   
 
     INSERT INTO Auditorias(Entidad, Operacion, Fecha, Datos)
     VALUES ('Artistas', 'se actualizo un Artista nuevo', SYSDATETIME(),( select*from inserted for json auto));
 END;
 GO
+GO
 
+CREATE TRIGGER tr_Delete_Artistas
+ON Artistas
+after delete
+AS
+BEGIN
+ DECLARE @datos NVARCHAR(MAX);
+
+    SELECT @datos = (SELECT * FROM deleted FOR JSON AUTO);
+   
+
+    INSERT INTO Auditorias(Entidad, Operacion, Fecha, Datos)
+    VALUES ('Artistas', 'se elimino un Artista', SYSDATETIME(),@datos);
+END;
+------------------------------------------------------------------------------------------------------------------------------
 
 CREATE TRIGGER tr_Auditoria_Clientes
 ON Clientes
 AFTER INSERT
 AS
 BEGIN
-    
+   
 
     INSERT INTO Auditorias(Entidad, Operacion, Fecha, Datos)
     VALUES ('Clientes', 'se ingresó un Cliente nuevo', SYSDATETIME(),( select*from inserted for json auto));
 END;
 GO
 
+CREATE TRIGGER tr_Delete_Clientes
+ON Clientes
+after delete
+AS
+BEGIN
+ DECLARE @datos NVARCHAR(MAX);
+
+    SELECT @datos = (SELECT * FROM deleted FOR JSON AUTO);
+   
+
+    INSERT INTO Auditorias(Entidad, Operacion, Fecha, Datos)
+    VALUES ('Clientes', 'se elimino un Cliente', SYSDATETIME(),@datos);
+END;
+GO
 CREATE TRIGGER tr_Update_Clientes
 ON Clientes
 AFTER update
 AS
 BEGIN
-    
+   
 
     INSERT INTO Auditorias(Entidad, Operacion, Fecha, Datos)
     VALUES ('Clientes', 'se actualizo un Cliente', SYSDATETIME(),( select*from inserted for json auto));
 END;
 GO
-
+---------------------------------------------------------------------------------------------------------------------------
 CREATE TRIGGER tr_Auditoria_Discos
 ON Discos
 AFTER INSERT
 AS
 BEGIN
-    
+   
 
     INSERT INTO Auditorias(Entidad, Operacion, Fecha, Datos)
     VALUES ('Discos', 'se ingresó un Disco nuevo', SYSDATETIME(),( select*from inserted for json auto));
@@ -171,7 +236,7 @@ ON Discos
 AFTER update
 AS
 BEGIN
-    
+   
 
 
     INSERT INTO Auditorias(Entidad, Operacion, Fecha, Datos)
@@ -180,14 +245,29 @@ END;
 GO
 
 
+CREATE TRIGGER tr_Delete_Discos
+ON Discos
+after delete
+AS
+BEGIN
+ DECLARE @datos NVARCHAR(MAX);
+
+    SELECT @datos = (SELECT * FROM deleted FOR JSON AUTO);
+   
+
+    INSERT INTO Auditorias(Entidad, Operacion, Fecha, Datos)
+    VALUES ('Discos', 'se elimino un Disco', SYSDATETIME(),@datos);
+END;
+---------------------------------------------------------------------------------------------------------------------------------
+
 CREATE TRIGGER tr_Auditoria_Formatos
 ON Formatos
 AFTER INSERT
 AS
 BEGIN
-    
+   
 
-    
+   
     INSERT INTO Auditorias(Entidad, Operacion, Fecha, Datos)
     VALUES ('Formatos', 'se ingresó un Formato nuevo', SYSDATETIME(),( select*from inserted for json auto));
 END;
@@ -198,20 +278,35 @@ ON Formatos
 AFTER update
 AS
 BEGIN
-    
+   
 
     INSERT INTO Auditorias(Entidad, Operacion, Fecha, Datos)
     VALUES ('Formatos', 'se actualizo un Formato', SYSDATETIME(),( select*from inserted for json auto));
 END;
 GO
+GO
 
+CREATE TRIGGER tr_Delete_Formatos
+ON Formatos
+after delete
+AS
+BEGIN
+ DECLARE @datos NVARCHAR(MAX);
 
+    SELECT @datos = (SELECT * FROM deleted FOR JSON AUTO);
+   
+
+    INSERT INTO Auditorias(Entidad, Operacion, Fecha, Datos)
+    VALUES ('Formatos', 'se elimino un Formato', SYSDATETIME(), @datos);
+END;
+
+-------------------------------------------------------------------------------------------------------------------------------------------
 CREATE TRIGGER tr_Auditoria_Marcas
 ON Marcas
 AFTER INSERT
 AS
 BEGIN
-    
+   
 
    
     INSERT INTO Auditorias(Entidad, Operacion, Fecha, Datos)
@@ -224,21 +319,36 @@ ON Marcas
 AFTER update
 AS
 BEGIN
-    
+   
 
     INSERT INTO Auditorias(Entidad, Operacion, Fecha, Datos)
     VALUES ('Marcas', 'se actualizo una Marca', SYSDATETIME(),( select*from inserted for json auto));
 END;
 GO
 
+CREATE TRIGGER tr_Delete_Marcas
+ON Marcas
+after delete
+AS
+BEGIN
+ DECLARE @datos NVARCHAR(MAX);
+
+    SELECT @datos = (SELECT * FROM deleted FOR JSON AUTO);
+   
+
+    INSERT INTO Auditorias(Entidad, Operacion, Fecha, Datos)
+    VALUES ('Marcas', 'se elimino una marca', SYSDATETIME(),@datos);
+END;
+go
+--------------------------------------------------------------------------------------------------------------------------------------------------
 CREATE TRIGGER tr_Auditoria_OrdenesDiscos
 ON OrdenesDiscos
 AFTER INSERT
 AS
 BEGIN
-    
+   
 
-    
+   
     INSERT INTO Auditorias(Entidad, Operacion, Fecha, Datos)
     VALUES ('OrdenesDiscos', 'se ingresó un detalle de orden nuevo', SYSDATETIME(),( select*from inserted for json auto));
 END;
@@ -248,7 +358,7 @@ ON OrdenesDiscos
 AFTER update
 AS
 BEGIN
-    
+   
 
    
     INSERT INTO Auditorias(Entidad, Operacion, Fecha, Datos)
@@ -256,12 +366,26 @@ BEGIN
 END;
 GO
 
+CREATE TRIGGER tr_Delete_OrdenesDiscos
+ON OrdenesDiscos
+after delete
+AS
+BEGIN
+    DECLARE @datos NVARCHAR(MAX);
+
+    SELECT @datos = (SELECT * FROM deleted FOR JSON AUTO);
+
+    INSERT INTO Auditorias(Entidad, Operacion, Fecha, Datos)
+    VALUES ('OrdenesDiscos', 'se elimino un detalle de Orden', SYSDATETIME(),@datos);
+END;
+go
+--------------------------------------------------------------------------------------------------------------------------------------------------
 CREATE TRIGGER tr_Auditoria_Pagos
 ON Pagos
 AFTER INSERT
 AS
 BEGIN
-    
+   
 
    
     INSERT INTO Auditorias(Entidad, Operacion, Fecha, Datos)
@@ -275,14 +399,29 @@ ON Pagos
 AFTER update
 AS
 BEGIN
-    
+   
 
-  
+ 
     INSERT INTO Auditorias(Entidad, Operacion, Fecha, Datos)
     VALUES ('Pagos', 'se actualizo un Pago', SYSDATETIME(),( select*from inserted for json auto));
 END;
 GO
 
+CREATE TRIGGER tr_Delete_Pagos
+ON Pagos
+AFTER delete
+AS
+BEGIN
+ DECLARE @datos NVARCHAR(MAX);
+
+    SELECT @datos = (SELECT * FROM deleted FOR JSON AUTO);
+   
+
+    INSERT INTO Auditorias(Entidad, Operacion, Fecha, Datos)
+    VALUES ('Pagos', 'se elimino un Pago', SYSDATETIME(),@datos);
+END;
+go
+------------------------------------------------------------------------------------------------------------
 INSERT INTO [Clientes] (NombreCliente, ApellidoCliente, DireccionCliente, TelefonoCliente)
 VALUES ('Juan', 'Perez', 'Calle 45', '304258299');
 
@@ -307,4 +446,14 @@ VALUES ('2024-11-02', 1, 1, 1000);
 INSERT INTO [OrdenesDiscos] ([Orden], [Disco], [Formato], [Cantidad], [ValorUnitario])
 VALUES (1, 1, 1, 1, 100);
 
-select*from Auditorias
+
+INSERT INTO [Roles] (NombreRol, Descripcion)
+VALUES ('Administrador', 'crear, editar, eliminar');
+INSERT INTO [Roles] (NombreRol, Descripcion)
+VALUES ('Cliente', 'realizar una compra');
+
+INSERT INTO [Usuarios] (Nombre, Apellido, Email, NombreUsuario, Contraseña, Rol)
+VALUES ('mario', 'correa', 'mario@gmail.com', 'MarioC123', 'PruebaContraseña1', 1);
+
+INSERT INTO [Usuarios] (Nombre, Apellido, Email, NombreUsuario, Contraseña, Rol)
+VALUES ('juan', 'alvarez', 'juan@gmail.com', 'juan567', 'Contraseña2', 2);

@@ -25,6 +25,7 @@ namespace ut_presentacion.Repositorios
             var contextoReal = (DbContext)iConexion!;
             contextoReal.Database.ExecuteSqlRaw("DISABLE TRIGGER tr_Auditoria_Artistas ON Artistas");
             contextoReal.Database.ExecuteSqlRaw("DISABLE TRIGGER tr_update_Artistas ON Artistas");
+            contextoReal.Database.ExecuteSqlRaw("DISABLE TRIGGER tr_Delete_Artistas ON Artistas");
 
             Assert.AreEqual(true, Guardar());
             Assert.AreEqual(true, Modificar());
@@ -33,6 +34,7 @@ namespace ut_presentacion.Repositorios
 
             contextoReal.Database.ExecuteSqlRaw("ENABLE TRIGGER tr_Auditoria_Artistas ON Artistas");
             contextoReal.Database.ExecuteSqlRaw("ENABLE TRIGGER tr_Update_Artistas ON Artistas");
+            contextoReal.Database.ExecuteSqlRaw("ENABLE TRIGGER tr_Delete_Artistas ON Artistas");
 
         }
 
