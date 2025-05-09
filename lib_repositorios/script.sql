@@ -140,6 +140,7 @@ BEGIN
     VALUES ('Ordenes', 'se elimino una orden', SYSDATETIME(),@datos);
 END;
 --------------------------------------------------------------------------------------------------------------------------------------------------
+GO
 CREATE TRIGGER tr_Auditoria_Artistas
 ON Artistas
 AFTER INSERT
@@ -180,7 +181,7 @@ BEGIN
     VALUES ('Artistas', 'se elimino un Artista', SYSDATETIME(),@datos);
 END;
 ------------------------------------------------------------------------------------------------------------------------------
-
+GO
 CREATE TRIGGER tr_Auditoria_Clientes
 ON Clientes
 AFTER INSERT
@@ -259,7 +260,7 @@ BEGIN
     VALUES ('Discos', 'se elimino un Disco', SYSDATETIME(),@datos);
 END;
 ---------------------------------------------------------------------------------------------------------------------------------
-
+GO
 CREATE TRIGGER tr_Auditoria_Formatos
 ON Formatos
 AFTER INSERT
@@ -301,6 +302,7 @@ BEGIN
 END;
 
 -------------------------------------------------------------------------------------------------------------------------------------------
+GO
 CREATE TRIGGER tr_Auditoria_Marcas
 ON Marcas
 AFTER INSERT

@@ -1,224 +1,235 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\",
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_dominio\\entidades\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\entidades\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{816D6C37-4A76-4881-B17A-733B504FD9FC}|asp_servicios\\asp_servicios.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\asp_servicios\\asp_servicios.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{816D6C37-4A76-4881-B17A-733B504FD9FC}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\asp_servicios.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_dominio\\entidades\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\entidades\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5E06A85-5826-4B35-87B5-BF67246A90DA}|lib_repositorios\\lib_repositorios.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_repositorios\\interfaces\\iconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5E06A85-5826-4B35-87B5-BF67246A90DA}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\interfaces\\iconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5E06A85-5826-4B35-87B5-BF67246A90DA}|lib_repositorios\\lib_repositorios.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_repositorios\\implementaciones\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5E06A85-5826-4B35-87B5-BF67246A90DA}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\implementaciones\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5E06A85-5826-4B35-87B5-BF67246A90DA}|lib_repositorios\\lib_repositorios.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_repositorios\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{B5E06A85-5826-4B35-87B5-BF67246A90DA}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\ut_presentaciones\\nucleo\\entidadesnucleo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|solutionrelative:ut_presentaciones\\nucleo\\entidadesnucleo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_dominio\\nucleo\\encriptarconversor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\nucleo\\encriptarconversor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_aplicaciones\\interfaces\\iordenesaplicaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\interfaces\\iordenesaplicaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_aplicaciones\\implementaciones\\ordenesdiscosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\implementaciones\\ordenesdiscosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_aplicaciones\\implementaciones\\pagosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\implementaciones\\pagosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_aplicaciones\\implementaciones\\artistasaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\implementaciones\\artistasaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_aplicaciones\\implementaciones\\clientesaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\implementaciones\\clientesaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_aplicaciones\\implementaciones\\discosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\lib_aplicaciones\\implementaciones\\discosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\implementaciones\\discosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_aplicaciones\\implementaciones\\formatosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\implementaciones\\formatosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\lib_aplicaciones\\interfaces\\idiscosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\interfaces\\idiscosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_aplicaciones\\implementaciones\\marcasaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\implementaciones\\marcasaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\lib_aplicaciones\\implementaciones\\ordenesdiscosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\implementaciones\\ordenesdiscosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_aplicaciones\\implementaciones\\ordenesaplicaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\lib_aplicaciones\\interfaces\\iordenesdiscosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\interfaces\\iordenesdiscosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{816D6C37-4A76-4881-B17A-733B504FD9FC}|asp_servicios\\asp_servicios.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\asp_servicios\\controllers\\ordenesdiscoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{816D6C37-4A76-4881-B17A-733B504FD9FC}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\ordenesdiscoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{816D6C37-4A76-4881-B17A-733B504FD9FC}|asp_servicios\\asp_servicios.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\asp_servicios\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{816D6C37-4A76-4881-B17A-733B504FD9FC}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{816D6C37-4A76-4881-B17A-733B504FD9FC}|asp_servicios\\asp_servicios.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\asp_servicios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{816D6C37-4A76-4881-B17A-733B504FD9FC}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\lib_dominio\\entidades\\ordenes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\entidades\\ordenes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\lib_dominio\\entidades\\ordenesdiscos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\entidades\\ordenesdiscos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\lib_dominio\\entidades\\discos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\entidades\\discos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\lib_dominio\\nucleo\\jsonconversor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\nucleo\\jsonconversor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5E06A85-5826-4B35-87B5-BF67246A90DA}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\lib_repositorios\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{B5E06A85-5826-4B35-87B5-BF67246A90DA}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\lib_aplicaciones\\implementaciones\\ordenesaplicaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\implementaciones\\ordenesaplicaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_aplicaciones\\interfaces\\iformatosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\interfaces\\iformatosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\ut_presentaciones\\repositorios\\formatospruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|solutionrelative:ut_presentaciones\\repositorios\\formatospruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\ut_presentaciones\\repositorios\\clientespruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|solutionrelative:ut_presentaciones\\repositorios\\clientespruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\ut_presentaciones\\repositorios\\artistaspruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|solutionrelative:ut_presentaciones\\repositorios\\artistaspruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\ut_presentaciones\\repositorios\\discospruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|solutionrelative:ut_presentaciones\\repositorios\\discospruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\ut_presentaciones\\repositorios\\marcaspruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|solutionrelative:ut_presentaciones\\repositorios\\marcaspruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\ut_presentaciones\\repositorios\\ordenesdiscospruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|solutionrelative:ut_presentaciones\\repositorios\\ordenesdiscospruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\ut_presentaciones\\repositorios\\ordenespruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\ut_presentaciones\\repositorios\\ordenespruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|solutionrelative:ut_presentaciones\\repositorios\\ordenespruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\ut_presentaciones\\repositorios\\pagospruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|solutionrelative:ut_presentaciones\\repositorios\\pagospruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\ut_presentaciones\\repositorios\\ordenesdiscospruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|solutionrelative:ut_presentaciones\\repositorios\\ordenesdiscospruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_aplicaciones\\interfaces\\iordenesdiscosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\interfaces\\iordenesdiscosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_dominio\\nucleo\\logconversor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\nucleo\\logconversor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_dominio\\nucleo\\jsonconversor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\nucleo\\jsonconversor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_dominio\\nucleo\\enumerables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\nucleo\\enumerables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_dominio\\nucleo\\encodinghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\nucleo\\encodinghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_dominio\\nucleo\\datosgenerales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\nucleo\\datosgenerales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_dominio\\entidades\\discos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\entidades\\discos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_dominio\\entidades\\formatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\entidades\\formatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_dominio\\entidades\\ordenesdiscos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\entidades\\ordenesdiscos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_dominio\\entidades\\pagos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\entidades\\pagos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_dominio\\entidades\\ordenes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\entidades\\ordenes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_dominio\\entidades\\marcas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\entidades\\marcas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{816D6C37-4A76-4881-B17A-733B504FD9FC}|asp_servicios\\asp_servicios.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\asp_servicios\\controllers\\ordenesdiscoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{816D6C37-4A76-4881-B17A-733B504FD9FC}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\ordenesdiscoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_aplicaciones\\interfaces\\imarcasaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\interfaces\\imarcasaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_dominio\\entidades\\auditorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\entidades\\auditorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{816D6C37-4A76-4881-B17A-733B504FD9FC}|asp_servicios\\asp_servicios.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\asp_servicios\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{816D6C37-4A76-4881-B17A-733B504FD9FC}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{816D6C37-4A76-4881-B17A-733B504FD9FC}|asp_servicios\\asp_servicios.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\asp_servicios\\nucleo\\configuracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{816D6C37-4A76-4881-B17A-733B504FD9FC}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\nucleo\\configuracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{816D6C37-4A76-4881-B17A-733B504FD9FC}|asp_servicios\\asp_servicios.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\asp_servicios\\controllers\\pagoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{816D6C37-4A76-4881-B17A-733B504FD9FC}|asp_servicios\\asp_servicios.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\asp_servicios\\controllers\\pagoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{816D6C37-4A76-4881-B17A-733B504FD9FC}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\pagoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{816D6C37-4A76-4881-B17A-733B504FD9FC}|asp_servicios\\asp_servicios.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\asp_servicios\\controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{816D6C37-4A76-4881-B17A-733B504FD9FC}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\lib_aplicaciones\\interfaces\\iordenesaplicaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\interfaces\\iordenesaplicaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{816D6C37-4A76-4881-B17A-733B504FD9FC}|asp_servicios\\asp_servicios.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\asp_servicios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{816D6C37-4A76-4881-B17A-733B504FD9FC}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\lib_aplicaciones\\interfaces\\iartistasaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\interfaces\\iartistasaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{816D6C37-4A76-4881-B17A-733B504FD9FC}|asp_servicios\\asp_servicios.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\asp_servicios\\controllers\\artistascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{816D6C37-4A76-4881-B17A-733B504FD9FC}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\artistascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\lib_aplicaciones\\interfaces\\iformatosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\interfaces\\iformatosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D107F4C8-89CC-BEA8-D3D7-CA6B7733353D}|Elementos de la soluci\u00F3n{D107F4C8-89CC-BEA8-D3D7-CA6B7733353D}|E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\ut_presentaciones\\nucleo\\entidadesnucleo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|solutionrelative:ut_presentaciones\\nucleo\\entidadesnucleo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\lib_dominio\\nucleo\\datosgenerales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\nucleo\\datosgenerales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D107F4C8-89CC-BEA8-D3D7-CA6B7733353D}|Elementos de la soluci\u00F3n{D107F4C8-89CC-BEA8-D3D7-CA6B7733353D}|C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{D107F4C8-89CC-BEA8-D3D7-CA6B7733353D}|Elementos de la soluci\u00F3n{D107F4C8-89CC-BEA8-D3D7-CA6B7733353D}|solutionrelative:secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_aplicaciones\\interfaces\\ipagosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D107F4C8-89CC-BEA8-D3D7-CA6B7733353D}|Elementos de la soluci\u00F3n{D107F4C8-89CC-BEA8-D3D7-CA6B7733353D}|C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{D107F4C8-89CC-BEA8-D3D7-CA6B7733353D}|Elementos de la soluci\u00F3n{D107F4C8-89CC-BEA8-D3D7-CA6B7733353D}|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\lib_dominio\\entidades\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\entidades\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\lib_dominio\\entidades\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\entidades\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5E06A85-5826-4B35-87B5-BF67246A90DA}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\lib_repositorios\\interfaces\\iconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5E06A85-5826-4B35-87B5-BF67246A90DA}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\interfaces\\iconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5E06A85-5826-4B35-87B5-BF67246A90DA}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\lib_repositorios\\implementaciones\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5E06A85-5826-4B35-87B5-BF67246A90DA}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\implementaciones\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\lib_dominio\\nucleo\\encriptarconversor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\nucleo\\encriptarconversor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\lib_aplicaciones\\implementaciones\\pagosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\implementaciones\\pagosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\lib_aplicaciones\\implementaciones\\artistasaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\implementaciones\\artistasaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\lib_aplicaciones\\implementaciones\\clientesaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\implementaciones\\clientesaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\lib_aplicaciones\\implementaciones\\formatosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\implementaciones\\formatosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\lib_aplicaciones\\implementaciones\\marcasaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\implementaciones\\marcasaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\ut_presentaciones\\repositorios\\formatospruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|solutionrelative:ut_presentaciones\\repositorios\\formatospruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\ut_presentaciones\\repositorios\\clientespruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|solutionrelative:ut_presentaciones\\repositorios\\clientespruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\ut_presentaciones\\repositorios\\artistaspruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|solutionrelative:ut_presentaciones\\repositorios\\artistaspruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\ut_presentaciones\\repositorios\\discospruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|solutionrelative:ut_presentaciones\\repositorios\\discospruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\ut_presentaciones\\repositorios\\marcaspruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|solutionrelative:ut_presentaciones\\repositorios\\marcaspruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\ut_presentaciones\\repositorios\\pagospruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{166A6668-37F6-402C-9310-2843156D848D}|ut_presentaciones\\ut_presentaciones.csproj|solutionrelative:ut_presentaciones\\repositorios\\pagospruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\lib_dominio\\nucleo\\logconversor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\nucleo\\logconversor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\lib_dominio\\nucleo\\enumerables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\nucleo\\enumerables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\lib_dominio\\nucleo\\encodinghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\nucleo\\encodinghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\lib_dominio\\entidades\\formatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\entidades\\formatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\lib_dominio\\entidades\\pagos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\entidades\\pagos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\lib_dominio\\entidades\\marcas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\entidades\\marcas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\lib_aplicaciones\\interfaces\\imarcasaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\interfaces\\imarcasaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\lib_dominio\\entidades\\auditorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\entidades\\auditorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{816D6C37-4A76-4881-B17A-733B504FD9FC}|asp_servicios\\asp_servicios.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\asp_servicios\\nucleo\\configuracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{816D6C37-4A76-4881-B17A-733B504FD9FC}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\nucleo\\configuracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{816D6C37-4A76-4881-B17A-733B504FD9FC}|asp_servicios\\asp_servicios.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\asp_servicios\\controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{816D6C37-4A76-4881-B17A-733B504FD9FC}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{816D6C37-4A76-4881-B17A-733B504FD9FC}|asp_servicios\\asp_servicios.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\asp_servicios\\controllers\\artistascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{816D6C37-4A76-4881-B17A-733B504FD9FC}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\artistascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\lib_aplicaciones\\interfaces\\ipagosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\interfaces\\ipagosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{816D6C37-4A76-4881-B17A-733B504FD9FC}|asp_servicios\\asp_servicios.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\asp_servicios\\controllers\\formatoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{816D6C37-4A76-4881-B17A-733B504FD9FC}|asp_servicios\\asp_servicios.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\asp_servicios\\controllers\\formatoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{816D6C37-4A76-4881-B17A-733B504FD9FC}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\formatoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\obj\\Debug\\net8.0\\TestPlatformEntryPoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\obj\\Debug\\net8.0\\TestPlatformEntryPoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:asp_servicios\\obj\\Debug\\net8.0\\TestPlatformEntryPoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{816D6C37-4A76-4881-B17A-733B504FD9FC}|asp_servicios\\asp_servicios.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\asp_servicios\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{816D6C37-4A76-4881-B17A-733B504FD9FC}|asp_servicios\\asp_servicios.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\asp_servicios\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{816D6C37-4A76-4881-B17A-733B504FD9FC}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_aplicaciones\\interfaces\\idiscosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\interfaces\\idiscosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\RegistrarUsuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\RegistrarUsuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:lib_dominio\\Entidades\\RegistrarUsuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5E06A85-5826-4B35-87B5-BF67246A90DA}|lib_repositorios\\lib_repositorios.csproj|e:\\michel\\programacion\\proyecto discos musicales\\proyecto-final-programacion-de-software\\lib_repositorios\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "AbsoluteMoniker": "D:0:0:{B5E06A85-5826-4B35-87B5-BF67246A90DA}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\lib_repositorios\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
       "RelativeMoniker": "D:0:0:{B5E06A85-5826-4B35-87B5-BF67246A90DA}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
@@ -229,51 +240,118 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 6,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IOrdenesAplicaciones.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\interfaces\\IOrdenesAplicaciones.cs",
-              "RelativeDocumentMoniker": "lib_aplicaciones\\interfaces\\IOrdenesAplicaciones.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\interfaces\\IOrdenesAplicaciones.cs",
-              "RelativeToolTip": "lib_aplicaciones\\interfaces\\IOrdenesAplicaciones.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T00:55:48.468Z"
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "EncriptarConversor.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Nucleo\\EncriptarConversor.cs",
-              "RelativeDocumentMoniker": "lib_dominio\\Nucleo\\EncriptarConversor.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Nucleo\\EncriptarConversor.cs",
-              "RelativeToolTip": "lib_dominio\\Nucleo\\EncriptarConversor.cs",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Program.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Program.cs",
+              "RelativeToolTip": "asp_servicios\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T19:48:37.623Z"
+              "WhenOpened": "2025-05-03T00:47:58.56Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "EntidadesNucleo.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Nucleo\\EntidadesNucleo.cs",
-              "RelativeDocumentMoniker": "ut_presentaciones\\Nucleo\\EntidadesNucleo.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Nucleo\\EntidadesNucleo.cs",
-              "RelativeToolTip": "ut_presentaciones\\Nucleo\\EntidadesNucleo.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAuwF4AAAAbAAAAAAAAAA==",
+              "Title": "OrdenesDiscosController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\OrdenesDiscosController.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\OrdenesDiscosController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\OrdenesDiscosController.cs",
+              "RelativeToolTip": "asp_servicios\\Controllers\\OrdenesDiscosController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAA3wHoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T19:41:29.99Z"
+              "WhenOpened": "2025-05-03T00:52:23.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrdenesDiscosAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\OrdenesDiscosAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_aplicaciones\\implementaciones\\OrdenesDiscosAplicacion.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\OrdenesDiscosAplicacion.cs",
+              "RelativeToolTip": "lib_aplicaciones\\implementaciones\\OrdenesDiscosAplicacion.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAiwGcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T00:54:01.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "asp_servicios",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\asp_servicios.csproj",
+              "RelativeDocumentMoniker": "asp_servicios\\asp_servicios.csproj",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\asp_servicios.csproj",
+              "RelativeToolTip": "asp_servicios\\asp_servicios.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-09T17:58:44.489Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "IOrdenesDiscosAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\interfaces\\IOrdenesDiscosAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_aplicaciones\\interfaces\\IOrdenesDiscosAplicacion.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\interfaces\\IOrdenesDiscosAplicacion.cs",
+              "RelativeToolTip": "lib_aplicaciones\\interfaces\\IOrdenesDiscosAplicacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T00:55:50.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "iDiscosAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\interfaces\\iDiscosAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_aplicaciones\\interfaces\\iDiscosAplicacion.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\interfaces\\iDiscosAplicacion.cs",
+              "RelativeToolTip": "lib_aplicaciones\\interfaces\\iDiscosAplicacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T01:32:44.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DiscosAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\DiscosAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_aplicaciones\\implementaciones\\DiscosAplicacion.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\DiscosAplicacion.cs",
+              "RelativeToolTip": "lib_aplicaciones\\implementaciones\\DiscosAplicacion.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T20:28:05.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "script.sql ",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_repositorios\\script.sql",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_repositorios\\script.sql",
               "RelativeDocumentMoniker": "lib_repositorios\\script.sql",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_repositorios\\script.sql",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_repositorios\\script.sql",
               "RelativeToolTip": "lib_repositorios\\script.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
               "WhenOpened": "2025-04-29T19:36:37.975Z",
@@ -281,48 +359,180 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "FormatosAplicacion.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\FormatosAplicacion.cs",
-              "RelativeDocumentMoniker": "lib_aplicaciones\\implementaciones\\FormatosAplicacion.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\FormatosAplicacion.cs",
-              "RelativeToolTip": "lib_aplicaciones\\implementaciones\\FormatosAplicacion.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Startup.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\Startup.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Startup.cs",
+              "RelativeToolTip": "asp_servicios\\Startup.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwBcAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T20:27:58.939Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "MarcasAplicacion.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\MarcasAplicacion.cs",
-              "RelativeDocumentMoniker": "lib_aplicaciones\\implementaciones\\MarcasAplicacion.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\MarcasAplicacion.cs",
-              "RelativeToolTip": "lib_aplicaciones\\implementaciones\\MarcasAplicacion.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T20:27:51.688Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Conexion.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_repositorios\\Implementaciones\\Conexion.cs",
-              "RelativeDocumentMoniker": "lib_repositorios\\Implementaciones\\Conexion.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_repositorios\\Implementaciones\\Conexion.cs",
-              "RelativeToolTip": "lib_repositorios\\Implementaciones\\Conexion.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAA6wAcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T20:35:48.069Z",
+              "WhenOpened": "2025-05-01T04:17:45.85Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
+              "Title": "Discos.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Discos.cs",
+              "RelativeDocumentMoniker": "lib_dominio\\Entidades\\Discos.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Discos.cs",
+              "RelativeToolTip": "lib_dominio\\Entidades\\Discos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T19:32:55.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrdenesDiscos.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\OrdenesDiscos.cs",
+              "RelativeDocumentMoniker": "lib_dominio\\Entidades\\OrdenesDiscos.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\OrdenesDiscos.cs",
+              "RelativeToolTip": "lib_dominio\\Entidades\\OrdenesDiscos.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T21:15:50.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Ordenes.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Ordenes.cs",
+              "RelativeDocumentMoniker": "lib_dominio\\Entidades\\Ordenes.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Ordenes.cs",
+              "RelativeToolTip": "lib_dominio\\Entidades\\Ordenes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T21:15:51.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "JsonConversor.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Nucleo\\JsonConversor.cs",
+              "RelativeDocumentMoniker": "lib_dominio\\Nucleo\\JsonConversor.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Nucleo\\JsonConversor.cs",
+              "RelativeToolTip": "lib_dominio\\Nucleo\\JsonConversor.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA+wBgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T19:48:40.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "OrdenesAplicaciones.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\OrdenesAplicaciones.cs",
+              "RelativeDocumentMoniker": "lib_aplicaciones\\implementaciones\\OrdenesAplicaciones.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\OrdenesAplicaciones.cs",
+              "RelativeToolTip": "lib_aplicaciones\\implementaciones\\OrdenesAplicaciones.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAIwEsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T00:56:32.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OrdenesPruebas.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\OrdenesPruebas.cs",
+              "RelativeDocumentMoniker": "ut_presentaciones\\Repositorios\\OrdenesPruebas.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\OrdenesPruebas.cs",
+              "RelativeToolTip": "ut_presentaciones\\Repositorios\\OrdenesPruebas.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T20:23:49.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAALcTAAAAAAAAAAAkwL0TAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-05-01T01:14:35.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PagosController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\PagosController.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\PagosController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\PagosController.cs",
+              "RelativeToolTip": "asp_servicios\\Controllers\\PagosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T00:37:52.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "OrdenesDiscosPruebas.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\OrdenesDiscosPruebas.cs",
+              "RelativeDocumentMoniker": "ut_presentaciones\\Repositorios\\OrdenesDiscosPruebas.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\OrdenesDiscosPruebas.cs",
+              "RelativeToolTip": "ut_presentaciones\\Repositorios\\OrdenesDiscosPruebas.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA0wCIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T01:02:06.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IOrdenesAplicaciones.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\interfaces\\IOrdenesAplicaciones.cs",
+              "RelativeDocumentMoniker": "lib_aplicaciones\\interfaces\\IOrdenesAplicaciones.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\interfaces\\IOrdenesAplicaciones.cs",
+              "RelativeToolTip": "lib_aplicaciones\\interfaces\\IOrdenesAplicaciones.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T00:55:48.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "iArtistasAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\interfaces\\iArtistasAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_aplicaciones\\interfaces\\iArtistasAplicacion.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\interfaces\\iArtistasAplicacion.cs",
+              "RelativeToolTip": "lib_aplicaciones\\interfaces\\iArtistasAplicacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T16:49:12.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "iFormatosAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\interfaces\\iFormatosAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_aplicaciones\\interfaces\\iFormatosAplicacion.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\interfaces\\iFormatosAplicacion.cs",
+              "RelativeToolTip": "lib_aplicaciones\\interfaces\\iFormatosAplicacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T01:32:41.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
               "Title": "IConexion.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_repositorios\\Interfaces\\IConexion.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_repositorios\\Interfaces\\IConexion.cs",
               "RelativeDocumentMoniker": "lib_repositorios\\Interfaces\\IConexion.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_repositorios\\Interfaces\\IConexion.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_repositorios\\Interfaces\\IConexion.cs",
               "RelativeToolTip": "lib_repositorios\\Interfaces\\IConexion.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAIwBgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -331,11 +541,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 25,
               "Title": "Usuarios.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Usuarios.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Usuarios.cs",
               "RelativeDocumentMoniker": "lib_dominio\\Entidades\\Usuarios.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Usuarios.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Usuarios.cs",
               "RelativeToolTip": "lib_dominio\\Entidades\\Usuarios.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -344,11 +554,115 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 22,
+              "Title": "DatosGenerales.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Nucleo\\DatosGenerales.cs",
+              "RelativeDocumentMoniker": "lib_dominio\\Nucleo\\DatosGenerales.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Nucleo\\DatosGenerales.cs",
+              "RelativeToolTip": "lib_dominio\\Nucleo\\DatosGenerales.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T03:11:35.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EntidadesNucleo.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Nucleo\\EntidadesNucleo.cs",
+              "RelativeDocumentMoniker": "ut_presentaciones\\Nucleo\\EntidadesNucleo.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Nucleo\\EntidadesNucleo.cs",
+              "RelativeToolTip": "ut_presentaciones\\Nucleo\\EntidadesNucleo.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAAAEoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T19:41:29.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\secrets.json",
+              "RelativeDocumentMoniker": "secrets.json",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\secrets.json",
+              "RelativeToolTip": "secrets.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-01T02:51:14.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-09T15:44:57.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Conexion.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_repositorios\\Implementaciones\\Conexion.cs",
+              "RelativeDocumentMoniker": "lib_repositorios\\Implementaciones\\Conexion.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_repositorios\\Implementaciones\\Conexion.cs",
+              "RelativeToolTip": "lib_repositorios\\Implementaciones\\Conexion.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAiwAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T20:35:48.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "MarcasAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\MarcasAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_aplicaciones\\implementaciones\\MarcasAplicacion.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\MarcasAplicacion.cs",
+              "RelativeToolTip": "lib_aplicaciones\\implementaciones\\MarcasAplicacion.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T20:27:51.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "FormatosAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\FormatosAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_aplicaciones\\implementaciones\\FormatosAplicacion.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\FormatosAplicacion.cs",
+              "RelativeToolTip": "lib_aplicaciones\\implementaciones\\FormatosAplicacion.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T20:27:58.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "EncriptarConversor.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Nucleo\\EncriptarConversor.cs",
+              "RelativeDocumentMoniker": "lib_dominio\\Nucleo\\EncriptarConversor.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Nucleo\\EncriptarConversor.cs",
+              "RelativeToolTip": "lib_dominio\\Nucleo\\EncriptarConversor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T19:48:37.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "Roles.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Roles.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Roles.cs",
               "RelativeDocumentMoniker": "lib_dominio\\Entidades\\Roles.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Roles.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Roles.cs",
               "RelativeToolTip": "lib_dominio\\Entidades\\Roles.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -357,529 +671,324 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "OrdenesDiscosAplicacion.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\OrdenesDiscosAplicacion.cs",
-              "RelativeDocumentMoniker": "lib_aplicaciones\\implementaciones\\OrdenesDiscosAplicacion.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\OrdenesDiscosAplicacion.cs",
-              "RelativeToolTip": "lib_aplicaciones\\implementaciones\\OrdenesDiscosAplicacion.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAuwFkAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T00:54:01.067Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 30,
               "Title": "PagosAplicacion.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\PagosAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\PagosAplicacion.cs",
               "RelativeDocumentMoniker": "lib_aplicaciones\\implementaciones\\PagosAplicacion.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\PagosAplicacion.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\PagosAplicacion.cs",
               "RelativeToolTip": "lib_aplicaciones\\implementaciones\\PagosAplicacion.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAwwDwAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T00:39:31.133Z"
+              "WhenOpened": "2025-05-03T00:39:31.133Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 31,
               "Title": "ArtistasAplicacion.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\ArtistasAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\ArtistasAplicacion.cs",
               "RelativeDocumentMoniker": "lib_aplicaciones\\implementaciones\\ArtistasAplicacion.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\ArtistasAplicacion.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\ArtistasAplicacion.cs",
               "RelativeToolTip": "lib_aplicaciones\\implementaciones\\ArtistasAplicacion.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T00:48:05.485Z"
+              "WhenOpened": "2025-05-03T00:48:05.485Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "DiscosAplicacion.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\DiscosAplicacion.cs",
-              "RelativeDocumentMoniker": "lib_aplicaciones\\implementaciones\\DiscosAplicacion.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\DiscosAplicacion.cs",
-              "RelativeToolTip": "lib_aplicaciones\\implementaciones\\DiscosAplicacion.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T20:28:05.536Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 32,
               "Title": "ClientesAplicacion.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\ClientesAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\ClientesAplicacion.cs",
               "RelativeDocumentMoniker": "lib_aplicaciones\\implementaciones\\ClientesAplicacion.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\ClientesAplicacion.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\ClientesAplicacion.cs",
               "RelativeToolTip": "lib_aplicaciones\\implementaciones\\ClientesAplicacion.cs",
               "ViewState": "AgIAACwAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T20:28:10.631Z"
+              "WhenOpened": "2025-05-08T20:28:10.631Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 35,
               "Title": "FormatosPruebas.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\FormatosPruebas.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\FormatosPruebas.cs",
               "RelativeDocumentMoniker": "ut_presentaciones\\Repositorios\\FormatosPruebas.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\FormatosPruebas.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\FormatosPruebas.cs",
               "RelativeToolTip": "ut_presentaciones\\Repositorios\\FormatosPruebas.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAIAwwBsAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T01:02:28.02Z"
+              "WhenOpened": "2025-05-01T01:02:28.02Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 36,
               "Title": "ClientesPruebas.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\ClientesPruebas.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\ClientesPruebas.cs",
               "RelativeDocumentMoniker": "ut_presentaciones\\Repositorios\\ClientesPruebas.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\ClientesPruebas.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\ClientesPruebas.cs",
               "RelativeToolTip": "ut_presentaciones\\Repositorios\\ClientesPruebas.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAD4vxsAAABiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T01:02:20.437Z"
+              "WhenOpened": "2025-05-01T01:02:20.437Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 37,
               "Title": "ArtistasPruebas.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\ArtistasPruebas.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\ArtistasPruebas.cs",
               "RelativeDocumentMoniker": "ut_presentaciones\\Repositorios\\ArtistasPruebas.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\ArtistasPruebas.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\ArtistasPruebas.cs",
               "RelativeToolTip": "ut_presentaciones\\Repositorios\\ArtistasPruebas.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAgwCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T01:02:16.589Z"
+              "WhenOpened": "2025-05-01T01:02:16.589Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 38,
               "Title": "DiscosPruebas.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\DiscosPruebas.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\DiscosPruebas.cs",
               "RelativeDocumentMoniker": "ut_presentaciones\\Repositorios\\DiscosPruebas.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\DiscosPruebas.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\DiscosPruebas.cs",
               "RelativeToolTip": "ut_presentaciones\\Repositorios\\DiscosPruebas.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAApwBsAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T01:02:24.464Z"
+              "WhenOpened": "2025-05-01T01:02:24.464Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 39,
               "Title": "MarcasPruebas.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\MarcasPruebas.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\MarcasPruebas.cs",
               "RelativeDocumentMoniker": "ut_presentaciones\\Repositorios\\MarcasPruebas.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\MarcasPruebas.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\MarcasPruebas.cs",
               "RelativeToolTip": "ut_presentaciones\\Repositorios\\MarcasPruebas.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T01:02:33.034Z"
+              "WhenOpened": "2025-05-01T01:02:33.034Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "iFormatosAplicacion.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\interfaces\\iFormatosAplicacion.cs",
-              "RelativeDocumentMoniker": "lib_aplicaciones\\interfaces\\iFormatosAplicacion.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\interfaces\\iFormatosAplicacion.cs",
-              "RelativeToolTip": "lib_aplicaciones\\interfaces\\iFormatosAplicacion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T01:32:41.848Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "OrdenesAplicaciones.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\OrdenesAplicaciones.cs",
-              "RelativeDocumentMoniker": "lib_aplicaciones\\implementaciones\\OrdenesAplicaciones.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\OrdenesAplicaciones.cs",
-              "RelativeToolTip": "lib_aplicaciones\\implementaciones\\OrdenesAplicaciones.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAwwEIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T00:56:32.646Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "OrdenesDiscosPruebas.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\OrdenesDiscosPruebas.cs",
-              "RelativeDocumentMoniker": "ut_presentaciones\\Repositorios\\OrdenesDiscosPruebas.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\OrdenesDiscosPruebas.cs",
-              "RelativeToolTip": "ut_presentaciones\\Repositorios\\OrdenesDiscosPruebas.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAADwvyQAAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T01:02:06.266Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "OrdenesPruebas.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\OrdenesPruebas.cs",
-              "RelativeDocumentMoniker": "ut_presentaciones\\Repositorios\\OrdenesPruebas.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\OrdenesPruebas.cs",
-              "RelativeToolTip": "ut_presentaciones\\Repositorios\\OrdenesPruebas.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwB0AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T20:23:49.09Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 40,
               "Title": "PagosPruebas.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\PagosPruebas.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\PagosPruebas.cs",
               "RelativeDocumentMoniker": "ut_presentaciones\\Repositorios\\PagosPruebas.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\PagosPruebas.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\PagosPruebas.cs",
               "RelativeToolTip": "ut_presentaciones\\Repositorios\\PagosPruebas.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T01:02:11.465Z"
+              "WhenOpened": "2025-05-01T01:02:11.465Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 56,
               "Title": "RegistrarUsuarios.cs",
               "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\RegistrarUsuarios.cs",
-              "RelativeDocumentMoniker": "lib_dominio\\Entidades\\RegistrarUsuarios.cs",
               "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\RegistrarUsuarios.cs",
-              "RelativeToolTip": "lib_dominio\\Entidades\\RegistrarUsuarios.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-06T18:48:24.53Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Microsoft.Common.CurrentVersion.targets",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ViewState": "AgIAAMkTAAAAAAAAAAAjwMYTAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-05-01T01:14:35.398Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "IOrdenesDiscosAplicacion.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\interfaces\\IOrdenesDiscosAplicacion.cs",
-              "RelativeDocumentMoniker": "lib_aplicaciones\\interfaces\\IOrdenesDiscosAplicacion.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\interfaces\\IOrdenesDiscosAplicacion.cs",
-              "RelativeToolTip": "lib_aplicaciones\\interfaces\\IOrdenesDiscosAplicacion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T00:55:50.293Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 41,
               "Title": "LogConversor.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Nucleo\\LogConversor.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Nucleo\\LogConversor.cs",
               "RelativeDocumentMoniker": "lib_dominio\\Nucleo\\LogConversor.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Nucleo\\LogConversor.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Nucleo\\LogConversor.cs",
               "RelativeToolTip": "lib_dominio\\Nucleo\\LogConversor.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T19:48:41.544Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "JsonConversor.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Nucleo\\JsonConversor.cs",
-              "RelativeDocumentMoniker": "lib_dominio\\Nucleo\\JsonConversor.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Nucleo\\JsonConversor.cs",
-              "RelativeToolTip": "lib_dominio\\Nucleo\\JsonConversor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T19:48:40.508Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Enumerables.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Nucleo\\Enumerables.cs",
-              "RelativeDocumentMoniker": "lib_dominio\\Nucleo\\Enumerables.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Nucleo\\Enumerables.cs",
-              "RelativeToolTip": "lib_dominio\\Nucleo\\Enumerables.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T19:48:38.715Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "EncodingHelper.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Nucleo\\EncodingHelper.cs",
-              "RelativeDocumentMoniker": "lib_dominio\\Nucleo\\EncodingHelper.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Nucleo\\EncodingHelper.cs",
-              "RelativeToolTip": "lib_dominio\\Nucleo\\EncodingHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T19:48:36.876Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Discos.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Discos.cs",
-              "RelativeDocumentMoniker": "lib_dominio\\Entidades\\Discos.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Discos.cs",
-              "RelativeToolTip": "lib_dominio\\Entidades\\Discos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T19:32:55.68Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "Formatos.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Formatos.cs",
-              "RelativeDocumentMoniker": "lib_dominio\\Entidades\\Formatos.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Formatos.cs",
-              "RelativeToolTip": "lib_dominio\\Entidades\\Formatos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T19:32:54.433Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "Marcas.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Marcas.cs",
-              "RelativeDocumentMoniker": "lib_dominio\\Entidades\\Marcas.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Marcas.cs",
-              "RelativeToolTip": "lib_dominio\\Entidades\\Marcas.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T18:56:16.748Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "Pagos.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Pagos.cs",
-              "RelativeDocumentMoniker": "lib_dominio\\Entidades\\Pagos.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Pagos.cs",
-              "RelativeToolTip": "lib_dominio\\Entidades\\Pagos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T21:15:47.969Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "Ordenes.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Ordenes.cs",
-              "RelativeDocumentMoniker": "lib_dominio\\Entidades\\Ordenes.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Ordenes.cs",
-              "RelativeToolTip": "lib_dominio\\Entidades\\Ordenes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T21:15:51.482Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "OrdenesDiscos.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\OrdenesDiscos.cs",
-              "RelativeDocumentMoniker": "lib_dominio\\Entidades\\OrdenesDiscos.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\OrdenesDiscos.cs",
-              "RelativeToolTip": "lib_dominio\\Entidades\\OrdenesDiscos.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAIwBAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T21:15:50.313Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "DatosGenerales.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Nucleo\\DatosGenerales.cs",
-              "RelativeDocumentMoniker": "lib_dominio\\Nucleo\\DatosGenerales.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Nucleo\\DatosGenerales.cs",
-              "RelativeToolTip": "lib_dominio\\Nucleo\\DatosGenerales.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T03:11:35.322Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "ArtistasController.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\ArtistasController.cs",
-              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\ArtistasController.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\ArtistasController.cs",
-              "RelativeToolTip": "asp_servicios\\Controllers\\ArtistasController.cs",
-              "ViewState": "AgIAAHMAAAAAAAAAAAAowC4AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T23:52:06.121Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "PagosController.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\PagosController.cs",
-              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\PagosController.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\PagosController.cs",
-              "RelativeToolTip": "asp_servicios\\Controllers\\PagosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T00:37:52.601Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "OrdenesDiscosController.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\OrdenesDiscosController.cs",
-              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\OrdenesDiscosController.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\OrdenesDiscosController.cs",
-              "RelativeToolTip": "asp_servicios\\Controllers\\OrdenesDiscosController.cs",
-              "ViewState": "AgIAAJcAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T00:52:23.984Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "IMarcasAplicacion.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\interfaces\\IMarcasAplicacion.cs",
-              "RelativeDocumentMoniker": "lib_aplicaciones\\interfaces\\IMarcasAplicacion.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\interfaces\\IMarcasAplicacion.cs",
-              "RelativeToolTip": "lib_aplicaciones\\interfaces\\IMarcasAplicacion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T01:03:18.915Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "Auditorias.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Auditorias.cs",
-              "RelativeDocumentMoniker": "lib_dominio\\Entidades\\Auditorias.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Auditorias.cs",
-              "RelativeToolTip": "lib_dominio\\Entidades\\Auditorias.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T19:32:03.447Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Program.cs",
-              "RelativeDocumentMoniker": "asp_servicios\\Program.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Program.cs",
-              "RelativeToolTip": "asp_servicios\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T00:47:58.56Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Startup.cs",
-              "RelativeDocumentMoniker": "asp_servicios\\Startup.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Startup.cs",
-              "RelativeToolTip": "asp_servicios\\Startup.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAwwCQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T04:17:45.85Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "TokenController.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\TokenController.cs",
-              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\TokenController.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\TokenController.cs",
-              "RelativeToolTip": "asp_servicios\\Controllers\\TokenController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T23:47:00.837Z"
+              "WhenOpened": "2025-05-06T19:48:41.544Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 42,
-              "Title": "Configuracion.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\nucleo\\Configuracion.cs",
-              "RelativeDocumentMoniker": "asp_servicios\\nucleo\\Configuracion.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\nucleo\\Configuracion.cs",
-              "RelativeToolTip": "asp_servicios\\nucleo\\Configuracion.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Enumerables.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Nucleo\\Enumerables.cs",
+              "RelativeDocumentMoniker": "lib_dominio\\Nucleo\\Enumerables.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Nucleo\\Enumerables.cs",
+              "RelativeToolTip": "lib_dominio\\Nucleo\\Enumerables.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T20:37:33.361Z"
+              "WhenOpened": "2025-05-06T19:48:38.715Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "secrets.json",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\secrets.json",
-              "RelativeDocumentMoniker": "secrets.json",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\secrets.json",
-              "RelativeToolTip": "secrets.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-01T02:51:14.978Z"
+              "DocumentIndex": 43,
+              "Title": "EncodingHelper.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Nucleo\\EncodingHelper.cs",
+              "RelativeDocumentMoniker": "lib_dominio\\Nucleo\\EncodingHelper.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Nucleo\\EncodingHelper.cs",
+              "RelativeToolTip": "lib_dominio\\Nucleo\\EncodingHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T19:48:36.876Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "TestPlatformEntryPoint.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\obj\\Debug\\net8.0\\TestPlatformEntryPoint.cs",
-              "RelativeDocumentMoniker": "asp_servicios\\obj\\Debug\\net8.0\\TestPlatformEntryPoint.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\obj\\Debug\\net8.0\\TestPlatformEntryPoint.cs",
-              "RelativeToolTip": "asp_servicios\\obj\\Debug\\net8.0\\TestPlatformEntryPoint.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABBAAAAAAAAAA==",
+              "DocumentIndex": 44,
+              "Title": "Formatos.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Formatos.cs",
+              "RelativeDocumentMoniker": "lib_dominio\\Entidades\\Formatos.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Formatos.cs",
+              "RelativeToolTip": "lib_dominio\\Entidades\\Formatos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T04:00:18.161Z"
+              "WhenOpened": "2025-05-06T19:32:54.433Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "FormatosController.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\FormatosController.cs",
-              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\FormatosController.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\FormatosController.cs",
-              "RelativeToolTip": "asp_servicios\\Controllers\\FormatosController.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAgwBwAAAAsAAAAAAAAAA==",
+              "DocumentIndex": 46,
+              "Title": "Marcas.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Marcas.cs",
+              "RelativeDocumentMoniker": "lib_dominio\\Entidades\\Marcas.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Marcas.cs",
+              "RelativeToolTip": "lib_dominio\\Entidades\\Marcas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T21:17:14.361Z"
+              "WhenOpened": "2025-05-06T18:56:16.748Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "iPagosAplicacion.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\interfaces\\iPagosAplicacion.cs",
-              "RelativeDocumentMoniker": "lib_aplicaciones\\interfaces\\iPagosAplicacion.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\interfaces\\iPagosAplicacion.cs",
-              "RelativeToolTip": "lib_aplicaciones\\interfaces\\iPagosAplicacion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "DocumentIndex": 45,
+              "Title": "Pagos.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Pagos.cs",
+              "RelativeDocumentMoniker": "lib_dominio\\Entidades\\Pagos.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Pagos.cs",
+              "RelativeToolTip": "lib_dominio\\Entidades\\Pagos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T00:40:36.878Z"
+              "WhenOpened": "2025-04-26T21:15:47.969Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 51,
-              "Title": "ClientesController.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\ClientesController.cs",
-              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\ClientesController.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\ClientesController.cs",
-              "RelativeToolTip": "asp_servicios\\Controllers\\ClientesController.cs",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Title": "ArtistasController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\ArtistasController.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\ArtistasController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\ArtistasController.cs",
+              "RelativeToolTip": "asp_servicios\\Controllers\\ArtistasController.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAowC4AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T21:16:09.797Z"
+              "WhenOpened": "2025-04-12T23:52:06.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "IMarcasAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\interfaces\\IMarcasAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_aplicaciones\\interfaces\\IMarcasAplicacion.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\interfaces\\IMarcasAplicacion.cs",
+              "RelativeToolTip": "lib_aplicaciones\\interfaces\\IMarcasAplicacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T01:03:18.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Auditorias.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Auditorias.cs",
+              "RelativeDocumentMoniker": "lib_dominio\\Entidades\\Auditorias.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Auditorias.cs",
+              "RelativeToolTip": "lib_dominio\\Entidades\\Auditorias.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T19:32:03.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "TokenController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\TokenController.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\TokenController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\TokenController.cs",
+              "RelativeToolTip": "asp_servicios\\Controllers\\TokenController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T23:47:00.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Configuracion.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\nucleo\\Configuracion.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\nucleo\\Configuracion.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\nucleo\\Configuracion.cs",
+              "RelativeToolTip": "asp_servicios\\nucleo\\Configuracion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T20:37:33.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "TestPlatformEntryPoint.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\obj\\Debug\\net8.0\\TestPlatformEntryPoint.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\obj\\Debug\\net8.0\\TestPlatformEntryPoint.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\obj\\Debug\\net8.0\\TestPlatformEntryPoint.cs",
+              "RelativeToolTip": "asp_servicios\\obj\\Debug\\net8.0\\TestPlatformEntryPoint.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T04:00:18.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "FormatosController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\FormatosController.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\FormatosController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\FormatosController.cs",
+              "RelativeToolTip": "asp_servicios\\Controllers\\FormatosController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwBwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T21:17:14.361Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 52,
-              "Title": "iDiscosAplicacion.cs",
-              "DocumentMoniker": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\interfaces\\iDiscosAplicacion.cs",
-              "RelativeDocumentMoniker": "lib_aplicaciones\\interfaces\\iDiscosAplicacion.cs",
-              "ToolTip": "E:\\MICHEL\\PROGRAMACION\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\interfaces\\iDiscosAplicacion.cs",
-              "RelativeToolTip": "lib_aplicaciones\\interfaces\\iDiscosAplicacion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "iPagosAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\interfaces\\iPagosAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_aplicaciones\\interfaces\\iPagosAplicacion.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\interfaces\\iPagosAplicacion.cs",
+              "RelativeToolTip": "lib_aplicaciones\\interfaces\\iPagosAplicacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T01:32:44.485Z"
+              "WhenOpened": "2025-05-03T00:40:36.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "ClientesController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\ClientesController.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\ClientesController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\ClientesController.cs",
+              "RelativeToolTip": "asp_servicios\\Controllers\\ClientesController.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T21:16:09.797Z",
+              "EditorCaption": ""
             }
           ]
         }

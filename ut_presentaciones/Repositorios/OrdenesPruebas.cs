@@ -58,21 +58,21 @@ namespace ut_presentacion.Repositorios
 
         public bool Modificar()
         {
-            var orden = this.iConexion.Ordenes!.FirstOrDefault(x => x.Id == 1);
+            var orden = this.iConexion!.Ordenes!.FirstOrDefault(x => x.Id == 1);
 
            
                 if (orden != null)
             {
                 var ordenesDiscosPruebas = new OrdenesDiscosPruebas();
 
-                this.entidad!.MontoTotal = ordenesDiscosPruebas.CalcularMontoTotal(orden);
+                orden.MontoTotal = ordenesDiscosPruebas.CalcularMontoTotal(orden);
                
 
             }
 
             
 
-            var entry = this.iConexion!.Entry<Ordenes>(this.entidad);
+            var entry = this.iConexion!.Entry<Ordenes>(orden!);
             entry.State = EntityState.Modified;
             this.iConexion!.SaveChanges();
             return true;

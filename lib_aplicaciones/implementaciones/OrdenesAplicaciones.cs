@@ -61,7 +61,6 @@ namespace lib_aplicaciones.Implementaciones
 
         public Ordenes? Modificar(Ordenes? entidad)
 
-
         {
 
 

@@ -5,6 +5,7 @@ using lib_dominio.Nucleo;
 using lib_repositorios.Implementaciones;
 using lib_repositorios.Interfaces;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace asp_servicios.Controllers
 {
@@ -44,7 +45,7 @@ namespace asp_servicios.Controllers
                     return JsonConversor.ConvertirAString(respuesta);
                 }
 
-                this.iAplicacion!.Configurar(Configuracion.ObtenerValor("StringConexion"));
+                this.iAplicacion!.Configurar(Configuracion.ObtenerValor("StringConexion")!);
                 respuesta["Entidades"] = this.iAplicacion!.Listar();
 
                 respuesta["Respuesta"] = "OK";
@@ -74,7 +75,7 @@ namespace asp_servicios.Controllers
                 var entidad = JsonConversor.ConvertirAObjeto<OrdenesDiscos>(
                     JsonConversor.ConvertirAString(datos["Entidad"]));
 
-                this.iAplicacion!.Configurar(Configuracion.ObtenerValor("StringConexion"));
+                this.iAplicacion!.Configurar(Configuracion.ObtenerValor("StringConexion")!);
                 respuesta["Entidades"] = this.iAplicacion!.PorNombre(entidad);
 
                 respuesta["Respuesta"] = "OK";
@@ -96,6 +97,7 @@ namespace asp_servicios.Controllers
             var respuesta = new Dictionary<string, object>();
             try
             {
+                
                 var datos = ObtenerDatos();
                 if (!tokenController!.Validate(datos))
                 {
@@ -105,9 +107,9 @@ namespace asp_servicios.Controllers
 
                 var entidad = JsonConversor.ConvertirAObjeto<OrdenesDiscos>(JsonConversor.ConvertirAString(datos["Entidad"]));
 
-                this.iAplicacion!.Configurar(Configuracion.ObtenerValor("StringConexion"));
+                this.iAplicacion!.Configurar(Configuracion.ObtenerValor("StringConexion")!);
                 entidad = this.iAplicacion!.Guardar(entidad);
-
+                this.iAplicacion.ActualizarMonto(entidad);
                 respuesta["Entidad"] = entidad!;
                 respuesta["Respuesta"] = "OK";
                 respuesta["Fecha"] = DateTime.Now.ToString();
@@ -135,7 +137,7 @@ namespace asp_servicios.Controllers
 
                 var entidad = JsonConversor.ConvertirAObjeto<OrdenesDiscos>(JsonConversor.ConvertirAString(datos["Entidad"]));
                 
-                this.iAplicacion!.Configurar(Configuracion.ObtenerValor("StringConexion"));
+                this.iAplicacion!.Configurar(Configuracion.ObtenerValor("StringConexion")!);
                 entidad = this.iAplicacion!.Modificar(entidad);
 
                 respuesta["Entidad"] = entidad!;
@@ -166,7 +168,7 @@ namespace asp_servicios.Controllers
                 var entidad = JsonConversor.ConvertirAObjeto<OrdenesDiscos>(
                     JsonConversor.ConvertirAString(datos["Entidad"]));
 
-                this.iAplicacion!.Configurar(Configuracion.ObtenerValor("StringConexion"));
+                this.iAplicacion!.Configurar(Configuracion.ObtenerValor("StringConexion")!);
                 entidad = this.iAplicacion!.Borrar(entidad);
 
                 respuesta["Entidad"] = entidad!;

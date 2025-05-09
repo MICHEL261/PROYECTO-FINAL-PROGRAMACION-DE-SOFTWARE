@@ -52,3 +52,21 @@ E:\MICHEL\PROGRAMACION\proyecto discos musicales\PROYECTO-FINAL-PROGRAMACION-DE-
 E:\MICHEL\PROGRAMACION\proyecto discos musicales\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\lib_aplicaciones\obj\Debug\net8.0\refint\lib_aplicaciones.dll
 E:\MICHEL\PROGRAMACION\proyecto discos musicales\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\lib_aplicaciones\obj\Debug\net8.0\lib_aplicaciones.pdb
 E:\MICHEL\PROGRAMACION\proyecto discos musicales\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\lib_aplicaciones\obj\Debug\net8.0\ref\lib_aplicaciones.dll
+C:\Users\ASUS\Desktop\PROYECTO\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\lib_aplicaciones\bin\Debug\net8.0\lib_aplicaciones.deps.json
+C:\Users\ASUS\Desktop\PROYECTO\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\lib_aplicaciones\bin\Debug\net8.0\lib_aplicaciones.dll
+C:\Users\ASUS\Desktop\PROYECTO\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\lib_aplicaciones\bin\Debug\net8.0\lib_aplicaciones.pdb
+C:\Users\ASUS\Desktop\PROYECTO\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\lib_aplicaciones\bin\Debug\net8.0\lib_dominio.dll
+C:\Users\ASUS\Desktop\PROYECTO\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\lib_aplicaciones\bin\Debug\net8.0\lib_repositorios.dll
+C:\Users\ASUS\Desktop\PROYECTO\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\lib_aplicaciones\bin\Debug\net8.0\lib_dominio.pdb
+C:\Users\ASUS\Desktop\PROYECTO\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\lib_aplicaciones\bin\Debug\net8.0\lib_repositorios.pdb
+C:\Users\ASUS\Desktop\PROYECTO\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\lib_aplicaciones\obj\Debug\net8.0\lib_aplicaciones.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\PROYECTO\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\lib_aplicaciones\obj\Debug\net8.0\lib_aplicaciones.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\PROYECTO\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\lib_aplicaciones\obj\Debug\net8.0\lib_aplicaciones.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\PROYECTO\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\lib_aplicaciones\obj\Debug\net8.0\lib_aplicaciones.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\PROYECTO\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\lib_aplicaciones\obj\Debug\net8.0\lib_aplicaciones.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\PROYECTO\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\lib_aplicaciones\obj\Debug\net8.0\lib_aplicaciones.sourcelink.json
+C:\Users\ASUS\Desktop\PROYECTO\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\lib_aplicaciones\obj\Debug\net8.0\lib_apli.7723F211.Up2Date
+C:\Users\ASUS\Desktop\PROYECTO\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\lib_aplicaciones\obj\Debug\net8.0\lib_aplicaciones.dll
+C:\Users\ASUS\Desktop\PROYECTO\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\lib_aplicaciones\obj\Debug\net8.0\refint\lib_aplicaciones.dll
+C:\Users\ASUS\Desktop\PROYECTO\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\lib_aplicaciones\obj\Debug\net8.0\lib_aplicaciones.pdb
+C:\Users\ASUS\Desktop\PROYECTO\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\lib_aplicaciones\obj\Debug\net8.0\ref\lib_aplicaciones.dll

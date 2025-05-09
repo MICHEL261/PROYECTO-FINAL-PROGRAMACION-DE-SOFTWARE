@@ -1,0 +1,53 @@
+## Archivos de compilación
+bin/
+obj/
+
+## Archivos de configuración de usuario
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Configuración de Visual Studio
+.vs/
+.vscode/
+*.vsp
+*.vspscc
+*.vssscc
+*.cache
+*.dbmdl
+*.pdb
+
+## Publicaciones y paquetes
+*.publishsettings
+*.nupkg
+*.snupkg
+*.psess
+*.vspx
+
+## Logs
+*.log
+
+## Archivos temporales
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*.sln.ide
+
+## Archivos de pruebas
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+## Archivos de paquetes NuGet
+packages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Archivos generados por herramientas
+Generated\ Files/
