@@ -1,5 +1,7 @@
-﻿using lib_aplicaciones.Interfaces;
+﻿using System.Reflection.Metadata.Ecma335;
+using lib_aplicaciones.Interfaces;
 using lib_dominio.Entidades;
+using lib_repositorios.Implementaciones;
 using lib_repositorios.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
@@ -36,14 +38,17 @@ namespace lib_aplicaciones.Implementaciones
 
         public OrdenesDiscos? Guardar(OrdenesDiscos? entidad)
         {
+            var contextoReal = (DbContext)IConexion!;
+            contextoReal.Database.ExecuteSqlRaw("DISABLE TRIGGER tr_Auditoria_OrdenesDiscos ON OrdenesDiscos");
             if (entidad == null)
                 throw new Exception("lbFaltaInformacion");
 
             if (entidad.Id != 0)
-                throw new Exception("lbYaSeGuardo"); 
+                throw new Exception("lbYaSeGuardo");
 
             this.IConexion!.OrdenesDiscos!.Add(entidad);
             this.IConexion.SaveChanges();
+            contextoReal.Database.ExecuteSqlRaw("ENABLE TRIGGER tr_Auditoria_OrdenesDiscos ON OrdenesDiscos");
             return entidad;
         }
 
@@ -63,7 +68,7 @@ namespace lib_aplicaciones.Implementaciones
 
 
         {
-           
+
             if (entidad == null)
                 throw new Exception("lbFaltaInformacion");
 
@@ -80,17 +85,34 @@ namespace lib_aplicaciones.Implementaciones
             var respuesta = 0.0m;
 
             var entidades = this.IConexion!.OrdenesDiscos!.Where(p => p.Orden == orden!.Id).ToList();
-            if (entidades == null) {
+            if (entidades == null)
+            {
                 throw new Exception("La orden no existe.");
             }
 
             foreach (var elemento in entidades)
                 respuesta += elemento.Cantidad * elemento.ValorUnitario;
 
-            return respuesta;            
+            return respuesta;
         }
+        public void ActualizarMonto(OrdenesDiscos? entidad)
+        {
+            var contextoReal = (DbContext)IConexion!;
+            contextoReal.Database.ExecuteSqlRaw("DISABLE TRIGGER tr_update_Ordenes ON Ordenes");
+            var orden = this.IConexion!.Ordenes!.FirstOrDefault(p => p.Id == entidad!.Orden);
+
+            orden!.MontoTotal = CalcularMontoTotal(orden);
+
+            var entry = this.IConexion.Entry<Ordenes>(orden!);
+            entry.State = EntityState.Modified;
+            this.IConexion!.SaveChanges();
+            contextoReal.Database.ExecuteSqlRaw("ENABLE TRIGGER tr_update_Ordenes ON Ordenes");
+        }
+
+      }
+
     }
-}
+
 
 
 

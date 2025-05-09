@@ -5,6 +5,7 @@ using lib_dominio.Nucleo;
 using lib_repositorios.Implementaciones;
 using lib_repositorios.Interfaces;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace asp_servicios.Controllers
 {
@@ -96,6 +97,7 @@ namespace asp_servicios.Controllers
             var respuesta = new Dictionary<string, object>();
             try
             {
+                
                 var datos = ObtenerDatos();
                 if (!tokenController!.Validate(datos))
                 {
@@ -107,7 +109,7 @@ namespace asp_servicios.Controllers
 
                 this.iAplicacion!.Configurar(Configuracion.ObtenerValor("StringConexion")!);
                 entidad = this.iAplicacion!.Guardar(entidad);
-
+                this.iAplicacion.ActualizarMonto(entidad);
                 respuesta["Entidad"] = entidad!;
                 respuesta["Respuesta"] = "OK";
                 respuesta["Fecha"] = DateTime.Now.ToString();

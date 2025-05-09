@@ -10,6 +10,6 @@ namespace lib_aplicaciones.Interfaces
         OrdenesDiscos? Guardar(OrdenesDiscos? entidad);
         OrdenesDiscos? Modificar(OrdenesDiscos? entidad);
         OrdenesDiscos? Borrar(OrdenesDiscos? entidad);
-        
+        void ActualizarMonto(OrdenesDiscos? entidad);
     }
 }

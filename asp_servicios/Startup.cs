@@ -5,6 +5,7 @@ using lib_repositorios.Implementaciones;
 using lib_repositorios.Interfaces;
 using Microsoft.AspNetCore.Server.Kestrel.Core;
 
+
 namespace asp_servicios
 {
     public class Startup
@@ -20,7 +21,10 @@ namespace asp_servicios
         {
             services.Configure<KestrelServerOptions>(x => { x.AllowSynchronousIO = true; });
             services.Configure<IISServerOptions>(x => { x.AllowSynchronousIO = true; });
-            services.AddControllers();
+            services.AddControllers().AddNewtonsoftJson(options =>
+        {
+            options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
+        });
             services.AddEndpointsApiExplorer();
             //services.AddSwaggerGen();
             // Repositorios
