@@ -44,7 +44,7 @@ namespace asp_servicios.Controllers
                     return JsonConversor.ConvertirAString(respuesta);
                 }
 
-                this.iAplicacion!.Configurar(Configuracion.ObtenerValor("StringConexion"));
+                this.iAplicacion!.Configurar(Configuracion.ObtenerValor("StringConexion")!);
                 respuesta["Entidades"] = this.iAplicacion!.Listar();
 
                 respuesta["Respuesta"] = "OK";
@@ -74,7 +74,7 @@ namespace asp_servicios.Controllers
                 var entidad = JsonConversor.ConvertirAObjeto<OrdenesDiscos>(
                     JsonConversor.ConvertirAString(datos["Entidad"]));
 
-                this.iAplicacion!.Configurar(Configuracion.ObtenerValor("StringConexion"));
+                this.iAplicacion!.Configurar(Configuracion.ObtenerValor("StringConexion")!);
                 respuesta["Entidades"] = this.iAplicacion!.PorNombre(entidad);
 
                 respuesta["Respuesta"] = "OK";
@@ -105,7 +105,7 @@ namespace asp_servicios.Controllers
 
                 var entidad = JsonConversor.ConvertirAObjeto<OrdenesDiscos>(JsonConversor.ConvertirAString(datos["Entidad"]));
 
-                this.iAplicacion!.Configurar(Configuracion.ObtenerValor("StringConexion"));
+                this.iAplicacion!.Configurar(Configuracion.ObtenerValor("StringConexion")!);
                 entidad = this.iAplicacion!.Guardar(entidad);
 
                 respuesta["Entidad"] = entidad!;
@@ -135,7 +135,7 @@ namespace asp_servicios.Controllers
 
                 var entidad = JsonConversor.ConvertirAObjeto<OrdenesDiscos>(JsonConversor.ConvertirAString(datos["Entidad"]));
                 
-                this.iAplicacion!.Configurar(Configuracion.ObtenerValor("StringConexion"));
+                this.iAplicacion!.Configurar(Configuracion.ObtenerValor("StringConexion")!);
                 entidad = this.iAplicacion!.Modificar(entidad);
 
                 respuesta["Entidad"] = entidad!;
@@ -166,7 +166,7 @@ namespace asp_servicios.Controllers
                 var entidad = JsonConversor.ConvertirAObjeto<OrdenesDiscos>(
                     JsonConversor.ConvertirAString(datos["Entidad"]));
 
-                this.iAplicacion!.Configurar(Configuracion.ObtenerValor("StringConexion"));
+                this.iAplicacion!.Configurar(Configuracion.ObtenerValor("StringConexion")!);
                 entidad = this.iAplicacion!.Borrar(entidad);
 
                 respuesta["Entidad"] = entidad!;
