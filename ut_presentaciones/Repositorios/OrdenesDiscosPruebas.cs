@@ -1,4 +1,5 @@
 ﻿using lib_dominio.Entidades;
+using lib_dominio.Nucleo;
 using lib_repositorios.Implementaciones;
 using lib_repositorios.Interfaces;
 using Microsoft.EntityFrameworkCore;
@@ -22,19 +23,13 @@ namespace ut_presentacion.Repositorios
         [TestMethod]
         public void Ejecutar()
         {
-            var contextoReal = (DbContext)iConexion!;
-            contextoReal.Database.ExecuteSqlRaw("DISABLE TRIGGER tr_Auditoria_OrdenesDiscos ON OrdenesDiscos");
-            contextoReal.Database.ExecuteSqlRaw("DISABLE TRIGGER tr_update_OrdenesDiscos ON OrdenesDiscos");
-            contextoReal.Database.ExecuteSqlRaw("DISABLE TRIGGER tr_Delete_OrdenesDiscos ON OrdenesDiscos");
+            
 
             Assert.AreEqual(true, Guardar());
             Assert.AreEqual(true, Modificar());
             Assert.AreEqual(true, Listar());
             Assert.AreEqual(true, Borrar());
 
-            contextoReal.Database.ExecuteSqlRaw("ENABLE TRIGGER tr_Auditoria_OrdenesDiscos ON OrdenesDiscos");
-            contextoReal.Database.ExecuteSqlRaw("ENABLE TRIGGER tr_update_OrdenesDiscos ON OrdenesDiscos");
-            contextoReal.Database.ExecuteSqlRaw("ENABLE TRIGGER tr_Delete_OrdenesDiscos ON OrdenesDiscos");
 
         }
 
@@ -49,6 +44,10 @@ namespace ut_presentacion.Repositorios
             var orden = this.iConexion!.Ordenes!.FirstOrDefault(x => x._Cliente!.NombreCliente == "Juan");
             var disco = this.iConexion.Discos!.FirstOrDefault(x => x.NombreDisco == "Love Street");
             var formato = this.iConexion.Formatos!.FirstOrDefault(x => x.TipoFormato == "Vinilo");
+            var datos = JsonConversor.ConvertirAString(entidad);
+            String operacion = "Guardar";
+
+            GuardarAuditoria(operacion, datos);
             this.entidad = EntidadesNucleo.OrdenesDiscos(orden!, disco!, formato!)!;
             this.iConexion!.OrdenesDiscos!.Add(this.entidad);
             this.iConexion.SaveChanges();
@@ -60,6 +59,10 @@ namespace ut_presentacion.Repositorios
             this.entidad!.Cantidad = 4;
 
             var entry = this.iConexion!.Entry<OrdenesDiscos>(this.entidad);
+            var datos = JsonConversor.ConvertirAString(entidad);
+            String operacion = "Modificar";
+
+            GuardarAuditoria(operacion, datos);
             entry.State = EntityState.Modified;
             this.iConexion!.SaveChanges();
             return true;
@@ -67,6 +70,10 @@ namespace ut_presentacion.Repositorios
 
         public bool Borrar()
         {
+            var datos = JsonConversor.ConvertirAString(entidad);
+            String operacion = "Borrar";
+
+            GuardarAuditoria(operacion, datos);
             this.iConexion!.OrdenesDiscos!.Remove(this.entidad!);
             this.iConexion!.SaveChanges();
             return true;
@@ -90,6 +97,22 @@ namespace ut_presentacion.Repositorios
             
 
             return respuesta;
+        }
+
+        public void GuardarAuditoria(String operacion, String datos)
+        {
+            var Auditorias = new Auditorias();
+            {
+                Auditorias.Entidad = "OrdenesDiscos";
+                Auditorias.Operacion = operacion;
+                Auditorias.Fecha = DateTime.Now;
+                Auditorias.Datos = datos;
+
+
+            }
+
+            iConexion!.Auditorias!.Add(Auditorias);
+            iConexion.SaveChanges();
         }
     }
 }

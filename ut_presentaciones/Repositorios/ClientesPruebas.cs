@@ -1,7 +1,9 @@
 ﻿using lib_dominio.Entidades;
+using lib_dominio.Nucleo;
 using lib_repositorios.Implementaciones;
 using lib_repositorios.Interfaces;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion.Internal;
 using ut_presentacion.Nucleo;
 
 namespace ut_presentacion.Repositorios
@@ -22,19 +24,15 @@ namespace ut_presentacion.Repositorios
         [TestMethod]
         public void Ejecutar()
         {
-            var contextoReal = (DbContext)iConexion!;
-            contextoReal.Database.ExecuteSqlRaw("DISABLE TRIGGER tr_Auditoria_Clientes ON Clientes");
-            contextoReal.Database.ExecuteSqlRaw("DISABLE TRIGGER tr_update_Clientes ON Clientes");
-            contextoReal.Database.ExecuteSqlRaw("DISABLE TRIGGER tr_Delete_Clientes ON Clientes");
-
+   
+            
 
             Assert.AreEqual(true, Guardar());
             Assert.AreEqual(true, Modificar());
             Assert.AreEqual(true, Listar());
             Assert.AreEqual(true, Borrar());
 
-            contextoReal.Database.ExecuteSqlRaw("ENABLE TRIGGER tr_Auditoria_Clientes ON Clientes");
-            contextoReal.Database.ExecuteSqlRaw("ENABLE TRIGGER tr_update_Clientes ON Clientes");
+           
 
         }
 
@@ -47,6 +45,10 @@ namespace ut_presentacion.Repositorios
         public bool Guardar()
         {
             this.entidad = EntidadesNucleo.Clientes()!;
+            var datos = JsonConversor.ConvertirAString(entidad);
+            String operacion = "Guardar";
+
+            GuardarAuditoria(operacion, datos);
             this.iConexion!.Clientes!.Add(this.entidad);
             this.iConexion.SaveChanges();
             return true;
@@ -57,6 +59,11 @@ namespace ut_presentacion.Repositorios
             this.entidad!.TelefonoCliente = "3008543470";
 
             var entry = this.iConexion!.Entry<Clientes>(this.entidad);
+
+            var datos = JsonConversor.ConvertirAString(entidad);
+            String operacion = "modificar";
+
+            GuardarAuditoria( operacion, datos);
             entry.State = EntityState.Modified;
             this.iConexion!.SaveChanges();
             return true;
@@ -64,9 +71,31 @@ namespace ut_presentacion.Repositorios
 
         public bool Borrar()
         {
+            var datos = JsonConversor.ConvertirAString(entidad);
+            String operacion = "Borrar";
+
+            GuardarAuditoria(operacion, datos);
             this.iConexion!.Clientes!.Remove(this.entidad!);
             this.iConexion!.SaveChanges();
             return true;
         }
+
+        public void GuardarAuditoria(String operacion,String datos)
+        {
+            var Auditorias = new Auditorias();
+            {
+                Auditorias.Entidad = "Clientes";
+                Auditorias.Operacion = operacion;
+                Auditorias.Fecha = DateTime.Now;
+                Auditorias.Datos = datos;
+
+
+            }
+
+            iConexion!.Auditorias!.Add(Auditorias); 
+            iConexion.SaveChanges();
+        }
+
+       
     }
 }

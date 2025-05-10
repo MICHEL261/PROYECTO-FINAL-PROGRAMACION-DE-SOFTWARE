@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ut_presentaciones")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+87efc4a8fc0ddd02344bacd6af564d8426bee0bc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d6693e5e214e41e8d0254f8b4f76309aa112a51")]
 [assembly: System.Reflection.AssemblyProductAttribute("ut_presentaciones")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ut_presentaciones")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,6 +1,7 @@
 ﻿using System.Reflection.Metadata.Ecma335;
 using lib_aplicaciones.Interfaces;
 using lib_dominio.Entidades;
+using lib_dominio.Nucleo;
 using lib_repositorios.Implementaciones;
 using lib_repositorios.Interfaces;
 using Microsoft.EntityFrameworkCore;
@@ -30,6 +31,10 @@ namespace lib_aplicaciones.Implementaciones
 
             if (entidad!.Id == 0)
                 throw new Exception("lbNoSeGuardo");
+            var datos = JsonConversor.ConvertirAString(entidad);
+            String operacion = "Borrar";
+
+            GuardarAuditoria(operacion, datos);
 
             this.IConexion!.OrdenesDiscos!.Remove(entidad);
             this.IConexion.SaveChanges();
@@ -45,6 +50,11 @@ namespace lib_aplicaciones.Implementaciones
 
             if (entidad.Id != 0)
                 throw new Exception("lbYaSeGuardo");
+
+            var datos = JsonConversor.ConvertirAString(entidad);
+            String operacion = "Guardar";
+
+            GuardarAuditoria(operacion, datos);
 
             this.IConexion!.OrdenesDiscos!.Add(entidad);
             this.IConexion.SaveChanges();
@@ -75,6 +85,11 @@ namespace lib_aplicaciones.Implementaciones
             if (entidad!.Id == 0)
                 throw new Exception("lbNoSeGuardo");
 
+            var datos = JsonConversor.ConvertirAString(entidad);
+            String operacion = "Modificar";
+
+            GuardarAuditoria(operacion, datos);
+
             var entry = this.IConexion!.Entry<OrdenesDiscos>(entidad);
             entry.State = EntityState.Modified;
             this.IConexion.SaveChanges();
@@ -97,8 +112,7 @@ namespace lib_aplicaciones.Implementaciones
         }
         public void ActualizarMonto(OrdenesDiscos? entidad)
         {
-            var contextoReal = (DbContext)IConexion!;
-            contextoReal.Database.ExecuteSqlRaw("DISABLE TRIGGER tr_update_Ordenes ON Ordenes");
+            
             var orden = this.IConexion!.Ordenes!.FirstOrDefault(p => p.Id == entidad!.Orden);
 
             orden!.MontoTotal = CalcularMontoTotal(orden);
@@ -106,10 +120,24 @@ namespace lib_aplicaciones.Implementaciones
             var entry = this.IConexion.Entry<Ordenes>(orden!);
             entry.State = EntityState.Modified;
             this.IConexion!.SaveChanges();
-            contextoReal.Database.ExecuteSqlRaw("ENABLE TRIGGER tr_update_Ordenes ON Ordenes");
+           
         }
 
-      }
+        public void GuardarAuditoria(String operacion, String datos)
+        {
+            var Auditorias = new Auditorias();
+            {
+                Auditorias.Entidad = "OrdenesDiscos";
+                Auditorias.Operacion = operacion;
+                Auditorias.Fecha = DateTime.Now;
+                Auditorias.Datos = datos;
+            }
+
+            IConexion!.Auditorias!.Add(Auditorias);
+            IConexion.SaveChanges();
+        }
+
+    }
 
     }
 
