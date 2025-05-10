@@ -4578,23 +4578,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\paplo\\.nuget\\packages\\": {},
+    "C:\\Users\\ASUS\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\asp_servicios.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\asp_servicios.csproj",
       "projectName": "asp_servicios",
-      "projectPath": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\asp_servicios.csproj",
-      "packagesPath": "C:\\Users\\paplo\\.nuget\\packages\\",
-      "outputPath": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\obj\\",
+      "projectPath": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\asp_servicios.csproj",
+      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\paplo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4610,17 +4610,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\lib_aplicaciones.csproj": {
-              "projectPath": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\lib_aplicaciones.csproj"
+            "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\lib_aplicaciones.csproj": {
+              "projectPath": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\lib_aplicaciones.csproj"
             },
-            "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\lib_dominio.csproj": {
-              "projectPath": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\lib_dominio.csproj"
+            "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\lib_dominio.csproj": {
+              "projectPath": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\lib_dominio.csproj"
             },
-            "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_repositorios\\lib_repositorios.csproj": {
-              "projectPath": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_repositorios\\lib_repositorios.csproj"
+            "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_repositorios\\lib_repositorios.csproj": {
+              "projectPath": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_repositorios\\lib_repositorios.csproj"
             },
-            "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\ut_presentaciones.csproj": {
-              "projectPath": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\ut_presentaciones.csproj"
+            "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\ut_presentaciones.csproj": {
+              "projectPath": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\ut_presentaciones.csproj"
             }
           }
         }

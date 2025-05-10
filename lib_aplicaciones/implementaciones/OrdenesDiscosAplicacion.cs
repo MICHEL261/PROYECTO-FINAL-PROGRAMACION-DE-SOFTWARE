@@ -44,7 +44,6 @@ namespace lib_aplicaciones.Implementaciones
         public OrdenesDiscos? Guardar(OrdenesDiscos? entidad)
         {
             var contextoReal = (DbContext)IConexion!;
-            contextoReal.Database.ExecuteSqlRaw("DISABLE TRIGGER tr_Auditoria_OrdenesDiscos ON OrdenesDiscos");
             if (entidad == null)
                 throw new Exception("lbFaltaInformacion");
 
@@ -58,7 +57,6 @@ namespace lib_aplicaciones.Implementaciones
 
             this.IConexion!.OrdenesDiscos!.Add(entidad);
             this.IConexion.SaveChanges();
-            contextoReal.Database.ExecuteSqlRaw("ENABLE TRIGGER tr_Auditoria_OrdenesDiscos ON OrdenesDiscos");
             return entidad;
         }
 

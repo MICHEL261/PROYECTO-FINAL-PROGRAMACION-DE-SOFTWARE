@@ -3,7 +3,6 @@ using lib_dominio.Entidades;
 using lib_repositorios.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using lib_aplicaciones.Interfaces;
-using lib_repositorios.Implementaciones;
 using lib_dominio.Nucleo;
 
 namespace lib_aplicaciones.Implementaciones

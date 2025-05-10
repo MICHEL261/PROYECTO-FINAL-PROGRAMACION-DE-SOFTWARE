@@ -1,10 +1,7 @@
-﻿using asp_servicios.Nucleo;
-using lib_aplicaciones.Implementaciones;
-using lib_aplicaciones.Interfaces;
+﻿using lib_aplicaciones.Interfaces;
 using lib_dominio.Entidades;
 using lib_dominio.Nucleo;
 using Microsoft.AspNetCore.Mvc;
-using ut_presentacion.Nucleo;
 using Configuracion = asp_servicios.Nucleo.Configuracion;
 
 namespace asp_servicios.Controllers
