@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\lib_aplicaciones.csproj": {}
+    "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\lib_aplicaciones.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\lib_aplicaciones.csproj": {
+    "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\lib_aplicaciones.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\lib_aplicaciones.csproj",
+        "projectUniqueName": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\lib_aplicaciones.csproj",
         "projectName": "lib_aplicaciones",
-        "projectPath": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\lib_aplicaciones.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\obj\\",
+        "projectPath": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\lib_aplicaciones.csproj",
+        "packagesPath": "C:\\Users\\paplo\\.nuget\\packages\\",
+        "outputPath": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\paplo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,11 +33,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\lib_dominio.csproj": {
-                "projectPath": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\lib_dominio.csproj"
+              "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\lib_dominio.csproj": {
+                "projectPath": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\lib_dominio.csproj"
               },
-              "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_repositorios\\lib_repositorios.csproj": {
-                "projectPath": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_repositorios\\lib_repositorios.csproj"
+              "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_repositorios\\lib_repositorios.csproj": {
+                "projectPath": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_repositorios\\lib_repositorios.csproj"
               }
             }
           }
@@ -77,20 +77,20 @@
         }
       }
     },
-    "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\lib_dominio.csproj": {
+    "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\lib_dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\lib_dominio.csproj",
+        "projectUniqueName": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\lib_dominio.csproj",
         "projectName": "lib_dominio",
-        "projectPath": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\lib_dominio.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\obj\\",
+        "projectPath": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\lib_dominio.csproj",
+        "packagesPath": "C:\\Users\\paplo\\.nuget\\packages\\",
+        "outputPath": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\paplo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -149,20 +149,20 @@
         }
       }
     },
-    "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_repositorios\\lib_repositorios.csproj": {
+    "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_repositorios\\lib_repositorios.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_repositorios\\lib_repositorios.csproj",
+        "projectUniqueName": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_repositorios\\lib_repositorios.csproj",
         "projectName": "lib_repositorios",
-        "projectPath": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_repositorios\\lib_repositorios.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_repositorios\\obj\\",
+        "projectPath": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_repositorios\\lib_repositorios.csproj",
+        "packagesPath": "C:\\Users\\paplo\\.nuget\\packages\\",
+        "outputPath": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_repositorios\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\paplo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -178,8 +178,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\lib_dominio.csproj": {
-                "projectPath": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\lib_dominio.csproj"
+              "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\lib_dominio.csproj": {
+                "projectPath": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\lib_dominio.csproj"
               }
             }
           }

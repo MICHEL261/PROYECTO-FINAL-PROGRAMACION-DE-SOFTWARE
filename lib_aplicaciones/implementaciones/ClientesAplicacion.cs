@@ -29,15 +29,31 @@ namespace lib_aplicaciones.Implementaciones
             if (entidad!.Id == 0)
                 throw new Exception("lbNoSeGuardo");
 
-            var datos = JsonConversor.ConvertirAString(entidad);
-            String operacion = "Borrar";
+            var tieneOrdenes = this.IConexion!.Ordenes!
+        .Any(o => o.Cliente == entidad.Id);
 
-            GuardarAuditoria(operacion, datos);
+            if (tieneOrdenes)
+            {
 
-            // Calculos
+                throw new Exception("Este cliente tiene órdenes asociadas. Elimine las órdenes antes de borrar al cliente.");
+            }
+            else
+            {
 
-            this.IConexion!.Clientes!.Remove(entidad);
-            this.IConexion.SaveChanges();
+                var datos = JsonConversor.ConvertirAString(entidad);
+                String operacion = "Borrar";
+
+                GuardarAuditoria(operacion, datos);
+
+                // Calculos
+
+                this.IConexion!.Clientes!.Remove(entidad);
+
+                this.IConexion.SaveChanges();
+
+            }
+
+
             return entidad;
         }
 

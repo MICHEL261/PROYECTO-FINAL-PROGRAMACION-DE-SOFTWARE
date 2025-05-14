@@ -159,6 +159,9 @@ namespace asp_servicios.Controllers
                     respuesta["Error"] = "lbNoAutenticacion";
                     return JsonConversor.ConvertirAString(respuesta);
                 }
+                
+
+
 
                 var entidad = JsonConversor.ConvertirAObjeto<Clientes>(
                     JsonConversor.ConvertirAString(datos["Entidad"]));
@@ -170,6 +173,8 @@ namespace asp_servicios.Controllers
                 respuesta["Respuesta"] = "OK";
                 respuesta["Fecha"] = DateTime.Now.ToString();
                 return JsonConversor.ConvertirAString(respuesta);
+
+
             }
             catch (Exception ex)
             {
