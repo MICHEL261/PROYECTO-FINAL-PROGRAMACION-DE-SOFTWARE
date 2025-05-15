@@ -44,7 +44,7 @@ namespace ut_presentacion.Repositorios
             var artista = this.iConexion!.Artistas!.FirstOrDefault(x => x.NombreArtista == "The Doors");
             var marca = this.iConexion.Marcas!.FirstOrDefault(x => x.NombreMarca == "Sony");
 
-            var datos = JsonConversor.ConvertirAString(entidad);
+            var datos = JsonConversor.ConvertirAString(entidad!);
             String operacion = "Guardar";
 
             GuardarAuditoria(operacion, datos);
@@ -70,7 +70,7 @@ namespace ut_presentacion.Repositorios
 
         public bool Borrar()
         {
-            var datos = JsonConversor.ConvertirAString(entidad);
+            var datos = JsonConversor.ConvertirAString(entidad!);
             String operacion = "Borrar";
 
             GuardarAuditoria(operacion, datos);

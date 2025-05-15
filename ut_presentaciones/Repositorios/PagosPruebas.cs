@@ -40,7 +40,7 @@ namespace ut_presentacion.Repositorios
         public bool Guardar()
         {
 
-            var datos = JsonConversor.ConvertirAString(entidad);
+            var datos = JsonConversor.ConvertirAString(entidad!);
             String operacion = "Guardar";
 
             GuardarAuditoria(operacion, datos);
@@ -70,7 +70,7 @@ namespace ut_presentacion.Repositorios
             this.iConexion!.Pagos!.Remove(this.entidad!);
             this.iConexion!.SaveChanges();
 
-            var datos = JsonConversor.ConvertirAString(entidad);
+            var datos = JsonConversor.ConvertirAString(entidad!);
             String operacion = "Borrar";
 
             GuardarAuditoria(operacion, datos);

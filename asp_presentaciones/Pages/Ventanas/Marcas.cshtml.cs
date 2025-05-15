@@ -130,7 +130,7 @@ namespace asp_presentacion.Pages.Ventanas
             catch (Exception ex)
             {
 
-                ViewData["MensajeError"] = "debe borrar primero las relaciones que tiene el cliente con otras entidades";
+                ViewData["MensajeError"] = ex.Message.ToString() + "debe borrar primero las relaciones que tiene el cliente con otras entidades";
 
                 OnPostBtRefrescar();
             }

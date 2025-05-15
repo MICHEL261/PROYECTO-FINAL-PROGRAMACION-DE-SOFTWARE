@@ -51,3 +51,12 @@ artifacts/
 
 ## Archivos generados por herramientas
 Generated\ Files/
+*.dll
+*.pdb
+*.exe
+*.cache
+*.json
+*.v2
+.vs/
+bin/
+obj/

@@ -70,7 +70,7 @@ namespace ut_presentacion.Repositorios
 
         public bool Borrar()
         {
-            var datos = JsonConversor.ConvertirAString(entidad);
+            var datos = JsonConversor.ConvertirAString(entidad!);
             String operacion = "Borrar";
 
             GuardarAuditoria(operacion, datos);

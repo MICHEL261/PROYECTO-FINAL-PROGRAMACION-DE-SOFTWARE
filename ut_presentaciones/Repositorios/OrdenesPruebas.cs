@@ -43,7 +43,7 @@ namespace ut_presentacion.Repositorios
             var cliente = this.iConexion!.Clientes!.FirstOrDefault(x => x.NombreCliente == "Juan");
             var pago = this.iConexion.Pagos!.FirstOrDefault(x => x.Id == 1);
 
-            var datos = JsonConversor.ConvertirAString(entidad);
+            var datos = JsonConversor.ConvertirAString(entidad!);
             String operacion = "Guardar";
 
             GuardarAuditoria(operacion, datos);
@@ -60,7 +60,7 @@ namespace ut_presentacion.Repositorios
         {
             var orden = this.iConexion!.Ordenes!.FirstOrDefault(x => x.Id == 1);
 
-            var datos = JsonConversor.ConvertirAString(entidad);
+            var datos = JsonConversor.ConvertirAString(entidad!);
             String operacion = "Modificar";
 
             GuardarAuditoria(operacion, datos);
@@ -86,7 +86,7 @@ namespace ut_presentacion.Repositorios
         public bool Borrar()
         {
 
-            var datos = JsonConversor.ConvertirAString(entidad);
+            var datos = JsonConversor.ConvertirAString(entidad!);
             String operacion = "Borrar";
 
             GuardarAuditoria(operacion, datos);
