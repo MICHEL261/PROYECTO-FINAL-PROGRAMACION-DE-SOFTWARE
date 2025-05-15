@@ -35,12 +35,12 @@ namespace asp_presentaciones.Pages.Ventanas
         {
             try
             {
-                //var variable_session = HttpContext.Session.GetString("Usuario");
-                //if (String.IsNullOrEmpty(variable_session))
-                //{
-                //    HttpContext.Response.Redirect("/");
-                //    return;
-                //}
+                var variable_session = HttpContext.Session.GetString("Usuario");
+                if (String.IsNullOrEmpty(variable_session))
+                {
+                    HttpContext.Response.Redirect("/");
+                    return;
+                }
 
                 Filtro!.NombreDisco = Filtro!.NombreDisco ?? "";
 
@@ -55,6 +55,8 @@ namespace asp_presentaciones.Pages.Ventanas
                 LogConversor.Log(ex, ViewData!);
             }
         }
+
+
 
         public virtual void OnPostBtNuevo()
         {
