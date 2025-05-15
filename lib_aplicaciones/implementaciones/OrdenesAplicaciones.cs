@@ -62,10 +62,10 @@ namespace lib_aplicaciones.Implementaciones
             return this.IConexion!.Ordenes!.Take(20).ToList();
         }
 
-        public List<Ordenes> PorNombre(Ordenes? entidad)
+        public List<Ordenes> PorId(Ordenes? entidad)
         {
             return this.IConexion!.Ordenes!
-                //.Where(x => x.Id!.Contains(entidad!.Id!))
+                .Where(x => x.Id! == (entidad!.Id!))
                 .ToList();
         }
 

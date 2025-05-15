@@ -24,14 +24,14 @@ namespace ut_presentacion.Repositorios
         public void Ejecutar()
         {
             var contextoReal = (DbContext)iConexion!;
-            
+
 
             Assert.AreEqual(true, Guardar());
             Assert.AreEqual(true, Modificar());
             Assert.AreEqual(true, Listar());
             Assert.AreEqual(true, Borrar());
 
-           
+
 
         }
 

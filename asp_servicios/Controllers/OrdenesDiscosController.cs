@@ -57,7 +57,7 @@ namespace asp_servicios.Controllers
         }
 
         [HttpPost]
-        public string PorNombre()
+        public string PorId()
         {
             var respuesta = new Dictionary<string, object>();
             try
@@ -73,7 +73,7 @@ namespace asp_servicios.Controllers
                     JsonConversor.ConvertirAString(datos["Entidad"]));
 
                 this.iAplicacion!.Configurar(Configuracion.ObtenerValor("StringConexion")!);
-                respuesta["Entidades"] = this.iAplicacion!.PorNombre(entidad);
+                respuesta["Entidades"] = this.iAplicacion!.PorId(entidad);
 
                 respuesta["Respuesta"] = "OK";
                 respuesta["Fecha"] = DateTime.Now.ToString();
@@ -94,7 +94,7 @@ namespace asp_servicios.Controllers
             var respuesta = new Dictionary<string, object>();
             try
             {
-                
+
                 var datos = ObtenerDatos();
                 if (!tokenController!.Validate(datos))
                 {
@@ -133,7 +133,7 @@ namespace asp_servicios.Controllers
                 }
 
                 var entidad = JsonConversor.ConvertirAObjeto<OrdenesDiscos>(JsonConversor.ConvertirAString(datos["Entidad"]));
-                
+
                 this.iAplicacion!.Configurar(Configuracion.ObtenerValor("StringConexion")!);
                 entidad = this.iAplicacion!.Modificar(entidad);
 
@@ -179,7 +179,7 @@ namespace asp_servicios.Controllers
                 return JsonConversor.ConvertirAString(respuesta);
             }
         }
-        
+
     }
 }
 //{'Bearer':'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlNCV3Erb0xXWWZFVUY0MmVzcVBUSXc9PSIsIm5iZiI6MTc0NDkzMDU0MCwiZXhwIj

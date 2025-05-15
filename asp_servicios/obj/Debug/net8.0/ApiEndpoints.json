@@ -639,8 +639,8 @@
   },
   {
     "ContainingType": "asp_servicios.Controllers.OrdenesController",
-    "Method": "PorNombre",
-    "RelativePath": "Ordenes/PorNombre",
+    "Method": "PorId",
+    "RelativePath": "Ordenes/PorId",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -739,8 +739,8 @@
   },
   {
     "ContainingType": "asp_servicios.Controllers.OrdenesDiscosController",
-    "Method": "PorNombre",
-    "RelativePath": "OrdenesDiscos/PorNombre",
+    "Method": "PorId",
+    "RelativePath": "OrdenesDiscos/PorId",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -839,8 +839,8 @@
   },
   {
     "ContainingType": "asp_servicios.Controllers.PagosController",
-    "Method": "PorNombre",
-    "RelativePath": "Pagos/PorNombre",
+    "Method": "PorTipo",
+    "RelativePath": "Pagos/PorTipo",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,

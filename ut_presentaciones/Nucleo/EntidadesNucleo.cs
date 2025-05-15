@@ -2,7 +2,7 @@
 
 namespace ut_presentacion.Nucleo
 {
-    
+
     public class EntidadesNucleo
     {
         public static Clientes? Clientes()
@@ -41,7 +41,7 @@ namespace ut_presentacion.Nucleo
         public static Formatos? Formatos()
         {
             var entidad = new Formatos();
-            entidad.TipoFormato= "CD";
+            entidad.TipoFormato = "CD";
             entidad.Material = "Plastico";
             return entidad;
         }
@@ -73,11 +73,12 @@ namespace ut_presentacion.Nucleo
             return entidad;
 
         }
-        public static Roles? Roles() { 
+        public static Roles? Roles()
+        {
             var entidad = new Roles();
             entidad.NombreRol = "administrador";
             entidad.Descripcion = "crear, guardar, editar";
-            
+
             return entidad;
 
         }
@@ -96,7 +97,7 @@ namespace ut_presentacion.Nucleo
 
         }
 
-     
+
 
     }
 }

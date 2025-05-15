@@ -5,7 +5,7 @@ namespace lib_aplicaciones.Interfaces
     public interface IOrdenesDiscosAplicacion
     {
         void Configurar(string StringConexion);
-        List<OrdenesDiscos> PorNombre(OrdenesDiscos? entidad);
+        List<OrdenesDiscos> PorId(OrdenesDiscos? entidad);
         List<OrdenesDiscos> Listar();
         OrdenesDiscos? Guardar(OrdenesDiscos? entidad);
         OrdenesDiscos? Modificar(OrdenesDiscos? entidad);

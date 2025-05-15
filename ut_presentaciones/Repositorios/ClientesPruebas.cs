@@ -3,7 +3,6 @@ using lib_dominio.Nucleo;
 using lib_repositorios.Implementaciones;
 using lib_repositorios.Interfaces;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Storage.ValueConversion.Internal;
 using ut_presentacion.Nucleo;
 
 namespace ut_presentacion.Repositorios
@@ -24,15 +23,15 @@ namespace ut_presentacion.Repositorios
         [TestMethod]
         public void Ejecutar()
         {
-   
-            
+
+
 
             Assert.AreEqual(true, Guardar());
             Assert.AreEqual(true, Modificar());
             Assert.AreEqual(true, Listar());
             Assert.AreEqual(true, Borrar());
 
-           
+
 
         }
 
@@ -63,7 +62,7 @@ namespace ut_presentacion.Repositorios
             var datos = JsonConversor.ConvertirAString(entidad);
             String operacion = "modificar";
 
-            GuardarAuditoria( operacion, datos);
+            GuardarAuditoria(operacion, datos);
             entry.State = EntityState.Modified;
             this.iConexion!.SaveChanges();
             return true;
@@ -80,7 +79,7 @@ namespace ut_presentacion.Repositorios
             return true;
         }
 
-        public void GuardarAuditoria(String operacion,String datos)
+        public void GuardarAuditoria(String operacion, String datos)
         {
             var Auditorias = new Auditorias();
             {
@@ -92,10 +91,10 @@ namespace ut_presentacion.Repositorios
 
             }
 
-            iConexion!.Auditorias!.Add(Auditorias); 
+            iConexion!.Auditorias!.Add(Auditorias);
             iConexion.SaveChanges();
         }
 
-       
+
     }
 }

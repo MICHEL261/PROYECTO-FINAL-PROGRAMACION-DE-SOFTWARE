@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace lib_dominio.Entidades
 {
-    public class Discos 
+    public class Discos
     {
         public int Id { get; set; }
         public int Artista { get; set; }
@@ -13,7 +13,7 @@ namespace lib_dominio.Entidades
         public DateTime FechaLanzamiento { get; set; }
         [ForeignKey("Artista")] public Artistas? _Artista { get; set; }
         [ForeignKey("Marca")] public Marcas? _Marca { get; set; }
-        public List<OrdenesDiscos>? OrdenesDiscos { get; set; } 
+        public List<OrdenesDiscos>? OrdenesDiscos { get; set; }
 
     }
 }

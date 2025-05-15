@@ -4,7 +4,7 @@ using lib_presentaciones.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace asp_presentacion.Pages.Ventanas
+namespace asp_presentaciones.Pages.Ventanas
 {
     public class ClientesModel : PageModel
     {
@@ -132,10 +132,10 @@ namespace asp_presentacion.Pages.Ventanas
             {
 
 
-             
-                ViewData["MensajeError"] ="debe borrar primero las relaciones que tiene el cliente con otras entidades";
-            
-            OnPostBtRefrescar();
+
+                ViewData["MensajeError"] = ex.Message.ToString() + "debe borrar primero las relaciones que tiene el cliente con otras entidades";
+
+                OnPostBtRefrescar();
             }
         }
 

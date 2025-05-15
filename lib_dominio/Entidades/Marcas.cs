@@ -1,6 +1,6 @@
 ﻿namespace lib_dominio.Entidades
 {
-    public class Marcas 
+    public class Marcas
     {
         public int Id { get; set; }
         public string? NombreMarca { get; set; }

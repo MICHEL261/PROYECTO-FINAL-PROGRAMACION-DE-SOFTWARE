@@ -23,7 +23,7 @@ namespace ut_presentacion.Repositorios
         [TestMethod]
         public void Ejecutar()
         {
-           
+
 
             Assert.AreEqual(true, Guardar());
             Assert.AreEqual(true, Modificar());
@@ -54,7 +54,7 @@ namespace ut_presentacion.Repositorios
             this.iConexion.SaveChanges();
             return true;
         }
-      
+
 
         public bool Modificar()
         {
@@ -71,11 +71,11 @@ namespace ut_presentacion.Repositorios
                 var ordenesDiscosPruebas = new OrdenesDiscosPruebas();
 
                 orden.MontoTotal = ordenesDiscosPruebas.CalcularMontoTotal(orden);
-               
+
 
             }
 
-            
+
 
             var entry = this.iConexion!.Entry<Ordenes>(orden!);
             entry.State = EntityState.Modified;

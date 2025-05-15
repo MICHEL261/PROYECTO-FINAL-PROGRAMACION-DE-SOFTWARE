@@ -1,8 +1,6 @@
-﻿using System.Reflection.Metadata.Ecma335;
-using lib_aplicaciones.Interfaces;
+﻿using lib_aplicaciones.Interfaces;
 using lib_dominio.Entidades;
 using lib_dominio.Nucleo;
-using lib_repositorios.Implementaciones;
 using lib_repositorios.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
@@ -65,10 +63,10 @@ namespace lib_aplicaciones.Implementaciones
             return this.IConexion!.OrdenesDiscos!.Take(20).ToList();
         }
 
-        public List<OrdenesDiscos> PorNombre(OrdenesDiscos? entidad)
+        public List<OrdenesDiscos> PorId(OrdenesDiscos? entidad)
         {
             return this.IConexion!.OrdenesDiscos!
-                //.Where(x => x.Id!.Contains(entidad!.Id!))
+                .Where(x => x.Id! == (entidad!.Id!))
                 .ToList();
         }
 
@@ -110,7 +108,7 @@ namespace lib_aplicaciones.Implementaciones
         }
         public void ActualizarMonto(OrdenesDiscos? entidad)
         {
-            
+
             var orden = this.IConexion!.Ordenes!.FirstOrDefault(p => p.Id == entidad!.Orden);
 
             orden!.MontoTotal = CalcularMontoTotal(orden);
@@ -118,7 +116,7 @@ namespace lib_aplicaciones.Implementaciones
             var entry = this.IConexion.Entry<Ordenes>(orden!);
             entry.State = EntityState.Modified;
             this.IConexion!.SaveChanges();
-           
+
         }
 
         public void GuardarAuditoria(String operacion, String datos)
@@ -137,7 +135,7 @@ namespace lib_aplicaciones.Implementaciones
 
     }
 
-    }
+}
 
 
 

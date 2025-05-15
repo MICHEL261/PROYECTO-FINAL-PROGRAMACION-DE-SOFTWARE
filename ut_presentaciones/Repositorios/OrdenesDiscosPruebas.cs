@@ -23,7 +23,7 @@ namespace ut_presentacion.Repositorios
         [TestMethod]
         public void Ejecutar()
         {
-            
+
 
             Assert.AreEqual(true, Guardar());
             Assert.AreEqual(true, Modificar());
@@ -81,20 +81,20 @@ namespace ut_presentacion.Repositorios
 
         public decimal CalcularMontoTotal(Ordenes? orden)
         {
-            
+
             var respuesta = 0.0m;
-            
+
             var entidades = this.iConexion!.OrdenesDiscos!.Where(p => p.Orden == orden!.Id).ToList();
             if (orden == null)
             {
                 throw new Exception("La orden no existe.");
             }
-            
 
-                foreach (var elemento in entidades)
-                    respuesta += elemento.Cantidad * elemento.ValorUnitario;
 
-            
+            foreach (var elemento in entidades)
+                respuesta += elemento.Cantidad * elemento.ValorUnitario;
+
+
 
             return respuesta;
         }

@@ -1,6 +1,6 @@
 ﻿namespace lib_dominio.Entidades
 {
-    public class Pagos 
+    public class Pagos
     {
         public int Id { get; set; }
         public string? TipoPago { get; set; }

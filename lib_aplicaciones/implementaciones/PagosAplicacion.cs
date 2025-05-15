@@ -1,9 +1,9 @@
 ﻿
+using lib_aplicaciones.Interfaces;
 using lib_dominio.Entidades;
+using lib_dominio.Nucleo;
 using lib_repositorios.Interfaces;
 using Microsoft.EntityFrameworkCore;
-using lib_aplicaciones.Interfaces;
-using lib_dominio.Nucleo;
 
 namespace lib_aplicaciones.Implementaciones
 {
@@ -66,7 +66,7 @@ namespace lib_aplicaciones.Implementaciones
             return this.IConexion!.Pagos!.Take(20).ToList();
         }
 
-        public List<Pagos> PorNombre(Pagos? entidad)
+        public List<Pagos> PorTipo(Pagos? entidad)
         {
             return this.IConexion!.Pagos!
                 .Where(x => x.TipoPago!.Contains(entidad!.TipoPago!))
