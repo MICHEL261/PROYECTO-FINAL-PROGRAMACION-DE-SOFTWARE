@@ -1246,12 +1246,6 @@ E:\michel\programacion\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\asp_servicios\obj
 E:\michel\programacion\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\asp_servicios\obj\Debug\net8.0\staticwebassets.build.json
 E:\michel\programacion\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\asp_servicios\obj\Debug\net8.0\staticwebassets.development.json
 E:\michel\programacion\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\asp_servicios\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-E:\michel\programacion\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\asp_servicios\obj\Debug\net8.0\staticwebassets\msbuild.asp_servicios.Microsoft.AspNetCore.StaticWebAssets.props
-E:\michel\programacion\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\asp_servicios\obj\Debug\net8.0\staticwebassets\msbuild.asp_servicios.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-E:\michel\programacion\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\asp_servicios\obj\Debug\net8.0\staticwebassets\msbuild.build.asp_servicios.props
-E:\michel\programacion\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\asp_servicios\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.asp_servicios.props
-E:\michel\programacion\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\asp_servicios\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.asp_servicios.props
-E:\michel\programacion\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\asp_servicios\obj\Debug\net8.0\staticwebassets.pack.json
 E:\michel\programacion\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\asp_servicios\obj\Debug\net8.0\asp_serv.1BB33DF7.Up2Date
 E:\michel\programacion\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\asp_servicios\obj\Debug\net8.0\asp_servicios.dll
 E:\michel\programacion\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\asp_servicios\obj\Debug\net8.0\refint\asp_servicios.dll
@@ -1260,5 +1254,9 @@ E:\michel\programacion\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\asp_servicios\obj
 E:\michel\programacion\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\asp_servicios\obj\Debug\net8.0\ref\asp_servicios.dll
 E:\michel\programacion\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\asp_servicios\bin\Debug\net8.0\es\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
 E:\michel\programacion\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\asp_servicios\bin\Debug\net8.0\es\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+<<<<<<< HEAD
 C:\Users\ASUS\Desktop\PROYECTO\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\asp_servicios\bin\Debug\net8.0\es\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
 C:\Users\ASUS\Desktop\PROYECTO\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\asp_servicios\bin\Debug\net8.0\es\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+=======
+E:\michel\programacion\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\asp_servicios\obj\Debug\net8.0\staticwebassets.build.json.cache
+>>>>>>> e75644733ed0cba3ca4dd0c3d93a1ad5d0b75af8

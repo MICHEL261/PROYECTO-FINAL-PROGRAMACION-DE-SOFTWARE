@@ -1,5 +1,5 @@
 ﻿@page
-@model asp_presentaciones.Pages.Ventanas.DiscosModel
+@model asp_presentacion.Pages.Ventanas.MarcasModel
 @{
     ViewData["Titulo"] = "";
 }
@@ -10,7 +10,7 @@
             @Html.AntiForgeryToken()
 
             <div align="left">
-                <h3>Discos</h3>
+                <h3>Marcas</h3>
             </div>
             <div align="left"
                  class="bt_panel_buttons">
@@ -44,16 +44,12 @@
             }
             @if (Model.Accion == lib_dominio.Nucleo.Enumerables.Ventanas.Borrar)
             {
+                
                 <input type="hidden"
-                       asp-for="@Model.Actual!.Artista" />
+                       asp-for="@Model.Actual!.NombreMarca" />
                 <input type="hidden"
-                       asp-for="@Model.Actual!.Marca" />
-                <input type="hidden"
-                       asp-for="@Model.Actual!.NombreDisco" />
-                <input type="hidden"
-                       asp-for="@Model.Actual!.DuracionDisco" />
-                <input type="hidden"
-                       asp-for="@Model.Actual!.FechaLanzamiento" />
+                       asp-for="@Model.Actual!.PaginaWeb" />
+                
             }
 
             @if (Model.Accion == lib_dominio.Nucleo.Enumerables.Ventanas.Editar)
@@ -62,56 +58,30 @@
                     <h3>Casa</h3>
 
                     <div>
+                        
+                        
                         <div class="form-group">
                             <label class="col-lg-4 control-label">
-                                Artista
-                            </label>
-                            <div class="col-lg-6">
-                                <input id="nmEstudiante"
-                                       class="cts_forms form-control"
-                                       asp-for="@Model.Actual!.Artista" />
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label class="col-lg-4 control-label">
-                                Nombre
+                                Nombre 
                             </label>
                             <div class="col-lg-6">
                                 <input id="nmMateria"
                                        class="cts_forms form-control"
-                                       asp-for="@Model.Actual!.NombreDisco" />
+                                       asp-for="@Model.Actual!.NombreMarca" />
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="col-lg-4 control-label">
-                                Marca
+                                pagina web
                             </label>
                             <div class="col-lg-6">
                                 <input id="nmNota1"
                                        class="cts_forms form-control"
-                                       asp-for="@Model.Actual!.Marca" />
+                                       asp-for="@Model.Actual!.PaginaWeb" />
                             </div>
                         </div>
-                        <div class="form-group">
-                            <label class="col-lg-4 control-label">
-                                Duracion
-                            </label>
-                            <div class="col-lg-6">
-                                <input id="nmNota2"
-                                       class="cts_forms form-control"
-                                       asp-for="@Model.Actual!.DuracionDisco" />
-                            </div>
-                            <div class="form-group">
-                                <label class="col-lg-4 control-label">
-                                    Fecha de Lanzamiento
-                                </label>
-                                <div class="col-lg-6">
-                                    <input id="nmFechaLanzamiento"
-                                           class="cts_forms form-control"
-                                           asp-for="@Model.Actual!.FechaLanzamiento"
-                                           type="date" />
-                                </div>
-                            </div>
+                        
+                            
 
 
 
@@ -120,7 +90,7 @@
 
 
 
-                        </div>
+                        
                     </div>
                 </div>
             }
@@ -146,8 +116,8 @@
                                 Desea borrar la entidad?
                             </h4>
                             <h6 align="left">
-                                @Model.Actual!.NombreDisco,
-                                @Model.Actual!.Artista
+                                @Model.Actual!.NombreMarca,
+                                
                             </h6>
                             <br />
                             <br />
@@ -228,7 +198,7 @@
             {
                 <input id="flNombre"
                        class="cts_forms form-control"
-                       asp-for="@Model.Filtro!.NombreDisco"
+                       asp-for="@Model.Filtro!.NombreMarca"
                        placeholder="Nombre" />
                 <br />
 
@@ -236,23 +206,12 @@
                     <table class="tb_data table table-striped table-bordered table-hover">
                         <tr>
                             <th>
-                                Artista
+                                NombreMarca
                             </th>
                             <th>
-                                Marca
+                                PaginaWeb
                             </th>
-                            <th class="cl_hidden">
-                                NombreDisco
-                            </th>
-                            <th class="cl_actions">
-                                DuracionDisco
-                            </th>
-                            <th class="cl_actions">
-                                FechaLanzamiento
-                            </th>
-                            <th class="cl_actions">
-                                Accion
-                            </th>
+                            
                         </tr>
                         @if (Model != null && Model.Lista != null)
                         {
@@ -260,20 +219,14 @@
                             {
                                 <tr>
                                     <td>
-                                        @elemento.Artista
+                                        @elemento.NombreMarca
                                     </td>
-                                    <td>
-                                        @elemento.Marca
-                                    </td>
+                                    
                                     <td class="cl_hidden">
-                                        @elemento.NombreDisco
+                                        @elemento.PaginaWeb
                                     </td>
-                                    <td class="cl_hidden">
-                                        @elemento.DuracionDisco
-                                    </td>
-                                    <td class="cl_hidden">
-                                        @elemento.FechaLanzamiento
-                                    <td>
+                                     <td>
+                                    
                                         <input type="submit"
                                                value="Modificar"
                                                asp-page-handler="BtModificar"
@@ -284,7 +237,7 @@
                                                asp-page-handler="BtBorrarVal"
                                                class="btn btn-secondary"
                                                asp-route-data="@elemento.Id" />
-                                    </td>
+                                                </td>
                                 </tr>
                             }
                         }

@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7BFC2F67-24A4-4DF0-A772-F5C05CBD6925}|asp_presentaciones\\asp_presentaciones.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\asp_presentaciones\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFC2F67-24A4-4DF0-A772-F5C05CBD6925}|asp_presentaciones\\asp_presentaciones.csproj|solutionrelative:asp_presentaciones\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88B9B3A1-B048-408D-ACC5-7114BE630D15}|lib_presentaciones\\lib_presentaciones.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\lib_presentaciones\\implementaciones\\pagospresentaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88B9B3A1-B048-408D-ACC5-7114BE630D15}|lib_presentaciones\\lib_presentaciones.csproj|solutionrelative:lib_presentaciones\\implementaciones\\pagospresentaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFC2F67-24A4-4DF0-A772-F5C05CBD6925}|asp_presentaciones\\asp_presentaciones.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\asp_presentaciones\\pages\\ventanas\\discos.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFC2F67-24A4-4DF0-A772-F5C05CBD6925}|asp_presentaciones\\asp_presentaciones.csproj|solutionrelative:asp_presentaciones\\pages\\ventanas\\discos.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88B9B3A1-B048-408D-ACC5-7114BE630D15}|lib_presentaciones\\lib_presentaciones.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\lib_presentaciones\\implementaciones\\ordenesdiscospresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88B9B3A1-B048-408D-ACC5-7114BE630D15}|lib_presentaciones\\lib_presentaciones.csproj|solutionrelative:lib_presentaciones\\implementaciones\\ordenesdiscospresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88B9B3A1-B048-408D-ACC5-7114BE630D15}|lib_presentaciones\\lib_presentaciones.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\lib_presentaciones\\implementaciones\\ordenespresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88B9B3A1-B048-408D-ACC5-7114BE630D15}|lib_presentaciones\\lib_presentaciones.csproj|solutionrelative:lib_presentaciones\\implementaciones\\ordenespresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{816D6C37-4A76-4881-B17A-733B504FD9FC}|asp_servicios\\asp_servicios.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\asp_servicios\\controllers\\ordenesdiscoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{816D6C37-4A76-4881-B17A-733B504FD9FC}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\ordenesdiscoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,16 +39,8 @@
       "RelativeMoniker": "D:0:0:{88B9B3A1-B048-408D-ACC5-7114BE630D15}|lib_presentaciones\\lib_presentaciones.csproj|solutionrelative:lib_presentaciones\\comunicaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88B9B3A1-B048-408D-ACC5-7114BE630D15}|lib_presentaciones\\lib_presentaciones.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\lib_presentaciones\\implementaciones\\ordenesdiscospresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88B9B3A1-B048-408D-ACC5-7114BE630D15}|lib_presentaciones\\lib_presentaciones.csproj|solutionrelative:lib_presentaciones\\implementaciones\\ordenesdiscospresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7BFC2F67-24A4-4DF0-A772-F5C05CBD6925}|asp_presentaciones\\asp_presentaciones.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\asp_presentaciones\\pages\\ventanas\\ordenesdiscos.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7BFC2F67-24A4-4DF0-A772-F5C05CBD6925}|asp_presentaciones\\asp_presentaciones.csproj|solutionrelative:asp_presentaciones\\pages\\ventanas\\ordenesdiscos.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88B9B3A1-B048-408D-ACC5-7114BE630D15}|lib_presentaciones\\lib_presentaciones.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\lib_presentaciones\\implementaciones\\ordenespresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88B9B3A1-B048-408D-ACC5-7114BE630D15}|lib_presentaciones\\lib_presentaciones.csproj|solutionrelative:lib_presentaciones\\implementaciones\\ordenespresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{88B9B3A1-B048-408D-ACC5-7114BE630D15}|lib_presentaciones\\lib_presentaciones.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\lib_presentaciones\\implementaciones\\clientespresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -71,10 +83,6 @@
       "RelativeMoniker": "D:0:0:{7BFC2F67-24A4-4DF0-A772-F5C05CBD6925}|asp_presentaciones\\asp_presentaciones.csproj|solutionrelative:asp_presentaciones\\pages\\ventanas\\ordenes.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BFC2F67-24A4-4DF0-A772-F5C05CBD6925}|asp_presentaciones\\asp_presentaciones.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\asp_presentaciones\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BFC2F67-24A4-4DF0-A772-F5C05CBD6925}|asp_presentaciones\\asp_presentaciones.csproj|solutionrelative:asp_presentaciones\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{88B9B3A1-B048-408D-ACC5-7114BE630D15}|lib_presentaciones\\lib_presentaciones.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\lib_presentaciones\\interfaces\\iordenesdiscospresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{88B9B3A1-B048-408D-ACC5-7114BE630D15}|lib_presentaciones\\lib_presentaciones.csproj|solutionrelative:lib_presentaciones\\interfaces\\iordenesdiscospresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -85,10 +93,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\lib_aplicaciones\\interfaces\\iordenesdiscosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\interfaces\\iordenesdiscosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88B9B3A1-B048-408D-ACC5-7114BE630D15}|lib_presentaciones\\lib_presentaciones.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\lib_presentaciones\\implementaciones\\pagospresentaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88B9B3A1-B048-408D-ACC5-7114BE630D15}|lib_presentaciones\\lib_presentaciones.csproj|solutionrelative:lib_presentaciones\\implementaciones\\pagospresentaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7BFC2F67-24A4-4DF0-A772-F5C05CBD6925}|asp_presentaciones\\asp_presentaciones.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\asp_presentaciones\\pages\\ventanas\\pagos.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -113,10 +117,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7BFC2F67-24A4-4DF0-A772-F5C05CBD6925}|asp_presentaciones\\asp_presentaciones.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\asp_presentaciones\\pages\\ventanas\\discos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7BFC2F67-24A4-4DF0-A772-F5C05CBD6925}|asp_presentaciones\\asp_presentaciones.csproj|solutionrelative:asp_presentaciones\\pages\\ventanas\\discos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BFC2F67-24A4-4DF0-A772-F5C05CBD6925}|asp_presentaciones\\asp_presentaciones.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\asp_presentaciones\\pages\\ventanas\\discos.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BFC2F67-24A4-4DF0-A772-F5C05CBD6925}|asp_presentaciones\\asp_presentaciones.csproj|solutionrelative:asp_presentaciones\\pages\\ventanas\\discos.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{88B9B3A1-B048-408D-ACC5-7114BE630D15}|lib_presentaciones\\lib_presentaciones.csproj|c:\\users\\asus\\desktop\\proyecto\\proyecto-final-programacion-de-software\\lib_presentaciones\\interfaces\\ipagospresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -162,7 +162,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -178,98 +178,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "OrdenesDiscosPresentacion.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_presentaciones\\Implementaciones\\OrdenesDiscosPresentacion.cs",
-              "RelativeDocumentMoniker": "lib_presentaciones\\Implementaciones\\OrdenesDiscosPresentacion.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_presentaciones\\Implementaciones\\OrdenesDiscosPresentacion.cs",
-              "RelativeToolTip": "lib_presentaciones\\Implementaciones\\OrdenesDiscosPresentacion.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwCQAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T02:58:49.346Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OrdenesDiscosAplicacion.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\OrdenesDiscosAplicacion.cs",
-              "RelativeDocumentMoniker": "lib_aplicaciones\\implementaciones\\OrdenesDiscosAplicacion.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\OrdenesDiscosAplicacion.cs",
-              "RelativeToolTip": "lib_aplicaciones\\implementaciones\\OrdenesDiscosAplicacion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T02:56:05.088Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Comunicaciones.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_presentaciones\\Comunicaciones.cs",
-              "RelativeDocumentMoniker": "lib_presentaciones\\Comunicaciones.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_presentaciones\\Comunicaciones.cs",
-              "RelativeToolTip": "lib_presentaciones\\Comunicaciones.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAWwCAAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T15:34:41.291Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "OrdenesDiscosController.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\OrdenesDiscosController.cs",
               "RelativeDocumentMoniker": "asp_servicios\\Controllers\\OrdenesDiscosController.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\OrdenesDiscosController.cs",
               "RelativeToolTip": "asp_servicios\\Controllers\\OrdenesDiscosController.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAewFgAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-14T21:21:15.694Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "OrdenesDiscos.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_presentaciones\\Pages\\Ventanas\\OrdenesDiscos.cshtml.cs",
-              "RelativeDocumentMoniker": "asp_presentaciones\\Pages\\Ventanas\\OrdenesDiscos.cshtml.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_presentaciones\\Pages\\Ventanas\\OrdenesDiscos.cshtml.cs",
-              "RelativeToolTip": "asp_presentaciones\\Pages\\Ventanas\\OrdenesDiscos.cshtml.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAADwvysAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T03:03:25.238Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ClientesPresentacion.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_presentaciones\\Implementaciones\\ClientesPresentacion.cs",
-              "RelativeDocumentMoniker": "lib_presentaciones\\Implementaciones\\ClientesPresentacion.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_presentaciones\\Implementaciones\\ClientesPresentacion.cs",
-              "RelativeToolTip": "lib_presentaciones\\Implementaciones\\ClientesPresentacion.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAgwCMAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T15:40:34.935Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TokenController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\TokenController.cs",
-              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\TokenController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\TokenController.cs",
-              "RelativeToolTip": "asp_servicios\\Controllers\\TokenController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAewEIAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T15:31:51.087Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "OrdenesPresentacion.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_presentaciones\\Implementaciones\\OrdenesPresentacion.cs",
               "RelativeDocumentMoniker": "lib_presentaciones\\Implementaciones\\OrdenesPresentacion.cs",
@@ -282,7 +204,119 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PagosPresentaciones.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_presentaciones\\Implementaciones\\PagosPresentaciones.cs",
+              "RelativeDocumentMoniker": "lib_presentaciones\\Implementaciones\\PagosPresentaciones.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_presentaciones\\Implementaciones\\PagosPresentaciones.cs",
+              "RelativeToolTip": "lib_presentaciones\\Implementaciones\\PagosPresentaciones.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T22:28:31.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrdenesDiscosPresentacion.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_presentaciones\\Implementaciones\\OrdenesDiscosPresentacion.cs",
+              "RelativeDocumentMoniker": "lib_presentaciones\\Implementaciones\\OrdenesDiscosPresentacion.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_presentaciones\\Implementaciones\\OrdenesDiscosPresentacion.cs",
+              "RelativeToolTip": "lib_presentaciones\\Implementaciones\\OrdenesDiscosPresentacion.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T02:58:49.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_presentaciones\\Startup.cs",
+              "RelativeDocumentMoniker": "asp_presentaciones\\Startup.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_presentaciones\\Startup.cs*",
+              "RelativeToolTip": "asp_presentaciones\\Startup.cs*",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T21:47:54.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Discos.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_presentaciones\\Pages\\Ventanas\\Discos.cshtml.cs",
+              "RelativeDocumentMoniker": "asp_presentaciones\\Pages\\Ventanas\\Discos.cshtml.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_presentaciones\\Pages\\Ventanas\\Discos.cshtml.cs",
+              "RelativeToolTip": "asp_presentaciones\\Pages\\Ventanas\\Discos.cshtml.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAuwKEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T21:47:37.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ClientesPresentacion.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_presentaciones\\Implementaciones\\ClientesPresentacion.cs",
+              "RelativeDocumentMoniker": "lib_presentaciones\\Implementaciones\\ClientesPresentacion.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_presentaciones\\Implementaciones\\ClientesPresentacion.cs",
+              "RelativeToolTip": "lib_presentaciones\\Implementaciones\\ClientesPresentacion.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAgwCMAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T15:40:34.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrdenesDiscos.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_presentaciones\\Pages\\Ventanas\\OrdenesDiscos.cshtml.cs",
+              "RelativeDocumentMoniker": "asp_presentaciones\\Pages\\Ventanas\\OrdenesDiscos.cshtml.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_presentaciones\\Pages\\Ventanas\\OrdenesDiscos.cshtml.cs",
+              "RelativeToolTip": "asp_presentaciones\\Pages\\Ventanas\\OrdenesDiscos.cshtml.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAADwvysAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T03:03:25.238Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "Comunicaciones.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_presentaciones\\Comunicaciones.cs",
+              "RelativeDocumentMoniker": "lib_presentaciones\\Comunicaciones.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_presentaciones\\Comunicaciones.cs",
+              "RelativeToolTip": "lib_presentaciones\\Comunicaciones.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAWwCAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T15:34:41.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrdenesDiscosAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\OrdenesDiscosAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_aplicaciones\\implementaciones\\OrdenesDiscosAplicacion.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\OrdenesDiscosAplicacion.cs",
+              "RelativeToolTip": "lib_aplicaciones\\implementaciones\\OrdenesDiscosAplicacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T02:56:05.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TokenController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\TokenController.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\TokenController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\TokenController.cs",
+              "RelativeToolTip": "asp_servicios\\Controllers\\TokenController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAewEIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T15:31:51.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Artistas.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_presentaciones\\Pages\\Ventanas\\Artistas.cshtml.cs",
               "RelativeDocumentMoniker": "asp_presentaciones\\Pages\\Ventanas\\Artistas.cshtml.cs",
@@ -290,12 +324,11 @@
               "RelativeToolTip": "asp_presentaciones\\Pages\\Ventanas\\Artistas.cshtml.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAA9wBQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T21:46:05.627Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T21:46:05.627Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "Artistas.cshtml",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_presentaciones\\Pages\\Ventanas\\Artistas.cshtml",
               "RelativeDocumentMoniker": "asp_presentaciones\\Pages\\Ventanas\\Artistas.cshtml",
@@ -303,12 +336,11 @@
               "RelativeToolTip": "asp_presentaciones\\Pages\\Ventanas\\Artistas.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-14T21:45:34.397Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T21:45:34.397Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "OrdenesDiscos.cshtml",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_presentaciones\\Pages\\Ventanas\\OrdenesDiscos.cshtml",
               "RelativeDocumentMoniker": "asp_presentaciones\\Pages\\Ventanas\\OrdenesDiscos.cshtml",
@@ -316,12 +348,11 @@
               "RelativeToolTip": "asp_presentaciones\\Pages\\Ventanas\\OrdenesDiscos.cshtml",
               "ViewState": "AgIAACkAAAAAAAAAAAAgwHMAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-15T03:03:13.749Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T03:03:13.749Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "OrdenesController.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\OrdenesController.cs",
               "RelativeDocumentMoniker": "asp_servicios\\Controllers\\OrdenesController.cs",
@@ -329,12 +360,11 @@
               "RelativeToolTip": "asp_servicios\\Controllers\\OrdenesController.cs",
               "ViewState": "AgIAAC8AAAAAAAAAAAAewDgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T22:11:03.465Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T22:11:03.465Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "TestPlatformEntryPoint.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\obj\\Debug\\net8.0\\TestPlatformEntryPoint.cs",
               "RelativeDocumentMoniker": "asp_servicios\\obj\\Debug\\net8.0\\TestPlatformEntryPoint.cs",
@@ -342,12 +372,11 @@
               "RelativeToolTip": "asp_servicios\\obj\\Debug\\net8.0\\TestPlatformEntryPoint.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T22:11:49.342Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T22:11:49.342Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_presentaciones\\Pages\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "asp_presentaciones\\Pages\\Shared\\_Layout.cshtml",
@@ -355,12 +384,11 @@
               "RelativeToolTip": "asp_presentaciones\\Pages\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-14T21:49:23.609Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T21:49:23.609Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "Clientes.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_presentaciones\\Pages\\Ventanas\\Clientes.cshtml.cs",
               "RelativeDocumentMoniker": "asp_presentaciones\\Pages\\Ventanas\\Clientes.cshtml.cs",
@@ -368,12 +396,11 @@
               "RelativeToolTip": "asp_presentaciones\\Pages\\Ventanas\\Clientes.cshtml.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAMwCwAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T15:26:13.386Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T15:26:13.386Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "IOrdenesDiscosPresentacion.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_presentaciones\\Interfaces\\IOrdenesDiscosPresentacion.cs",
               "RelativeDocumentMoniker": "lib_presentaciones\\Interfaces\\IOrdenesDiscosPresentacion.cs",
@@ -381,12 +408,11 @@
               "RelativeToolTip": "lib_presentaciones\\Interfaces\\IOrdenesDiscosPresentacion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T02:57:28.551Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T02:57:28.551Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "Ordenes.cshtml",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_presentaciones\\Pages\\Ventanas\\Ordenes.cshtml",
               "RelativeDocumentMoniker": "asp_presentaciones\\Pages\\Ventanas\\Ordenes.cshtml",
@@ -394,12 +420,11 @@
               "RelativeToolTip": "asp_presentaciones\\Pages\\Ventanas\\Ordenes.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-14T21:55:53.048Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T21:55:53.048Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "Ordenes.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_presentaciones\\Pages\\Ventanas\\Ordenes.cshtml.cs",
               "RelativeDocumentMoniker": "asp_presentaciones\\Pages\\Ventanas\\Ordenes.cshtml.cs",
@@ -407,12 +432,11 @@
               "RelativeToolTip": "asp_presentaciones\\Pages\\Ventanas\\Ordenes.cshtml.cs",
               "ViewState": "AgIAAIQAAAAAAAAAAAAowKcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T21:56:08.299Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T21:56:08.299Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "IOrdenesDiscosAplicacion.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\interfaces\\IOrdenesDiscosAplicacion.cs",
               "RelativeDocumentMoniker": "lib_aplicaciones\\interfaces\\IOrdenesDiscosAplicacion.cs",
@@ -420,12 +444,11 @@
               "RelativeToolTip": "lib_aplicaciones\\interfaces\\IOrdenesDiscosAplicacion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T02:55:52.459Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T02:55:52.459Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "iPagosAplicacion.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\interfaces\\iPagosAplicacion.cs",
               "RelativeDocumentMoniker": "lib_aplicaciones\\interfaces\\iPagosAplicacion.cs",
@@ -433,25 +456,11 @@
               "RelativeToolTip": "lib_aplicaciones\\interfaces\\iPagosAplicacion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T22:29:08.9Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T22:29:08.9Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_presentaciones\\Startup.cs",
-              "RelativeDocumentMoniker": "asp_presentaciones\\Startup.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_presentaciones\\Startup.cs",
-              "RelativeToolTip": "asp_presentaciones\\Startup.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBYAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T21:47:54.4Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "IOrdenesPresentacion.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_presentaciones\\Interfaces\\IOrdenesPresentacion.cs",
               "RelativeDocumentMoniker": "lib_presentaciones\\Interfaces\\IOrdenesPresentacion.cs",
@@ -459,12 +468,11 @@
               "RelativeToolTip": "lib_presentaciones\\Interfaces\\IOrdenesPresentacion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T21:51:37.032Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T21:51:37.032Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "PagosAplicacion.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\PagosAplicacion.cs",
               "RelativeDocumentMoniker": "lib_aplicaciones\\implementaciones\\PagosAplicacion.cs",
@@ -472,12 +480,11 @@
               "RelativeToolTip": "lib_aplicaciones\\implementaciones\\PagosAplicacion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T22:29:19.209Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T22:29:19.209Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "PagosController.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\PagosController.cs",
               "RelativeDocumentMoniker": "asp_servicios\\Controllers\\PagosController.cs",
@@ -485,25 +492,11 @@
               "RelativeToolTip": "asp_servicios\\Controllers\\PagosController.cs",
               "ViewState": "AgIAAD0AAAAAAAAAAAAewFYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T22:41:46.288Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T22:41:46.288Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "PagosPresentaciones.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_presentaciones\\Implementaciones\\PagosPresentaciones.cs",
-              "RelativeDocumentMoniker": "lib_presentaciones\\Implementaciones\\PagosPresentaciones.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_presentaciones\\Implementaciones\\PagosPresentaciones.cs",
-              "RelativeToolTip": "lib_presentaciones\\Implementaciones\\PagosPresentaciones.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAWwCQAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T22:28:31.376Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "Pagos.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_presentaciones\\Pages\\Ventanas\\Pagos.cshtml.cs",
               "RelativeDocumentMoniker": "asp_presentaciones\\Pages\\Ventanas\\Pagos.cshtml.cs",
@@ -511,12 +504,11 @@
               "RelativeToolTip": "asp_presentaciones\\Pages\\Ventanas\\Pagos.cshtml.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAewC8AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T22:31:18.929Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T22:31:18.929Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "Pagos.cshtml",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_presentaciones\\Pages\\Ventanas\\Pagos.cshtml",
               "RelativeDocumentMoniker": "asp_presentaciones\\Pages\\Ventanas\\Pagos.cshtml",
@@ -524,12 +516,11 @@
               "RelativeToolTip": "asp_presentaciones\\Pages\\Ventanas\\Pagos.cshtml",
               "ViewState": "AgIAAHUAAAAAAAAAAAAAAEoAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-14T22:31:15.115Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T22:31:15.115Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "Discos.cshtml",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_presentaciones\\Pages\\Ventanas\\Discos.cshtml",
               "RelativeDocumentMoniker": "asp_presentaciones\\Pages\\Ventanas\\Discos.cshtml",
@@ -553,18 +544,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Discos.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_presentaciones\\Pages\\Ventanas\\Discos.cshtml.cs",
-              "RelativeDocumentMoniker": "asp_presentaciones\\Pages\\Ventanas\\Discos.cshtml.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_presentaciones\\Pages\\Ventanas\\Discos.cshtml.cs",
-              "RelativeToolTip": "asp_presentaciones\\Pages\\Ventanas\\Discos.cshtml.cs",
-              "ViewState": "AgIAAH4AAAAAAAAAAAAowKEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T21:47:37.451Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 32,
               "Title": "ArtistasController.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROYECTO\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\ArtistasController.cs",
@@ -573,8 +552,7 @@
               "RelativeToolTip": "asp_servicios\\Controllers\\ArtistasController.cs",
               "ViewState": "AgIAADwAAAAAAAAAAAAewFUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T21:21:15.709Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T21:21:15.709Z"
             },
             {
               "$type": "Document",
@@ -598,8 +576,7 @@
               "RelativeToolTip": "lib_aplicaciones\\implementaciones\\ClientesAplicacion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T21:21:15.724Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T21:21:15.724Z"
             },
             {
               "$type": "Document",

@@ -4,18 +4,18 @@ using lib_presentaciones.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace asp_presentaciones.Pages.Ventanas
+namespace asp_presentacion.Pages.Ventanas
 {
-    public class DiscosModel : PageModel
+    public class MarcasModel : PageModel
     {
-        private IDiscosPresentacion? iPresentacion = null;
+        private IMarcasPresentacion? iPresentacion = null;
 
-        public DiscosModel(IDiscosPresentacion iPresentacion)
+        public MarcasModel(IMarcasPresentacion iPresentacion)
         {
             try
             {
                 this.iPresentacion = iPresentacion;
-                Filtro = new Discos();
+                Filtro = new Marcas();
             }
             catch (Exception ex)
             {
@@ -25,9 +25,9 @@ namespace asp_presentaciones.Pages.Ventanas
 
         public IFormFile? FormFile { get; set; }
         [BindProperty] public Enumerables.Ventanas Accion { get; set; }
-        [BindProperty] public Discos? Actual { get; set; }
-        [BindProperty] public Discos? Filtro { get; set; }
-        [BindProperty] public List<Discos>? Lista { get; set; }
+        [BindProperty] public Marcas? Actual { get; set; }
+        [BindProperty] public Marcas? Filtro { get; set; }
+        [BindProperty] public List<Marcas>? Lista { get; set; }
 
         public virtual void OnGet() { OnPostBtRefrescar(); }
 
@@ -42,7 +42,7 @@ namespace asp_presentaciones.Pages.Ventanas
                 //    return;
                 //}
 
-                Filtro!.NombreDisco = Filtro!.NombreDisco ?? "";
+                Filtro!.NombreMarca = Filtro!.NombreMarca ?? "";
 
                 Accion = Enumerables.Ventanas.Listas;
                 var task = this.iPresentacion!.PorNombre(Filtro!);
@@ -61,7 +61,7 @@ namespace asp_presentaciones.Pages.Ventanas
             try
             {
                 Accion = Enumerables.Ventanas.Editar;
-                Actual = new Discos();
+                Actual = new Marcas();
             }
             catch (Exception ex)
             {
@@ -89,7 +89,7 @@ namespace asp_presentaciones.Pages.Ventanas
             {
                 Accion = Enumerables.Ventanas.Editar;
 
-                Task<Discos>? task = null;
+                Task<Marcas>? task = null;
                 if (Actual!.Id == 0)
                     task = this.iPresentacion!.Guardar(Actual!)!;
                 else
