@@ -3,6 +3,54 @@
   "WorkspaceRootPath": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{88B9B3A1-B048-408D-ACC5-7114BE630D15}|lib_presentaciones\\lib_presentaciones.csproj|e:\\michel\\programacion\\proyecto-final-programacion-de-software\\lib_presentaciones\\implementaciones\\formatospresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88B9B3A1-B048-408D-ACC5-7114BE630D15}|lib_presentaciones\\lib_presentaciones.csproj|solutionrelative:lib_presentaciones\\implementaciones\\formatospresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88B9B3A1-B048-408D-ACC5-7114BE630D15}|lib_presentaciones\\lib_presentaciones.csproj|e:\\michel\\programacion\\proyecto-final-programacion-de-software\\lib_presentaciones\\interfaces\\iformatospresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88B9B3A1-B048-408D-ACC5-7114BE630D15}|lib_presentaciones\\lib_presentaciones.csproj|solutionrelative:lib_presentaciones\\interfaces\\iformatospresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFC2F67-24A4-4DF0-A772-F5C05CBD6925}|asp_presentaciones\\asp_presentaciones.csproj|e:\\michel\\programacion\\proyecto-final-programacion-de-software\\asp_presentaciones\\pages\\ventanas\\marcas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7BFC2F67-24A4-4DF0-A772-F5C05CBD6925}|asp_presentaciones\\asp_presentaciones.csproj|solutionrelative:asp_presentaciones\\pages\\ventanas\\marcas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFC2F67-24A4-4DF0-A772-F5C05CBD6925}|asp_presentaciones\\asp_presentaciones.csproj|e:\\michel\\programacion\\proyecto-final-programacion-de-software\\asp_presentaciones\\pages\\ventanas\\marcas.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFC2F67-24A4-4DF0-A772-F5C05CBD6925}|asp_presentaciones\\asp_presentaciones.csproj|solutionrelative:asp_presentaciones\\pages\\ventanas\\marcas.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFC2F67-24A4-4DF0-A772-F5C05CBD6925}|asp_presentaciones\\asp_presentaciones.csproj|e:\\michel\\programacion\\proyecto-final-programacion-de-software\\asp_presentaciones\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7BFC2F67-24A4-4DF0-A772-F5C05CBD6925}|asp_presentaciones\\asp_presentaciones.csproj|solutionrelative:asp_presentaciones\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFC2F67-24A4-4DF0-A772-F5C05CBD6925}|asp_presentaciones\\asp_presentaciones.csproj|e:\\michel\\programacion\\proyecto-final-programacion-de-software\\asp_presentaciones\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFC2F67-24A4-4DF0-A772-F5C05CBD6925}|asp_presentaciones\\asp_presentaciones.csproj|solutionrelative:asp_presentaciones\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88B9B3A1-B048-408D-ACC5-7114BE630D15}|lib_presentaciones\\lib_presentaciones.csproj|e:\\michel\\programacion\\proyecto-final-programacion-de-software\\lib_presentaciones\\comunicaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88B9B3A1-B048-408D-ACC5-7114BE630D15}|lib_presentaciones\\lib_presentaciones.csproj|solutionrelative:lib_presentaciones\\comunicaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88B9B3A1-B048-408D-ACC5-7114BE630D15}|lib_presentaciones\\lib_presentaciones.csproj|e:\\michel\\programacion\\proyecto-final-programacion-de-software\\lib_presentaciones\\implementaciones\\discospresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88B9B3A1-B048-408D-ACC5-7114BE630D15}|lib_presentaciones\\lib_presentaciones.csproj|solutionrelative:lib_presentaciones\\implementaciones\\discospresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFC2F67-24A4-4DF0-A772-F5C05CBD6925}|asp_presentaciones\\asp_presentaciones.csproj|e:\\michel\\programacion\\proyecto-final-programacion-de-software\\asp_presentaciones\\pages\\ventanas\\formatos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7BFC2F67-24A4-4DF0-A772-F5C05CBD6925}|asp_presentaciones\\asp_presentaciones.csproj|solutionrelative:asp_presentaciones\\pages\\ventanas\\formatos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFC2F67-24A4-4DF0-A772-F5C05CBD6925}|asp_presentaciones\\asp_presentaciones.csproj|e:\\michel\\programacion\\proyecto-final-programacion-de-software\\asp_presentaciones\\pages\\ventanas\\formatos.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFC2F67-24A4-4DF0-A772-F5C05CBD6925}|asp_presentaciones\\asp_presentaciones.csproj|solutionrelative:asp_presentaciones\\pages\\ventanas\\formatos.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|e:\\michel\\programacion\\proyecto-final-programacion-de-software\\lib_dominio\\entidades\\formatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\entidades\\formatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFC2F67-24A4-4DF0-A772-F5C05CBD6925}|asp_presentaciones\\asp_presentaciones.csproj|e:\\michel\\programacion\\proyecto-final-programacion-de-software\\asp_presentaciones\\pages\\ventanas\\clientes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7BFC2F67-24A4-4DF0-A772-F5C05CBD6925}|asp_presentaciones\\asp_presentaciones.csproj|solutionrelative:asp_presentaciones\\pages\\ventanas\\clientes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{88B9B3A1-B048-408D-ACC5-7114BE630D15}|lib_presentaciones\\lib_presentaciones.csproj|e:\\michel\\programacion\\proyecto-final-programacion-de-software\\lib_presentaciones\\implementaciones\\marcaspresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{88B9B3A1-B048-408D-ACC5-7114BE630D15}|lib_presentaciones\\lib_presentaciones.csproj|solutionrelative:lib_presentaciones\\implementaciones\\marcaspresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,20 +59,8 @@
       "RelativeMoniker": "D:0:0:{B21C8261-1376-4BFC-BAD9-E76ECF507BA3}|lib_aplicaciones\\lib_aplicaciones.csproj|solutionrelative:lib_aplicaciones\\implementaciones\\formatosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BFC2F67-24A4-4DF0-A772-F5C05CBD6925}|asp_presentaciones\\asp_presentaciones.csproj|e:\\michel\\programacion\\proyecto-final-programacion-de-software\\asp_presentaciones\\pages\\ventanas\\marcas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7BFC2F67-24A4-4DF0-A772-F5C05CBD6925}|asp_presentaciones\\asp_presentaciones.csproj|solutionrelative:asp_presentaciones\\pages\\ventanas\\marcas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7BFC2F67-24A4-4DF0-A772-F5C05CBD6925}|asp_presentaciones\\asp_presentaciones.csproj|e:\\michel\\programacion\\proyecto-final-programacion-de-software\\asp_presentaciones\\pages\\ventanas\\discos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7BFC2F67-24A4-4DF0-A772-F5C05CBD6925}|asp_presentaciones\\asp_presentaciones.csproj|solutionrelative:asp_presentaciones\\pages\\ventanas\\discos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BFC2F67-24A4-4DF0-A772-F5C05CBD6925}|asp_presentaciones\\asp_presentaciones.csproj|e:\\michel\\programacion\\proyecto-final-programacion-de-software\\asp_presentaciones\\pages\\ventanas\\marcas.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BFC2F67-24A4-4DF0-A772-F5C05CBD6925}|asp_presentaciones\\asp_presentaciones.csproj|solutionrelative:asp_presentaciones\\pages\\ventanas\\marcas.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BFC2F67-24A4-4DF0-A772-F5C05CBD6925}|asp_presentaciones\\asp_presentaciones.csproj|e:\\michel\\programacion\\proyecto-final-programacion-de-software\\asp_presentaciones\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BFC2F67-24A4-4DF0-A772-F5C05CBD6925}|asp_presentaciones\\asp_presentaciones.csproj|solutionrelative:asp_presentaciones\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7BFC2F67-24A4-4DF0-A772-F5C05CBD6925}|asp_presentaciones\\asp_presentaciones.csproj|e:\\michel\\programacion\\proyecto-final-programacion-de-software\\asp_presentaciones\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,10 +71,6 @@
       "RelativeMoniker": "D:0:0:{7BFC2F67-24A4-4DF0-A772-F5C05CBD6925}|asp_presentaciones\\asp_presentaciones.csproj|solutionrelative:asp_presentaciones\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BFC2F67-24A4-4DF0-A772-F5C05CBD6925}|asp_presentaciones\\asp_presentaciones.csproj|e:\\michel\\programacion\\proyecto-final-programacion-de-software\\asp_presentaciones\\pages\\ventanas\\clientes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7BFC2F67-24A4-4DF0-A772-F5C05CBD6925}|asp_presentaciones\\asp_presentaciones.csproj|solutionrelative:asp_presentaciones\\pages\\ventanas\\clientes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7BFC2F67-24A4-4DF0-A772-F5C05CBD6925}|asp_presentaciones\\asp_presentaciones.csproj|e:\\michel\\programacion\\proyecto-final-programacion-de-software\\asp_presentaciones\\pages\\ventanas\\clientes.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7BFC2F67-24A4-4DF0-A772-F5C05CBD6925}|asp_presentaciones\\asp_presentaciones.csproj|solutionrelative:asp_presentaciones\\pages\\ventanas\\clientes.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -47,16 +79,8 @@
       "RelativeMoniker": "D:0:0:{7BFC2F67-24A4-4DF0-A772-F5C05CBD6925}|asp_presentaciones\\asp_presentaciones.csproj|solutionrelative:asp_presentaciones\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BFC2F67-24A4-4DF0-A772-F5C05CBD6925}|asp_presentaciones\\asp_presentaciones.csproj|e:\\michel\\programacion\\proyecto-final-programacion-de-software\\asp_presentaciones\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7BFC2F67-24A4-4DF0-A772-F5C05CBD6925}|asp_presentaciones\\asp_presentaciones.csproj|solutionrelative:asp_presentaciones\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7BFC2F67-24A4-4DF0-A772-F5C05CBD6925}|asp_presentaciones\\asp_presentaciones.csproj|e:\\michel\\programacion\\proyecto-final-programacion-de-software\\asp_presentaciones\\pages\\emergentes\\mensajes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7BFC2F67-24A4-4DF0-A772-F5C05CBD6925}|asp_presentaciones\\asp_presentaciones.csproj|solutionrelative:asp_presentaciones\\pages\\emergentes\\mensajes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88B9B3A1-B048-408D-ACC5-7114BE630D15}|lib_presentaciones\\lib_presentaciones.csproj|e:\\michel\\programacion\\proyecto-final-programacion-de-software\\lib_presentaciones\\comunicaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88B9B3A1-B048-408D-ACC5-7114BE630D15}|lib_presentaciones\\lib_presentaciones.csproj|solutionrelative:lib_presentaciones\\comunicaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|e:\\michel\\programacion\\proyecto-final-programacion-de-software\\lib_dominio\\entidades\\marcas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -97,10 +121,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{816D6C37-4A76-4881-B17A-733B504FD9FC}|asp_servicios\\asp_servicios.csproj|e:\\michel\\programacion\\proyecto-final-programacion-de-software\\asp_servicios\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{816D6C37-4A76-4881-B17A-733B504FD9FC}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88B9B3A1-B048-408D-ACC5-7114BE630D15}|lib_presentaciones\\lib_presentaciones.csproj|e:\\michel\\programacion\\proyecto-final-programacion-de-software\\lib_presentaciones\\implementaciones\\discospresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88B9B3A1-B048-408D-ACC5-7114BE630D15}|lib_presentaciones\\lib_presentaciones.csproj|solutionrelative:lib_presentaciones\\implementaciones\\discospresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{816D6C37-4A76-4881-B17A-733B504FD9FC}|asp_servicios\\asp_servicios.csproj|e:\\michel\\programacion\\proyecto-final-programacion-de-software\\asp_servicios\\controllers\\artistascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -318,10 +338,6 @@
       "RelativeMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\nucleo\\encodinghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|e:\\michel\\programacion\\proyecto-final-programacion-de-software\\lib_dominio\\entidades\\formatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\entidades\\formatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|e:\\michel\\programacion\\proyecto-final-programacion-de-software\\lib_dominio\\entidades\\pagos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{081389E8-208D-4CAF-840F-3936F3CBD293}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\entidades\\pagos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -352,45 +368,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Clientes.cshtml",
-              "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_presentaciones\\Pages\\Ventanas\\Clientes.cshtml",
-              "RelativeDocumentMoniker": "asp_presentaciones\\Pages\\Ventanas\\Clientes.cshtml",
-              "ToolTip": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_presentaciones\\Pages\\Ventanas\\Clientes.cshtml",
-              "RelativeToolTip": "asp_presentaciones\\Pages\\Ventanas\\Clientes.cshtml",
-              "ViewState": "AgIAAIgAAAAAAAAAAAAcwKkAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-10T23:16:16.656Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_presentaciones\\Pages\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "asp_presentaciones\\Pages\\_ViewImports.cshtml",
-              "ToolTip": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_presentaciones\\Pages\\_ViewImports.cshtml",
-              "RelativeToolTip": "asp_presentaciones\\Pages\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-10T22:49:01.247Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_presentaciones\\Program.cs",
-              "RelativeDocumentMoniker": "asp_presentaciones\\Program.cs",
-              "ToolTip": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_presentaciones\\Program.cs",
-              "RelativeToolTip": "asp_presentaciones\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "IFormatosPresentacion.cs",
+              "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_presentaciones\\Interfaces\\IFormatosPresentacion.cs",
+              "RelativeDocumentMoniker": "lib_presentaciones\\Interfaces\\IFormatosPresentacion.cs",
+              "ToolTip": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_presentaciones\\Interfaces\\IFormatosPresentacion.cs",
+              "RelativeToolTip": "lib_presentaciones\\Interfaces\\IFormatosPresentacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T22:21:25.102Z",
+              "WhenOpened": "2025-05-15T03:49:45.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormatosPresentacion.cs",
+              "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_presentaciones\\Implementaciones\\FormatosPresentacion.cs",
+              "RelativeDocumentMoniker": "lib_presentaciones\\Implementaciones\\FormatosPresentacion.cs",
+              "ToolTip": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_presentaciones\\Implementaciones\\FormatosPresentacion.cs",
+              "RelativeToolTip": "lib_presentaciones\\Implementaciones\\FormatosPresentacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T03:48:55.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Formatos.cshtml.cs",
+              "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_presentaciones\\Pages\\Ventanas\\Formatos.cshtml.cs",
+              "RelativeDocumentMoniker": "asp_presentaciones\\Pages\\Ventanas\\Formatos.cshtml.cs",
+              "ToolTip": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_presentaciones\\Pages\\Ventanas\\Formatos.cshtml.cs",
+              "RelativeToolTip": "asp_presentaciones\\Pages\\Ventanas\\Formatos.cshtml.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAmwCwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T03:47:32.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Formatos.cshtml",
+              "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_presentaciones\\Pages\\Ventanas\\Formatos.cshtml",
+              "RelativeDocumentMoniker": "asp_presentaciones\\Pages\\Ventanas\\Formatos.cshtml",
+              "ToolTip": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_presentaciones\\Pages\\Ventanas\\Formatos.cshtml",
+              "RelativeToolTip": "asp_presentaciones\\Pages\\Ventanas\\Formatos.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-15T03:45:26.167Z",
               "EditorCaption": ""
             },
             {
@@ -401,14 +430,14 @@
               "RelativeDocumentMoniker": "asp_presentaciones\\Startup.cs",
               "ToolTip": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_presentaciones\\Startup.cs",
               "RelativeToolTip": "asp_presentaciones\\Startup.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-10T22:21:27.599Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 21,
               "Title": "IClientesPresentacion.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_presentaciones\\Interfaces\\IClientesPresentacion.cs",
               "RelativeDocumentMoniker": "lib_presentaciones\\Interfaces\\IClientesPresentacion.cs",
@@ -416,12 +445,11 @@
               "RelativeToolTip": "lib_presentaciones\\Interfaces\\IClientesPresentacion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T23:18:12.762Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T23:18:12.762Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Marcas.cshtml.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_presentaciones\\Pages\\Ventanas\\Marcas.cshtml.cs",
               "RelativeDocumentMoniker": "asp_presentaciones\\Pages\\Ventanas\\Marcas.cshtml.cs",
@@ -440,14 +468,14 @@
               "RelativeDocumentMoniker": "asp_presentaciones\\Pages\\Ventanas\\Marcas.cshtml",
               "ToolTip": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_presentaciones\\Pages\\Ventanas\\Marcas.cshtml",
               "RelativeToolTip": "asp_presentaciones\\Pages\\Ventanas\\Marcas.cshtml",
-              "ViewState": "AgIAAMsAAAAAAAAAAAAAAOgAAABIAAAAAAAAAA==",
+              "ViewState": "AgIAAOMAAAAAAAAAAAAiwEwAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-15T02:56:57.277Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 14,
               "Title": "Discos.cshtml",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_presentaciones\\Pages\\Ventanas\\Discos.cshtml",
               "RelativeDocumentMoniker": "asp_presentaciones\\Pages\\Ventanas\\Discos.cshtml",
@@ -455,12 +483,49 @@
               "RelativeToolTip": "asp_presentaciones\\Pages\\Ventanas\\Discos.cshtml",
               "ViewState": "AgIAAP8AAAAAAAAAAAAiwNQAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-10T22:27:04.7Z",
+              "WhenOpened": "2025-05-10T22:27:04.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_presentaciones\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "asp_presentaciones\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_presentaciones\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "asp_presentaciones\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADIAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-10T22:42:23.454Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
+              "Title": "Comunicaciones.cs",
+              "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_presentaciones\\Comunicaciones.cs",
+              "RelativeDocumentMoniker": "lib_presentaciones\\Comunicaciones.cs",
+              "ToolTip": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_presentaciones\\Comunicaciones.cs",
+              "RelativeToolTip": "lib_presentaciones\\Comunicaciones.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAIwEcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T22:11:16.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_presentaciones\\Program.cs",
+              "RelativeDocumentMoniker": "asp_presentaciones\\Program.cs",
+              "ToolTip": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_presentaciones\\Program.cs",
+              "RelativeToolTip": "asp_presentaciones\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T22:21:25.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "FormatosAplicacion.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\FormatosAplicacion.cs",
               "RelativeDocumentMoniker": "lib_aplicaciones\\implementaciones\\FormatosAplicacion.cs",
@@ -468,25 +533,75 @@
               "RelativeToolTip": "lib_aplicaciones\\implementaciones\\FormatosAplicacion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T20:27:58.939Z",
+              "WhenOpened": "2025-05-08T20:27:58.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DiscosPresentacion.cs",
+              "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_presentaciones\\Implementaciones\\DiscosPresentacion.cs",
+              "RelativeDocumentMoniker": "lib_presentaciones\\Implementaciones\\DiscosPresentacion.cs",
+              "ToolTip": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_presentaciones\\Implementaciones\\DiscosPresentacion.cs",
+              "RelativeToolTip": "lib_presentaciones\\Implementaciones\\DiscosPresentacion.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAQwHIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T22:15:49.382Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 16,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_presentaciones\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "asp_presentaciones\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_presentaciones\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "asp_presentaciones\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-10T22:49:01.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "MarcasPresentacion.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_presentaciones\\Implementaciones\\MarcasPresentacion.cs",
               "RelativeDocumentMoniker": "lib_presentaciones\\Implementaciones\\MarcasPresentacion.cs",
               "ToolTip": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_presentaciones\\Implementaciones\\MarcasPresentacion.cs",
               "RelativeToolTip": "lib_presentaciones\\Implementaciones\\MarcasPresentacion.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwBAAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowBAAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-15T02:58:20.79Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
+              "Title": "Formatos.cs",
+              "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Formatos.cs",
+              "RelativeDocumentMoniker": "lib_dominio\\Entidades\\Formatos.cs",
+              "ToolTip": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Formatos.cs",
+              "RelativeToolTip": "lib_dominio\\Entidades\\Formatos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T19:32:54.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Clientes.cshtml",
+              "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_presentaciones\\Pages\\Ventanas\\Clientes.cshtml",
+              "RelativeDocumentMoniker": "asp_presentaciones\\Pages\\Ventanas\\Clientes.cshtml",
+              "ToolTip": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_presentaciones\\Pages\\Ventanas\\Clientes.cshtml",
+              "RelativeToolTip": "asp_presentaciones\\Pages\\Ventanas\\Clientes.cshtml",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAcwKkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-10T23:16:16.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "Clientes.cshtml.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_presentaciones\\Pages\\Ventanas\\Clientes.cshtml.cs",
               "RelativeDocumentMoniker": "asp_presentaciones\\Pages\\Ventanas\\Clientes.cshtml.cs",
@@ -494,12 +609,11 @@
               "RelativeToolTip": "asp_presentaciones\\Pages\\Ventanas\\Clientes.cshtml.cs",
               "ViewState": "AgIAAG4AAAAAAAAAAAAUwIEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T23:16:32.546Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T23:16:32.546Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 19,
               "Title": "Mensajes.cshtml",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_presentaciones\\Pages\\Emergentes\\Mensajes.cshtml",
               "RelativeDocumentMoniker": "asp_presentaciones\\Pages\\Emergentes\\Mensajes.cshtml",
@@ -507,38 +621,11 @@
               "RelativeToolTip": "asp_presentaciones\\Pages\\Emergentes\\Mensajes.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-10T22:51:32.144Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T22:51:32.144Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Comunicaciones.cs",
-              "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_presentaciones\\Comunicaciones.cs",
-              "RelativeDocumentMoniker": "lib_presentaciones\\Comunicaciones.cs",
-              "ToolTip": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_presentaciones\\Comunicaciones.cs",
-              "RelativeToolTip": "lib_presentaciones\\Comunicaciones.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T22:11:16.17Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_presentaciones\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "asp_presentaciones\\Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_presentaciones\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "asp_presentaciones\\Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAACsAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-10T22:42:23.454Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "Marcas.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Marcas.cs",
               "RelativeDocumentMoniker": "lib_dominio\\Entidades\\Marcas.cs",
@@ -546,12 +633,11 @@
               "RelativeToolTip": "lib_dominio\\Entidades\\Marcas.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T18:56:16.748Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T18:56:16.748Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 18,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_presentaciones\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "asp_presentaciones\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -559,12 +645,11 @@
               "RelativeToolTip": "asp_presentaciones\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-10T22:43:31.867Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T22:43:31.867Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
               "Title": "IDiscosPresentacion.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_presentaciones\\Interfaces\\IDiscosPresentacion.cs",
               "RelativeDocumentMoniker": "lib_presentaciones\\Interfaces\\IDiscosPresentacion.cs",
@@ -572,12 +657,11 @@
               "RelativeToolTip": "lib_presentaciones\\Interfaces\\IDiscosPresentacion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T22:16:43.741Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T22:16:43.741Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 23,
               "Title": "IMarcasPresentacion.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_presentaciones\\Interfaces\\IMarcasPresentacion.cs",
               "RelativeDocumentMoniker": "lib_presentaciones\\Interfaces\\IMarcasPresentacion.cs",
@@ -585,12 +669,11 @@
               "RelativeToolTip": "lib_presentaciones\\Interfaces\\IMarcasPresentacion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T02:58:32.527Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T02:58:32.527Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 25,
               "Title": "Discos.cshtml.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_presentaciones\\Pages\\Ventanas\\Discos.cshtml.cs",
               "RelativeDocumentMoniker": "asp_presentaciones\\Pages\\Ventanas\\Discos.cshtml.cs",
@@ -598,12 +681,11 @@
               "RelativeToolTip": "asp_presentaciones\\Pages\\Ventanas\\Discos.cshtml.cs",
               "ViewState": "AgIAAGsAAAAAAAAAAAA7wIYAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T22:38:15.635Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T22:38:15.635Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 27,
               "Title": "OrdenesAplicaciones.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\OrdenesAplicaciones.cs",
               "RelativeDocumentMoniker": "lib_aplicaciones\\implementaciones\\OrdenesAplicaciones.cs",
@@ -615,7 +697,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 28,
               "Title": "OrdenesDiscosAplicacion.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\OrdenesDiscosAplicacion.cs",
               "RelativeDocumentMoniker": "lib_aplicaciones\\implementaciones\\OrdenesDiscosAplicacion.cs",
@@ -627,7 +709,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 24,
               "Title": "ClientesPresentacion.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_presentaciones\\Implementaciones\\ClientesPresentacion.cs",
               "RelativeDocumentMoniker": "lib_presentaciones\\Implementaciones\\ClientesPresentacion.cs",
@@ -635,12 +717,11 @@
               "RelativeToolTip": "lib_presentaciones\\Implementaciones\\ClientesPresentacion.cs",
               "ViewState": "AgIAAFYAAAAAAAAAAAAIwGsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T23:17:36.771Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T23:17:36.771Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 26,
               "Title": "ClientesAplicacion.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\ClientesAplicacion.cs",
               "RelativeDocumentMoniker": "lib_aplicaciones\\implementaciones\\ClientesAplicacion.cs",
@@ -653,7 +734,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 29,
               "Title": "ClientesController.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\ClientesController.cs",
               "RelativeDocumentMoniker": "asp_servicios\\Controllers\\ClientesController.cs",
@@ -665,7 +746,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 30,
               "Title": "ArtistasController.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\ArtistasController.cs",
               "RelativeDocumentMoniker": "asp_servicios\\Controllers\\ArtistasController.cs",
@@ -678,19 +759,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "DiscosPresentacion.cs",
-              "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_presentaciones\\Implementaciones\\DiscosPresentacion.cs",
-              "RelativeDocumentMoniker": "lib_presentaciones\\Implementaciones\\DiscosPresentacion.cs",
-              "ToolTip": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_presentaciones\\Implementaciones\\DiscosPresentacion.cs",
-              "RelativeToolTip": "lib_presentaciones\\Implementaciones\\DiscosPresentacion.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAQwCYAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T22:15:49.382Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 31,
               "Title": "TokenController.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\TokenController.cs",
               "RelativeDocumentMoniker": "asp_servicios\\Controllers\\TokenController.cs",
@@ -703,7 +772,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 33,
               "Title": "FormatosController.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\FormatosController.cs",
               "RelativeDocumentMoniker": "asp_servicios\\Controllers\\FormatosController.cs",
@@ -715,7 +784,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 32,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
@@ -725,7 +794,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 34,
               "Title": "Clientes.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Clientes.cs",
               "RelativeDocumentMoniker": "lib_dominio\\Entidades\\Clientes.cs",
@@ -737,7 +806,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 35,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_presentaciones\\Pages\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "asp_presentaciones\\Pages\\_ViewStart.cshtml",
@@ -749,7 +818,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 36,
               "Title": "DatosGenerales.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Nucleo\\DatosGenerales.cs",
               "RelativeDocumentMoniker": "lib_dominio\\Nucleo\\DatosGenerales.cs",
@@ -761,7 +830,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 37,
               "Title": "secrets.json",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\secrets.json",
               "RelativeDocumentMoniker": "secrets.json",
@@ -773,7 +842,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 38,
               "Title": "script.sql",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_repositorios\\script.sql",
               "RelativeDocumentMoniker": "lib_repositorios\\script.sql",
@@ -784,7 +853,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 39,
               "Title": "ArtistasAplicacion.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\ArtistasAplicacion.cs",
               "RelativeDocumentMoniker": "lib_aplicaciones\\implementaciones\\ArtistasAplicacion.cs",
@@ -796,7 +865,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 40,
               "Title": "site.css",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_presentaciones\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "asp_presentaciones\\wwwroot\\css\\site.css",
@@ -808,7 +877,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 44,
               "Title": "asp_presentaciones",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_presentaciones\\asp_presentaciones.csproj",
               "RelativeDocumentMoniker": "asp_presentaciones\\asp_presentaciones.csproj",
@@ -819,7 +888,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 42,
               "Title": "favicon.ico -  [Espa\u00F1ol (M\u00E9xico)] - Icon [32x32, 32 bits, BMP]",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_presentaciones\\wwwroot\\favicon.ico",
               "RelativeDocumentMoniker": "asp_presentaciones\\wwwroot\\favicon.ico",
@@ -831,7 +900,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 41,
               "Title": "Error.cshtml",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_presentaciones\\Pages\\Error.cshtml",
               "RelativeDocumentMoniker": "asp_presentaciones\\Pages\\Error.cshtml",
@@ -843,7 +912,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 43,
               "Title": "Error.cshtml.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_presentaciones\\Pages\\Error.cshtml.cs",
               "RelativeDocumentMoniker": "asp_presentaciones\\Pages\\Error.cshtml.cs",
@@ -855,7 +924,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 47,
               "Title": "asp_presentaciones.csproj",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_presentaciones\\asp_presentaciones.csproj",
               "RelativeDocumentMoniker": "asp_presentaciones\\asp_presentaciones.csproj",
@@ -867,7 +936,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 46,
               "Title": "DiscosController.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\DiscosController.cs",
               "RelativeDocumentMoniker": "asp_servicios\\Controllers\\DiscosController.cs",
@@ -879,7 +948,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 45,
               "Title": "Discos.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Discos.cs",
               "RelativeDocumentMoniker": "lib_dominio\\Entidades\\Discos.cs",
@@ -891,7 +960,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 50,
               "Title": "OrdenesController.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\OrdenesController.cs",
               "RelativeDocumentMoniker": "asp_servicios\\Controllers\\OrdenesController.cs",
@@ -903,7 +972,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 48,
               "Title": "DiscosAplicacion.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\DiscosAplicacion.cs",
               "RelativeDocumentMoniker": "lib_aplicaciones\\implementaciones\\DiscosAplicacion.cs",
@@ -915,7 +984,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 49,
               "Title": "MarcasController.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\MarcasController.cs",
               "RelativeDocumentMoniker": "asp_servicios\\Controllers\\MarcasController.cs",
@@ -927,7 +996,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 52,
               "Title": "MarcasAplicacion.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\MarcasAplicacion.cs",
               "RelativeDocumentMoniker": "lib_aplicaciones\\implementaciones\\MarcasAplicacion.cs",
@@ -939,7 +1008,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 51,
               "Title": "PagosController.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\PagosController.cs",
               "RelativeDocumentMoniker": "asp_servicios\\Controllers\\PagosController.cs",
@@ -951,7 +1020,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 53,
               "Title": "PagosAplicacion.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\implementaciones\\PagosAplicacion.cs",
               "RelativeDocumentMoniker": "lib_aplicaciones\\implementaciones\\PagosAplicacion.cs",
@@ -963,7 +1032,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 54,
               "Title": "OrdenesDiscosController.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Controllers\\OrdenesDiscosController.cs",
               "RelativeDocumentMoniker": "asp_servicios\\Controllers\\OrdenesDiscosController.cs",
@@ -976,7 +1045,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 55,
               "Title": "Configuracion.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\nucleo\\Configuracion.cs",
               "RelativeDocumentMoniker": "asp_servicios\\nucleo\\Configuracion.cs",
@@ -988,7 +1057,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 56,
               "Title": "asp_servicios.csproj",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\asp_servicios.csproj",
               "RelativeDocumentMoniker": "asp_servicios\\asp_servicios.csproj",
@@ -1000,7 +1069,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 57,
               "Title": "iArtistasAplicacion.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\interfaces\\iArtistasAplicacion.cs",
               "RelativeDocumentMoniker": "lib_aplicaciones\\interfaces\\iArtistasAplicacion.cs",
@@ -1012,7 +1081,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 58,
               "Title": "IOrdenesDiscosAplicacion.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\interfaces\\IOrdenesDiscosAplicacion.cs",
               "RelativeDocumentMoniker": "lib_aplicaciones\\interfaces\\IOrdenesDiscosAplicacion.cs",
@@ -1024,7 +1093,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 59,
               "Title": ".gitignore",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\.gitignore",
               "RelativeDocumentMoniker": ".gitignore",
@@ -1036,7 +1105,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 60,
               "Title": "iDiscosAplicacion.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\interfaces\\iDiscosAplicacion.cs",
               "RelativeDocumentMoniker": "lib_aplicaciones\\interfaces\\iDiscosAplicacion.cs",
@@ -1048,7 +1117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 62,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Program.cs",
               "RelativeDocumentMoniker": "asp_servicios\\Program.cs",
@@ -1060,7 +1129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 61,
               "Title": "Startup.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\Startup.cs",
               "RelativeDocumentMoniker": "asp_servicios\\Startup.cs",
@@ -1072,7 +1141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 64,
               "Title": "OrdenesDiscos.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\OrdenesDiscos.cs",
               "RelativeDocumentMoniker": "lib_dominio\\Entidades\\OrdenesDiscos.cs",
@@ -1084,7 +1153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 63,
               "Title": "Ordenes.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Ordenes.cs",
               "RelativeDocumentMoniker": "lib_dominio\\Entidades\\Ordenes.cs",
@@ -1096,7 +1165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 65,
               "Title": "JsonConversor.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Nucleo\\JsonConversor.cs",
               "RelativeDocumentMoniker": "lib_dominio\\Nucleo\\JsonConversor.cs",
@@ -1108,7 +1177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 66,
               "Title": "OrdenesPruebas.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\OrdenesPruebas.cs",
               "RelativeDocumentMoniker": "ut_presentaciones\\Repositorios\\OrdenesPruebas.cs",
@@ -1121,7 +1190,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 67,
               "Title": "OrdenesDiscosPruebas.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\OrdenesDiscosPruebas.cs",
               "RelativeDocumentMoniker": "ut_presentaciones\\Repositorios\\OrdenesDiscosPruebas.cs",
@@ -1134,7 +1203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 68,
               "Title": "IOrdenesAplicaciones.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\interfaces\\IOrdenesAplicaciones.cs",
               "RelativeDocumentMoniker": "lib_aplicaciones\\interfaces\\IOrdenesAplicaciones.cs",
@@ -1146,7 +1215,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 69,
               "Title": "iFormatosAplicacion.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\interfaces\\iFormatosAplicacion.cs",
               "RelativeDocumentMoniker": "lib_aplicaciones\\interfaces\\iFormatosAplicacion.cs",
@@ -1158,7 +1227,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 73,
               "Title": "IConexion.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_repositorios\\Interfaces\\IConexion.cs",
               "RelativeDocumentMoniker": "lib_repositorios\\Interfaces\\IConexion.cs",
@@ -1170,7 +1239,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 71,
               "Title": "Usuarios.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Usuarios.cs",
               "RelativeDocumentMoniker": "lib_dominio\\Entidades\\Usuarios.cs",
@@ -1182,7 +1251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 70,
               "Title": "EntidadesNucleo.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Nucleo\\EntidadesNucleo.cs",
               "RelativeDocumentMoniker": "ut_presentaciones\\Nucleo\\EntidadesNucleo.cs",
@@ -1194,7 +1263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 74,
               "Title": "Conexion.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_repositorios\\Implementaciones\\Conexion.cs",
               "RelativeDocumentMoniker": "lib_repositorios\\Implementaciones\\Conexion.cs",
@@ -1206,7 +1275,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 75,
               "Title": "EncriptarConversor.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Nucleo\\EncriptarConversor.cs",
               "RelativeDocumentMoniker": "lib_dominio\\Nucleo\\EncriptarConversor.cs",
@@ -1218,7 +1287,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 72,
               "Title": "Roles.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Roles.cs",
               "RelativeDocumentMoniker": "lib_dominio\\Entidades\\Roles.cs",
@@ -1230,7 +1299,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 76,
               "Title": "FormatosPruebas.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\FormatosPruebas.cs",
               "RelativeDocumentMoniker": "ut_presentaciones\\Repositorios\\FormatosPruebas.cs",
@@ -1242,7 +1311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 77,
               "Title": "ClientesPruebas.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\ClientesPruebas.cs",
               "RelativeDocumentMoniker": "ut_presentaciones\\Repositorios\\ClientesPruebas.cs",
@@ -1254,7 +1323,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 78,
               "Title": "ArtistasPruebas.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\ArtistasPruebas.cs",
               "RelativeDocumentMoniker": "ut_presentaciones\\Repositorios\\ArtistasPruebas.cs",
@@ -1266,7 +1335,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 79,
               "Title": "DiscosPruebas.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\DiscosPruebas.cs",
               "RelativeDocumentMoniker": "ut_presentaciones\\Repositorios\\DiscosPruebas.cs",
@@ -1278,7 +1347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 80,
               "Title": "MarcasPruebas.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\MarcasPruebas.cs",
               "RelativeDocumentMoniker": "ut_presentaciones\\Repositorios\\MarcasPruebas.cs",
@@ -1290,7 +1359,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 81,
               "Title": "PagosPruebas.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\ut_presentaciones\\Repositorios\\PagosPruebas.cs",
               "RelativeDocumentMoniker": "ut_presentaciones\\Repositorios\\PagosPruebas.cs",
@@ -1302,7 +1371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 89,
               "Title": "RegistrarUsuarios.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\RegistrarUsuarios.cs",
               "RelativeDocumentMoniker": "..\\proyecto discos musicales\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\RegistrarUsuarios.cs",
@@ -1313,7 +1382,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 82,
               "Title": "LogConversor.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Nucleo\\LogConversor.cs",
               "RelativeDocumentMoniker": "lib_dominio\\Nucleo\\LogConversor.cs",
@@ -1325,7 +1394,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 83,
               "Title": "EncodingHelper.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Nucleo\\EncodingHelper.cs",
               "RelativeDocumentMoniker": "lib_dominio\\Nucleo\\EncodingHelper.cs",
@@ -1337,19 +1406,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
-              "Title": "Formatos.cs",
-              "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Formatos.cs",
-              "RelativeDocumentMoniker": "lib_dominio\\Entidades\\Formatos.cs",
-              "ToolTip": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Formatos.cs",
-              "RelativeToolTip": "lib_dominio\\Entidades\\Formatos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T19:32:54.433Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 84,
               "Title": "Pagos.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Pagos.cs",
               "RelativeDocumentMoniker": "lib_dominio\\Entidades\\Pagos.cs",
@@ -1361,7 +1418,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 85,
               "Title": "IMarcasAplicacion.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\interfaces\\IMarcasAplicacion.cs",
               "RelativeDocumentMoniker": "lib_aplicaciones\\interfaces\\IMarcasAplicacion.cs",
@@ -1373,7 +1430,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 86,
               "Title": "Auditorias.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_dominio\\Entidades\\Auditorias.cs",
               "RelativeDocumentMoniker": "lib_dominio\\Entidades\\Auditorias.cs",
@@ -1385,7 +1442,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 88,
               "Title": "TestPlatformEntryPoint.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\asp_servicios\\obj\\Debug\\net8.0\\TestPlatformEntryPoint.cs",
               "RelativeDocumentMoniker": "asp_servicios\\obj\\Debug\\net8.0\\TestPlatformEntryPoint.cs",
@@ -1397,7 +1454,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 87,
               "Title": "iPagosAplicacion.cs",
               "DocumentMoniker": "E:\\michel\\programacion\\PROYECTO-FINAL-PROGRAMACION-DE-SOFTWARE\\lib_aplicaciones\\interfaces\\iPagosAplicacion.cs",
               "RelativeDocumentMoniker": "lib_aplicaciones\\interfaces\\iPagosAplicacion.cs",

@@ -18,6 +18,7 @@ namespace asp_presentacion
             services.AddScoped<IDiscosPresentacion, DiscosPresentacion>();
             services.AddScoped<IClientesPresentacion, ClientesPresentacion>();
             services.AddScoped<IMarcasPresentacion, MarcasPresentacion>();
+            services.AddScoped<IFormatosPresentacion, FormatosPresentacion>();
 
 
             services.AddControllers();

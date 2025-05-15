@@ -1,5 +1,5 @@
 ﻿@page
-@model asp_presentacion.Pages.Ventanas.MarcasModel
+@model asp_presentacion.Pages.Ventanas.FormatosModel
 @{
     ViewData["Titulo"] = "";
 }
@@ -10,7 +10,7 @@
             @Html.AntiForgeryToken()
 
             <div align="left">
-                <h3>Marcas</h3>
+                <h3>Formatos</h3>
             </div>
             <div align="left"
                  class="bt_panel_buttons">
@@ -46,9 +46,9 @@
             {
                 
                 <input type="hidden"
-                       asp-for="@Model.Actual!.NombreMarca" />
+                       asp-for="@Model.Actual!.TipoFormato" />
                 <input type="hidden"
-                       asp-for="@Model.Actual!.PaginaWeb" />
+                       asp-for="@Model.Actual!.Material" />
                 
             }
 
@@ -62,22 +62,22 @@
                         
                         <div class="form-group">
                             <label class="col-lg-4 control-label">
-                                Nombre 
+                                Tipo del formato 
                             </label>
                             <div class="col-lg-6">
                                 <input id="nmMateria"
                                        class="cts_forms form-control"
-                                       asp-for="@Model.Actual!.NombreMarca" />
+                                       asp-for="@Model.Actual!.TipoFormato" />
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="col-lg-4 control-label">
-                                pagina web
+                                material
                             </label>
                             <div class="col-lg-6">
                                 <input id="nmNota1"
                                        class="cts_forms form-control"
-                                       asp-for="@Model.Actual!.PaginaWeb" />
+                                       asp-for="@Model.Actual!.Material" />
                             </div>
                         </div>
                         
@@ -116,7 +116,7 @@
                                 Desea borrar la entidad?
                             </h4>
                             <h6 align="left">
-                                @Model.Actual!.NombreMarca,
+                                @Model.Actual!.TipoFormato,
                                 
                             </h6>
                             <br />
@@ -198,7 +198,7 @@
             {
                 <input id="flNombre"
                        class="cts_forms form-control"
-                       asp-for="@Model.Filtro!.NombreMarca"
+                       asp-for="@Model.Filtro!.TipoFormato"
                        placeholder="Nombre" />
                 <br />
 
@@ -206,10 +206,10 @@
                     <table class="tb_data table table-striped table-bordered table-hover">
                         <tr>
                             <th>
-                                NombreMarca
+                                TipoFormato
                             </th>
                             <th>
-                                PaginaWeb
+                                Material
                             </th>
                             
                         </tr>
@@ -219,11 +219,11 @@
                             {
                                 <tr>
                                     <td>
-                                        @elemento.NombreMarca
+                                        @elemento.TipoFormato
                                     </td>
                                     
                                     <td class="cl_hidden">
-                                        @elemento.PaginaWeb
+                                        @elemento.Material
                                     </td>
                                      <td>
                                     
