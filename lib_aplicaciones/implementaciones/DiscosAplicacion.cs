@@ -62,13 +62,17 @@ namespace lib_aplicaciones.Implementaciones
 
         public List<Discos> Listar()
         {
-            return this.IConexion!.Discos!.Take(20).ToList();
+            return this.IConexion!.Discos!
+                .Take(20)
+                .Include(x => x._Artista)
+                .ToList();
         }
 
         public List<Discos> PorNombre(Discos? entidad)
         {
             return this.IConexion!.Discos!
                 .Where(x => x.NombreDisco!.Contains(entidad!.NombreDisco!))
+                .Include(x => x._Artista)
                 .ToList();
         }
         public Discos? Modificar(Discos? entidad)

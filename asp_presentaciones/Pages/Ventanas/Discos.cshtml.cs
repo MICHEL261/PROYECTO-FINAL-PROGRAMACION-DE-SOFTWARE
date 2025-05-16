@@ -9,12 +9,14 @@ namespace asp_presentaciones.Pages.Ventanas
     public class DiscosModel : PageModel
     {
         private IDiscosPresentacion? iPresentacion = null;
+        private IArtistasPresentacion? IArtistasPresentacion = null;
 
-        public DiscosModel(IDiscosPresentacion iPresentacion)
+        public DiscosModel(IDiscosPresentacion iPresentacion, IArtistasPresentacion IArtistasPresentacion)
         {
             try
             {
                 this.iPresentacion = iPresentacion;
+                this.IArtistasPresentacion = IArtistasPresentacion;
                 Filtro = new Discos();
             }
             catch (Exception ex)
@@ -28,6 +30,8 @@ namespace asp_presentaciones.Pages.Ventanas
         [BindProperty] public Discos? Actual { get; set; }
         [BindProperty] public Discos? Filtro { get; set; }
         [BindProperty] public List<Discos>? Lista { get; set; }
+        [BindProperty] public List<Artistas>? Artistas { get; set; }
+
 
         public virtual void OnGet() { OnPostBtRefrescar(); }
 
@@ -55,6 +59,19 @@ namespace asp_presentaciones.Pages.Ventanas
                 LogConversor.Log(ex, ViewData!);
             }
         }
+        private void CargarCombox()
+        {
+            try
+            {
+                var task = this.IArtistasPresentacion!.Listar();
+                task.Wait();
+                Artistas = task.Result;
+            }
+            catch (Exception ex)
+            {
+                LogConversor.Log(ex, ViewData!);
+            }
+        }
 
 
 
@@ -64,6 +81,8 @@ namespace asp_presentaciones.Pages.Ventanas
             {
                 Accion = Enumerables.Ventanas.Editar;
                 Actual = new Discos();
+                CargarCombox();
+
             }
             catch (Exception ex)
             {
@@ -76,8 +95,12 @@ namespace asp_presentaciones.Pages.Ventanas
             try
             {
                 OnPostBtRefrescar();
+
+                CargarCombox();
+
                 Accion = Enumerables.Ventanas.Editar;
                 Actual = Lista!.FirstOrDefault(x => x.Id.ToString() == data);
+
             }
             catch (Exception ex)
             {

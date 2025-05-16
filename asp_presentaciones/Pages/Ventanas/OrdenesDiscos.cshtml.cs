@@ -42,9 +42,10 @@ namespace asp_presentaciones.Pages.Ventanas
                     return;
                 }
 
+                Filtro!.Id = Filtro!.Id - 1;
 
                 Accion = Enumerables.Ventanas.Listas;
-                var task = this.iPresentacion!.PorId(Filtro!);
+                var task = this.iPresentacion!.Listar();
                 task.Wait();
                 Lista = task.Result;
                 Actual = null;
