@@ -60,3 +60,6 @@ Generated\ Files/
 .vs/
 bin/
 obj/
+**/bin/
+**/obj/
+
