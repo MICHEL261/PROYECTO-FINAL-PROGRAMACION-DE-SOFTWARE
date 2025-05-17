@@ -10,13 +10,17 @@ namespace asp_presentaciones.Pages.Ventanas
     {
         private IDiscosPresentacion? iPresentacion = null;
         private IArtistasPresentacion? IArtistasPresentacion = null;
+        private IMarcasPresentacion? IMarcasPresentacion = null;
+        
 
-        public DiscosModel(IDiscosPresentacion iPresentacion, IArtistasPresentacion IArtistasPresentacion)
+
+        public DiscosModel(IDiscosPresentacion iPresentacion, IArtistasPresentacion IArtistasPresentacion, IMarcasPresentacion IMarcasPresentacion)
         {
             try
             {
                 this.iPresentacion = iPresentacion;
                 this.IArtistasPresentacion = IArtistasPresentacion;
+                this.IMarcasPresentacion = IMarcasPresentacion;
                 Filtro = new Discos();
             }
             catch (Exception ex)
@@ -31,6 +35,7 @@ namespace asp_presentaciones.Pages.Ventanas
         [BindProperty] public Discos? Filtro { get; set; }
         [BindProperty] public List<Discos>? Lista { get; set; }
         [BindProperty] public List<Artistas>? Artistas { get; set; }
+        [BindProperty] public List<Marcas>? Marcas { get; set; }
 
 
         public virtual void OnGet() { OnPostBtRefrescar(); }
@@ -64,8 +69,11 @@ namespace asp_presentaciones.Pages.Ventanas
             try
             {
                 var task = this.IArtistasPresentacion!.Listar();
+                var task2 = this.IMarcasPresentacion!.Listar();
                 task.Wait();
+                task2.Wait();
                 Artistas = task.Result;
+                Marcas = task2.Result;
             }
             catch (Exception ex)
             {

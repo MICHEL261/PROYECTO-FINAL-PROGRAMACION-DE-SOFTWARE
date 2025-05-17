@@ -82,13 +82,15 @@
                     </div>
 
                     <div class="form-group">
-                        <label class="col-lg-4 control-label">Marca</label>
-                        <div class="col-lg-6">
-                            <input id="nmMarca"
-                                   class="cts_forms form-control"
-                                   asp-for="@Model.Actual!.Marca" />
+                            <label class="col-lg-4 control-label">Marca</label>
+                            <div class="col-lg-6">
+                                <select id="nmMarca"
+                                    class="cts_forms form-control"
+                                        asp-for="@Model.Actual!.Marca"
+                                    asp-items="@(new SelectList(Model.Marcas, "Id", "NombreMarca"))">
+                                </select>
+                            </div>
                         </div>
-                    </div>
 
                     <div class="form-group">
                         <label class="col-lg-4 control-label">Duracion</label>
@@ -251,7 +253,7 @@
                                         @elemento._Artista!.NombreArtista
                                     </td>
                                     <td>
-                                        @elemento.Marca
+                                        @elemento._Marca.NombreMarca
                                     </td>
                                     <td class="cl_hidden">
                                         @elemento.NombreDisco

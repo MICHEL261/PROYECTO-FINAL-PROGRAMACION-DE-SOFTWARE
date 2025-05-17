@@ -65,6 +65,7 @@ namespace lib_aplicaciones.Implementaciones
             return this.IConexion!.Discos!
                 .Take(20)
                 .Include(x => x._Artista)
+                .Include(x => x._Marca)
                 .ToList();
         }
 
@@ -73,6 +74,7 @@ namespace lib_aplicaciones.Implementaciones
             return this.IConexion!.Discos!
                 .Where(x => x.NombreDisco!.Contains(entidad!.NombreDisco!))
                 .Include(x => x._Artista)
+                .Include(x => x._Marca)
                 .ToList();
         }
         public Discos? Modificar(Discos? entidad)
