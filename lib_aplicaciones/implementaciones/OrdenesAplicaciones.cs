@@ -59,13 +59,19 @@ namespace lib_aplicaciones.Implementaciones
 
         public List<Ordenes> Listar()
         {
-            return this.IConexion!.Ordenes!.Take(20).ToList();
+            return this.IConexion!.Ordenes!
+                .Include(x => x._Cliente)
+                .Include(x => x._Pago)
+                .Take(20)
+                .ToList();
         }
 
         public List<Ordenes> PorId(Ordenes? entidad)
         {
             return this.IConexion!.Ordenes!
                 .Where(x => x.Id! == (entidad!.Id!))
+                .Include(x => x._Cliente)
+                .Include(x => x._Pago)
                 .ToList();
         }
 

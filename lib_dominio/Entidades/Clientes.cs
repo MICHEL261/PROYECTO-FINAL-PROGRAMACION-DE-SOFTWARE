@@ -1,4 +1,6 @@
-﻿namespace lib_dominio.Entidades
+﻿using Newtonsoft.Json;
+
+namespace lib_dominio.Entidades
 {
     public class Clientes
     {
@@ -7,6 +9,7 @@
         public string? ApellidoCliente { get; set; }
         public string? DireccionCliente { get; set; }
         public string? TelefonoCliente { get; set; }
+        [JsonIgnore]
         public List<Ordenes>? Ordenes { get; set; }
 
     }

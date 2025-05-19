@@ -73,25 +73,25 @@
                             </div>
                         </div>
                         <div class="form-group">
-                            <label class="col-lg-4 control-label">
-                                Cliente
-                            </label>
-                            <div class="col-lg-6">
-                                <input id="nmMateria"
-                                       class="cts_forms form-control"
-                                       asp-for="@Model.Actual!.Cliente" />
-                            </div>
+                        <label class="col-lg-4 control-label">Cliente</label>
+                        <div class="col-lg-6">
+                            <select id="nmCliente"
+                                    class="cts_forms form-control"
+                                    asp-for="@Model.Actual!.Cliente"
+                                    asp-items="@(new SelectList(Model.Clientes, "Id", "NombreCliente"))">
+                            </select>
                         </div>
+                    </div>
                         <div class="form-group">
-                            <label class="col-lg-4 control-label">
-                                Pago
-                            </label>
-                            <div class="col-lg-6">
-                                <input id="nmNota1"
-                                       class="cts_forms form-control"
-                                       asp-for="@Model.Actual!.Pago" />
-                            </div>
+                        <label class="col-lg-4 control-label">Pago</label>
+                        <div class="col-lg-6">
+                            <select id="nmPago"
+                                    class="cts_forms form-control"
+                                    asp-for="@Model.Actual!.Pago"
+                                    asp-items="@(new SelectList(Model.Pagos, "Id", "TipoPago"))">
+                            </select>
                         </div>
+                    </div>
                         <div class="form-group">
                             <label class="col-lg-4 control-label">
                                 MontoTotal
@@ -254,10 +254,10 @@
                                         @elemento.Fecha
                                     </td>
                                     <td>
-                                        @elemento.Cliente
+                                        @elemento._Cliente!.NombreCliente
                                     </td>
                                     <td class="cl_hidden">
-                                        @elemento.Pago
+                                        @elemento._Pago!.TipoPago
                                     </td>
                                     <td class="cl_hidden">
                                         @elemento.MontoTotal

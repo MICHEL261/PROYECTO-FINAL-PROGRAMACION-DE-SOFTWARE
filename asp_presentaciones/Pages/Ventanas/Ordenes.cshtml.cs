@@ -9,12 +9,17 @@ namespace asp_presentaciones.Pages.Ventanas
     public class OrdenesModel : PageModel
     {
         private IOrdenesPresentacion? iPresentacion = null;
+        private IClientesPresentacion? IClientesPresentacion = null;
+        private IPagosPresentacion? IPagosPresentacion = null;
 
-        public OrdenesModel(IOrdenesPresentacion iPresentacion)
+        public OrdenesModel(IOrdenesPresentacion iPresentacion, IClientesPresentacion? IClientesPresentacion, IPagosPresentacion? IPagosPresentacion)
         {
             try
             {
                 this.iPresentacion = iPresentacion;
+                this.IClientesPresentacion = IClientesPresentacion;
+                this.IPagosPresentacion = IPagosPresentacion;
+
                 Filtro = new Ordenes();
             }
             catch (Exception ex)
@@ -28,6 +33,8 @@ namespace asp_presentaciones.Pages.Ventanas
         [BindProperty] public Ordenes? Actual { get; set; }
         [BindProperty] public Ordenes? Filtro { get; set; }
         [BindProperty] public List<Ordenes>? Lista { get; set; }
+        [BindProperty] public List<Clientes>? Clientes { get; set; }
+        [BindProperty] public List<Pagos>? Pagos { get; set; }
 
         public virtual void OnGet() { OnPostBtRefrescar(); }
 
@@ -56,12 +63,30 @@ namespace asp_presentaciones.Pages.Ventanas
             }
         }
 
+        private void CargarCombox()
+        {
+            try
+            {
+                var task = this.IClientesPresentacion!.Listar();
+                var task2 = this.IPagosPresentacion!.Listar();
+                task.Wait();
+                task2.Wait();
+                Clientes = task.Result;
+                Pagos = task2.Result;
+            }
+            catch (Exception ex)
+            {
+                LogConversor.Log(ex, ViewData!);
+            }
+        }
+
         public virtual void OnPostBtNuevo()
         {
             try
             {
                 Accion = Enumerables.Ventanas.Editar;
                 Actual = new Ordenes();
+                CargarCombox();
             }
             catch (Exception ex)
             {
@@ -76,6 +101,7 @@ namespace asp_presentaciones.Pages.Ventanas
                 OnPostBtRefrescar();
                 Accion = Enumerables.Ventanas.Editar;
                 Actual = Lista!.FirstOrDefault(x => x.Id.ToString() == data);
+                CargarCombox();
             }
             catch (Exception ex)
             {
