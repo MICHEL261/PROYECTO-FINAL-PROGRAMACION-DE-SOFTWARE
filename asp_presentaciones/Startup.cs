@@ -22,14 +22,10 @@ namespace asp_presentacion
             services.AddScoped<IOrdenesPresentacion, OrdenesPresentacion>();
             services.AddScoped<IPagosPresentacion, PagosPresentacion>();
             services.AddScoped<IOrdenesDiscosPresentacion, OrdenesDiscosPresentacion>();
-
-
-
-
-
             services.AddScoped<IMarcasPresentacion, MarcasPresentacion>();
             services.AddScoped<IFormatosPresentacion, FormatosPresentacion>();
             services.AddScoped<IUsuariosPresentacion, UsuariosPresentacion>();
+            services.AddScoped<IRolesPresentacion, RolesPresentacion>();
 
 
             services.AddControllers();
