@@ -134,7 +134,7 @@ INSERT INTO [Roles] (NombreRol, Descripcion)
 VALUES ('Cliente', 'realizar una compra');
 
 INSERT INTO [Usuarios] (Nombre, Apellido, Email, NombreUsuario, Contraseña, Rol)
-VALUES ('mario', 'correa', 'mario@gmail.com', 'MarioC123', 'PruebaContraseña1', 1);
+VALUES ('mario', 'correa', 'mario@gmail.com', 'admin', '123', 1);
 
 INSERT INTO [Usuarios] (Nombre, Apellido, Email, NombreUsuario, Contraseña, Rol)
 VALUES ('juan', 'alvarez', 'juan@gmail.com', 'juan567', 'Contraseña2', 2);

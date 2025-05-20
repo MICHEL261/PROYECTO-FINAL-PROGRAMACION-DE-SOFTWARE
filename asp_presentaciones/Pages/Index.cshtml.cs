@@ -1,5 +1,10 @@
+using lib_aplicaciones.Interfaces;
+using lib_dominio.Entidades;
 using lib_dominio.Nucleo;
 using lib_presentaciones.Implementaciones;
+using lib_presentaciones.Interfaces;
+using lib_repositorios.Implementaciones;
+using lib_repositorios.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
@@ -7,9 +12,17 @@ namespace asp_presentaciones.Pages
 {
     public class IndexModel : PageModel
     {
-        public bool EstaLogueado = false;
+        
+
+        // Inyección de la dependencia
+        
+
+        public bool EstaLogueado { get; set; }
+
+
         [BindProperty] public string? Email { get; set; }
         [BindProperty] public string? Contrasena { get; set; }
+
 
         public void OnGet()
         {
@@ -36,25 +49,41 @@ namespace asp_presentaciones.Pages
 
         public void OnPostBtEnter()
         {
+
             try
             {
-                if (string.IsNullOrEmpty(Email) &&
-                    string.IsNullOrEmpty(Contrasena))
+                if (string.IsNullOrEmpty(Email) || string.IsNullOrEmpty(Contrasena))
                 {
                     OnPostBtClean();
                     return;
                 }
 
                
+                var usuariosPresentacion = new UsuariosPresentacion();
+                var usuarios = usuariosPresentacion.Listar().Result; 
 
-                if ("admin.123" != Email + "." + Contrasena)
+                bool loginExitoso = false;
+
+                foreach (var usuario in usuarios)
                 {
-                    OnPostBtClean();
-                    return;
+                    if (usuario.NombreUsuario == Email && usuario.Contraseña == Contrasena)
+                    {
+                        loginExitoso = true;
+                        break;
+                    }
                 }
-                ViewData["Logged"] = true;
-                HttpContext.Session.SetString("Usuario", Email!);
-                EstaLogueado = true;
+
+                if (loginExitoso)
+                {
+                    ViewData["Logged"] = true;
+                    HttpContext.Session.SetString("Usuario", Email!);
+                    EstaLogueado = true;
+                }
+                else
+                {
+                    ViewData["Error"] = "Usuario o contraseña incorrectos.";
+                }
+
                 OnPostBtClean();
             }
             catch (Exception ex)
