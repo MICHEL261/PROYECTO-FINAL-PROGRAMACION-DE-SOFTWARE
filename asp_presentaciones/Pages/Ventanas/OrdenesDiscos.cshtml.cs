@@ -9,12 +9,22 @@ namespace asp_presentaciones.Pages.Ventanas
     public class OrdenesDiscosModel : PageModel
     {
         private IOrdenesDiscosPresentacion? iPresentacion = null;
+        private IOrdenesPresentacion? IOrdenesPresentacion = null;
+        private IDiscosPresentacion? IDiscosPresentacion = null;
+        private IFormatosPresentacion? IFormatosPresentacion = null;
 
-        public OrdenesDiscosModel(IOrdenesDiscosPresentacion iPresentacion)
+
+
+        public OrdenesDiscosModel(IOrdenesDiscosPresentacion iPresentacion, IOrdenesPresentacion IOrdenesPresentacion, IDiscosPresentacion IDiscosPresentacion, IFormatosPresentacion IFormatosPresentacion)
         {
             try
             {
                 this.iPresentacion = iPresentacion;
+                this.IOrdenesPresentacion = IOrdenesPresentacion;
+                this.IDiscosPresentacion = IDiscosPresentacion;
+                this.IFormatosPresentacion = IFormatosPresentacion;
+
+
                 Filtro = new OrdenesDiscos();
             }
             catch (Exception ex)
@@ -28,6 +38,10 @@ namespace asp_presentaciones.Pages.Ventanas
         [BindProperty] public OrdenesDiscos? Actual { get; set; }
         [BindProperty] public OrdenesDiscos? Filtro { get; set; }
         [BindProperty] public List<OrdenesDiscos>? Lista { get; set; }
+        [BindProperty] public List<Ordenes>? Ordenes { get; set; }
+        [BindProperty] public List<Discos>? Discos { get; set; }
+        [BindProperty] public List<Formatos>? Formatos { get; set; }
+
 
         public virtual void OnGet() { OnPostBtRefrescar(); }
 
@@ -55,6 +69,25 @@ namespace asp_presentaciones.Pages.Ventanas
                 LogConversor.Log(ex, ViewData!);
             }
         }
+        private void CargarCombox()
+        {
+            try
+            {
+                var task = this.IOrdenesPresentacion!.Listar();
+                var task2 = this.IDiscosPresentacion!.Listar();
+                var task3 = this.IFormatosPresentacion!.Listar();
+                task.Wait();
+                task2.Wait();
+                Ordenes = task.Result;
+                Discos = task2.Result;
+                Formatos = task3.Result;
+
+            }
+            catch (Exception ex)
+            {
+                LogConversor.Log(ex, ViewData!);
+            }
+        }
 
         public virtual void OnPostBtNuevo()
         {
@@ -62,6 +95,7 @@ namespace asp_presentaciones.Pages.Ventanas
             {
                 Accion = Enumerables.Ventanas.Editar;
                 Actual = new OrdenesDiscos();
+                CargarCombox();
             }
             catch (Exception ex)
             {
@@ -76,6 +110,7 @@ namespace asp_presentaciones.Pages.Ventanas
                 OnPostBtRefrescar();
                 Accion = Enumerables.Ventanas.Editar;
                 Actual = Lista!.FirstOrDefault(x => x.Id.ToString() == data);
+                CargarCombox();
             }
             catch (Exception ex)
             {

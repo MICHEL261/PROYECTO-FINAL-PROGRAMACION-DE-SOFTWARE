@@ -1,5 +1,6 @@
 ﻿
 using System.ComponentModel.DataAnnotations.Schema;
+using Newtonsoft.Json;
 
 namespace lib_dominio.Entidades
 {
@@ -13,6 +14,7 @@ namespace lib_dominio.Entidades
         public DateTime FechaLanzamiento { get; set; }
         [ForeignKey("Artista")] public Artistas? _Artista { get; set; }
         [ForeignKey("Marca")] public Marcas? _Marca { get; set; }
+        [JsonIgnore]
         public List<OrdenesDiscos>? OrdenesDiscos { get; set; }
 
     }

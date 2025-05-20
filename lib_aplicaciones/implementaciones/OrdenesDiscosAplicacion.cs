@@ -60,13 +60,20 @@ namespace lib_aplicaciones.Implementaciones
 
         public List<OrdenesDiscos> Listar()
         {
-            return this.IConexion!.OrdenesDiscos!.Take(20).ToList();
+            return this.IConexion!.OrdenesDiscos!.Take(20)
+                .Include(x => x._Orden)
+                .Include(x => x._Disco)
+                .Include(x => x._Formato)
+                .ToList();
         }
 
         public List<OrdenesDiscos> PorId(OrdenesDiscos? entidad)
         {
             return this.IConexion!.OrdenesDiscos!
                 .Where(x => x.Id! == (entidad!.Id!))
+                .Include(x => x._Orden)
+                .Include(x => x._Disco)
+                .Include(x => x._Formato)
                 .ToList();
         }
 

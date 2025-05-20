@@ -1,7 +1,7 @@
 ﻿@page
 @model asp_presentaciones.Pages.Ventanas.OrdenesDiscosModel
 @{
-    ViewData["Titulo"] = "";
+    ViewData["Titulo"] = "OrdenesDiscos";
 
 }
 <center>
@@ -69,9 +69,11 @@
                                 Orden
                             </label>
                             <div class="col-lg-6">
-                                <input id="nmEstudiante"
-                                       class="cts_forms form-control"
-                                       asp-for="@Model.Actual!.Orden" />
+                                <select id="nmOrden"
+                                        class="cts_forms form-control"
+                                        asp-for="@Model.Actual!.Orden"
+                                        asp-items="@(new SelectList(Model.Ordenes, "Id"))">
+                                </select>
                             </div>
                         </div>
                         <div class="form-group">
@@ -79,9 +81,11 @@
                                 Disco
                             </label>
                             <div class="col-lg-6">
-                                <input id="nmMateria"
-                                       class="cts_forms form-control"
-                                       asp-for="@Model.Actual!.Disco" />
+                                <select id="nmDisco"
+                                        class="cts_forms form-control"
+                                        asp-for="@Model.Actual!.Disco"
+                                        asp-items="@(new SelectList(Model.Discos, "Id", "NombreDisco"))">
+                                </select>
                             </div>
                         </div>
                         <div class="form-group">
@@ -89,9 +93,11 @@
                                 Formato
                             </label>
                             <div class="col-lg-6">
-                                <input id="nmNota1"
-                                       class="cts_forms form-control"
-                                       asp-for="@Model.Actual!.Formato" />
+                                <select id="nmFormato"
+                                        class="cts_forms form-control"
+                                        asp-for="@Model.Actual!.Formato"
+                                        asp-items="@(new SelectList(Model.Formatos, "Id", "TipoFormato"))">
+                                </select>
                             </div>
                         </div>
                         <div class="form-group">
@@ -99,7 +105,7 @@
                                 Cantidad
                             </label>
                             <div class="col-lg-6">
-                                <input id="nmNota2"
+                                <input id="nmCantidad"
                                        class="cts_forms form-control"
                                        asp-for="@Model.Actual!.Cantidad" />
                             </div>
@@ -108,7 +114,7 @@
                                     ValorUnitario
                                 </label>
                                 <div class="col-lg-6">
-                                    <input id="nmNota2"
+                                    <input id="nmValorUnitario"
                                            class="cts_forms form-control"
                                            asp-for="@Model.Actual!.ValorUnitario" />
                                 </div>
@@ -268,10 +274,10 @@
                                         @elemento.Orden
                                     </td>
                                     <td>
-                                        @elemento.Disco
+                                        @elemento._Disco!.NombreDisco
                                     </td>
                                     <td class="cl_hidden">
-                                        @elemento.Formato
+                                        @elemento._Formato!.TipoFormato
                                     </td>
                                     <td class="cl_hidden">
                                         @elemento.Cantidad

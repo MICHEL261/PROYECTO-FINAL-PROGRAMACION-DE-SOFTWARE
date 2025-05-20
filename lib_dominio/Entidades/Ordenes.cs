@@ -12,7 +12,7 @@ namespace lib_dominio.Entidades
         
         [ForeignKey("Cliente")] public Clientes? _Cliente { get; set; }
         [ForeignKey("Pago")] public Pagos? _Pago { get; set; }
-        
+        [JsonIgnore]
         public List<OrdenesDiscos>? OrdenesDiscos { get; set; }
 
     }
