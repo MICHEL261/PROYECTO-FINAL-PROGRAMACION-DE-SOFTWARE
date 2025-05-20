@@ -133,7 +133,7 @@ namespace asp_presentaciones.Pages.Ventanas
 
 
 
-                ViewData["MensajeError"] = ex.Message.ToString();
+                ViewData["MensajeError"] = ex.Message.ToString() + "Debe borrar primero las relaciones que tiene el Artista con otras entidades";
 
                 OnPostBtRefrescar();
             }

@@ -168,7 +168,7 @@ namespace asp_presentaciones.Pages.Ventanas
 
 
 
-                ViewData["MensajeError"] = ex.Message.ToString() + "debe borrar primero las relaciones que tiene el cliente con otras entidades";
+                ViewData["MensajeError"] = ex.Message.ToString() + "Debe borrar primero las relaciones que tiene OrdenesDiscos con otras entidades";
 
                 OnPostBtRefrescar();
             }
