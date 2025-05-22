@@ -7,5 +7,6 @@
         public string? Descripcion { get; set; }
         public List<Usuarios>? Usuarios { get; set; }
 
+        public List<Roles_Permisos>? Roles_Permisos { get; set; }
     }
 }

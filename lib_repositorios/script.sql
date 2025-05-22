@@ -98,8 +98,19 @@ CREATE TABLE [Usuarios] (
     FOREIGN KEY (Rol) REFERENCES Roles(Id)  
 );
 go
+CREATE TABLE [Permisos] (
+    [Id] INT NOT NULL PRIMARY KEY IDENTITY(1,1),
+    [Nombre] varchar(50) NOT NULL
+    
+   
+);
 
-
+cREATE TABLE Roles_Permisos (
+    RolesPermisosId INT IDENTITY(1,1) PRIMARY KEY,
+    Roles INT,
+    Permisos INT, 
+    FOREIGN KEY (Roles) REFERENCES Roles(Id),
+    FOREIGN KEY (Permisos) REFERENCES Permisos(Id) );
 
 
 ------------------------------------------------------------------------------------------------------------
@@ -138,3 +149,16 @@ VALUES ('mario', 'correa', 'mario@gmail.com', 'admin', '123', 1);
 
 INSERT INTO [Usuarios] (Nombre, Apellido, Email, NombreUsuario, Contraseña, Rol)
 VALUES ('juan', 'alvarez', 'juan@gmail.com', 'juan567', 'Contraseña2', 2);
+
+INSERT INTO [Permisos] (Nombre)
+VALUES 
+    ('Nuevo'),
+    ('Editar'),
+    ('Eliminar'),
+    ('Listar');
+
+INSERT INTO [Roles_Permisos] (Roles, Permisos)
+VALUES (1, 1),(1, 2), (1, 3),(1, 4);
+
+INSERT INTO [Roles_Permisos] (Roles, Permisos)
+VALUES (2, 1);
