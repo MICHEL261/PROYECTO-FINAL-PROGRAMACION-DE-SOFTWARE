@@ -1,8 +1,7 @@
 ﻿@page
-@model asp_presentaciones.Pages.Ventanas.RolesModel
+@model asp_presentaciones.Pages.Ventanas.AuditoriasModel
 @{
-    ViewData["Titulo"] = "";
-
+    ViewData["Titulo"] = "Auditorias";
 }
 <center>
     <div>
@@ -11,7 +10,7 @@
             @Html.AntiForgeryToken()
 
             <div align="left">
-                <h3>Pagos</h3>
+                <h3>Auditorias</h3>
             </div>
             <div align="left"
                  class="bt_panel_buttons">
@@ -46,10 +45,13 @@
             @if (Model.Accion == lib_dominio.Nucleo.Enumerables.Ventanas.Borrar)
             {
                 <input type="hidden"
-                       asp-for="@Model.Actual!.NombreRol" />
+                       asp-for="@Model.Actual!.Entidad" />
                 <input type="hidden"
-                       asp-for="@Model.Actual!.Descripcion" />
-
+                       asp-for="@Model.Actual!.Operacion" />
+                       <input type="hidden"
+                       asp-for="@Model.Actual!.Fecha" />
+                        <input type="hidden"
+                       asp-for="@Model.Actual!.Datos" />
             }
 
             @if (Model.Accion == lib_dominio.Nucleo.Enumerables.Ventanas.Editar)
@@ -60,27 +62,46 @@
                     <div>
                         <div class="form-group">
                             <label class="col-lg-4 control-label">
-                                NombreRol
+                                Entidad
                             </label>
                             <div class="col-lg-6">
-                                <input id="nmEstudiante"
+                                <input id="nmEntidad"
                                        class="cts_forms form-control"
-                                       asp-for="@Model.Actual!.NombreRol" />
+                                       asp-for="@Model.Actual!.Entidad" />
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="col-lg-4 control-label">
-                                Descripcion
+                                Operacion
                             </label>
                             <div class="col-lg-6">
-                                <input id="nmMateria"
+                                <input id="nmOperacion"
                                        class="cts_forms form-control"
-                                       asp-for="@Model.Actual!.Descripcion" />
+                                       asp-for="@Model.Actual!.Operacion" />
                             </div>
-
-
-
                         </div>
+
+                        <div class="form-group">
+                            <label class="col-lg-4 control-label">
+                                Fecha
+                            </label>
+                            <div class="col-lg-6">
+                                <input id="nmFecha"
+                                       class="cts_forms form-control"
+                                       asp-for="@Model.Actual!.Fecha" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-lg-4 control-label">
+                                Datos
+                            </label>
+                            <div class="col-lg-6">
+                                <input id="nmDatos"
+                                       class="cts_forms form-control"
+                                       asp-for="@Model.Actual!.Datos" />
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             }
@@ -93,6 +114,8 @@
                 ;
             }
 
+
+
             @if (Model.Accion == lib_dominio.Nucleo.Enumerables.Ventanas.Borrar)
             {
                 <div class='popup'>
@@ -103,11 +126,12 @@
                             </h2>
 
                             <h4 align="left">
-                                Desea borrar la entidad?
+                                Desea borrar la Auditoria?
                             </h4>
                             <h6 align="left">
-                                @Model.Actual!.NombreRol,
-                                @Model.Actual!.Descripcion
+                                @Model.Actual!.Entidad,
+                                @Model.Actual!.Operacion
+                                 @Model.Actual!.Fecha
                             </h6>
                             <br />
                             <br />
@@ -115,6 +139,8 @@
                                    value="Borrar"
                                    asp-page-handler="BtBorrar"
                                    class="btn btn-secondary" />
+
+
                             <input type="submit"
                                    value="Cerrar"
                                    asp-page-handler="BtCancelar"
@@ -124,28 +150,90 @@
                 </div>
             }
 
+            @if (ViewData.ContainsKey("MensajeError"))
+            {
+                <div class='popup'>
+                    <div class='pp_del_inner'>
+                        <div style='width:95%'>
+                            <h2 align="left">
+                                Mensaje
+                            </h2>
+
+                            <h4 align="left">
+                                @ViewData["MensajeError"]
+                            </h4>
+
+                            <br />
+                            <br />
+
+
+
+                            <input type="submit"
+                                   value="Cerrar"
+                                   asp-page-handler="BtCancelar"
+                                   class="btn btn-secondary" />
+                        </div>
+                    </div>
+                </div>
+
+
+            }
+
+            @if (ViewData.ContainsKey("MensajeExito"))
+            {
+
+                <div class='popup'>
+                    <div class='pp_del_inner'>
+                        <div style='width:95%'>
+                            <h2 align="left">
+                                Mensaje
+                            </h2>
+
+                            <h4 align="left">
+                                @ViewData["MensajeExito"]
+                            </h4>
+
+                            <br />
+                            <br />
+
+
+
+                            <input type="submit"
+                                   value="Cerrar"
+                                   asp-page-handler="BtCancelar"
+                                   class="btn btn-secondary" />
+                        </div>
+                    </div>
+                </div>
+
+
+            }
+
             @if (Model.Accion == lib_dominio.Nucleo.Enumerables.Ventanas.Listas ||
             Model.Accion == lib_dominio.Nucleo.Enumerables.Ventanas.Borrar)
             {
                 <input id="flNombre"
                        class="cts_forms form-control"
-                       asp-for="@Model.Filtro!.NombreRol"
-                       placeholder="Tipo" />
+                       asp-for="@Model.Filtro!.Entidad"
+                       placeholder="Nombre" />
                 <br />
 
                 <div class="containers_vn panel panel-default">
                     <table class="tb_data table table-striped table-bordered table-hover">
                         <tr>
                             <th>
-                                NombreRol
+                                Entidad
                             </th>
                             <th>
-                                Descripcion
+                                Operacion
+                                </th>
+                             <th>
+                                Fecha
+                            </th>
+                             <th>
+                                Datos
                             </th>
 
-                            <th class="cl_actions">
-                                Accion
-                            </th>
                         </tr>
                         @if (Model != null && Model.Lista != null)
                         {
@@ -153,10 +241,19 @@
                             {
                                 <tr>
                                     <td>
-                                        @elemento.NombreRol
+                                        @elemento.Entidad
                                     </td>
                                     <td>
-                                        @elemento.Descripcion
+                                        @elemento.Operacion
+                                    </td>
+
+                                    <td>
+                                        @elemento.Fecha
+                                    </td>
+                                    <td>
+                                        @elemento.Datos
+                                    </td>
+
 
                                     <td>
                                         <input type="submit"

@@ -28,10 +28,9 @@ namespace lib_aplicaciones.Implementaciones
 
             if (entidad!.Id == 0)
                 throw new Exception("lbNoSeGuardo");
-            var datos = JsonConversor.ConvertirAString(entidad);
-            String operacion = "Borrar";
+            var datos = entidad.NombreArtista +", " +entidad.GeneroMusical; // JSON puro y directo
+            GuardarAuditoria("Borrar", datos);
 
-            GuardarAuditoria(operacion, datos);
 
             // Calculos
 
@@ -47,10 +46,9 @@ namespace lib_aplicaciones.Implementaciones
 
             if (entidad.Id != 0)
                 throw new Exception("lbYaSeGuardo");
-            var datos = JsonConversor.ConvertirAString(entidad);
-            String operacion = "Guardar";
+            var datos = entidad.NombreArtista + ", " + entidad.GeneroMusical; // JSON puro y directo
+            GuardarAuditoria("guardar", datos);
 
-            GuardarAuditoria(operacion, datos);
 
             // Calculos
 
@@ -77,10 +75,9 @@ namespace lib_aplicaciones.Implementaciones
 
             if (entidad!.Id == 0)
                 throw new Exception("lbNoSeGuardo");
-            var datos = JsonConversor.ConvertirAString(entidad);
-            String operacion = "Modificar";
+            var datos = entidad.NombreArtista + ", " + entidad.GeneroMusical; // JSON puro y directo
+            GuardarAuditoria("Modificar", datos);
 
-            GuardarAuditoria(operacion, datos);
 
             // Calculos
 

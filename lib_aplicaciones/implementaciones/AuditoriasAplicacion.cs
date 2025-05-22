@@ -7,11 +7,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace lib_aplicaciones.Implementaciones
 {
-    public class RolesAplicacion : iRolesAplicacion
+    public class AuditoriasAplicacion : IAuditoriasAplicacion
     {
         private IConexion? IConexion = null;
 
-        public RolesAplicacion(IConexion iConexion)
+        public AuditoriasAplicacion(IConexion iConexion)
         {
             this.IConexion = iConexion;
         }
@@ -21,81 +21,78 @@ namespace lib_aplicaciones.Implementaciones
             this.IConexion!.StringConexion = StringConexion;
         }
 
-        public Roles? Borrar(Roles? entidad)
+        public Auditorias? Borrar(Auditorias? entidad)
         {
             if (entidad == null)
                 throw new Exception("lbFaltaInformacion");
 
             if (entidad!.Id == 0)
                 throw new Exception("lbNoSeGuardo");
-            var datos = entidad.NombreRol + ", " + entidad.Descripcion;
-            GuardarAuditoria("borrar", datos);
+            var datos = JsonConversor.ConvertirAString(entidad);
+            String operacion = "Borrar";
 
+    
             // Calculos
 
-            this.IConexion!.Roles!.Remove(entidad);
+            this.IConexion!.Auditorias!.Remove(entidad);
             this.IConexion.SaveChanges();
             return entidad;
         }
 
-        public Roles? Guardar(Roles? entidad)
+        public Auditorias? Guardar(Auditorias? entidad)
         {
             if (entidad == null)
                 throw new Exception("lbFaltaInformacion");
 
             if (entidad.Id != 0)
                 throw new Exception("lbYaSeGuardo");
-            var datos = entidad.NombreRol + ", " + entidad.Descripcion;
-            GuardarAuditoria("guardar", datos);
+            var datos = JsonConversor.ConvertirAString(entidad);
+            String operacion = "Guardar";
+
+         
 
             // Calculos
 
-            this.IConexion!.Roles!.Add(entidad);
+            this.IConexion!.Auditorias!.Add(entidad);
             this.IConexion.SaveChanges();
             return entidad;
         }
 
-        public List<Roles> Listar()
+
+
+        public List<Auditorias> Listar()
         {
-            return this.IConexion!.Roles!.Take(20).ToList();
+
+            return this.IConexion!.Auditorias!.Take(20).ToList();
         }
 
-        public List<Roles> PorNombre(Roles? entidad)
+        public List<Auditorias> PorNombre(Auditorias? entidad)
         {
-            return this.IConexion!.Roles!
-                .Where(x => x.NombreRol!.Contains(entidad!.NombreRol!))
+
+            return this.IConexion!.Auditorias!
+                .Where(x => x.Entidad!.Contains(entidad!.Entidad!))
                 .ToList();
         }
-        public Roles? Modificar(Roles? entidad)
+        public Auditorias? Modificar(Auditorias? entidad)
         {
             if (entidad == null)
                 throw new Exception("lbFaltaInformacion");
 
             if (entidad!.Id == 0)
                 throw new Exception("lbNoSeGuardo");
-            var datos = entidad.NombreRol + ", " + entidad.Descripcion;
-            GuardarAuditoria("modificar", datos);
+            var datos = JsonConversor.ConvertirAString(entidad);
+            String operacion = "Modificar";
+
+           
 
             // Calculos
 
-            var entry = this.IConexion!.Entry<Roles>(entidad);
+            var entry = this.IConexion!.Entry<Auditorias>(entidad);
             entry.State = EntityState.Modified;
             this.IConexion.SaveChanges();
             return entidad;
         }
 
-        public void GuardarAuditoria(String operacion, String datos)
-        {
-            var Auditorias = new Auditorias();
-            {
-                Auditorias.Entidad = "Roles";
-                Auditorias.Operacion = operacion;
-                Auditorias.Fecha = DateTime.Now;
-                Auditorias.Datos = datos;
-            }
-
-            IConexion!.Auditorias!.Add(Auditorias);
-            IConexion.SaveChanges();
-        }
+     
     }
 }

@@ -28,11 +28,9 @@ namespace lib_aplicaciones.Implementaciones
 
             if (entidad!.Id == 0)
                 throw new Exception("lbNoSeGuardo");
-            var datos = JsonConversor.ConvertirAString(entidad);
-            String operacion = "Borrar";
 
-            GuardarAuditoria(operacion, datos);
-
+            var datos = entidad.TipoFormato+", " +entidad.Material ; 
+            GuardarAuditoria("borrar", datos);
             // Calculos
 
             this.IConexion!.Formatos!.Remove(entidad);
@@ -48,10 +46,8 @@ namespace lib_aplicaciones.Implementaciones
             if (entidad.Id != 0)
                 throw new Exception("lbYaSeGuardo");
 
-            var datos = JsonConversor.ConvertirAString(entidad);
-            String operacion = "Guardar";
-
-            GuardarAuditoria(operacion, datos);
+            var datos = entidad.TipoFormato + ", " + entidad.Material;
+            GuardarAuditoria("guardar", datos);
 
             // Calculos
 
@@ -79,10 +75,8 @@ namespace lib_aplicaciones.Implementaciones
             if (entidad!.Id == 0)
                 throw new Exception("lbNoSeGuardo");
 
-            var datos = JsonConversor.ConvertirAString(entidad);
-            String operacion = "Modificar";
-
-            GuardarAuditoria(operacion, datos);
+            var datos = entidad.TipoFormato + ", " + entidad.Material;
+            GuardarAuditoria("modificar", datos);
 
             // Calculos
 

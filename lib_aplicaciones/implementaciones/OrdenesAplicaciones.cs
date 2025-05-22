@@ -30,10 +30,8 @@ namespace lib_aplicaciones.Implementaciones
             if (entidad!.Id == 0)
                 throw new Exception("lbNoSeGuardo");
 
-            var datos = JsonConversor.ConvertirAString(entidad);
-            String operacion = "Borrar";
-
-            GuardarAuditoria(operacion, datos);
+            var datos = entidad.Pago.ToString() + ", " + entidad.Fecha + ", " + entidad.MontoTotal + ", " +entidad.Cliente;
+            GuardarAuditoria("borrar", datos);
 
             this.IConexion!.Ordenes!.Remove(entidad);
             this.IConexion.SaveChanges();
@@ -47,10 +45,9 @@ namespace lib_aplicaciones.Implementaciones
 
             if (entidad.Id != 0)
                 throw new Exception("lbYaSeGuardo");
-            var datos = JsonConversor.ConvertirAString(entidad);
-            String operacion = "Guardar";
+            var datos = entidad.Pago.ToString() + ", " + entidad.Fecha + ", " + entidad.MontoTotal + ", " + entidad.Cliente;
+            GuardarAuditoria("guardar", datos);
 
-            GuardarAuditoria(operacion, datos);
 
             this.IConexion!.Ordenes!.Add(entidad);
             this.IConexion.SaveChanges();
@@ -86,10 +83,9 @@ namespace lib_aplicaciones.Implementaciones
             if (entidad!.Id == 0)
                 throw new Exception("lbNoSeGuardo");
 
-            var datos = JsonConversor.ConvertirAString(entidad);
-            String operacion = "Modificar";
+            var datos = entidad.Pago.ToString() + ", " + entidad.Fecha + ", " + entidad.MontoTotal + ", " + entidad.Cliente;
+            GuardarAuditoria("modificar", datos);
 
-            GuardarAuditoria(operacion, datos);
 
             var entry = this.IConexion!.Entry<Ordenes>(entidad);
             entry.State = EntityState.Modified;

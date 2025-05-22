@@ -29,29 +29,18 @@ namespace lib_aplicaciones.Implementaciones
             if (entidad!.Id == 0)
                 throw new Exception("lbNoSeGuardo");
 
-            var tieneOrdenes = this.IConexion!.Ordenes!
-        .Any(o => o.Cliente == entidad.Id);
 
-            if (tieneOrdenes)
-            {
+                 var datos = entidad.NombreCliente + ", " + entidad.ApellidoCliente + ", " + entidad.TelefonoCliente + ", " + entidad.DireccionCliente; 
+            GuardarAuditoria("borrar", datos);
 
-                throw new Exception("Este cliente tiene órdenes asociadas. Elimine las órdenes antes de borrar al cliente.");
-            }
-            else
-            {
 
-                var datos = JsonConversor.ConvertirAString(entidad);
-                String operacion = "Borrar";
+            // Calculos
 
-                GuardarAuditoria(operacion, datos);
-
-                // Calculos
-
-                this.IConexion!.Clientes!.Remove(entidad);
+            this.IConexion!.Clientes!.Remove(entidad);
 
                 this.IConexion.SaveChanges();
 
-            }
+            
 
 
             return entidad;
@@ -67,10 +56,11 @@ namespace lib_aplicaciones.Implementaciones
 
             // Calculos
 
-            var datos = JsonConversor.ConvertirAString(entidad);
-            String operacion = "Guardar";
 
-            GuardarAuditoria(operacion, datos);
+            var datos = entidad.NombreCliente + ", " + entidad.ApellidoCliente + ", " + entidad.TelefonoCliente + ", " + entidad.DireccionCliente;
+            GuardarAuditoria("guardar", datos);
+
+            
 
             this.IConexion!.Clientes!.Add(entidad);
             this.IConexion.SaveChanges();
@@ -96,10 +86,9 @@ namespace lib_aplicaciones.Implementaciones
             if (entidad!.Id == 0)
                 throw new Exception("lbNoSeGuardo");
 
-            var datos = JsonConversor.ConvertirAString(entidad);
-            String operacion = "Modificar";
 
-            GuardarAuditoria(operacion, datos);
+            var datos = entidad.NombreCliente + ", " + entidad.ApellidoCliente + ", " + entidad.TelefonoCliente + ", " + entidad.DireccionCliente;
+            GuardarAuditoria("modificar", datos);
 
             // Calculos
 

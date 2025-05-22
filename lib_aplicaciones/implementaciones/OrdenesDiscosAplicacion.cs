@@ -29,10 +29,9 @@ namespace lib_aplicaciones.Implementaciones
 
             if (entidad!.Id == 0)
                 throw new Exception("lbNoSeGuardo");
-            var datos = JsonConversor.ConvertirAString(entidad);
-            String operacion = "Borrar";
+            var datos = entidad.Orden.ToString() + ", " + entidad.Formato + ", " + entidad.Cantidad + ", " + entidad.ValorUnitario + ", " + entidad.Disco;
+            GuardarAuditoria("borrar", datos);
 
-            GuardarAuditoria(operacion, datos);
 
             this.IConexion!.OrdenesDiscos!.Remove(entidad);
             this.IConexion.SaveChanges();
@@ -48,10 +47,8 @@ namespace lib_aplicaciones.Implementaciones
             if (entidad.Id != 0)
                 throw new Exception("lbYaSeGuardo");
 
-            var datos = JsonConversor.ConvertirAString(entidad);
-            String operacion = "Guardar";
-
-            GuardarAuditoria(operacion, datos);
+            var datos = entidad.Orden.ToString() + ", " + entidad.Formato + ", " + entidad.Cantidad + ", " + entidad.ValorUnitario + ", " + entidad.Disco;
+            GuardarAuditoria("guardar", datos); ;
 
             this.IConexion!.OrdenesDiscos!.Add(entidad);
             this.IConexion.SaveChanges();
@@ -88,10 +85,8 @@ namespace lib_aplicaciones.Implementaciones
             if (entidad!.Id == 0)
                 throw new Exception("lbNoSeGuardo");
 
-            var datos = JsonConversor.ConvertirAString(entidad);
-            String operacion = "Modificar";
-
-            GuardarAuditoria(operacion, datos);
+            var datos = entidad.Orden.ToString() + ", " + entidad.Formato + ", " + entidad.Cantidad + ", " + entidad.ValorUnitario + ", " + entidad.Disco;
+            GuardarAuditoria("modificar", datos);
 
             var entry = this.IConexion!.Entry<OrdenesDiscos>(entidad);
             entry.State = EntityState.Modified;

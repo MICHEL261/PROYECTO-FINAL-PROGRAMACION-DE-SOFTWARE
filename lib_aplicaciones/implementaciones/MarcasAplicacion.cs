@@ -30,11 +30,8 @@ namespace lib_aplicaciones.Implementaciones
             if (entidad!.Id == 0)
                 throw new Exception("lbNoSeGuardo");
 
-            var datos = JsonConversor.ConvertirAString(entidad);
-            String operacion = "Borrar";
-
-            GuardarAuditoria(operacion, datos);
-
+            var datos = entidad.NombreMarca + ", " + entidad.PaginaWeb;
+            GuardarAuditoria("borrar", datos);
             this.IConexion!.Marcas!.Remove(entidad);
             this.IConexion.SaveChanges();
             return entidad;
@@ -47,10 +44,8 @@ namespace lib_aplicaciones.Implementaciones
 
             if (entidad.Id != 0)
                 throw new Exception("lbYaSeGuardo");
-            var datos = JsonConversor.ConvertirAString(entidad);
-            String operacion = "Guardar";
-
-            GuardarAuditoria(operacion, datos);
+            var datos = entidad.NombreMarca + ", " + entidad.PaginaWeb;
+            GuardarAuditoria("guardar", datos);
 
             this.IConexion!.Marcas!.Add(entidad);
             this.IConexion.SaveChanges();
@@ -78,10 +73,8 @@ namespace lib_aplicaciones.Implementaciones
 
             if (entidad!.Id == 0)
                 throw new Exception("lbNoSeGuardo");
-            var datos = JsonConversor.ConvertirAString(entidad);
-            String operacion = "Modificar";
-
-            GuardarAuditoria(operacion, datos);
+            var datos = entidad.NombreMarca + ", " + entidad.PaginaWeb;
+            GuardarAuditoria("modificar", datos);
 
             var entry = this.IConexion!.Entry<Marcas>(entidad);
             entry.State = EntityState.Modified;
