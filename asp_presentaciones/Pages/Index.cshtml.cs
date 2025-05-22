@@ -47,9 +47,8 @@ namespace asp_presentaciones.Pages
             }
         }
 
-        public void OnPostBtEnter()
+        public async Task OnPostBtEnter()
         {
-
             try
             {
                 if (string.IsNullOrEmpty(Email) || string.IsNullOrEmpty(Contrasena))
@@ -58,20 +57,11 @@ namespace asp_presentaciones.Pages
                     return;
                 }
 
-               
                 var usuariosPresentacion = new UsuariosPresentacion();
-                var usuarios = usuariosPresentacion.Listar().Result; 
+                var usuarios = await usuariosPresentacion.Listar(); 
 
-                bool loginExitoso = false;
-
-                foreach (var usuario in usuarios)
-                {
-                    if (usuario.NombreUsuario == Email && usuario.Contraseña == Contrasena)
-                    {
-                        loginExitoso = true;
-                        break;
-                    }
-                }
+                bool loginExitoso = usuarios.Any(usuario =>
+                    usuario.NombreUsuario == Email && usuario.Contraseña == Contrasena);
 
                 if (loginExitoso)
                 {
@@ -91,7 +81,6 @@ namespace asp_presentaciones.Pages
                 LogConversor.Log(ex, ViewData!);
             }
         }
-
         public void OnPostBtClose()
         {
             try
