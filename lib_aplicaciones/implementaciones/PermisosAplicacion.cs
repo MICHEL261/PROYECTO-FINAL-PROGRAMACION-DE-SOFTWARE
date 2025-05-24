@@ -1,17 +1,18 @@
-﻿
+﻿using lib_aplicaciones.Interfaces;
 using lib_dominio.Entidades;
+using lib_dominio.Nucleo;
 using lib_repositorios.Interfaces;
 using Microsoft.EntityFrameworkCore;
-using lib_aplicaciones.Interfaces;
-using lib_dominio.Nucleo;
 
 namespace lib_aplicaciones.Implementaciones
 {
-    public class UsuariosAplicacion : IUsuariosAplicacion
+    public class PermisosAplicacion : IPermisosAplicacion
     {
         private IConexion? IConexion = null;
 
-        public UsuariosAplicacion(IConexion iConexion)
+        public PermisosAplicacion(IConexion iConexion)
+
+
         {
             this.IConexion = iConexion;
         }
@@ -21,7 +22,7 @@ namespace lib_aplicaciones.Implementaciones
             this.IConexion!.StringConexion = StringConexion;
         }
 
-        public Usuarios? Borrar(Usuarios? entidad)
+        public Permisos? Borrar(Permisos? entidad)
         {
             if (entidad == null)
                 throw new Exception("lbFaltaInformacion");
@@ -29,61 +30,49 @@ namespace lib_aplicaciones.Implementaciones
             if (entidad!.Id == 0)
                 throw new Exception("lbNoSeGuardo");
 
-            var datos = entidad.Nombre + ", " + entidad.Apellido + ", " + entidad.NombreUsuario + ", " + entidad.Contraseña + ", " + entidad.Rol;
-            GuardarAuditoria("borrar", datos);
-
-            // Calculos
-
-            this.IConexion!.Usuarios!.Remove(entidad);
+          
+            this.IConexion!.Permisos!.Remove(entidad);
             this.IConexion.SaveChanges();
             return entidad;
         }
 
-        public Usuarios? Guardar(Usuarios? entidad)
+        public Permisos? Guardar(Permisos? entidad)
         {
             if (entidad == null)
                 throw new Exception("lbFaltaInformacion");
 
             if (entidad.Id != 0)
                 throw new Exception("lbYaSeGuardo");
+           
 
-
-            var datos = entidad.Nombre + ", " + entidad.Apellido + ", " + entidad.NombreUsuario + ", " + entidad.Contraseña + ", " + entidad.Rol;
-            GuardarAuditoria("borrar", datos);
-
-            // Calculos
-
-            this.IConexion!.Usuarios!.Add(entidad);
+            this.IConexion!.Permisos!.Add(entidad);
             this.IConexion.SaveChanges();
             return entidad;
         }
 
-        public List<Usuarios> Listar()
+        public List<Permisos> Listar()
         {
-            return this.IConexion!.Usuarios!.Take(20)
+            return this.IConexion!.Permisos!.Take(20).ToList();
+        }
+
+        public List<Permisos> PorNombre(Permisos? entidad)
+        {
+            return this.IConexion!.Permisos!
+                .Where(x => x.Nombre!.Contains(entidad!.Nombre!))
                 .ToList();
         }
 
-        public List<Usuarios> PorNombre(Usuarios? entidad)
-        {
-            return this.IConexion!.Usuarios!
-                .Where(x => x.NombreUsuario!.Contains(entidad!.NombreUsuario!))
-                
-                .ToList();
-        }
-        public Usuarios? Modificar(Usuarios? entidad)
+        public Permisos? Modificar(Permisos? entidad)
+
+
         {
             if (entidad == null)
                 throw new Exception("lbFaltaInformacion");
 
             if (entidad!.Id == 0)
                 throw new Exception("lbNoSeGuardo");
-
-            var datos = entidad.Nombre + ", " + entidad.Apellido + ", " + entidad.NombreUsuario + ", " + entidad.Contraseña + ", " + entidad.Rol;
-            GuardarAuditoria("borrar", datos);
-            // Calculos
-
-            var entry = this.IConexion!.Entry<Usuarios>(entidad);
+           
+            var entry = this.IConexion!.Entry<Permisos>(entidad);
             entry.State = EntityState.Modified;
             this.IConexion.SaveChanges();
             return entidad;
@@ -93,7 +82,7 @@ namespace lib_aplicaciones.Implementaciones
         {
             var Auditorias = new Auditorias();
             {
-                Auditorias.Entidad = "Usuarios";
+                Auditorias.Entidad = "Permisos";
                 Auditorias.Operacion = operacion;
                 Auditorias.Fecha = DateTime.Now;
                 Auditorias.Datos = datos;
@@ -104,3 +93,6 @@ namespace lib_aplicaciones.Implementaciones
         }
     }
 }
+
+
+

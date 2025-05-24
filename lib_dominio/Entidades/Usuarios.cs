@@ -12,6 +12,7 @@ namespace lib_dominio.Entidades
         public string? Contraseña { get; set; }
         public int Rol { get; set; }
 
-        [ForeignKey("Rol")] public Roles? _Roles { get; set; }
+        [ForeignKey("Rol")] public Roles? _Rol { get; set; }
+        public Clientes? Cliente { get; set; }
     }
 }

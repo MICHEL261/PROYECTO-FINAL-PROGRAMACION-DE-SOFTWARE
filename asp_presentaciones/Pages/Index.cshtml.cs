@@ -29,9 +29,16 @@ namespace asp_presentaciones.Pages
             var variable_session = HttpContext.Session.GetString("Usuario");
             if (!string.IsNullOrEmpty(variable_session))
             {
+
+
                 EstaLogueado = true;
                 return;
+
+                
+
             } 
+
+           
         }
 
         public void OnPostBtClean()

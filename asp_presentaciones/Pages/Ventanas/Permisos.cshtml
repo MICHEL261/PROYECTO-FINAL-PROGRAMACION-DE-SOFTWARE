@@ -1,7 +1,7 @@
 ﻿@page
-@model asp_presentaciones.Pages.Ventanas.ArtistasModel
+@model asp_presentacion.Pages.Ventanas.PermisosModel
 @{
-    ViewData["Titulo"] = "Artistas";
+    ViewData["Titulo"] = "";
 }
 <center>
     <div>
@@ -10,7 +10,7 @@
             @Html.AntiForgeryToken()
 
             <div align="left">
-                <h3>Artistas</h3>
+                <h3>Permisos</h3>
             </div>
             <div align="left"
                  class="bt_panel_buttons">
@@ -44,11 +44,11 @@
             }
             @if (Model.Accion == lib_dominio.Nucleo.Enumerables.Ventanas.Borrar)
             {
+                
                 <input type="hidden"
-                       asp-for="@Model.Actual!.NombreArtista" />
-                <input type="hidden"
-                       asp-for="@Model.Actual!.GeneroMusical" />
-
+                       asp-for="@Model.Actual!.Nombre" />
+                
+                
             }
 
             @if (Model.Accion == lib_dominio.Nucleo.Enumerables.Ventanas.Editar)
@@ -57,27 +57,21 @@
                     <h3>Casa</h3>
 
                     <div>
+                        
+                        
                         <div class="form-group">
                             <label class="col-lg-4 control-label">
-                                NombreArtista
+                                Nombre 
                             </label>
                             <div class="col-lg-6">
-                                <input id="nmNombreArtista"
+                                <input id="nmNombre"
                                        class="cts_forms form-control"
-                                       asp-for="@Model.Actual!.NombreArtista" />
+                                       asp-for="@Model.Actual!.Nombre" />
                             </div>
                         </div>
-                        <div class="form-group">
-                            <label class="col-lg-4 control-label">
-                                GeneroMusical
-                            </label>
-                            <div class="col-lg-6">
-                                <input id="nmGeneroMusical"
-                                       class="cts_forms form-control"
-                                       asp-for="@Model.Actual!.GeneroMusical" />
-                            </div>
-                        </div>
+                        
 
+                        
                     </div>
                 </div>
             }
@@ -89,8 +83,6 @@
                 @await Html.PartialAsync("../Emergentes/Mensajes.cshtml")
                 ;
             }
-
-
 
             @if (Model.Accion == lib_dominio.Nucleo.Enumerables.Ventanas.Borrar)
             {
@@ -105,8 +97,8 @@
                                 Desea borrar la entidad?
                             </h4>
                             <h6 align="left">
-                                @Model.Actual!.NombreArtista,
-                                @Model.Actual!.GeneroMusical
+                                @Model.Actual!.Nombre,
+                                
                             </h6>
                             <br />
                             <br />
@@ -114,8 +106,6 @@
                                    value="Borrar"
                                    asp-page-handler="BtBorrar"
                                    class="btn btn-secondary" />
-
-
                             <input type="submit"
                                    value="Cerrar"
                                    asp-page-handler="BtCancelar"
@@ -123,6 +113,8 @@
                         </div>
                     </div>
                 </div>
+
+
             }
 
             @if (ViewData.ContainsKey("MensajeError"))
@@ -150,46 +142,44 @@
                         </div>
                     </div>
                 </div>
-
-
+                            
+                          
             }
 
             @if (ViewData.ContainsKey("MensajeExito"))
             {
 
-                <div class='popup'>
-                    <div class='pp_del_inner'>
-                        <div style='width:95%'>
-                            <h2 align="left">
-                                Mensaje
-                            </h2>
+        <div class='popup'>
+            <div class='pp_del_inner'>
+                <div style='width:95%'>
+                    <h2 align="left">
+                        Mensaje
+                    </h2>
 
-                            <h4 align="left">
+                    <h4 align="left">
                                 @ViewData["MensajeExito"]
-                            </h4>
+                    </h4>
+                 
+                    <br />
+                    <br />
+                   
 
-                            <br />
-                            <br />
 
-
-
-                            <input type="submit"
-                                   value="Cerrar"
-                                   asp-page-handler="BtCancelar"
-                                   class="btn btn-secondary" />
-                        </div>
-                    </div>
+                    <input type="submit"
+                           value="Cerrar"
+                           asp-page-handler="BtCancelar"
+                           class="btn btn-secondary" />
                 </div>
-
-
-            }
+            </div>
+        </div>
+        }
 
             @if (Model.Accion == lib_dominio.Nucleo.Enumerables.Ventanas.Listas ||
             Model.Accion == lib_dominio.Nucleo.Enumerables.Ventanas.Borrar)
             {
                 <input id="flNombre"
                        class="cts_forms form-control"
-                       asp-for="@Model.Filtro!.NombreArtista"
+                       asp-for="@Model.Filtro!.Nombre"
                        placeholder="Nombre" />
                 <br />
 
@@ -197,14 +187,12 @@
                     <table class="tb_data table table-striped table-bordered table-hover">
                         <tr>
                             <th>
-                                NombreArtista
+                                Nombre
                             </th>
                             <th>
-                                GeneroMusical
-                                </th>
-                                 <th>
                                 Accion
-                                </th>
+                            </th>
+                           
                         </tr>
                         @if (Model != null && Model.Lista != null)
                         {
@@ -212,12 +200,12 @@
                             {
                                 <tr>
                                     <td>
-                                        @elemento.NombreArtista
+                                        @elemento.Nombre
                                     </td>
-                                    <td>
-                                        @elemento.GeneroMusical
-
-                                    <td>
+                                    
+                                    
+                                     <td>
+                                    
                                         <input type="submit"
                                                value="Modificar"
                                                asp-page-handler="BtModificar"
@@ -228,7 +216,7 @@
                                                asp-page-handler="BtBorrarVal"
                                                class="btn btn-secondary"
                                                asp-route-data="@elemento.Id" />
-                                    </td>
+                                                </td>
                                 </tr>
                             }
                         }
@@ -238,3 +226,4 @@
         </form>
     </div>
 </center>
+

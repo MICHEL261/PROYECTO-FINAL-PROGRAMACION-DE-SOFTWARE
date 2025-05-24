@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace lib_dominio.Entidades
 {
@@ -9,6 +10,8 @@ namespace lib_dominio.Entidades
         public string? ApellidoCliente { get; set; }
         public string? DireccionCliente { get; set; }
         public string? TelefonoCliente { get; set; }
+        public int Usuario { get; set; }
+        [ForeignKey("Usuario")] public Usuarios? _Usuario { get; set; }
         [JsonIgnore]
         public List<Ordenes>? Ordenes { get; set; }
 

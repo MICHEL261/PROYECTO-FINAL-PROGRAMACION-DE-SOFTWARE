@@ -52,6 +52,9 @@
                        asp-for="@Model.Actual!.DireccionCliente" />
                 <input type="hidden"
                        asp-for="@Model.Actual!.TelefonoCliente" />
+                <input type="hidden"
+                       asp-for="@Model.Actual!.Usuario" />
+
                 
             }
 
@@ -102,7 +105,20 @@
                             </div>
 
 
+
                             
+
+
+                        </div>
+                        <div class="form-group">
+                            <label class="col-lg-4 control-label">
+                                Usuario
+                            </label>
+                            <div class="col-lg-6">
+                                <input id="nmUsuario"
+                                       class="cts_forms form-control"
+                                       asp-for="@Model.Actual!.Usuario" />
+                            </div>
 
 
                         </div>
@@ -238,6 +254,9 @@
                                 TelefonoCliente
                             </th>
                             <th class="cl_actions">
+                                Usuario
+                            </th>
+                            <th class="cl_actions">
                                 Accion
                             </th>
                         </tr>
@@ -255,8 +274,12 @@
                                     <td class="cl_hidden">
                                         @elemento.DireccionCliente
                                     </td>
+
                                     <td class="cl_hidden">
                                         @elemento.TelefonoCliente
+                                    </td>
+                                    <td class="cl_hidden">
+                                        @elemento.Usuario
                                     </td>
                                     
                                     <td>
