@@ -1,6 +1,7 @@
 using lib_dominio.Entidades;
 using lib_dominio.Nucleo;
 using lib_presentaciones.Interfaces;
+using Microsoft.AspNetCore.Components.Forms;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
@@ -29,7 +30,22 @@ namespace asp_presentaciones.Pages.Ventanas
         [BindProperty] public Artistas? Filtro { get; set; }
         [BindProperty] public List<Artistas>? Lista { get; set; }
 
-        public virtual void OnGet() { OnPostBtRefrescar(); }
+        public bool Edita { get; set; } = false;
+        public bool Nuevo { get; set; } = false;
+        public bool Borra { get; set; } = false;
+
+        public virtual void OnGet()
+        {
+
+
+            OnPostBtRefrescar();
+            Edita = HttpContext.Session.GetString("PermisoEdita") == "true";
+            Nuevo = HttpContext.Session.GetString("PermisoNuevo") == "true";
+            Borra = HttpContext.Session.GetString("PermisoBorra") == "true";
+
+
+
+        }
 
         public void OnPostBtRefrescar()
         {
@@ -68,12 +84,15 @@ namespace asp_presentaciones.Pages.Ventanas
                 LogConversor.Log(ex, ViewData!);
             }
         }
-
+       
         public virtual void OnPostBtModificar(string data)
         {
             try
             {
                 OnPostBtRefrescar();
+                OnGet();
+
+
                 Accion = Enumerables.Ventanas.Editar;
                 Actual = Lista!.FirstOrDefault(x => x.Id.ToString() == data);
             }

@@ -3,6 +3,7 @@
 @{
     ViewData["Title"] = "";
 }
+
 @if (!Model.EstaLogueado)
 {
     <div class="container"
@@ -50,6 +51,8 @@ else
         <h1 class="display-4">
             Bienvenido
         </h1>
+        <img src="Discos.jpg" alt="Mi foto" width="300" height="300" />
+        <img src="Discos2.jpg" alt="Mi foto" width="300" height="300" />
 
         <form method="POST">
             <input type="submit"
@@ -57,5 +60,6 @@ else
                    asp-page-handler="BtClose"
                    class="btn btn-default" />
         </form>
+        
     </div>
 }
