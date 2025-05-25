@@ -39,10 +39,7 @@ namespace asp_presentaciones.Pages.Ventanas
 
 
             OnPostBtRefrescar();
-            Edita = HttpContext.Session.GetString("PermisoEdita") == "true";
-            Nuevo = HttpContext.Session.GetString("PermisoNuevo") == "true";
-            Borra = HttpContext.Session.GetString("PermisoBorra") == "true";
-
+          
 
 
         }

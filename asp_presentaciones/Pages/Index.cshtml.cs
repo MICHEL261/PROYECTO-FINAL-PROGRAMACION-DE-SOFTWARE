@@ -31,31 +31,7 @@ namespace asp_presentaciones.Pages
             var variable_session = HttpContext.Session.GetString("NombreUsuario");
             if (!string.IsNullOrEmpty(variable_session))
             {
-                var presentacion = new UsuariosPresentacion();
-                var resultado = await presentacion.PorNombre(new Usuarios { NombreUsuario = variable_session });
-
-                var UsuarioCompleto = resultado.FirstOrDefault();
-                EstaLogueado = true;
-                if (UsuarioCompleto.Rol == 1) 
-                {
-                    Edita = true;
-                    Nuevo = true;
-                    Borra = true;
-                    HttpContext.Session.SetString("PermisoEdita", "true");
-                    HttpContext.Session.SetString("PermisoNuevo", "true");
-                    HttpContext.Session.SetString("PermisoBorra", "true");
-                }
-                else
-                {
-                   
-                    if (UsuarioCompleto.Rol == 2)
-                    {
-                        Edita = true;
-                        Nuevo = false;
-                        Borra = false;
-                    }
-                    
-                }
+                
                 return;
             }
         }
