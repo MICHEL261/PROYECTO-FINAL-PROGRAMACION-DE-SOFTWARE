@@ -22,11 +22,12 @@ namespace lib_dominio.Nucleo
         public static string ConvertirAString(object data, bool ignore = false)
         {
             if (!ignore)
-                return JsonConvert.SerializeObject(data);
-
-            return JsonConvert.SerializeObject(data, Formatting.Indented,
+                return JsonConvert.SerializeObject(data, Formatting.Indented,
                 new JsonSerializerSettings() { ReferenceLoopHandling = ReferenceLoopHandling.Ignore }
              );
+            return JsonConvert.SerializeObject(data);
+
+            
         }
 
         public static T ConvertirAObjeto<T>(string data, bool check = false)

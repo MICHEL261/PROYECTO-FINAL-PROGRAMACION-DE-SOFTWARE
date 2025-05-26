@@ -30,12 +30,28 @@ namespace lib_aplicaciones.Implementaciones
 
             if (entidad!.Id == 0)
                 throw new Exception("lbNoSeGuardo");
-            var datos = "Orden: " + entidad.Orden.ToString() + ", " + "Formato: " + entidad.Formato + ", " + "Cantidad: " + entidad.Cantidad + ", " + "valor unitario: " + entidad.ValorUnitario + ", " + "Disco: " + entidad.Disco;
-            GuardarAuditoria("borrar", datos);
+            if (entidad._Formato == null && entidad.Formato != 0)
+            {
+                entidad._Formato = IConexion!.Formatos!.FirstOrDefault(m => m.Id == entidad.Formato);
+                if (entidad._Formato != null)
+                    IConexion.Entry(entidad._Formato).State = EntityState.Unchanged;
+            }
+
+            if (entidad._Disco == null && entidad.Disco != 0)
+            {
+                entidad._Disco = IConexion!.Discos!.FirstOrDefault(a => a.Id == entidad.Disco);
+                if (entidad._Disco != null)
+                    IConexion.Entry(entidad._Disco).State = EntityState.Unchanged;
+            }
+
+
+            var datos = "Orden: " + entidad._Orden + ", " + "Formato: " + entidad._Formato!.TipoFormato + ", " + "Cantidad: " + entidad.Cantidad + ", " + "valor unitario: " + entidad.ValorUnitario + ", " + "Disco: " + entidad._Disco!.NombreDisco;
 
 
             this.IConexion!.OrdenesDiscos!.Remove(entidad);
             this.IConexion.SaveChanges();
+            GuardarAuditoria("borrar", datos);
+
             return entidad;
         }
 
@@ -47,12 +63,27 @@ namespace lib_aplicaciones.Implementaciones
 
             if (entidad.Id != 0)
                 throw new Exception("lbYaSeGuardo");
+            if (entidad._Formato == null && entidad.Formato != 0)
+            {
+                entidad._Formato = IConexion!.Formatos!.FirstOrDefault(m => m.Id == entidad.Formato);
+                if (entidad._Formato != null)
+                    IConexion.Entry(entidad._Formato).State = EntityState.Unchanged;
+            }
 
-            var datos = "Orden: " + entidad.Orden.ToString() + ", " + "Formato: " + entidad.Formato + ", " + "Cantidad: " + entidad.Cantidad + ", " + "valor unitario: " + entidad.ValorUnitario + ", " + "Disco: " + entidad.Disco;
-            GuardarAuditoria("guardar", datos); ;
+            if (entidad._Disco == null && entidad.Disco != 0)
+            {
+                entidad._Disco = IConexion!.Discos!.FirstOrDefault(a => a.Id == entidad.Disco);
+                if (entidad._Disco != null)
+                    IConexion.Entry(entidad._Disco).State = EntityState.Unchanged;
+            }
+            
+
+            var datos = "Orden: " + entidad._Orden + ", " + "Formato: " + entidad._Formato!.TipoFormato + ", " + "Cantidad: " + entidad.Cantidad + ", " + "valor unitario: " + entidad.ValorUnitario + ", " + "Disco: " + entidad._Disco!.NombreDisco;
 
             this.IConexion!.OrdenesDiscos!.Add(entidad);
             this.IConexion.SaveChanges();
+            GuardarAuditoria("guardar", datos); ;
+
             return entidad;
         }
 
@@ -86,12 +117,28 @@ namespace lib_aplicaciones.Implementaciones
             if (entidad!.Id == 0)
                 throw new Exception("lbNoSeGuardo");
 
-            var datos = "Orden: "+ entidad.Orden.ToString() + ", "+"Formato: "+ entidad.Formato + ", "+"Cantidad: " + entidad.Cantidad + ", "+ "valor unitario: " + entidad.ValorUnitario + ", "+ "Disco: " + entidad.Disco;
-            GuardarAuditoria("modificar", datos);
+            if (entidad._Formato == null && entidad.Formato != 0)
+            {
+                entidad._Formato = IConexion!.Formatos!.FirstOrDefault(m => m.Id == entidad.Formato);
+                if (entidad._Formato != null)
+                    IConexion.Entry(entidad._Formato).State = EntityState.Unchanged;
+            }
+
+            if (entidad._Disco == null && entidad.Disco != 0)
+            {
+                entidad._Disco = IConexion!.Discos!.FirstOrDefault(a => a.Id == entidad.Disco);
+                if (entidad._Disco != null)
+                    IConexion.Entry(entidad._Disco).State = EntityState.Unchanged;
+            }
+
+
+            var datos = "Orden: " + entidad._Orden + ", " + "Formato: " + entidad._Formato!.TipoFormato + ", " + "Cantidad: " + entidad.Cantidad + ", " + "valor unitario: " + entidad.ValorUnitario + ", " + "Disco: " + entidad._Disco!.NombreDisco;
 
             var entry = this.IConexion!.Entry<OrdenesDiscos>(entidad);
             entry.State = EntityState.Modified;
             this.IConexion.SaveChanges();
+            GuardarAuditoria("modificar", datos);
+
             return entidad;
         }
         public decimal CalcularMontoTotal(Ordenes? orden)

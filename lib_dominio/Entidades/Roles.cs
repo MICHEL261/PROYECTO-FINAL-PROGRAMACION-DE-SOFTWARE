@@ -9,8 +9,8 @@ namespace lib_dominio.Entidades
         public string? Descripcion { get; set; }
         [JsonIgnore]
         public List<Usuarios>? Usuarios { get; set; }
-        
 
+        [JsonProperty]
         public List<Roles_Permisos>? Roles_Permisos { get; set; }
     }
 }

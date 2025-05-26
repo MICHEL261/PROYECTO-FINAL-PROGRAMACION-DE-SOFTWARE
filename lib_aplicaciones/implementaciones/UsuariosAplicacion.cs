@@ -28,14 +28,20 @@ namespace lib_aplicaciones.Implementaciones
 
             if (entidad!.Id == 0)
                 throw new Exception("lbNoSeGuardo");
-
-            var datos ="Nombre: "+ entidad.Nombre + ", "+"Apellido: " + entidad.Apellido + ", "+"Usuario: " + entidad.NombreUsuario + ", "+ "contraseña: " + entidad.Contraseña + ", "+"Rol: " + entidad.Rol;
-            GuardarAuditoria("borrar", datos);
+            if (entidad._Rol == null && entidad.Rol != 0)
+            {
+                entidad._Rol = IConexion!.Roles!.FirstOrDefault(a => a.Id == entidad.Rol);
+                if (entidad._Rol != null)
+                    IConexion.Entry(entidad._Rol).State = EntityState.Unchanged;
+            }
+            var datos = "Nombre: " + entidad.Nombre + ", " + "Apellido: " + entidad.Apellido + ", " + "Usuario: " + entidad.NombreUsuario + ", " + "contraseña: " + entidad.Contraseña + ", " + "Rol: " + entidad._Rol!.NombreRol;
 
             // Calculos
 
             this.IConexion!.Usuarios!.Remove(entidad);
             this.IConexion.SaveChanges();
+            GuardarAuditoria("borrar", datos);
+
             return entidad;
         }
 
@@ -48,19 +54,27 @@ namespace lib_aplicaciones.Implementaciones
                 throw new Exception("lbYaSeGuardo");
 
 
-            var datos = "Nombre: " + entidad.Nombre + ", " + "Apellido: " + entidad.Apellido + ", " + "Usuario: " + entidad.NombreUsuario + ", " + "contraseña: " + entidad.Contraseña + ", " + "Rol: " + entidad.Rol;
-            GuardarAuditoria("Guardar", datos);
+            if (entidad._Rol == null && entidad.Rol != 0)
+            {
+                entidad._Rol = IConexion!.Roles!.FirstOrDefault(a => a.Id == entidad.Rol);
+                if (entidad._Rol != null)
+                    IConexion.Entry(entidad._Rol).State = EntityState.Unchanged;
+            }
+            var datos = "Nombre: " + entidad.Nombre + ", " + "Apellido: " + entidad.Apellido + ", " + "Usuario: " + entidad.NombreUsuario + ", " + "contraseña: " + entidad.Contraseña + ", " + "Rol: " + entidad._Rol!.NombreRol;
 
             // Calculos
 
             this.IConexion!.Usuarios!.Add(entidad);
             this.IConexion.SaveChanges();
+            GuardarAuditoria("Guardar", datos);
+
             return entidad;
         }
 
         public List<Usuarios> Listar()
         {
             return this.IConexion!.Usuarios!.Take(20)
+                .Include(x=> x._Rol)
                 .ToList();
         }
 
@@ -79,13 +93,21 @@ namespace lib_aplicaciones.Implementaciones
             if (entidad!.Id == 0)
                 throw new Exception("lbNoSeGuardo");
 
-            var datos = "Nombre: " + entidad.Nombre + ", " + "Apellido: " + entidad.Apellido + ", " + "Usuario: " + entidad.NombreUsuario + ", " + "contraseña: " + entidad.Contraseña + ", " + "Rol: " + entidad.Rol;
-            GuardarAuditoria("Modificar", datos);
+
+            if (entidad._Rol == null && entidad.Rol != 0)
+            {
+                entidad._Rol = IConexion!.Roles!.FirstOrDefault(a => a.Id == entidad.Rol);
+                if (entidad._Rol != null)
+                    IConexion.Entry(entidad._Rol).State = EntityState.Unchanged;
+            }
+            var datos = "Nombre: " + entidad.Nombre + ", " + "Apellido: " + entidad.Apellido + ", " + "Usuario: " + entidad.NombreUsuario + ", " + "contraseña: " + entidad.Contraseña + ", " + "Rol: " + entidad._Rol!.NombreRol;
             // Calculos
 
             var entry = this.IConexion!.Entry<Usuarios>(entidad);
             entry.State = EntityState.Modified;
             this.IConexion.SaveChanges();
+            GuardarAuditoria("Modificar", datos);
+
             return entidad;
         }
 

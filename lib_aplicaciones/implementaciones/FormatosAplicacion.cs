@@ -30,11 +30,12 @@ namespace lib_aplicaciones.Implementaciones
                 throw new Exception("lbNoSeGuardo");
 
             var datos = "TipoFormato: " + entidad.TipoFormato + ", " + "material: " + entidad.Material;
-            GuardarAuditoria("borrar", datos);
             // Calculos
 
             this.IConexion!.Formatos!.Remove(entidad);
             this.IConexion.SaveChanges();
+            GuardarAuditoria("borrar", datos);
+
             return entidad;
         }
 
@@ -47,12 +48,13 @@ namespace lib_aplicaciones.Implementaciones
                 throw new Exception("lbYaSeGuardo");
 
             var datos ="TipoFormato: "+ entidad.TipoFormato + ", "+"material: " + entidad.Material;
-            GuardarAuditoria("guardar", datos);
 
             // Calculos
 
             this.IConexion!.Formatos!.Add(entidad);
             this.IConexion.SaveChanges();
+            GuardarAuditoria("Guardar", datos);
+
             return entidad;
         }
 

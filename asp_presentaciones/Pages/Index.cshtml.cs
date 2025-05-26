@@ -26,7 +26,7 @@ namespace asp_presentaciones.Pages
         public bool Edita { get; set; } = false;
         public bool Nuevo { get; set; } = false;
         public bool Borra { get; set; } = false;
-        public async Task OnGet()
+        public async Task OnGet() 
         {
             var variable_session = HttpContext.Session.GetString("NombreUsuario");
             if (!string.IsNullOrEmpty(variable_session))

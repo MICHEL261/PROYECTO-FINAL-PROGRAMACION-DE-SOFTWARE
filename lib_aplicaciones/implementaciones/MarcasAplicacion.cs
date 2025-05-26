@@ -31,9 +31,10 @@ namespace lib_aplicaciones.Implementaciones
                 throw new Exception("lbNoSeGuardo");
 
             var datos ="NombreMarca: "+ entidad.NombreMarca + ", "+"pagina web: " + entidad.PaginaWeb;
-            GuardarAuditoria("borrar", datos);
             this.IConexion!.Marcas!.Remove(entidad);
             this.IConexion.SaveChanges();
+            GuardarAuditoria("Borrar", datos);
+
             return entidad;
         }
 
@@ -45,10 +46,11 @@ namespace lib_aplicaciones.Implementaciones
             if (entidad.Id != 0)
                 throw new Exception("lbYaSeGuardo");
             var datos = "NombreMarca: " + entidad.NombreMarca + ", " + "pagina web: " + entidad.PaginaWeb;
-            GuardarAuditoria("guardar", datos);
 
             this.IConexion!.Marcas!.Add(entidad);
             this.IConexion.SaveChanges();
+            GuardarAuditoria("guardar", datos);
+
             return entidad;
         }
 
@@ -74,11 +76,12 @@ namespace lib_aplicaciones.Implementaciones
             if (entidad!.Id == 0)
                 throw new Exception("lbNoSeGuardo");
             var datos = "NombreMarca: " + entidad.NombreMarca + ", " + "pagina web: " + entidad.PaginaWeb;
-            GuardarAuditoria("modificar", datos);
 
             var entry = this.IConexion!.Entry<Marcas>(entidad);
             entry.State = EntityState.Modified;
             this.IConexion.SaveChanges();
+            GuardarAuditoria("modificar", datos);
+
             return entidad;
         }
 

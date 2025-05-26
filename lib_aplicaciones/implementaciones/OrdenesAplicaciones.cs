@@ -30,11 +30,25 @@ namespace lib_aplicaciones.Implementaciones
             if (entidad!.Id == 0)
                 throw new Exception("lbNoSeGuardo");
 
-            var datos ="Pago: "+ entidad.Pago.ToString() + ", " +"Fecha: "+ entidad.Fecha + ", " + "Monto Total: "+entidad.MontoTotal + ", "+"cliente: " +entidad.Cliente;
-            GuardarAuditoria("borrar", datos);
+            if (entidad._Pago == null && entidad.Pago != 0)
+            {
+                entidad._Pago = IConexion!.Pagos!.FirstOrDefault(m => m.Id == entidad.Pago);
+                if (entidad._Pago != null)
+                    IConexion.Entry(entidad._Pago).State = EntityState.Unchanged;
+            }
+
+            if (entidad._Cliente == null && entidad.Cliente != 0)
+            {
+                entidad._Cliente = IConexion!.Clientes!.FirstOrDefault(a => a.Id == entidad.Cliente);
+                if (entidad._Cliente != null)
+                    IConexion.Entry(entidad._Cliente).State = EntityState.Unchanged;
+            }
+
+            var datos = "Pago: " + entidad._Pago!.TipoPago + ", " + "Fecha: " + entidad.Fecha + ", " + "Monto Total: " + entidad.MontoTotal + ", " + "cliente: " + entidad._Cliente!.NombreCliente;
 
             this.IConexion!.Ordenes!.Remove(entidad);
             this.IConexion.SaveChanges();
+            GuardarAuditoria("borrar", datos);
             return entidad;
         }
 
@@ -45,12 +59,28 @@ namespace lib_aplicaciones.Implementaciones
 
             if (entidad.Id != 0)
                 throw new Exception("lbYaSeGuardo");
-            var datos = "Pago: " + entidad.Pago.ToString() + ", " + "Fecha: " + entidad.Fecha + ", " + "Monto Total: " + entidad.MontoTotal + ", " + "cliente: " + entidad.Cliente;
-            GuardarAuditoria("guardar", datos);
+            if (entidad._Pago == null && entidad.Pago != 0)
+            {
+                entidad._Pago = IConexion!.Pagos!.FirstOrDefault(m => m.Id == entidad.Pago);
+                if (entidad._Pago != null)
+                    IConexion.Entry(entidad._Pago).State = EntityState.Unchanged;
+            }
+
+            if (entidad._Cliente == null && entidad.Cliente != 0)
+            {
+                entidad._Cliente = IConexion!.Clientes!.FirstOrDefault(a => a.Id == entidad.Cliente);
+                if (entidad._Cliente != null)
+                    IConexion.Entry(entidad._Cliente).State = EntityState.Unchanged;
+            }
+
+            var datos = "Pago: " + entidad._Pago!.TipoPago + ", " + "Fecha: " + entidad.Fecha + ", " + "Monto Total: " + entidad.MontoTotal + ", " + "cliente: " + entidad._Cliente!.NombreCliente;
+
 
 
             this.IConexion!.Ordenes!.Add(entidad);
             this.IConexion.SaveChanges();
+            GuardarAuditoria("guardar", datos);
+
             return entidad;
         }
 
@@ -82,14 +112,28 @@ namespace lib_aplicaciones.Implementaciones
 
             if (entidad!.Id == 0)
                 throw new Exception("lbNoSeGuardo");
+            if (entidad._Pago == null && entidad.Pago != 0)
+            {
+                entidad._Pago = IConexion!.Pagos!.FirstOrDefault(m => m.Id == entidad.Pago);
+                if (entidad._Pago != null)
+                    IConexion.Entry(entidad._Pago).State = EntityState.Unchanged;
+            }
 
-            var datos = "Pago: " + entidad.Pago.ToString() + ", " + "Fecha: " + entidad.Fecha + ", " + "Monto Total: " + entidad.MontoTotal + ", " + "cliente: " + entidad.Cliente;
-            GuardarAuditoria("modificar", datos);
+            if (entidad._Cliente == null && entidad.Cliente != 0)
+            {
+                entidad._Cliente = IConexion!.Clientes!.FirstOrDefault(a => a.Id == entidad.Cliente);
+                if (entidad._Cliente != null)
+                    IConexion.Entry(entidad._Cliente).State = EntityState.Unchanged;
+            }
+
+            var datos = "Pago: " + entidad._Pago!.TipoPago + ", " + "Fecha: " + entidad.Fecha + ", " + "Monto Total: " + entidad.MontoTotal + ", " + "cliente: " + entidad._Cliente!.NombreCliente;
 
 
             var entry = this.IConexion!.Entry<Ordenes>(entidad);
             entry.State = EntityState.Modified;
             this.IConexion.SaveChanges();
+            GuardarAuditoria("modificar", datos);
+
             return entidad;
         }
 

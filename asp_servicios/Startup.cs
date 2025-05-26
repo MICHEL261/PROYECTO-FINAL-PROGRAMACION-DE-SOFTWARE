@@ -19,6 +19,7 @@ namespace asp_servicios
 
         public void ConfigureServices(WebApplicationBuilder builder, IServiceCollection services)
         {
+
             services.Configure<KestrelServerOptions>(x => { x.AllowSynchronousIO = true; });
             services.Configure<IISServerOptions>(x => { x.AllowSynchronousIO = true; });
             services.AddControllers().AddNewtonsoftJson(options =>

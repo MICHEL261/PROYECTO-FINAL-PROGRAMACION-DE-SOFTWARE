@@ -47,13 +47,14 @@ namespace lib_aplicaciones.Implementaciones
             if (entidad.Id != 0)
                 throw new Exception("lbYaSeGuardo");
             var datos = "Nombre Artista: " + entidad.NombreArtista + ", " + "Genero Musical: " + entidad.GeneroMusical;
-            GuardarAuditoria("guardar", datos);
 
 
             // Calculos
 
             this.IConexion!.Artistas!.Add(entidad);
             this.IConexion.SaveChanges();
+            GuardarAuditoria("guardar", datos);
+
             return entidad;
         }
 
@@ -76,7 +77,7 @@ namespace lib_aplicaciones.Implementaciones
             if (entidad!.Id == 0)
                 throw new Exception("lbNoSeGuardo");
             var datos = "Nombre Artista: " + entidad.NombreArtista + ", " + "Genero Musical: " + entidad.GeneroMusical;
-            GuardarAuditoria("Modificar", datos);
+            
 
 
             // Calculos
@@ -84,6 +85,7 @@ namespace lib_aplicaciones.Implementaciones
             var entry = this.IConexion!.Entry<Artistas>(entidad);
             entry.State = EntityState.Modified;
             this.IConexion.SaveChanges();
+            GuardarAuditoria("Modificar", datos);
             return entidad;
         }
 

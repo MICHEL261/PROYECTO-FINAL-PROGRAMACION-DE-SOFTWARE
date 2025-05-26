@@ -9,12 +9,14 @@ namespace asp_presentaciones.Pages.Ventanas
     public class ClientesModel : PageModel
     {
         private IClientesPresentacion? iPresentacion = null;
+        private IUsuariosPresentacion? IUsuarioPresentacion = null;
 
-        public ClientesModel(IClientesPresentacion iPresentacion)
+        public ClientesModel(IClientesPresentacion iPresentacion, IUsuariosPresentacion IUsuarioPresentacion)
         {
             try
             {
                 this.iPresentacion = iPresentacion;
+                this.IUsuarioPresentacion = IUsuarioPresentacion;
                 Filtro = new Clientes();
             }
             catch (Exception ex)
@@ -28,6 +30,8 @@ namespace asp_presentaciones.Pages.Ventanas
         [BindProperty] public Clientes? Actual { get; set; }
         [BindProperty] public Clientes? Filtro { get; set; }
         [BindProperty] public List<Clientes>? Lista { get; set; }
+        [BindProperty] public List<Usuarios>? Usuarios { get; set; }
+
 
         public virtual void OnGet() { OnPostBtRefrescar(); }
 
@@ -55,6 +59,19 @@ namespace asp_presentaciones.Pages.Ventanas
                 LogConversor.Log(ex, ViewData!);
             }
         }
+        private void CargarCombox()
+        {
+            try
+            {
+                var task = this.IUsuarioPresentacion!.Listar();
+                task.Wait();
+                Usuarios = task.Result;
+            }
+            catch (Exception ex)
+            {
+                LogConversor.Log(ex, ViewData!);
+            }
+        }
 
         public virtual void OnPostBtNuevo()
         {
@@ -62,6 +79,7 @@ namespace asp_presentaciones.Pages.Ventanas
             {
                 Accion = Enumerables.Ventanas.Editar;
                 Actual = new Clientes();
+                CargarCombox();
             }
             catch (Exception ex)
             {
@@ -76,6 +94,7 @@ namespace asp_presentaciones.Pages.Ventanas
                 OnPostBtRefrescar();
                 Accion = Enumerables.Ventanas.Editar;
                 Actual = Lista!.FirstOrDefault(x => x.Id.ToString() == data);
+                CargarCombox();
             }
             catch (Exception ex)
             {

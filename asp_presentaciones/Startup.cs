@@ -1,6 +1,6 @@
 ﻿using lib_presentaciones.Implementaciones;
 using lib_presentaciones.Interfaces;
-
+using Newtonsoft.Json;
 namespace asp_presentacion
 {
     public class Startup
@@ -14,6 +14,8 @@ namespace asp_presentacion
 
         public void ConfigureServices(WebApplicationBuilder builder, IServiceCollection services)
         {
+            
+
             // Presentaciones
             services.AddScoped<IDiscosPresentacion, DiscosPresentacion>();
             services.AddScoped<IClientesPresentacion, ClientesPresentacion>();
@@ -29,6 +31,7 @@ namespace asp_presentacion
             services.AddScoped<IAuditoriasPresentacion, AuditoriasPresentacion>();
            
             services.AddScoped<IPermisosPresentacion, PermisosPresentacion>();
+            services.AddScoped<IRoles_PermisosPresentacion, Roles_PermisosPresentacion>();
 
 
             services.AddControllers();

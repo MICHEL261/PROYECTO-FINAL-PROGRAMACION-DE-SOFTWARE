@@ -31,17 +31,14 @@ namespace lib_aplicaciones.Implementaciones
 
 
             var datos = "Nombre Cliente: " + entidad.NombreCliente + ", " + "apellido: " + entidad.ApellidoCliente + ", " + "telefono: " + entidad.TelefonoCliente + ", " + "direccion: " + entidad.DireccionCliente;
-            GuardarAuditoria("borrar", datos);
 
 
             // Calculos
 
             this.IConexion!.Clientes!.Remove(entidad);
 
-                this.IConexion.SaveChanges();
-
-            
-
+            this.IConexion.SaveChanges();
+            GuardarAuditoria("borrar", datos);
 
             return entidad;
         }
@@ -58,18 +55,21 @@ namespace lib_aplicaciones.Implementaciones
 
 
             var datos = "Nombre Cliente: " + entidad.NombreCliente + ", " + "apellido: " + entidad.ApellidoCliente + ", " + "telefono: " + entidad.TelefonoCliente + ", " + "direccion: " + entidad.DireccionCliente;
-            GuardarAuditoria("guardar", datos);
 
             
 
             this.IConexion!.Clientes!.Add(entidad);
             this.IConexion.SaveChanges();
+            GuardarAuditoria("guardar", datos);
+
             return entidad;
         }
 
         public List<Clientes> Listar()
         {
-            return this.IConexion!.Clientes!.Take(20).ToList();
+            return this.IConexion!.Clientes!.Take(20)
+                .Include(X => X._Usuario)
+                .ToList();
         }
 
         public List<Clientes> PorNombre(Clientes? entidad)
@@ -88,14 +88,16 @@ namespace lib_aplicaciones.Implementaciones
 
 
             var datos ="Nombre Cliente: "+ entidad.NombreCliente + ", " + "apellido: " + entidad.ApellidoCliente + ", "+"telefono: " + entidad.TelefonoCliente + ", "+"direccion: " + entidad.DireccionCliente;
-            GuardarAuditoria("modificar", datos);
 
             // Calculos
 
             var entry = this.IConexion!.Entry<Clientes>(entidad);
             entry.State = EntityState.Modified;
             this.IConexion.SaveChanges();
+            GuardarAuditoria("modificar", datos);
+
             return entidad;
+
         }
         public void GuardarAuditoria(String operacion, String datos)
         {

@@ -29,14 +29,30 @@ namespace lib_aplicaciones.Implementaciones
 
             if (entidad!.Id == 0)
                 throw new Exception("lbNoSeGuardo");
-            var datos ="Nombre: "+ entidad.NombreDisco + ", "+"marca: " + entidad.Marca.ToString() + ", "+"Duracion: " + entidad.DuracionDisco + ", "+"Artista: " + entidad.Artista; 
-            GuardarAuditoria("Borrar", datos);
+
+            if (entidad._Marca == null && entidad.Marca != 0)
+            {
+                entidad._Marca = IConexion!.Marcas!.FirstOrDefault(m => m.Id == entidad.Marca);
+                if (entidad._Marca != null)
+                    IConexion.Entry(entidad._Marca).State = EntityState.Unchanged;
+            }
+
+            if (entidad._Artista == null && entidad.Artista != 0)
+            {
+                entidad._Artista = IConexion!.Artistas!.FirstOrDefault(a => a.Id == entidad.Artista);
+                if (entidad._Artista != null)
+                    IConexion.Entry(entidad._Artista).State = EntityState.Unchanged;
+            }
+
+            var datos = "Nombre: " + entidad.NombreDisco + ", " + "marca: " + entidad._Marca?.NombreMarca + ", " + "Duracion: " + entidad.DuracionDisco + ", " + "Artista: " + entidad._Artista?.NombreArtista;
 
 
             // Calculos
 
             this.IConexion!.Discos!.Remove(entidad);
             this.IConexion.SaveChanges();
+            GuardarAuditoria("Borrar", datos);
+
             return entidad;
         }
 
@@ -48,13 +64,28 @@ namespace lib_aplicaciones.Implementaciones
             if (entidad.Id != 0)
                 throw new Exception("lbYaSeGuardo");
 
-            var datos = "Nombre: " + entidad.NombreDisco + ", " + "marca: " + entidad.Marca.ToString() + ", " + "Duracion: " + entidad.DuracionDisco + ", " + "Artista: " + entidad.Artista;
-            GuardarAuditoria("Guardar", datos);
+            if (entidad._Marca == null && entidad.Marca != 0)
+            {
+                entidad._Marca = IConexion!.Marcas!.FirstOrDefault(m => m.Id == entidad.Marca);
+                if (entidad._Marca != null)
+                    IConexion.Entry(entidad._Marca).State = EntityState.Unchanged;
+            }
+
+            if (entidad._Artista == null && entidad.Artista != 0)
+            {
+                entidad._Artista = IConexion!.Artistas!.FirstOrDefault(a => a.Id == entidad.Artista);
+                if (entidad._Artista != null)
+                    IConexion.Entry(entidad._Artista).State = EntityState.Unchanged;
+            }
+
+            var datos = "Nombre: " + entidad.NombreDisco + ", " + "marca: " + entidad._Marca?.NombreMarca + ", " + "Duracion: " + entidad.DuracionDisco + ", " + "Artista: " + entidad._Artista?.NombreArtista;
 
             // Calculos
 
             this.IConexion!.Discos!.Add(entidad);
             this.IConexion.SaveChanges();
+            GuardarAuditoria("Guardar", datos);
+
             return entidad;
         }
 
@@ -84,16 +115,28 @@ namespace lib_aplicaciones.Implementaciones
                 throw new Exception("lbNoSeGuardo");
 
 
+            if (entidad._Marca == null && entidad.Marca != 0)
+            {
+                entidad._Marca = IConexion!.Marcas!.FirstOrDefault(m => m.Id == entidad.Marca);
+                if (entidad._Marca != null)
+                    IConexion.Entry(entidad._Marca).State = EntityState.Unchanged;
+            }
 
-            var datos = "Nombre: " + entidad.NombreDisco + ", " + "marca: " + entidad.Marca.ToString() + ", " + "Duracion: " + entidad.DuracionDisco + ", " + "Artista: " + entidad.Artista;
-            GuardarAuditoria("Modificar", datos);
+            if (entidad._Artista == null && entidad.Artista != 0)
+            {
+                entidad._Artista = IConexion!.Artistas!.FirstOrDefault(a => a.Id == entidad.Artista);
+                if (entidad._Artista != null)
+                    IConexion.Entry(entidad._Artista).State = EntityState.Unchanged;
+            }
 
+            var datos = "Nombre: " + entidad.NombreDisco + ", " + "marca: " + entidad._Marca?.NombreMarca + ", " + "Duracion: " + entidad.DuracionDisco + ", " + "Artista: " + entidad._Artista?.NombreArtista;
 
             // Calculos
 
-            var entry = this.IConexion!.Entry<Discos>(entidad);
-            entry.State = EntityState.Modified;
+            this.IConexion!.Discos!.Add(entidad);
             this.IConexion.SaveChanges();
+            GuardarAuditoria("Modificar", datos);
+
             return entidad;
         }
         public void GuardarAuditoria(String operacion, String datos)

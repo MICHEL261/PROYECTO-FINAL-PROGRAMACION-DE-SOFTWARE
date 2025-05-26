@@ -1,7 +1,7 @@
 ﻿@page
 @model asp_presentaciones.Pages.Ventanas.RolesModel
 @{
-    ViewData["Titulo"] = "";
+    ViewData["Titulo"] = "Roles";
 
 }
 <center>
@@ -11,7 +11,7 @@
             @Html.AntiForgeryToken()
 
             <div align="left">
-                <h3>Pagos</h3>
+                <h3>Roles</h3>
             </div>
             <div align="left"
                  class="bt_panel_buttons">
@@ -55,7 +55,7 @@
             @if (Model.Accion == lib_dominio.Nucleo.Enumerables.Ventanas.Editar)
             {
                 <div class="containers_vn panel panel-default">
-                    <h3>Roles</h3>
+                    <h3>Rol</h3>
 
                     <div>
                         <div class="form-group">

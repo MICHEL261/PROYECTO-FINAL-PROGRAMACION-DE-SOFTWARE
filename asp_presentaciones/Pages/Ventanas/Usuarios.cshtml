@@ -1,7 +1,7 @@
 ﻿@page
 @model asp_presentaciones.Pages.Ventanas.UsuariosModel
 @{
-    ViewData["Titulo"] = "";
+    ViewData["Titulo"] = "Usuarios";
 
 }
 <center>
@@ -63,7 +63,7 @@
             @if (Model.Accion == lib_dominio.Nucleo.Enumerables.Ventanas.Editar)
             {
                 <div class="containers_vn panel panel-default">
-                    <h3>Casa</h3>
+                    <h3>Usuario</h3>
 
                     <div>
                         <div class="form-group">
@@ -128,21 +128,20 @@
                             </div>
 
                         </div>
-                        
-                        <div class="form-group">
-                            <label class="col-lg-4 control-label">
-                                Rol
-                            </label>
-                            <div class="col-lg-6">
-                                <input id="nmRol"
-                                       class="cts_forms form-control"
-                                       asp-for="@Model.Actual!.Rol" />
-                            </div>
 
+                        <div class="form-group">
+                            <label class="col-lg-4 control-label">Roles</label>
+                            <div class="col-lg-6">
+                                <select id="nmRol"
+                                        class="cts_forms form-control"
+                                        asp-for="@Model.Actual!.Rol"
+                                        asp-items="@(new SelectList(Model.Roles, "Id", "NombreRol"))">
+                                </select>
+                            </div>
+                        </div>
+                            </div>
                         </div>
 
-                    </div>
-                </div>
             }
 
             @if (ViewData.ContainsKey("Mensaje"))
@@ -305,7 +304,7 @@
                                         @elemento.Contraseña
                                     </td>
                                      <td class="cl_hidden">
-                                        @elemento.Rol
+                                        @elemento._Rol!.NombreRol
                                     </td>
 
                                     <td>

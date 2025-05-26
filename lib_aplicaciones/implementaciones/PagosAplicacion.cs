@@ -30,12 +30,13 @@ namespace lib_aplicaciones.Implementaciones
                 throw new Exception("lbNoSeGuardo");
 
             var datos ="TipoPago: "+ entidad.TipoPago + ", "+"Pais disponibilidad: " + entidad.Pais_Disponibilidad;
-            GuardarAuditoria("borrar", datos);
 
             // Calculos
 
             this.IConexion!.Pagos!.Remove(entidad);
             this.IConexion.SaveChanges();
+            GuardarAuditoria("borrar", datos);
+
             return entidad;
         }
 
@@ -48,12 +49,13 @@ namespace lib_aplicaciones.Implementaciones
                 throw new Exception("lbYaSeGuardo");
 
             var datos = "TipoPago: " + entidad.TipoPago + ", " + "Pais disponibilidad: " + entidad.Pais_Disponibilidad;
-            GuardarAuditoria("borrar", datos);
 
             // Calculos
 
             this.IConexion!.Pagos!.Add(entidad);
             this.IConexion.SaveChanges();
+            GuardarAuditoria("borrar", datos);
+
             return entidad;
         }
 
@@ -77,13 +79,14 @@ namespace lib_aplicaciones.Implementaciones
                 throw new Exception("lbNoSeGuardo");
 
             var datos = "TipoPago: " + entidad.TipoPago + ", " + "Pais disponibilidad: " + entidad.Pais_Disponibilidad;
-            GuardarAuditoria("borrar", datos);
 
             // Calculos
 
             var entry = this.IConexion!.Entry<Pagos>(entidad);
             entry.State = EntityState.Modified;
             this.IConexion.SaveChanges();
+            GuardarAuditoria("borrar", datos);
+
             return entidad;
         }
 

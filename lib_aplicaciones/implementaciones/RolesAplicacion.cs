@@ -29,12 +29,13 @@ namespace lib_aplicaciones.Implementaciones
             if (entidad!.Id == 0)
                 throw new Exception("lbNoSeGuardo");
             var datos = "Nombre Rol: " + entidad.NombreRol + ", " + "descripcion: " + entidad.Descripcion;
-            GuardarAuditoria("borrar", datos);
 
             // Calculos
 
             this.IConexion!.Roles!.Remove(entidad);
             this.IConexion.SaveChanges();
+            GuardarAuditoria("borrar", datos);
+
             return entidad;
         }
 
@@ -46,12 +47,13 @@ namespace lib_aplicaciones.Implementaciones
             if (entidad.Id != 0)
                 throw new Exception("lbYaSeGuardo");
             var datos = "Nombre Rol: " + entidad.NombreRol + ", " + "descripcion: " + entidad.Descripcion;
-            GuardarAuditoria("guardar", datos);
 
             // Calculos
 
             this.IConexion!.Roles!.Add(entidad);
             this.IConexion.SaveChanges();
+            GuardarAuditoria("guardar", datos);
+
             return entidad;
         }
 
@@ -74,13 +76,14 @@ namespace lib_aplicaciones.Implementaciones
             if (entidad!.Id == 0)
                 throw new Exception("lbNoSeGuardo");
             var datos ="Nombre Rol: "+ entidad.NombreRol + ", "+"descripcion: " + entidad.Descripcion;
-            GuardarAuditoria("modificar", datos);
 
             // Calculos
 
             var entry = this.IConexion!.Entry<Roles>(entidad);
             entry.State = EntityState.Modified;
             this.IConexion.SaveChanges();
+            GuardarAuditoria("modificar", datos);
+
             return entidad;
         }
 

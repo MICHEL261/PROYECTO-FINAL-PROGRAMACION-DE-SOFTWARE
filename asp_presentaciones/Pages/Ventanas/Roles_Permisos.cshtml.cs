@@ -6,21 +6,20 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace asp_presentaciones.Pages.Ventanas
 {
-    public class UsuariosModel : PageModel
+    public class Roles_PermisosModel : PageModel
     {
-        private IUsuariosPresentacion? iPresentacion = null;
-        private IRolesPresentacion? IRolesPresentacion = null;
+        private IRoles_PermisosPresentacion? iPresentacion = null;
 
 
 
-        public UsuariosModel(IUsuariosPresentacion iPresentacion, IRolesPresentacion IRolesPresentacion)
+
+        public Roles_PermisosModel(IRoles_PermisosPresentacion iPresentacion)
         {
             try
             {
                 this.iPresentacion = iPresentacion;
-                this.IRolesPresentacion = IRolesPresentacion;
-
-                Filtro = new Usuarios();
+                
+                Filtro = new Roles_Permisos();
             }
             catch (Exception ex)
             {
@@ -30,9 +29,10 @@ namespace asp_presentaciones.Pages.Ventanas
 
         public IFormFile? FormFile { get; set; }
         [BindProperty] public Enumerables.Ventanas Accion { get; set; }
-        [BindProperty] public Usuarios? Actual { get; set; }
-        [BindProperty] public Usuarios? Filtro { get; set; }
-        [BindProperty] public List<Usuarios>? Lista { get; set; }
+        [BindProperty] public Roles_Permisos? Actual { get; set; }
+        [BindProperty] public Roles_Permisos? Filtro { get; set; }
+        [BindProperty] public List<Roles_Permisos>? Lista { get; set; }
+        [BindProperty] public List<Permisos>? Permisos { get; set; }
         [BindProperty] public List<Roles>? Roles { get; set; }
 
 
@@ -49,7 +49,7 @@ namespace asp_presentaciones.Pages.Ventanas
                     return;
                 }
 
-                Filtro!.Id = Filtro!.Id  -1;
+                Filtro!.Id = Filtro!.Id -1 ;
 
                 Accion = Enumerables.Ventanas.Listas;
                 var task = this.iPresentacion!.Listar();
@@ -62,20 +62,7 @@ namespace asp_presentaciones.Pages.Ventanas
                 LogConversor.Log(ex, ViewData!);
             }
         }
-        private void CargarCombox()
-        {
-            try
-            {
-                var task = this.IRolesPresentacion!.Listar();
-                
-                task.Wait();
-                Roles = task.Result;
-            }
-            catch (Exception ex)
-            {
-                LogConversor.Log(ex, ViewData!);
-            }
-        }
+
 
 
 
@@ -84,9 +71,8 @@ namespace asp_presentaciones.Pages.Ventanas
             try
             {
                 Accion = Enumerables.Ventanas.Editar;
-                Actual = new Usuarios();
+                Actual = new Roles_Permisos();
 
-                CargarCombox();
 
             }
             catch (Exception ex)
@@ -100,10 +86,11 @@ namespace asp_presentaciones.Pages.Ventanas
             try
             {
                 OnPostBtRefrescar();
+
+
+
                 Accion = Enumerables.Ventanas.Editar;
                 Actual = Lista!.FirstOrDefault(x => x.Id.ToString() == data);
-                CargarCombox();
-
 
             }
             catch (Exception ex)
@@ -118,13 +105,12 @@ namespace asp_presentaciones.Pages.Ventanas
             {
                 Accion = Enumerables.Ventanas.Editar;
 
-                Task<Usuarios>? task = null;
+                Task<Roles_Permisos>? task = null;
                 if (Actual!.Id == 0)
                     task = this.iPresentacion!.Guardar(Actual!)!;
                 else
                     task = this.iPresentacion!.Modificar(Actual!)!;
                 task.Wait();
-               
                 Actual = task.Result;
                 Accion = Enumerables.Ventanas.Listas;
                 OnPostBtRefrescar();
@@ -157,13 +143,10 @@ namespace asp_presentaciones.Pages.Ventanas
                 Actual = task.Result;
                 OnPostBtRefrescar();
             }
-
             catch (Exception ex)
             {
 
-
-
-                ViewData["MensajeError"] = ex.Message.ToString() + "Debe borrar primero las relaciones que tiene Usuarios con otras entidades";
+                ViewData["MensajeError"] = ex.Message.ToString() + "Debe borrar primero las relaciones que tiene Roles_Permisos con otras entidades";
 
                 OnPostBtRefrescar();
             }

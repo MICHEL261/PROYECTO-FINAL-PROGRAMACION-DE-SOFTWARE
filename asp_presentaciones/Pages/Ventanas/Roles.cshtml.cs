@@ -9,18 +9,15 @@ namespace asp_presentaciones.Pages.Ventanas
     public class RolesModel : PageModel
     {
         private IRolesPresentacion? iPresentacion = null;
-        private IArtistasPresentacion? IArtistasPresentacion = null;
-        private IMarcasPresentacion? IMarcasPresentacion = null;
-        
+       
 
 
-        public RolesModel(IRolesPresentacion iPresentacion, IArtistasPresentacion IArtistasPresentacion, IMarcasPresentacion IMarcasPresentacion)
+        public RolesModel(IRolesPresentacion iPresentacion)
         {
             try
             {
                 this.iPresentacion = iPresentacion;
-                this.IArtistasPresentacion = IArtistasPresentacion;
-                this.IMarcasPresentacion = IMarcasPresentacion;
+               
                 Filtro = new Roles();
             }
             catch (Exception ex)
@@ -34,8 +31,6 @@ namespace asp_presentaciones.Pages.Ventanas
         [BindProperty] public Roles? Actual { get; set; }
         [BindProperty] public Roles? Filtro { get; set; }
         [BindProperty] public List<Roles>? Lista { get; set; }
-        [BindProperty] public List<Artistas>? Artistas { get; set; }
-        [BindProperty] public List<Marcas>? Marcas { get; set; }
 
 
         public virtual void OnGet() { OnPostBtRefrescar(); }
