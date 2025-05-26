@@ -1,5 +1,6 @@
 using lib_dominio.Entidades;
 using lib_dominio.Nucleo;
+using lib_presentaciones.Implementaciones;
 using lib_presentaciones.Interfaces;
 using Microsoft.AspNetCore.Components.Forms;
 using Microsoft.AspNetCore.Mvc;
@@ -49,11 +50,18 @@ namespace asp_presentaciones.Pages.Ventanas
             try
             {
                 var variable_session = HttpContext.Session.GetString("Usuario");
+                if (!ValidarPermiso())
+                {
+                    // Puedes redirigir, lanzar excepción, o establecer un mensaje de error en ViewData
+                    TempData["MensajeError"] = "No tienes permisos para Listar.";
+                    return;
+                }
                 if (String.IsNullOrEmpty(variable_session))
                 {
                     HttpContext.Response.Redirect("/");
                     return;
                 }
+                
 
                 Filtro!.NombreArtista = Filtro!.NombreArtista ?? "";
 
@@ -86,6 +94,12 @@ namespace asp_presentaciones.Pages.Ventanas
         {
             try
             {
+                if (!ValidarPermiso())
+                {
+                    // Puedes redirigir, lanzar excepción, o establecer un mensaje de error en ViewData
+                    TempData["MensajeError"] = "No tienes permisos para modificar.";
+                    return;
+                }
                 OnPostBtRefrescar();
                 OnGet();
 
@@ -103,6 +117,12 @@ namespace asp_presentaciones.Pages.Ventanas
         {
             try
             {
+                if (!ValidarPermiso())
+                {
+                    // Puedes redirigir, lanzar excepción, o establecer un mensaje de error en ViewData
+                    TempData["MensajeError"] = "No tienes permisos para Guardar.";
+                    return;
+                }
                 Accion = Enumerables.Ventanas.Editar;
 
                 Task<Artistas>? task = null;
@@ -139,6 +159,13 @@ namespace asp_presentaciones.Pages.Ventanas
         {
             try
             {
+
+                if (!ValidarPermiso())
+                {
+                    // Puedes redirigir, lanzar excepción, o establecer un mensaje de error en ViewData
+                    TempData["MensajeError"] = "No tienes permisos para Borrar.";
+                    return;
+                }
                 var task = this.iPresentacion!.Borrar(Actual!);
                 Actual = task.Result;
                 OnPostBtRefrescar();
@@ -179,6 +206,46 @@ namespace asp_presentaciones.Pages.Ventanas
             {
                 LogConversor.Log(ex, ViewData!);
             }
+        }
+
+        public bool ValidarPermiso()
+        {
+            var variable_session = HttpContext.Session.GetString("Usuario");
+
+            if (string.IsNullOrEmpty(variable_session))
+                return false;
+
+            var UsuarioPresentacion = new UsuariosPresentacion();
+            var usuarios = UsuarioPresentacion.Listar().Result;
+
+            if (usuarios == null)
+                return false;
+
+            var usuario = usuarios.FirstOrDefault(x => x.NombreUsuario.ToLower() == variable_session.ToLower());
+
+            if (usuario == null)
+                return false;
+
+          
+            bool Edita = false;
+            bool Borra = false;
+            bool Nuevo = false;
+            bool Listar = false;
+
+            switch (usuario.Rol)
+            {
+                case 1:
+                    Edita = Borra = Nuevo = Listar = true;
+                    break;
+                case 2:
+                    
+                    break;
+                default:
+                    return false;
+            }
+
+           
+            return Edita || Borra || Nuevo || Listar;
         }
     }
 }

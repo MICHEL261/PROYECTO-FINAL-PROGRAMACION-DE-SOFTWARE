@@ -135,6 +135,12 @@
                 @await Html.PartialAsync("../Emergentes/Mensajes.cshtml")
                 ;
             }
+            @if (TempData["MensajeError"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["MensajeError"]
+    </div>
+}
 
 
 

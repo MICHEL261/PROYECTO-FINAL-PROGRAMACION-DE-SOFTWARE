@@ -195,6 +195,7 @@
                           
             }
 
+
             @if (ViewData.ContainsKey("MensajeExito"))
             {
 
@@ -224,6 +225,12 @@
                 
               
             }
+            @if (TempData["MensajeError"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["MensajeError"]
+    </div>
+}
 
             @if (Model.Accion == lib_dominio.Nucleo.Enumerables.Ventanas.Listas ||
             Model.Accion == lib_dominio.Nucleo.Enumerables.Ventanas.Borrar)

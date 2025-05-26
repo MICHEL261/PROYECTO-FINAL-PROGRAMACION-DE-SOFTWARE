@@ -51,6 +51,12 @@
                        asp-for="@Model.Actual!.Descripcion" />
 
             }
+            @if (TempData["MensajeError"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["MensajeError"]
+    </div>
+}
 
             @if (Model.Accion == lib_dominio.Nucleo.Enumerables.Ventanas.Editar)
             {

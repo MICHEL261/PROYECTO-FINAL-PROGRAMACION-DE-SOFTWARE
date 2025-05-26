@@ -1,5 +1,6 @@
 using lib_dominio.Entidades;
 using lib_dominio.Nucleo;
+using lib_presentaciones.Implementaciones;
 using lib_presentaciones.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -50,6 +51,12 @@ namespace asp_presentaciones.Pages.Ventanas
             try
             {
                 var variable_session = HttpContext.Session.GetString("Usuario");
+                if (!ValidarPermiso())
+                {
+
+                    TempData["MensajeError"] = "No tienes permisos para Listar.";
+                    return;
+                }
                 if (String.IsNullOrEmpty(variable_session))
                 {
                     HttpContext.Response.Redirect("/");
@@ -94,6 +101,12 @@ namespace asp_presentaciones.Pages.Ventanas
             try
             {
                 Accion = Enumerables.Ventanas.Editar;
+                if (!ValidarPermiso())
+                {
+
+                    TempData["MensajeError"] = "No tienes permisos para Listar.";
+                    return;
+                }
                 Actual = new OrdenesDiscos();
                 CargarCombox();
             }
@@ -108,7 +121,14 @@ namespace asp_presentaciones.Pages.Ventanas
             try
             {
                 OnPostBtRefrescar();
+                if (!ValidarPermiso())
+                {
+
+                    TempData["MensajeError"] = "No tienes permisos para Listar.";
+                    return;
+                }
                 Accion = Enumerables.Ventanas.Editar;
+                
                 Actual = Lista!.FirstOrDefault(x => x.Id.ToString() == data);
                 CargarCombox();
             }
@@ -123,6 +143,12 @@ namespace asp_presentaciones.Pages.Ventanas
             try
             {
                 Accion = Enumerables.Ventanas.Editar;
+                if (!ValidarPermiso())
+                {
+
+                    TempData["MensajeError"] = "No tienes permisos para Listar.";
+                    return;
+                }
 
                 Task<OrdenesDiscos>? task = null;
                 if (Actual!.Id == 0)
@@ -198,6 +224,45 @@ namespace asp_presentaciones.Pages.Ventanas
             {
                 LogConversor.Log(ex, ViewData!);
             }
+        }
+        public bool ValidarPermiso()
+        {
+            var variable_session = HttpContext.Session.GetString("Usuario");
+
+            if (string.IsNullOrEmpty(variable_session))
+                return false;
+
+            var UsuarioPresentacion = new UsuariosPresentacion();
+            var usuarios = UsuarioPresentacion.Listar().Result;
+
+            if (usuarios == null)
+                return false;
+
+            var usuario = usuarios.FirstOrDefault(x => x.NombreUsuario.ToLower() == variable_session.ToLower());
+
+            if (usuario == null)
+                return false;
+
+
+            bool Edita = false;
+            bool Borra = false;
+            bool Nuevo = false;
+            bool Listar = false;
+            bool Guardar = false;
+            switch (usuario.Rol)
+            {
+                case 1:
+                    Edita = Borra = Nuevo = Listar = true;
+                    break;
+                case 2:
+                    Listar = Nuevo = Guardar = Edita= true;
+                    break;
+                default:
+                    return false;
+            }
+
+
+            return Edita || Borra || Nuevo || Listar;
         }
     }
 }
