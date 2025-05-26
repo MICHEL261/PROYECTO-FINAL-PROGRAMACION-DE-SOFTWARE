@@ -29,7 +29,9 @@ namespace lib_aplicaciones.Implementaciones
 
             if (entidad!.Id == 0)
                 throw new Exception("lbNoSeGuardo");
-           
+            var datos = "Permiso: " + entidad.Permiso + ", " + "Rol: " + entidad.Rol;
+            GuardarAuditoria("Borrar", datos);
+
 
 
             this.IConexion!.Roles_Permisos!.Remove(entidad);
@@ -45,8 +47,11 @@ namespace lib_aplicaciones.Implementaciones
 
             if (entidad.Id != 0)
                 throw new Exception("lbYaSeGuardo");
+            var datos ="Permiso: "+ entidad.Permiso + ", "+ "Rol: " + entidad.Rol;
+            GuardarAuditoria("Guardar", datos);
 
-           
+
+
 
             this.IConexion!.Roles_Permisos!.Add(entidad);
             this.IConexion.SaveChanges();
@@ -78,8 +83,11 @@ namespace lib_aplicaciones.Implementaciones
 
             if (entidad!.Id == 0)
                 throw new Exception("lbNoSeGuardo");
+            var datos = "Permiso: " + entidad.Permiso + ", " + "Rol: " + entidad.Rol;
+            GuardarAuditoria("Modificar", datos);
 
-           
+
+
 
             var entry = this.IConexion!.Entry<Roles_Permisos>(entidad);
             entry.State = EntityState.Modified;

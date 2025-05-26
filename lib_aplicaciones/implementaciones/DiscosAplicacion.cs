@@ -29,7 +29,7 @@ namespace lib_aplicaciones.Implementaciones
 
             if (entidad!.Id == 0)
                 throw new Exception("lbNoSeGuardo");
-            var datos = entidad.NombreDisco + ", " + entidad.Marca.ToString() + ", " + entidad.NombreDisco + ", " + entidad.Artista; 
+            var datos ="Nombre: "+ entidad.NombreDisco + ", "+"marca: " + entidad.Marca.ToString() + ", "+"Duracion: " + entidad.DuracionDisco + ", "+"Artista: " + entidad.Artista; 
             GuardarAuditoria("Borrar", datos);
 
 
@@ -48,7 +48,7 @@ namespace lib_aplicaciones.Implementaciones
             if (entidad.Id != 0)
                 throw new Exception("lbYaSeGuardo");
 
-            var datos = entidad.NombreDisco + ", " + entidad.Marca.ToString() + ", " + entidad.NombreDisco + ", " + entidad.Artista;
+            var datos = "Nombre: " + entidad.NombreDisco + ", " + "marca: " + entidad.Marca.ToString() + ", " + "Duracion: " + entidad.DuracionDisco + ", " + "Artista: " + entidad.Artista;
             GuardarAuditoria("Guardar", datos);
 
             // Calculos
@@ -85,7 +85,7 @@ namespace lib_aplicaciones.Implementaciones
 
 
 
-            var datos = entidad.NombreDisco + ", " + entidad.Marca.ToString() + ", " + entidad.FechaLanzamiento + ", " + entidad.Artista;
+            var datos = "Nombre: " + entidad.NombreDisco + ", " + "marca: " + entidad.Marca.ToString() + ", " + "Duracion: " + entidad.DuracionDisco + ", " + "Artista: " + entidad.Artista;
             GuardarAuditoria("Modificar", datos);
 
 

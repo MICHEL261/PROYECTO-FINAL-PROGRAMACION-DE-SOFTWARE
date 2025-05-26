@@ -29,7 +29,7 @@ namespace lib_aplicaciones.Implementaciones
             if (entidad!.Id == 0)
                 throw new Exception("lbNoSeGuardo");
 
-            var datos = entidad.TipoFormato+", " +entidad.Material ; 
+            var datos = "TipoFormato: " + entidad.TipoFormato + ", " + "material: " + entidad.Material;
             GuardarAuditoria("borrar", datos);
             // Calculos
 
@@ -46,7 +46,7 @@ namespace lib_aplicaciones.Implementaciones
             if (entidad.Id != 0)
                 throw new Exception("lbYaSeGuardo");
 
-            var datos = entidad.TipoFormato + ", " + entidad.Material;
+            var datos ="TipoFormato: "+ entidad.TipoFormato + ", "+"material: " + entidad.Material;
             GuardarAuditoria("guardar", datos);
 
             // Calculos
@@ -75,7 +75,7 @@ namespace lib_aplicaciones.Implementaciones
             if (entidad!.Id == 0)
                 throw new Exception("lbNoSeGuardo");
 
-            var datos = entidad.TipoFormato + ", " + entidad.Material;
+            var datos = "TipoFormato: " + entidad.TipoFormato + ", " + "material: " + entidad.Material;
             GuardarAuditoria("modificar", datos);
 
             // Calculos

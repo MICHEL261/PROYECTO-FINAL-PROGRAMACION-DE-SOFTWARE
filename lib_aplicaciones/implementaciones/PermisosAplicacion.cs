@@ -29,8 +29,11 @@ namespace lib_aplicaciones.Implementaciones
 
             if (entidad!.Id == 0)
                 throw new Exception("lbNoSeGuardo");
+            var datos = "Nombre: " + entidad.Nombre;
+            GuardarAuditoria("Borrar", datos);
 
-          
+
+
             this.IConexion!.Permisos!.Remove(entidad);
             this.IConexion.SaveChanges();
             return entidad;
@@ -43,7 +46,8 @@ namespace lib_aplicaciones.Implementaciones
 
             if (entidad.Id != 0)
                 throw new Exception("lbYaSeGuardo");
-           
+            var datos = "Nombre: " + entidad.Nombre;
+            GuardarAuditoria("Guardar", datos);
 
             this.IConexion!.Permisos!.Add(entidad);
             this.IConexion.SaveChanges();
@@ -71,7 +75,9 @@ namespace lib_aplicaciones.Implementaciones
 
             if (entidad!.Id == 0)
                 throw new Exception("lbNoSeGuardo");
-           
+            var datos ="Nombre: "+ entidad.Nombre;
+            GuardarAuditoria("Modificar", datos);
+
             var entry = this.IConexion!.Entry<Permisos>(entidad);
             entry.State = EntityState.Modified;
             this.IConexion.SaveChanges();

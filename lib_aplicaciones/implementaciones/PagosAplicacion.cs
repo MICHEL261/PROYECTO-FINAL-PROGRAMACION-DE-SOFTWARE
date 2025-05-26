@@ -29,7 +29,7 @@ namespace lib_aplicaciones.Implementaciones
             if (entidad!.Id == 0)
                 throw new Exception("lbNoSeGuardo");
 
-            var datos = entidad.TipoPago + ", " + entidad.Pais_Disponibilidad;
+            var datos ="TipoPago: "+ entidad.TipoPago + ", "+"Pais disponibilidad: " + entidad.Pais_Disponibilidad;
             GuardarAuditoria("borrar", datos);
 
             // Calculos
@@ -47,7 +47,7 @@ namespace lib_aplicaciones.Implementaciones
             if (entidad.Id != 0)
                 throw new Exception("lbYaSeGuardo");
 
-            var datos = entidad.TipoPago + ", " + entidad.Pais_Disponibilidad;
+            var datos = "TipoPago: " + entidad.TipoPago + ", " + "Pais disponibilidad: " + entidad.Pais_Disponibilidad;
             GuardarAuditoria("borrar", datos);
 
             // Calculos
@@ -76,7 +76,7 @@ namespace lib_aplicaciones.Implementaciones
             if (entidad!.Id == 0)
                 throw new Exception("lbNoSeGuardo");
 
-            var datos = entidad.TipoPago + ", " + entidad.Pais_Disponibilidad;
+            var datos = "TipoPago: " + entidad.TipoPago + ", " + "Pais disponibilidad: " + entidad.Pais_Disponibilidad;
             GuardarAuditoria("borrar", datos);
 
             // Calculos

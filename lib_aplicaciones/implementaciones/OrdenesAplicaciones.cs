@@ -30,7 +30,7 @@ namespace lib_aplicaciones.Implementaciones
             if (entidad!.Id == 0)
                 throw new Exception("lbNoSeGuardo");
 
-            var datos = entidad.Pago.ToString() + ", " + entidad.Fecha + ", " + entidad.MontoTotal + ", " +entidad.Cliente;
+            var datos ="Pago: "+ entidad.Pago.ToString() + ", " +"Fecha: "+ entidad.Fecha + ", " + "Monto Total: "+entidad.MontoTotal + ", "+"cliente: " +entidad.Cliente;
             GuardarAuditoria("borrar", datos);
 
             this.IConexion!.Ordenes!.Remove(entidad);
@@ -45,7 +45,7 @@ namespace lib_aplicaciones.Implementaciones
 
             if (entidad.Id != 0)
                 throw new Exception("lbYaSeGuardo");
-            var datos = entidad.Pago.ToString() + ", " + entidad.Fecha + ", " + entidad.MontoTotal + ", " + entidad.Cliente;
+            var datos = "Pago: " + entidad.Pago.ToString() + ", " + "Fecha: " + entidad.Fecha + ", " + "Monto Total: " + entidad.MontoTotal + ", " + "cliente: " + entidad.Cliente;
             GuardarAuditoria("guardar", datos);
 
 
@@ -83,7 +83,7 @@ namespace lib_aplicaciones.Implementaciones
             if (entidad!.Id == 0)
                 throw new Exception("lbNoSeGuardo");
 
-            var datos = entidad.Pago.ToString() + ", " + entidad.Fecha + ", " + entidad.MontoTotal + ", " + entidad.Cliente;
+            var datos = "Pago: " + entidad.Pago.ToString() + ", " + "Fecha: " + entidad.Fecha + ", " + "Monto Total: " + entidad.MontoTotal + ", " + "cliente: " + entidad.Cliente;
             GuardarAuditoria("modificar", datos);
 
 

@@ -28,7 +28,7 @@ namespace lib_aplicaciones.Implementaciones
 
             if (entidad!.Id == 0)
                 throw new Exception("lbNoSeGuardo");
-            var datos = entidad.NombreArtista +", " +entidad.GeneroMusical; // JSON puro y directo
+            var datos = "Nombre Artista: "+entidad.NombreArtista +", "+"Genero Musical: " +entidad.GeneroMusical; 
             GuardarAuditoria("Borrar", datos);
 
 
@@ -46,7 +46,7 @@ namespace lib_aplicaciones.Implementaciones
 
             if (entidad.Id != 0)
                 throw new Exception("lbYaSeGuardo");
-            var datos = entidad.NombreArtista + ", " + entidad.GeneroMusical; // JSON puro y directo
+            var datos = "Nombre Artista: " + entidad.NombreArtista + ", " + "Genero Musical: " + entidad.GeneroMusical;
             GuardarAuditoria("guardar", datos);
 
 
@@ -75,7 +75,7 @@ namespace lib_aplicaciones.Implementaciones
 
             if (entidad!.Id == 0)
                 throw new Exception("lbNoSeGuardo");
-            var datos = entidad.NombreArtista + ", " + entidad.GeneroMusical; // JSON puro y directo
+            var datos = "Nombre Artista: " + entidad.NombreArtista + ", " + "Genero Musical: " + entidad.GeneroMusical;
             GuardarAuditoria("Modificar", datos);
 
 

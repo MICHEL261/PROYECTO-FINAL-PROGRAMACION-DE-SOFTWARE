@@ -29,7 +29,7 @@ namespace lib_aplicaciones.Implementaciones
             if (entidad!.Id == 0)
                 throw new Exception("lbNoSeGuardo");
 
-            var datos = entidad.Nombre + ", " + entidad.Apellido + ", " + entidad.NombreUsuario + ", " + entidad.Contraseña + ", " + entidad.Rol;
+            var datos ="Nombre: "+ entidad.Nombre + ", "+"Apellido: " + entidad.Apellido + ", "+"Usuario: " + entidad.NombreUsuario + ", "+ "contraseña: " + entidad.Contraseña + ", "+"Rol: " + entidad.Rol;
             GuardarAuditoria("borrar", datos);
 
             // Calculos
@@ -48,8 +48,8 @@ namespace lib_aplicaciones.Implementaciones
                 throw new Exception("lbYaSeGuardo");
 
 
-            var datos = entidad.Nombre + ", " + entidad.Apellido + ", " + entidad.NombreUsuario + ", " + entidad.Contraseña + ", " + entidad.Rol;
-            GuardarAuditoria("borrar", datos);
+            var datos = "Nombre: " + entidad.Nombre + ", " + "Apellido: " + entidad.Apellido + ", " + "Usuario: " + entidad.NombreUsuario + ", " + "contraseña: " + entidad.Contraseña + ", " + "Rol: " + entidad.Rol;
+            GuardarAuditoria("Guardar", datos);
 
             // Calculos
 
@@ -79,8 +79,8 @@ namespace lib_aplicaciones.Implementaciones
             if (entidad!.Id == 0)
                 throw new Exception("lbNoSeGuardo");
 
-            var datos = entidad.Nombre + ", " + entidad.Apellido + ", " + entidad.NombreUsuario + ", " + entidad.Contraseña + ", " + entidad.Rol;
-            GuardarAuditoria("borrar", datos);
+            var datos = "Nombre: " + entidad.Nombre + ", " + "Apellido: " + entidad.Apellido + ", " + "Usuario: " + entidad.NombreUsuario + ", " + "contraseña: " + entidad.Contraseña + ", " + "Rol: " + entidad.Rol;
+            GuardarAuditoria("Modificar", datos);
             // Calculos
 
             var entry = this.IConexion!.Entry<Usuarios>(entidad);

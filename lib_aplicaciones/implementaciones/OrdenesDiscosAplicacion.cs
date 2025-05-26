@@ -17,6 +17,7 @@ namespace lib_aplicaciones.Implementaciones
             this.IConexion = iConexion;
         }
 
+
         public void Configurar(string StringConexion)
         {
             this.IConexion!.StringConexion = StringConexion;
@@ -29,7 +30,7 @@ namespace lib_aplicaciones.Implementaciones
 
             if (entidad!.Id == 0)
                 throw new Exception("lbNoSeGuardo");
-            var datos = entidad.Orden.ToString() + ", " + entidad.Formato + ", " + entidad.Cantidad + ", " + entidad.ValorUnitario + ", " + entidad.Disco;
+            var datos = "Orden: " + entidad.Orden.ToString() + ", " + "Formato: " + entidad.Formato + ", " + "Cantidad: " + entidad.Cantidad + ", " + "valor unitario: " + entidad.ValorUnitario + ", " + "Disco: " + entidad.Disco;
             GuardarAuditoria("borrar", datos);
 
 
@@ -47,7 +48,7 @@ namespace lib_aplicaciones.Implementaciones
             if (entidad.Id != 0)
                 throw new Exception("lbYaSeGuardo");
 
-            var datos = entidad.Orden.ToString() + ", " + entidad.Formato + ", " + entidad.Cantidad + ", " + entidad.ValorUnitario + ", " + entidad.Disco;
+            var datos = "Orden: " + entidad.Orden.ToString() + ", " + "Formato: " + entidad.Formato + ", " + "Cantidad: " + entidad.Cantidad + ", " + "valor unitario: " + entidad.ValorUnitario + ", " + "Disco: " + entidad.Disco;
             GuardarAuditoria("guardar", datos); ;
 
             this.IConexion!.OrdenesDiscos!.Add(entidad);
@@ -85,7 +86,7 @@ namespace lib_aplicaciones.Implementaciones
             if (entidad!.Id == 0)
                 throw new Exception("lbNoSeGuardo");
 
-            var datos = entidad.Orden.ToString() + ", " + entidad.Formato + ", " + entidad.Cantidad + ", " + entidad.ValorUnitario + ", " + entidad.Disco;
+            var datos = "Orden: "+ entidad.Orden.ToString() + ", "+"Formato: "+ entidad.Formato + ", "+"Cantidad: " + entidad.Cantidad + ", "+ "valor unitario: " + entidad.ValorUnitario + ", "+ "Disco: " + entidad.Disco;
             GuardarAuditoria("modificar", datos);
 
             var entry = this.IConexion!.Entry<OrdenesDiscos>(entidad);

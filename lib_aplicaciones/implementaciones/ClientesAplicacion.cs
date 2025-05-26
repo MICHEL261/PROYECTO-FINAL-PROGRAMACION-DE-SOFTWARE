@@ -30,7 +30,7 @@ namespace lib_aplicaciones.Implementaciones
                 throw new Exception("lbNoSeGuardo");
 
 
-                 var datos = entidad.NombreCliente + ", " + entidad.ApellidoCliente + ", " + entidad.TelefonoCliente + ", " + entidad.DireccionCliente; 
+            var datos = "Nombre Cliente: " + entidad.NombreCliente + ", " + "apellido: " + entidad.ApellidoCliente + ", " + "telefono: " + entidad.TelefonoCliente + ", " + "direccion: " + entidad.DireccionCliente;
             GuardarAuditoria("borrar", datos);
 
 
@@ -57,7 +57,7 @@ namespace lib_aplicaciones.Implementaciones
             // Calculos
 
 
-            var datos = entidad.NombreCliente + ", " + entidad.ApellidoCliente + ", " + entidad.TelefonoCliente + ", " + entidad.DireccionCliente;
+            var datos = "Nombre Cliente: " + entidad.NombreCliente + ", " + "apellido: " + entidad.ApellidoCliente + ", " + "telefono: " + entidad.TelefonoCliente + ", " + "direccion: " + entidad.DireccionCliente;
             GuardarAuditoria("guardar", datos);
 
             
@@ -87,7 +87,7 @@ namespace lib_aplicaciones.Implementaciones
                 throw new Exception("lbNoSeGuardo");
 
 
-            var datos = entidad.NombreCliente + ", " + entidad.ApellidoCliente + ", " + entidad.TelefonoCliente + ", " + entidad.DireccionCliente;
+            var datos ="Nombre Cliente: "+ entidad.NombreCliente + ", " + "apellido: " + entidad.ApellidoCliente + ", "+"telefono: " + entidad.TelefonoCliente + ", "+"direccion: " + entidad.DireccionCliente;
             GuardarAuditoria("modificar", datos);
 
             // Calculos

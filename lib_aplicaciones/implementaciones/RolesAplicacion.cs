@@ -28,7 +28,7 @@ namespace lib_aplicaciones.Implementaciones
 
             if (entidad!.Id == 0)
                 throw new Exception("lbNoSeGuardo");
-            var datos = entidad.NombreRol + ", " + entidad.Descripcion;
+            var datos = "Nombre Rol: " + entidad.NombreRol + ", " + "descripcion: " + entidad.Descripcion;
             GuardarAuditoria("borrar", datos);
 
             // Calculos
@@ -45,7 +45,7 @@ namespace lib_aplicaciones.Implementaciones
 
             if (entidad.Id != 0)
                 throw new Exception("lbYaSeGuardo");
-            var datos = entidad.NombreRol + ", " + entidad.Descripcion;
+            var datos = "Nombre Rol: " + entidad.NombreRol + ", " + "descripcion: " + entidad.Descripcion;
             GuardarAuditoria("guardar", datos);
 
             // Calculos
@@ -73,7 +73,7 @@ namespace lib_aplicaciones.Implementaciones
 
             if (entidad!.Id == 0)
                 throw new Exception("lbNoSeGuardo");
-            var datos = entidad.NombreRol + ", " + entidad.Descripcion;
+            var datos ="Nombre Rol: "+ entidad.NombreRol + ", "+"descripcion: " + entidad.Descripcion;
             GuardarAuditoria("modificar", datos);
 
             // Calculos
