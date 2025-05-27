@@ -209,7 +209,7 @@ namespace asp_presentaciones.Pages.Ventanas
             if (usuarios == null)
                 return false;
 
-            var usuario = usuarios.FirstOrDefault(x => x.NombreUsuario.ToLower() == variable_session.ToLower());
+            var usuario = usuarios.FirstOrDefault(x => x.NombreUsuario!.ToLower() == variable_session.ToLower());
 
             if (usuario == null)
                 return false;

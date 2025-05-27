@@ -145,3 +145,31 @@ body {
     margin: auto;
     background: white;
 }
+.catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.producto {
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+}
+
+    .producto img {
+        width: 100%;
+        height: auto;
+    }
+
+.boton-carrito {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
