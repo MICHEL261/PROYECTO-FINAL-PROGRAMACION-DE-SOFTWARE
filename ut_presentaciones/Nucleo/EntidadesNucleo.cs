@@ -86,7 +86,7 @@ namespace ut_presentacion.Nucleo
         public static Usuarios? Usuarios(Roles Rol)
         {
             var entidad = new Usuarios();
-            entidad.Nombre = "administrador";
+            entidad.Nombre = "Maria";
             entidad.Apellido = "ramirez";
             entidad.Email = "maria@gmail.com";
             entidad.NombreUsuario = "mariaG";
@@ -96,7 +96,23 @@ namespace ut_presentacion.Nucleo
             return entidad;
 
         }
+        public static Roles_Permisos? RolesPermisos(Permisos? permiso, Roles rol)
+        {
+            var entidad = new Roles_Permisos();
+            entidad.Permiso = permiso!.Id;
+            entidad.Rol = rol.Id;
 
+            return entidad;
+
+        }
+        public static Permisos? Permisos()
+        {
+            var entidad = new Permisos();
+            entidad.Nombre = "Editar";
+
+            return entidad;
+
+        }
 
 
     }
