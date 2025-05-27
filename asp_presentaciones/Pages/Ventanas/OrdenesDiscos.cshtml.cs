@@ -50,7 +50,7 @@ namespace asp_presentaciones.Pages.Ventanas
         {
             try
             {
-                var variable_session = HttpContext.Session.GetString("Usuario");
+                var variable_session = HttpContext.Session.GetString("NombreUsuario");
                 if (!ValidarPermiso())
                 {
 

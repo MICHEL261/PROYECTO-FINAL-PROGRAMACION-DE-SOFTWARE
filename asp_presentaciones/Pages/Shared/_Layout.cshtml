@@ -1,4 +1,8 @@
-﻿<!DOCTYPE html>
+﻿@{
+    var rol = Context.Session.GetString("Rol");
+}
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -19,102 +23,36 @@
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area=""
-                            asp-page="/Index">
-                            Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark"
-                               asp-area=""
-                               asp-page="/Ventanas/Discos">
-                                Discos
-                            </a>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark"
-                               asp-area=""
-                               asp-page="/Ventanas/Clientes">
-                                Clientes
-                            </a>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark"
-                               asp-area=""
-                               asp-page="/Ventanas/Artistas">
-                                Artistas
-                            </a>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark"
-                               asp-area=""
-                               asp-page="/Ventanas/Ordenes">
-                                Ordenes
-                            </a>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark"
-                               asp-area=""
-                               asp-page="/Ventanas/Pagos">
-                                Pagos
-                            </a>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark"
-                               asp-area=""
-                               asp-page="/Ventanas/OrdenesDiscos">
-                                OrdenesDiscos
-                            </a>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark"
-                               asp-area=""
-                               asp-page="/Ventanas/Marcas">
-                                Marcas
-                            </a>
-
-                        <li class="nav-item">
-                            <a class="nav-link text-dark"
-                               asp-area=""
-                               asp-page="/Ventanas/Formatos">
-                                Formatos
-                            </a>
-
-                        <li class="nav-item">
-                            <a class="nav-link text-dark"
-                               asp-area=""
-                               asp-page="/Ventanas/Roles">
-                                Roles
-                            </a>
-
-                        <li class="nav-item">
-                            <a class="nav-link text-dark"
-                               asp-area=""
-                               asp-page="/Ventanas/Usuarios">
-                                Usuarios
-                            </a>
-
-                        <li class="nav-item">
-                            <a class="nav-link text-dark"
-                               asp-area=""
-                               asp-page="/Ventanas/Auditorias">
-                                Auditorias
-                            </a>
-                        
-
-                        <li class="nav-item">
-                            <a class="nav-link text-dark"
-                               asp-area=""
-                               asp-page="/Ventanas/Permisos">
-                                Permisos
-                            </a>
-                            
+                        @if (!string.IsNullOrEmpty(Context.Session.GetString("Rol")))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-danger" asp-page="/Logout">Cerrar sesión</a>
+                            </li>
+                        }
 
 
-                        <li class="nav-item">
-                            <a class="nav-link text-dark"
-                               asp-area=""
-                               asp-page="/Ventanas/RolesPermisos">
-                                RolesPermisos
-                            </a>
-                        
+                        @if (rol == "Administrador")
+                        {
+                            <li class="nav-item"><a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a></li>
+                            <li class="nav-item"><a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a></li>
+                            <li class="nav-item"><a class="nav-link text-dark" asp-area="" asp-page="/Ventanas/Discos">Discos</a></li>
+                            <li class="nav-item"><a class="nav-link text-dark" asp-area="" asp-page="/Ventanas/Clientes">Clientes</a></li>
+                            <li class="nav-item"><a class="nav-link text-dark" asp-area="" asp-page="/Ventanas/Artistas">Artistas</a></li>
+                            <li class="nav-item"><a class="nav-link text-dark" asp-area="" asp-page="/Ventanas/Ordenes">Ordenes</a></li>
+                            <li class="nav-item"><a class="nav-link text-dark" asp-area="" asp-page="/Ventanas/Pagos">Pagos</a></li>
+                            <li class="nav-item"><a class="nav-link text-dark" asp-area="" asp-page="/Ventanas/OrdenesDiscos">OrdenesDiscos</a></li>
+                            <li class="nav-item"><a class="nav-link text-dark" asp-area="" asp-page="/Ventanas/Marcas">Marcas</a></li>
+                            <li class="nav-item"><a class="nav-link text-dark" asp-area="" asp-page="/Ventanas/Formatos">Formatos</a></li>
+                            <li class="nav-item"><a class="nav-link text-dark" asp-area="" asp-page="/Ventanas/Roles">Roles</a></li>
+                            <li class="nav-item"><a class="nav-link text-dark" asp-area="" asp-page="/Ventanas/Usuarios">Usuarios</a></li>
+                            <li class="nav-item"><a class="nav-link text-dark" asp-area="" asp-page="/Ventanas/Auditorias">Auditorias</a></li>
+                            <li class="nav-item"><a class="nav-link text-dark" asp-area="" asp-page="/Ventanas/Permisos">Permisos</a></li>
+                            <li class="nav-item"><a class="nav-link text-dark" asp-area="" asp-page="/Ventanas/RolesPermisos">RolesPermisos</a></li>
+                        }
+                        else if (rol == "Cliente")
+                        {
+                            <li class="nav-item"><a class="nav-link text-dark" asp-area="" asp-page="/Ventanas/Discos">Discos</a></li>
+                        }
                     </ul>
                 </div>
             </div>

@@ -55,6 +55,7 @@ namespace asp_presentacion
             app.MapRazorPages();
             app.UseSession();
             app.Run();
+
         }
     }
 }

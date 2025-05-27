@@ -45,13 +45,8 @@ namespace asp_presentaciones.Pages.Ventanas
         {
             try
             {
-                var variable_session = HttpContext.Session.GetString("Usuario");
-                if (!ValidarPermiso())
-                {
-
-                    TempData["MensajeError"] = "No tienes permisos para Listar.";
-                    return;
-                }
+                var variable_session = HttpContext.Session.GetString("NombreUsuario");
+                
                 if (String.IsNullOrEmpty(variable_session))
                 {
                     HttpContext.Response.Redirect("/");
@@ -231,7 +226,7 @@ namespace asp_presentaciones.Pages.Ventanas
                     Edita = Borra = Nuevo = Listar = true;
                     break;
                 case 2:
-
+                    Listar = true;
                     break;
                 default:
                     return false;

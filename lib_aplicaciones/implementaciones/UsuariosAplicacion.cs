@@ -82,7 +82,7 @@ namespace lib_aplicaciones.Implementaciones
         {
             return this.IConexion!.Usuarios!
                 .Where(x => x.NombreUsuario!.Contains(entidad!.NombreUsuario!))
-                
+                .Include(x => x._Rol)
                 .ToList();
         }
         public Usuarios? Modificar(Usuarios? entidad)

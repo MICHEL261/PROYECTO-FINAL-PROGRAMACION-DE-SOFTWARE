@@ -7,4 +7,7 @@ startup.ConfigureServices(builder, builder.Services);
 
 var app = builder.Build();
 startup.Configure(app, app.Environment);
+builder.Services.AddSession();
+app.UseSession();
+
 app.Run();

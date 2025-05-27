@@ -49,7 +49,7 @@ namespace asp_presentaciones.Pages.Ventanas
         {
             try
             {
-                var variable_session = HttpContext.Session.GetString("Usuario");
+                var variable_session = HttpContext.Session.GetString("NombreUsuario");
                 if (!ValidarPermiso())
                 {
                     // Puedes redirigir, lanzar excepción, o establecer un mensaje de error en ViewData
@@ -119,7 +119,6 @@ namespace asp_presentaciones.Pages.Ventanas
             {
                 if (!ValidarPermiso())
                 {
-                    // Puedes redirigir, lanzar excepción, o establecer un mensaje de error en ViewData
                     TempData["MensajeError"] = "No tienes permisos para Guardar.";
                     return;
                 }
@@ -162,7 +161,6 @@ namespace asp_presentaciones.Pages.Ventanas
 
                 if (!ValidarPermiso())
                 {
-                    // Puedes redirigir, lanzar excepción, o establecer un mensaje de error en ViewData
                     TempData["MensajeError"] = "No tienes permisos para Borrar.";
                     return;
                 }
