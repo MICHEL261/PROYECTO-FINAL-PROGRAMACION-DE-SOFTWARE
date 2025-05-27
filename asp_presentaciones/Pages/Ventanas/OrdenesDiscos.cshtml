@@ -65,15 +65,13 @@
 
                     <div>
                         <div class="form-group">
-                            <label class="col-lg-4 control-label">
-                                Orden
-                            </label>
+                            <label class="col-lg-4 control-label">Ordenes</label>
                             <div class="col-lg-6">
-                                <select id="nmOrden"
-                                        class="cts_forms form-control"
-                                        asp-for="@Model.Actual!.Orden"
-                                        asp-items="@(new SelectList(Model.Ordenes, "Id"))">
+                                <select asp-for="Actual.Orden"
+                                        asp-items="@(new SelectList(Model.Ordenes, "Id", "Descripcion"))"
+                                        class="cts_forms form-control">
                                 </select>
+
                             </div>
                         </div>
                         <div class="form-group">
