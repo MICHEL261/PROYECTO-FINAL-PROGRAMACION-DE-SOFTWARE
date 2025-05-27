@@ -13,10 +13,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\Imagenes\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Include="wwwroot\Imagenes\8ddd1959a2bef460a5149b3e0cf5e18a.webp" />
   </ItemGroup>
 
