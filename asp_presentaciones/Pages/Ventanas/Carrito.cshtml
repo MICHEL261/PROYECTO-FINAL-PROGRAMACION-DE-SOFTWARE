@@ -62,11 +62,16 @@
     <h4>Total: @Model.Total.ToString("C")</h4>
 
     <form method="post" asp-page-handler="Finalizar">
-        
-            <label>Cliente ID:</label>
-            <input type="number" name="clienteId" required class="form-control" />
+        <label>Cliente ID:</label>
+        <input type="number" name="clienteId" required class="form-control" />
+
         <label>Pago:</label>
-        <input type="number" name="PagoId" required class="form-control" />
+        <input type="number" name="pagoId" required class="form-control" />
         <br />
-        <input type="submit" value="Confirmar Compra" class="btn btn-success" />
+
+        <input type="submit" name="accion" value="Confirmar" class="btn btn-success" />
+    </form>
+    <form method="post" asp-page-handler="Finalizar">
+        <input type="hidden" name="accion" value="Cancelar" />
+        <button type="submit" class="btn btn-danger">Cancelar</button>
     </form>

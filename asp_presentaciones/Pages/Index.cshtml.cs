@@ -29,12 +29,12 @@ namespace asp_presentaciones.Pages
             Contrasena = string.Empty;
         }
 
-        public async Task OnPostBtEnter()
+        public async Task<IActionResult> OnPostBtEnter()
         {
             if (string.IsNullOrEmpty(Email) || string.IsNullOrEmpty(Contrasena))
             {
                 OnPostBtClean();
-                return;
+                return Page(); 
             }
 
             var usuarios = await new UsuariosPresentacion().Listar();
@@ -43,11 +43,10 @@ namespace asp_presentaciones.Pages
 
             if (usuarioLogueado != null)
             {
-                
                 HttpContext.Session.SetString("NombreUsuario", usuarioLogueado.NombreUsuario!);
                 HttpContext.Session.SetString("Rol", usuarioLogueado._Rol?.NombreRol ?? "");
-               
-                EstaLogueado = true;
+
+                return RedirectToPage("/Ventanas/Inicio");
             }
             else
             {
@@ -55,7 +54,9 @@ namespace asp_presentaciones.Pages
             }
 
             OnPostBtClean();
+            return Page(); 
         }
+
 
         public IActionResult OnPostBtClose()
         {

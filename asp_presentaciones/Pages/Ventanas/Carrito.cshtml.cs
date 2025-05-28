@@ -41,7 +41,7 @@ namespace asp_presentaciones.Pages.Ventanas
             {
                 AgregarAlCarrito(NuevoItem);
                 GuardarCarritoSesion(Lista);
-                NuevoItem = new Carrito(); // limpia el formulario
+                NuevoItem = new Carrito(); 
             }
 
             return RedirectToPage();
@@ -55,22 +55,36 @@ namespace asp_presentaciones.Pages.Ventanas
             return RedirectToPage();
         }
 
-        public async Task<IActionResult> OnPostFinalizar(int clienteId, int pagoId)
+        public async Task<IActionResult> OnPostFinalizar(string accion, int clienteId, int pagoId)
         {
-            try
+            if (accion == "Cancelar")
             {
-                await _carritoService.FinalizarCompra(clienteId, pagoId);
                 Lista.Clear();
                 GuardarCarritoSesion(Lista);
-                TempData["MensajeExito"] = "Compra realizada exitosamente.";
-            }
-            catch (Exception ex)
-            {
-                TempData["MensajeError"] = ex.Message;
+
+                return RedirectToPage("/Ventanas/Inicio");
             }
 
-            return RedirectToPage();
+            if (accion == "Confirmar")
+            {
+                try
+                {
+                    await _carritoService.FinalizarCompra(clienteId, pagoId);
+                    Lista.Clear();
+                    GuardarCarritoSesion(Lista);
+                    TempData["MensajeExito"] = "Compra realizada exitosamente.";
+                }
+                catch (Exception ex)
+                {
+                    TempData["MensajeError"] = ex.Message;
+                }
+
+                return RedirectToPage();
+            }
+
+            return Page();
         }
+
 
         private List<Carrito> ObtenerCarritoSesion()
         {
