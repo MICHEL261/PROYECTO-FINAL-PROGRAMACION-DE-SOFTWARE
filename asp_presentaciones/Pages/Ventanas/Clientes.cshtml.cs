@@ -211,7 +211,7 @@ namespace asp_presentaciones.Pages.Ventanas
 
         public bool ValidarPermiso()
         {
-            var variable_session = HttpContext.Session.GetString("Usuario");
+            var variable_session = HttpContext.Session.GetString("NombreUsuario");
 
             if (string.IsNullOrEmpty(variable_session))
                 return false;
@@ -239,7 +239,7 @@ namespace asp_presentaciones.Pages.Ventanas
                     Edita = Borra = Nuevo = Listar = true;
                     break;
                 case 2:
-
+                   Nuevo= true;
                     break;
                 default:
                     return false;

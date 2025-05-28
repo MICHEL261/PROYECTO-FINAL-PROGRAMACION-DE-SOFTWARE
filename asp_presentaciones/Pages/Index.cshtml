@@ -20,6 +20,9 @@
             <button asp-page-handler="BtClean" class="btn btn-secondary">Limpiar</button>
             <button asp-page-handler="BtEnter" class="btn btn-primary">Entrar</button>
         </form>
+
+        <a class="btn btn-secondary" asp-page="/Ventanas/Registrar">Registrarse</a>
+
         @if (ViewData["Error"] != null)
         {
             <div class="text-danger mt-2">@ViewData["Error"]</div>

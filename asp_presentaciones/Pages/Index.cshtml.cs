@@ -13,13 +13,15 @@ namespace asp_presentaciones.Pages
 
         [BindProperty] public string? Email { get; set; }
         [BindProperty] public string? Contrasena { get; set; }
-
-        public void OnGet()
+        public bool UsuarioRegistrado { get; set; }
+        public async Task OnGetAsync()
         {
-            var nombreUsuario = HttpContext.Session.GetString("NombreUsuario");
-
-            EstaLogueado = !string.IsNullOrEmpty(nombreUsuario);
+           
         }
+       
+
+    
+
 
         public void OnPostBtClean()
         {
@@ -41,10 +43,10 @@ namespace asp_presentaciones.Pages
 
             if (usuarioLogueado != null)
             {
-                // Guardar siempre con la misma clave:
+                
                 HttpContext.Session.SetString("NombreUsuario", usuarioLogueado.NombreUsuario!);
                 HttpContext.Session.SetString("Rol", usuarioLogueado._Rol?.NombreRol ?? "");
-
+               
                 EstaLogueado = true;
             }
             else
@@ -60,5 +62,7 @@ namespace asp_presentaciones.Pages
             HttpContext.Session.Clear();
             return RedirectToPage("/Index");
         }
+
+        
     }
 }
