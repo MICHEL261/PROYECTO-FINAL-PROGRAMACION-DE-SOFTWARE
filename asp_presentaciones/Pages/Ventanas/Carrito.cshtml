@@ -1,0 +1,72 @@
+﻿@page
+@model asp_presentaciones.Pages.Ventanas.CarritoModel
+@{
+    ViewData["Titulo"] = "Carrito de Compras";
+}
+
+<h3>Carrito de Compras</h3>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Disco</th>
+            <th>Formato</th>
+            <th>Cantidad</th>
+            <th>Precio Unitario</th>
+            <th>Subtotal</th>
+            <th>Acciones</th>
+        </tr>
+
+    </thead>
+
+
+    <tbody>
+        @foreach (var item in Model.Lista)
+        {
+            <tr>
+                <td>@item.Disco</td>
+                <td>@item.Formato</td>
+                <td>@item.Cantidad</td>
+                <td>@item.ValorUnitario</td>
+                <td>@(item.Cantidad* item.ValorUnitario)</td>
+                <td>
+                    <form method="post" asp-page-handler="Eliminar">
+                        <input type="hidden" name="discoId" value="@item.Disco" />
+                        <input type="hidden" name="formatoId" value="@item.Formato" />
+                        <button type="submit" class="btn btn-danger">Eliminar</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+<form method="post" asp-page-handler="Agregar">
+    <label>Disco:</label>
+    <input type="number" asp-for="NuevoItem.Disco" required />
+
+    <label>Formato:</label>
+    <input type="number" asp-for="NuevoItem.Formato" required />
+
+    <label>Cantidad:</label>
+    <input type="number" asp-for="NuevoItem.Cantidad" min="1" required />
+
+    <label>Valor Unitario:</label>
+    <input type="number" asp-for="NuevoItem.ValorUnitario" step="0.01" required />
+
+    <button type="submit">Agregar al Carrito</button>
+</form>
+
+<h4>
+    <h4>Total: @Model.Total.ToString("C")</h4>
+
+    <form method="post" asp-page-handler="Finalizar">
+        
+            <label>Cliente ID:</label>
+            <input type="number" name="clienteId" required class="form-control" />
+        <label>Pago:</label>
+        <input type="number" name="PagoId" required class="form-control" />
+        <br />
+        <input type="submit" value="Confirmar Compra" class="btn btn-success" />
+    </form>
