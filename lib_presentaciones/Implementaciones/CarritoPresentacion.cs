@@ -1,4 +1,6 @@
-﻿using lib_presentaciones.Interfaces;
+﻿
+using lib_dominio.Entidades;
+using lib_presentaciones.Interfaces;
 using lib_presentaciones.models;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +10,17 @@ namespace lib_presentaciones.Implementaciones
 {
     public class CarritoPresentacion : ICarritoPresentacion
     {
+        private readonly IOrdenesPresentacion _ordenesPresentacion;
+        private readonly IOrdenesDiscosPresentacion _ordenesDiscosPresentacion;
+
         private List<Carrito> Items { get; set; } = new List<Carrito>();
+
+        
+        public CarritoPresentacion(IOrdenesPresentacion ordenesPresentacion, IOrdenesDiscosPresentacion ordenesDiscosPresentacion)
+        {
+            _ordenesPresentacion = ordenesPresentacion;
+            _ordenesDiscosPresentacion = ordenesDiscosPresentacion;
+        }
 
         public void AgregarAlCarrito(Carrito item)
         {
@@ -32,17 +44,50 @@ namespace lib_presentaciones.Implementaciones
         {
             return new CarritoCompra
             {
-                Items = Items.ToList() // Pasar una copia o nueva lista
+                Items = Items.ToList()
             };
         }
 
         public async Task FinalizarCompra(int clienteId, int pagoId)
         {
-            // Aquí implementa la lógica real para finalizar compra.
-            // Por ejemplo, enviar la orden a tu backend, guardar en base de datos, etc.
+            decimal monto = Items.Sum(i => i.Cantidad * i.ValorUnitario);
+
+          
+            var nuevaOrden = new Ordenes
+            {
+                Fecha = DateTime.Now,
+                Cliente = clienteId,
+                Pago = pagoId,
+                MontoTotal = monto
+            };
+
+            
+            nuevaOrden = await _ordenesPresentacion.Guardar(nuevaOrden);
+
+            
+                foreach (var item in Items)
+                {
+                    var ordenDisco = new OrdenesDiscos
+                    {
+                        Orden = 1,  
+                        Disco = item.Disco,
+                        Formato = item.Formato,
+                        Cantidad = item.Cantidad,
+                        ValorUnitario = item.ValorUnitario
+                    };
+
+                   
+                    await _ordenesDiscosPresentacion.Guardar(ordenDisco);
+                }
+           
+
+           
+            Items.Clear();
+
+            
             await Task.CompletedTask;
-            // Por ahora es un stub
         }
+
         public class CarritoCompra
         {
             public List<Carrito> Items { get; set; } = new List<Carrito>();
@@ -54,7 +99,5 @@ namespace lib_presentaciones.Implementaciones
                 Items.Clear();
             }
         }
-
-
     }
 }
