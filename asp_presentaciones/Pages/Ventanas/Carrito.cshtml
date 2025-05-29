@@ -31,7 +31,7 @@
                 <td>@(item.Cantidad* item.ValorUnitario)</td>
                 <td>
                     <form method="post" asp-page-handler="Eliminar">
-                        <input type="hidden" name="discoId" value="@item.Disco" />
+                        <input type="hidden" name="discoNom" value="@item.Disco" />
                         <input type="hidden" name="formatoId" value="@item.Formato" />
                         <button type="submit" class="btn btn-danger">Eliminar</button>
                     </form>
@@ -43,25 +43,31 @@
 
 
 <form method="post" asp-page-handler="Agregar">
-    <label>Disco:</label>
-    <input type="number" asp-for="NuevoItem.Disco" required />
-
-    <label>Formato:</label>
-    <input type="number" asp-for="NuevoItem.Formato" required />
-
-    <label>Cantidad:</label>
-    <input type="number" asp-for="NuevoItem.Cantidad" min="1" required />
-
-    <label>Valor Unitario:</label>
-    <input type="number" asp-for="NuevoItem.ValorUnitario" step="0.01" required />
-
-    <button type="submit">Agregar al Carrito</button>
+    <div class="form-group">
+        <label>Disco:</label>
+        <input asp-for="NuevoItem.Disco" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Formato:</label>
+        <input asp-for="NuevoItem.Formato" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Cantidad:</label>
+        <input asp-for="NuevoItem.Cantidad" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Precio Unitario:</label>
+        <input asp-for="NuevoItem.ValorUnitario" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-success">Agregar al Carrito</button>
 </form>
+
 
 <h4>
     <h4>Total: @Model.Total.ToString("C")</h4>
 
     <form method="post" asp-page-handler="Finalizar">
+
         <label>Cliente ID:</label>
         <input type="number" name="clienteId" required class="form-control" />
 

@@ -7,8 +7,8 @@ namespace lib_presentaciones.Interfaces
     public interface ICarritoPresentacion
     {
         void AgregarAlCarrito(Carrito item);
-        void EliminarDelCarrito(int discoId, int formatoId);
-        CarritoCompra ObtenerCarrito(); 
-        Task FinalizarCompra(int clienteId, int pagoId);
+        void EliminarDelCarrito(string discoNom, int formatoId);
+        CarritoCompra ObtenerCarrito();
+        Task FinalizarCompra(int clienteId, List<Carrito> items, int pagoId);
     }
 }

@@ -34,37 +34,24 @@
             <a href="#img3">3</a>
         </div>
     </div>
-
     <h2 style="margin-left: 40px; margin-top: 20px;">Catálogo</h2>
     <div class="catalogo">
-        <div class="producto">
-            <a href="/Ventanas/Discos">
-                <img src="/Imagenes/8ddd1959a2bef460a5149b3e0cf5e18a.webp" alt="Portada del disco" />
-            </a>
-            <p><strong>I Wonder</strong></p>
-            <p>$100</p>
-            <p style="color: green;">● Disponible</p>
-            <button class="boton-carrito">Añadir al carrito</button>
-        </div>
+        @foreach (var disco in Model.Lista!)
+        {
+            <div class="producto">
+                <a href="/Ventanas/Discos">
+                    <img src="/Imagenes/@disco.Imagen" alt="Portada del disco" />
+                </a>
+                <p><strong>@disco.NombreDisco</strong></p>
+                <p>$100</p>
+                <p style="color: green;">● Disponible</p>
+                <a class="btn btn-primary boton-carrito"
+                   asp-page="/Ventanas/Carrito"
+                   asp-route-disco="@disco.NombreDisco">
+                    Añadir al carrito
+                </a>
+            </div>
+        }
 
-        <div class="producto">
-            <a href="/Ventanas/Discos">
-                <img src="/Imagenes/Frank-Sinatra-My-Way-768x768.jpg" alt="Portada del disco" />
-            </a>
-            <p><strong>My Way</strong></p>
-            <p>$100</p>
-            <p style="color: green;">● Disponible</p>
-            <button class="boton-carrito">Añadir al carrito</button>
-        </div>
-
-        <div class="producto">
-            <a href="/Ventanas/Discos">
-                <img src="/Imagenes/the doors.jpg" alt="Portada del disco" />
-            </a>
-            <p><strong>Love Street</strong></p>
-            <p>$100</p>
-            <p style="color: green;">● Disponible</p>
-            <button class="boton-carrito">Añadir al carrito</button>
-        </div>
     </div>
 </div>

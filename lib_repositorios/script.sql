@@ -48,6 +48,7 @@ CREATE TABLE [Discos] (
     [NombreDisco] NVARCHAR(150) NOT NULL,
     [DuracionDisco] NVARCHAR(20) NOT NULL,
     [FechaLanzamiento] SMALLDATETIME NOT NULL,
+	[Imagen] VARCHAR(MAX),
     FOREIGN KEY ([Artista]) REFERENCES [Artistas]([Id]),
     FOREIGN KEY ([Marca]) REFERENCES [Marcas]([Id])
 );
@@ -133,7 +134,11 @@ INSERT INTO [Clientes] (NombreCliente, ApellidoCliente, DireccionCliente, Telefo
 VALUES ('Juan', 'Perez', 'Calle 45', '304258299', 1);
 
 INSERT INTO [Artistas] ([NombreArtista], [GeneroMusical])
-VALUES ('The Doors', 'Rock');
+VALUES ('Kanye West', 'Rap'),
+('Frank Sinatra', 'Jazz'),
+('The Doors', 'Rock')
+
+
 go
 INSERT INTO [Marcas] ([NombreMarca], [PaginaWeb])
 VALUES ('Sony', 'www.sony.com');
@@ -141,8 +146,11 @@ VALUES ('Sony', 'www.sony.com');
 INSERT INTO [Pagos] ([TipoPago], [Pais_Disponibilidad])
 VALUES ('Tarjeta de Crédito', 'Colombia');
 go
-INSERT INTO [Discos] ([Artista], [Marca], [NombreDisco], [DuracionDisco], [FechaLanzamiento])
-VALUES (1, 1, 'Love Street', '3:20', '1968-07-02');
+INSERT INTO [Discos] ([Artista], [Marca], [NombreDisco], [DuracionDisco], [FechaLanzamiento], [Imagen])
+VALUES (1, 1, 'I Wonder', '4:00', '2006-07-02', 'IWonder.webp'),
+(2, 1, 'My Way', '4:00', '1998-07-02', 'MyWay.jpg'),
+(3, 1, 'Love Street', '5:00', '1996-07-02', 'TheDoors.jpg')
+
 
 INSERT INTO [Formatos] ([TipoFormato], [Material])
 VALUES ('Vinilo', 'Aluminio');

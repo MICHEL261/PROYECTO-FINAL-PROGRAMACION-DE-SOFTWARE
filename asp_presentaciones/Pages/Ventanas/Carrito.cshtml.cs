@@ -13,24 +13,49 @@ namespace asp_presentaciones.Pages.Ventanas
         private const string SessionKeyCarrito = "_Carrito";
         public decimal Total => Lista?.Sum(i => i.Cantidad * i.ValorUnitario) ?? 0;
 
-        private readonly ICarritoPresentacion _carritoService;
+        private readonly ICarritoPresentacion? _carritoService;
+        private readonly IDiscosPresentacion? IDiscosPresentacion;
+
 
         [BindProperty] public Enumerables.Ventanas Accion { get; set; }
         [BindProperty] public OrdenesDiscos? Actual { get; set; }
         [BindProperty] public Carrito? Filtro { get; set; }
         [BindProperty] public List<Carrito> Lista { get; set; } = new List<Carrito>();
+        [BindProperty] public List<Discos> Discos { get; set; } 
+
 
         [BindProperty]
         public Carrito NuevoItem { get; set; } = new Carrito();
 
-        public CarritoModel(ICarritoPresentacion carritoService)
+        public CarritoModel(ICarritoPresentacion carritoService, IDiscosPresentacion IDiscosPresentacion)
         {
-            _carritoService = carritoService;
+            this._carritoService = carritoService;
+            this.IDiscosPresentacion = IDiscosPresentacion;
         }
 
-        public void OnGet()
+        public void OnGet(string? disco)
         {
             Lista = ObtenerCarritoSesion();
+
+            var task = this.IDiscosPresentacion!.Listar();
+            task.Wait();
+            Discos = task.Result;
+
+            if (!string.IsNullOrEmpty(disco))
+            {
+                var discoEncontrado = Discos.FirstOrDefault(x => x.NombreDisco == disco);
+
+                if (discoEncontrado != null)
+                {
+                    NuevoItem = new Carrito
+                    {
+                        Disco = discoEncontrado.NombreDisco,
+                        Formato = 0,
+                        Cantidad = 1,
+                        ValorUnitario = 0
+                    };
+                }
+            }
         }
 
         public IActionResult OnPostAgregar()
@@ -47,21 +72,21 @@ namespace asp_presentaciones.Pages.Ventanas
             return RedirectToPage();
         }
 
-        public IActionResult OnPostEliminar(int discoId, int formatoId)
+        public IActionResult OnPostEliminar(string discoNom, int formatoId)
         {
             Lista = ObtenerCarritoSesion();
-            Lista.RemoveAll(i => i.Disco == discoId && i.Formato == formatoId);
+            Lista.RemoveAll(i => i.Disco == discoNom && i.Formato == formatoId);
             GuardarCarritoSesion(Lista);
             return RedirectToPage();
         }
 
-        public async Task<IActionResult> OnPostFinalizar(string accion, int clienteId, int pagoId)
+        public async Task<IActionResult> OnPostFinalizar(string accion, int clienteId, List<string> discosNom, int pagoId)
         {
+            Lista = ObtenerCarritoSesion();
             if (accion == "Cancelar")
             {
                 Lista.Clear();
                 GuardarCarritoSesion(Lista);
-
                 return RedirectToPage("/Ventanas/Inicio");
             }
 
@@ -69,7 +94,9 @@ namespace asp_presentaciones.Pages.Ventanas
             {
                 try
                 {
-                    await _carritoService.FinalizarCompra(clienteId, pagoId);
+                    await _carritoService!.FinalizarCompra(clienteId, Lista, pagoId);
+
+
                     Lista.Clear();
                     GuardarCarritoSesion(Lista);
                     TempData["MensajeExito"] = "Compra realizada exitosamente.";
@@ -84,6 +111,7 @@ namespace asp_presentaciones.Pages.Ventanas
 
             return Page();
         }
+
 
 
         private List<Carrito> ObtenerCarritoSesion()
