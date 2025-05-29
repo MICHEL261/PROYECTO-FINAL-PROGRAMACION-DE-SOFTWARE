@@ -82,7 +82,7 @@ namespace lib_aplicaciones.Implementaciones
 
             this.IConexion!.OrdenesDiscos!.Add(entidad);
             this.IConexion.SaveChanges();
-            GuardarAuditoria("guardar", datos); ;
+            GuardarAuditoria("guardar", datos); 
 
             return entidad;
         }
