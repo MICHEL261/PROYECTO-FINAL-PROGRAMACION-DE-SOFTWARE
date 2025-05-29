@@ -37,6 +37,8 @@
 
                         @if (rol == "Administrador")
                         {
+                            <a class="navbar-brand" asp-area="" asp-page="/Ventanas/Inicio" style="color: white; font-family: Times New Roman, serif;">Inicio</a>
+
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle text-white" href="#" id="adminMenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Entidades
@@ -62,6 +64,8 @@
                         }
                         else if (rol == "Cliente")
                         {
+                            <a class="navbar-brand" asp-area="" asp-page="/Ventanas/Inicio" style="color: white; font-family: Times New Roman, serif;">Inicio</a>
+
                             <a href="/ventanas/carrito"><img src="~/imagenes/carrito.png" alt="Logo" style="height: 30px; margin-right: 10px;" /></a>
 
                         }
