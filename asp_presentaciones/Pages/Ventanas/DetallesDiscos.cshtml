@@ -1,0 +1,61 @@
+﻿@page
+@model asp_presentaciones.Pages.Ventanas.DetallesDiscosModel
+@{
+    ViewData["Titulo"] = "DetallesDiscos";
+
+}
+<center>
+    <div>
+        <form method="POST" enctype="multipart/form-data">
+            @Html.AntiForgeryToken()
+
+            <div align="left">
+                <h3>Discos</h3>
+            </div>
+            <div align="left" class="bt_panel_buttons">
+                <input type="submit" value="Refrescar" asp-page-handler="BtRefrescar" class="btn btn-secondary"
+                       disabled="@(Model.Accion != lib_dominio.Nucleo.Enumerables.Ventanas.Listas)" />
+              
+                <input type="submit" value="Exportar a pdf" asp-page-handler="BtExportarPDF" class="btn btn-secondary" />
+                <input type="submit" value="Exportar a Excel" asp-page-handler="BtExportarExcel" class="btn btn-secondary" />
+            </div>
+
+
+
+            @if (Model.Accion == lib_dominio.Nucleo.Enumerables.Ventanas.Listas || Model.Accion ==
+            lib_dominio.Nucleo.Enumerables.Ventanas.Borrar)
+            {
+                <input id="flNombre" class="cts_forms form-control" asp-for="@Model.Filtro!.NombreDisco"
+                       placeholder="Nombre" />
+                <br />
+                <div class="containers_vn panel panel-default">
+                    <table class="tb_data table table-striped table-bordered table-hover">
+                        <tr>
+                            <th>Artista</th>
+                            <th>Marca</th>
+                            <th class="cl_hidden">NombreDisco</th>
+                            <th class="cl_actions">DuracionDisco</th>
+                            <th class="cl_actions">FechaLanzamiento</th>
+                        </tr>
+                        @if (Model != null && Model.Lista != null)
+                        {
+                            @foreach (var elemento in Model.Lista)
+                            {
+                                <tr>
+                                    <td>@elemento._Artista!.NombreArtista</td>
+                                    <td>@elemento._Marca!.NombreMarca</td>
+                                    <td class="cl_hidden">@elemento.NombreDisco</td>
+                                    <td class="cl_hidden">@elemento.DuracionDisco</td>
+                                    <td class="cl_hidden">@elemento.FechaLanzamiento</td>
+                                    <td>
+
+                                    </td>
+                                </tr>
+                            }
+                        }
+                    </table>
+                </div>
+            }
+        </form>
+    </div>
+</center>

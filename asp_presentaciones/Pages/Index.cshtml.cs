@@ -14,13 +14,10 @@ namespace asp_presentaciones.Pages
         [BindProperty] public string? Email { get; set; }
         [BindProperty] public string? Contrasena { get; set; }
         public bool UsuarioRegistrado { get; set; }
-        public async Task OnGetAsync()
+        public void OnGet()
         {
-           
+            OnPostBtClose();
         }
-       
-
-    
 
 
         public void OnPostBtClean()

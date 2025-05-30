@@ -19,7 +19,7 @@
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
                 <img src="~/imagenes/logo.png" alt="Logo" style="height: 30px; margin-right: 10px;" />
-                <a class="navbar-brand" asp-area="" asp-page="/Index" style="color: white; font-family: Times New Roman, serif;">Beat and Track</a>
+                <a class="navbar-brand" asp-area="" asp-page="/Logout" style="color: white; font-family: Times New Roman, serif;">Beat and Track</a>
                 
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
@@ -65,9 +65,11 @@
                         else if (rol == "Cliente")
                         {
                             <a class="navbar-brand" asp-area="" asp-page="/Ventanas/Inicio" style="color: white; font-family: Times New Roman, serif;">Inicio</a>
-                            <li><a class="dropdown-item" asp-page="/Ventanas/Discos">Discos</a></li>
-                            <a href="/ventanas/carrito"><img src="~/imagenes/carrito.png" alt="Logo" style="height: 30px; margin-right: 10px;" /></a>
 
+                            <li><a class="dropdown-item" asp-page="/Ventanas/DetallesDiscos">Discos</a></li>
+                            <li><a class="dropdown-item" asp-page="/Ventanas/DetallesFormatos">Formatos</a></li>
+
+                            <a href="/ventanas/carrito"><img src="~/imagenes/carrito.png" alt="Logo" style="height: 30px; margin-right: 10px;" /></a>
                         }
                     </ul>
                 </div>

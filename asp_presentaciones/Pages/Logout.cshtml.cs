@@ -29,7 +29,6 @@ namespace asp_presentaciones.Pages
         public IActionResult OnGet()
         {
             HttpContext.Session.Clear();
-            OnPostBtRefrescar();
             return RedirectToPage("/Index");
         }
     }
