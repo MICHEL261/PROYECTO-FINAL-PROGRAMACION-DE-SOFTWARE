@@ -20,6 +20,8 @@
                     disabled="@(Model.Accion == lib_dominio.Nucleo.Enumerables.Ventanas.Listas)" />
                 <input type="submit" value="Cancelar" asp-page-handler="BtCancelar" class="btn btn-secondary"
                     disabled="@(Model.Accion == lib_dominio.Nucleo.Enumerables.Ventanas.Listas)" />
+                <input type="submit" value="Exportar a pdf" asp-page-handler="BtExportarPDF" class="btn btn-secondary" />
+                <input type="submit" value="Exportar a Excel" asp-page-handler="BtExportarExcel" class="btn btn-secondary" />
             </div>
 
             @if (Model.Accion != lib_dominio.Nucleo.Enumerables.Ventanas.Listas || Model.Accion ==
@@ -174,6 +176,7 @@
                                             class="btn btn-secondary" asp-route-data="@elemento.Id" />
                                         <input type="submit" value="Borrar" asp-page-handler="BtBorrarVal" class="btn btn-secondary"
                                             asp-route-data="@elemento.Id" />
+                                        
                                     </td>
                                 </tr>
                             }

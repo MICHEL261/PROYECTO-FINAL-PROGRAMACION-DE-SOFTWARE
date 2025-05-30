@@ -5,6 +5,14 @@
 }
 
 <h3>Carrito de Compras</h3>
+<form method="post" asp-page-handler="BtExportarPDF">
+    <input type="submit" value="Exportar a pdf" class="btn btn-secondary" />
+
+</form>
+<form method="post" asp-page-handler="BtExportarEXCEL">
+    <input type="submit" value="Exportar a excel" class="btn btn-secondary" />
+
+</form>
 
 <table class="table table-bordered">
     <thead>

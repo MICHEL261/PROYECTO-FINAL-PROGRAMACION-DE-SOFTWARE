@@ -4,6 +4,7 @@
     ViewData["Title"] = "Inicio";
 }
 
+
 <div class="text-center">
     <h1 class="display-4">Bienvenido, @HttpContext.Session.GetString("NombreUsuario")</h1>
 
@@ -34,6 +35,7 @@
             <a href="#img3">3</a>
         </div>
     </div>
+    
     <h2 style="margin-left: 40px; margin-top: 20px;">Catálogo</h2>
     <div class="catalogo">
         @foreach (var disco in Model.Lista!)

@@ -93,10 +93,11 @@ body {
 }
 
 .containers_vn {
-    height: 70vh;
+    height: 100vh;
     width: 100%;
     overflow: auto;
     display: inline-block;
+
 }
 
 /* Popups --------------------- */
@@ -246,8 +247,50 @@ body {
 
 
 .navbar {
-    background-color: maroon !important; /* azul intenso */
-    color: white; /* color del texto */
+    background-color: maroon !important; 
+    color: white; 
 }
 
 
+.login-box {
+    background: transparent;
+    border: 2px solid rgb(128, 128, 128);
+    color: white; 
+    text-align: center; 
+    padding: 20px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+    margin-top: 200px;
+}
+
+.form-control {
+    border: none;
+    outline:none;
+    border: 2px solid rgb(128, 128, 128);
+    border-radius: 40px;
+    background: transparent;
+}
+.form-control {
+    border: 2px solid rgb(128, 128, 128);
+    border-radius: 40px;
+    background: transparent;
+    color: white;
+}
+
+    .form-control:focus {
+        background: transparent !important; 
+        color: white; 
+        outline: none; 
+        box-shadow: none;
+    }
+
+footer.footer {
+    height: 200px; /* altura fija */
+    line-height: 60px; /* para centrar texto verticalmente */
+    background-color: maroon;
+    color: white;
+    text-align: center;
+    border-top: 1px solid #ccc;
+}

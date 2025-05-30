@@ -16,4 +16,9 @@
     <None Include="wwwroot\Imagenes\8ddd1959a2bef460a5149b3e0cf5e18a.webp" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="ClosedXML" Version="0.105.0" />
+    <PackageReference Include="QuestPDF" Version="2025.5.0" />
+  </ItemGroup>
+
 </Project>

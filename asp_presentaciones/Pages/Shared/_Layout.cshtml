@@ -65,7 +65,7 @@
                         else if (rol == "Cliente")
                         {
                             <a class="navbar-brand" asp-area="" asp-page="/Ventanas/Inicio" style="color: white; font-family: Times New Roman, serif;">Inicio</a>
-
+                            <li><a class="dropdown-item" asp-page="/Ventanas/Discos">Discos</a></li>
                             <a href="/ventanas/carrito"><img src="~/imagenes/carrito.png" alt="Logo" style="height: 30px; margin-right: 10px;" /></a>
 
                         }
@@ -81,10 +81,14 @@
     </div>
 
     <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2025 - asp_presentacion - <a asp-area="" asp-page="/Privacy">Privacy</a>
-        </div>
-    </footer>
+  <div class="container text-center" style="font-size: 0.9rem; line-height: 1.4; padding: 10px 0;">
+    <p>&copy; 2025 - Beat and Track - <a asp-area="" asp-page="/Privacy">Privacy</a></p>
+    <p>Dirección: Calle Falsa 123, Ciudad</p>
+    <p>Teléfono: +123 456 7890</p>
+    <p>Email: soporte@beatandtrack.com</p>
+    <p>Horario: Lun - Vie, 9am - 6pm</p>
+  </div>
+</footer>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
