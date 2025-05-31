@@ -53,6 +53,7 @@ namespace lib_presentaciones
                 }
 
                 var resp = await message.Content.ReadAsStringAsync();
+                
                 httpClient.Dispose(); httpClient = null;
 
                 if (string.IsNullOrEmpty(resp))
@@ -60,6 +61,7 @@ namespace lib_presentaciones
                     respuesta.Add("Error", "lbErrorAutenticacion");
                     return respuesta;
                 }
+                
                 resp = Replace(resp);
                 respuesta = JsonConversor.ConvertirAObjeto(resp);
                 return respuesta;
