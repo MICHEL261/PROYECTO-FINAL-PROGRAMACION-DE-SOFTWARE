@@ -2,7 +2,6 @@ CREATE DATABASE db_tienda_de_discos;
 GO
 USE db_tienda_de_discos;
 GO
-
 CREATE TABLE [Usuarios] (
     [Id] INT NOT NULL PRIMARY KEY IDENTITY(1,1),
     [Nombre] varchar(50) NOT NULL,
@@ -45,6 +44,7 @@ CREATE TABLE [Discos] (
     [Id] INT NOT NULL IDENTITY(1,1) PRIMARY KEY,
     [Artista] INT NOT NULL,
     [Marca] INT NOT NULL,
+	[Precio] DECIMAL (10,2) NOT NULL,
     [NombreDisco] NVARCHAR(150) NOT NULL,
     [DuracionDisco] NVARCHAR(20) NOT NULL,
     [FechaLanzamiento] SMALLDATETIME NOT NULL,
@@ -84,7 +84,6 @@ CREATE TABLE [OrdenesDiscos] (
     [Disco] INT NOT NULL,
     [Formato] INT NOT NULL,
     [Cantidad] INT NOT NULL,
-    [ValorUnitario] DECIMAL(10,2) NOT NULL,
     FOREIGN KEY ([Orden]) REFERENCES [Ordenes]([Id]),
     FOREIGN KEY ([Disco]) REFERENCES [Discos]([Id]),
     FOREIGN KEY ([Formato]) REFERENCES [Formatos]([Id])
@@ -146,10 +145,10 @@ VALUES ('Sony', 'www.sony.com');
 INSERT INTO [Pagos] ([TipoPago], [Pais_Disponibilidad])
 VALUES ('Tarjeta de Crédito', 'Colombia');
 go
-INSERT INTO [Discos] ([Artista], [Marca], [NombreDisco], [DuracionDisco], [FechaLanzamiento], [Imagen])
-VALUES (1, 1, 'I Wonder', '4:00', '2006-07-02', 'IWonder.webp'),
-(2, 1, 'My Way', '4:00', '1998-07-02', 'MyWay.jpg'),
-(3, 1, 'Love Street', '5:00', '1996-07-02', 'TheDoors.jpg')
+INSERT INTO [Discos] ([Artista], [Marca], [NombreDisco], [DuracionDisco], [FechaLanzamiento], [Imagen], [Precio])
+VALUES (1, 1, 'I Wonder', '4:00', '2006-07-02', 'IWonder.webp', 100),
+(2, 1, 'My Way', '4:00', '1998-07-02', 'MyWay.jpg', 100),
+(3, 1, 'Love Street', '5:00', '1996-07-02', 'TheDoors.jpg', 100)
 
 
 INSERT INTO [Formatos] ([TipoFormato], [Material])
@@ -158,8 +157,8 @@ VALUES ('Vinilo', 'Aluminio');
 INSERT INTO [Ordenes] ([Fecha], [Cliente], [Pago], [MontoTotal])
 VALUES ('2024-11-02', 1, 1, 1000);
 go
-INSERT INTO [OrdenesDiscos] ([Orden], [Disco], [Formato], [Cantidad], [ValorUnitario])
-VALUES (1, 1, 1, 1, 100);
+INSERT INTO [OrdenesDiscos] ([Orden], [Disco], [Formato], [Cantidad])
+VALUES (1, 1, 1, 1);
 
 
 INSERT INTO [Roles] (NombreRol, Descripcion)

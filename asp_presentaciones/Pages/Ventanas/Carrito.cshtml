@@ -36,19 +36,25 @@
 
 
     <tbody>
-        @foreach (var item in Model.Lista)
+        @foreach (var carrito in Model.Lista)
         {
             <tr>
-                <td>@item.Disco</td>
-                <td>@item.Formato</td>
-                <td>@item.Cantidad</td>
-                <td>@item.ValorUnitario</td>
-                <td>@(item.Cantidad* item.ValorUnitario)</td>
+                <td>@carrito.Disco</td>
+                <td>
+                    @{
+                        var nombreFormato = Model.Formatos
+                        .FirstOrDefault(f => f.Id == carrito.Formato)?.TipoFormato ?? "Formato desconocido";
+                    }
+                    @nombreFormato
+                </td>
+                <td>@carrito.Cantidad</td>
+                <td>@carrito.ValorUnitario</td>
+                <td>@(carrito.Cantidad * carrito.ValorUnitario)</td>
                 <td>
                     <form method="post" asp-page-handler="Eliminar">
-                        <input type="hidden" name="discoNom" value="@item.Disco" />
-                        <input type="hidden" name="formatoId" value="@item.Formato" />
-                        <button type="submit" class="btn btn-danger">Eliminar</button>
+                        <input type="hidden" name="disco" value="@carrito.Disco" />
+                        <input type="hidden" name="formato" value="@carrito.Formato" />
+                        <button type="submit" class="btn btn-danger btn-sm">Eliminar</button>
                     </form>
                 </td>
             </tr>
@@ -63,8 +69,16 @@
         <input asp-for="NuevoItem.Disco" class="form-control" />
     </div>
     <div class="form-group">
-        <label>Formato:</label>
-        <input asp-for="NuevoItem.Formato" class="form-control" />
+        <label class="col-lg-4 control-label">
+            Formato:
+        </label>
+        <div class="col-lg-6">
+            <select id="nmFormato"
+                    class="cts_forms form-control"
+                    asp-for="NuevoItem.Formato"
+                    asp-items="@(new SelectList(Model.Formatos, "Id", "TipoFormato"))">
+            </select>
+        </div>
     </div>
     <div class="form-group">
         <label>Cantidad:</label>
@@ -89,7 +103,10 @@
         <label>Pago:</label>
         <input type="number" name="pagoId" required class="form-control" />
         <br />
-
+        <div class="form-group">
+            <label>Precio Unitario:</label>
+            <input asp-for="NuevoItem.ValorUnitario" class="form-control" readonly />
+        </div>
         <input type="submit" name="accion" value="Confirmar" class="btn btn-success" />
     </form>
     <form method="post" asp-page-handler="Finalizar">

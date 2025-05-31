@@ -9,6 +9,8 @@ namespace lib_dominio.Entidades
         public int Id { get; set; }
         public int Artista { get; set; }
         public int Marca { get; set; }
+        public decimal Precio { get; set; }
+
         public string? NombreDisco { get; set; }
         public string? DuracionDisco { get; set; }
         public DateTime FechaLanzamiento { get; set; }

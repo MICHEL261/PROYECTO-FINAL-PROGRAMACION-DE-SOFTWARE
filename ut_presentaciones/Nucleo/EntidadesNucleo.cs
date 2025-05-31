@@ -69,7 +69,6 @@ namespace ut_presentacion.Nucleo
             entidad.Disco = disco.Id;
             entidad.Formato = formato.Id;
             entidad.Cantidad = 2;
-            entidad.ValorUnitario = 150;
             return entidad;
 
         }

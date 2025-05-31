@@ -45,11 +45,12 @@
                     <img src="/Imagenes/@disco.Imagen" alt="Portada del disco" />
                 </a>
                 <p><strong>@disco.NombreDisco</strong></p>
-                <p>$100</p>
+                <p><strong>@disco.Precio</strong></p>               
                 <p style="color: green;">● Disponible</p>
                 <a class="btn btn-primary boton-carrito"
                    asp-page="/Ventanas/Carrito"
-                   asp-route-disco="@disco.NombreDisco">
+                   asp-route-disco="@disco.NombreDisco"
+                   asp-route-precio="@disco.Precio">
                     Añadir al carrito
                 </a>
             </div>

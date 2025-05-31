@@ -92,7 +92,7 @@ namespace ut_presentacion.Repositorios
 
 
             foreach (var elemento in entidades)
-                respuesta += elemento.Cantidad * elemento.ValorUnitario;
+                respuesta += elemento.Cantidad * elemento._Disco!.Precio;
 
 
 

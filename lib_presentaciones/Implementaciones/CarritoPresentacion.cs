@@ -14,6 +14,7 @@ namespace lib_presentaciones.Implementaciones
         private readonly IOrdenesPresentacion _ordenesPresentacion;
         private readonly IOrdenesDiscosPresentacion _ordenesDiscosPresentacion;
         private readonly IDiscosPresentacion IDiscosPresentacion;
+        private readonly IFormatosPresentacion IFormatosPresentacion;
 
 
         private List<Carrito> Items { get; set; } = new List<Carrito>();
@@ -22,11 +23,12 @@ namespace lib_presentaciones.Implementaciones
 
 
 
-        public CarritoPresentacion(IOrdenesPresentacion ordenesPresentacion, IOrdenesDiscosPresentacion ordenesDiscosPresentacion, IDiscosPresentacion IDiscosPresentacion)
+        public CarritoPresentacion(IOrdenesPresentacion ordenesPresentacion, IOrdenesDiscosPresentacion ordenesDiscosPresentacion, IDiscosPresentacion IDiscosPresentacion, IFormatosPresentacion IFormatosPresentacion)
         {
             this._ordenesPresentacion = ordenesPresentacion;
             this._ordenesDiscosPresentacion = ordenesDiscosPresentacion;
             this.IDiscosPresentacion = IDiscosPresentacion;
+            this.IFormatosPresentacion = IFormatosPresentacion;
         }
 
         public void AgregarAlCarrito(Carrito item)
@@ -42,9 +44,9 @@ namespace lib_presentaciones.Implementaciones
             }
         }
 
-        public void EliminarDelCarrito(string discoNom, int formatoId)
+        public void EliminarDelCarrito(string discoNom, int tipoFormato)
         {
-            this.Items.RemoveAll(i => i.Disco == discoNom && i.Formato == formatoId);
+            this.Items.RemoveAll(i => i.Disco == discoNom && i.Formato == tipoFormato);
         }
 
         public CarritoCompra ObtenerCarrito()
@@ -68,20 +70,25 @@ namespace lib_presentaciones.Implementaciones
             nuevaOrden = await _ordenesPresentacion.Guardar(nuevaOrden);
 
             var discosDisponibles = await IDiscosPresentacion.Listar();
+            var formatosDisponibles = await IFormatosPresentacion.Listar();
+
 
             foreach (var item in items)
             {
                 var disco = discosDisponibles.FirstOrDefault(x => x.NombreDisco == item.Disco);
                 if (disco == null)
                     throw new Exception($"No se encontró el disco '{item.Disco}'.");
+                var formato = formatosDisponibles.FirstOrDefault(x => x.Id == item.Formato);
+                if (formato == null)
+                    throw new Exception($"No se encontró el disco '{item.Disco}'.");
 
                 var ordenDisco = new OrdenesDiscos
                 {
                     Orden = nuevaOrden!.Id,
                     Disco = disco.Id,
-                    Formato = item.Formato,
+                    Formato = formato.Id,
                     Cantidad = item.Cantidad,
-                    ValorUnitario = item.ValorUnitario
+                    ValorUnitario = disco.Precio
                 };
 
                 await _ordenesDiscosPresentacion.Guardar(ordenDisco);

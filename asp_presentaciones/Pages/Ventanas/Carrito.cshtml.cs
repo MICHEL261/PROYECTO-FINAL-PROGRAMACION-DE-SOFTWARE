@@ -1,6 +1,4 @@
 using ClosedXML.Excel;
-using ClosedXML.Excel;
-using DocumentFormat.OpenXml.Spreadsheet;
 using lib_dominio.Entidades;
 using lib_dominio.Nucleo;
 using lib_presentaciones.Interfaces;
@@ -21,6 +19,8 @@ namespace asp_presentaciones.Pages.Ventanas
 
         private readonly ICarritoPresentacion? _carritoService;
         private readonly IDiscosPresentacion? IDiscosPresentacion;
+        private readonly IFormatosPresentacion? IFormatosPresentacion;
+
 
 
         [BindProperty] public Enumerables.Ventanas Accion { get; set; }
@@ -28,41 +28,49 @@ namespace asp_presentaciones.Pages.Ventanas
         [BindProperty] public Carrito? Filtro { get; set; }
         [BindProperty] public List<Carrito> Lista { get; set; } = new List<Carrito>();
         [BindProperty] public List<Discos> Discos { get; set; }
+        [BindProperty] public List<Formatos> Formatos { get; set; } = new List<Formatos>(); 
+
 
 
         [BindProperty]
         public Carrito NuevoItem { get; set; } = new Carrito();
 
-        public CarritoModel(ICarritoPresentacion carritoService, IDiscosPresentacion IDiscosPresentacion)
+        public CarritoModel(ICarritoPresentacion carritoService, IDiscosPresentacion IDiscosPresentacion, IFormatosPresentacion IFormatosPresentacion)
         {
             this._carritoService = carritoService;
             this.IDiscosPresentacion = IDiscosPresentacion;
+            this.IFormatosPresentacion = IFormatosPresentacion;
+
         }
 
-        public void OnGet(string? disco)
+        public void OnGet(string? disco, decimal? precio)
         {
             Lista = ObtenerCarritoSesion();
 
             var task = this.IDiscosPresentacion!.Listar();
             task.Wait();
-            Discos = task.Result;
+            this.Discos = task.Result;
+            var task2 = this.IFormatosPresentacion!.Listar();
+            task2.Wait();
+            this.Formatos = task2.Result;
+
 
             if (!string.IsNullOrEmpty(disco))
             {
                 var discoEncontrado = Discos.FirstOrDefault(x => x.NombreDisco == disco);
-
                 if (discoEncontrado != null)
                 {
                     NuevoItem = new Carrito
                     {
                         Disco = discoEncontrado.NombreDisco,
-                        Formato = 0,
+                        Formato = 1,
                         Cantidad = 1,
-                        ValorUnitario = 0
+                        ValorUnitario = precio ?? 0m
                     };
                 }
             }
         }
+        
 
         public IActionResult OnPostAgregar()
         {
@@ -78,17 +86,17 @@ namespace asp_presentaciones.Pages.Ventanas
             return RedirectToPage();
         }
 
-        public IActionResult OnPostEliminar(string discoNom, int formatoId)
+        public IActionResult OnPostEliminar(string discoNom, int tipoFormato)
         {
             Lista = ObtenerCarritoSesion();
-            Lista.RemoveAll(i => i.Disco == discoNom && i.Formato == formatoId);
+            Lista.RemoveAll(i => i.Disco == discoNom && i.Formato == tipoFormato);
             GuardarCarritoSesion(Lista);
             return RedirectToPage();
         }
 
-        public async Task<IActionResult> OnPostFinalizar(string accion, int clienteId, List<string> discosNom, int pagoId)
+        public async Task<IActionResult> OnPostFinalizar(string accion, int clienteId, int pagoId)
         {
-            Lista = ObtenerCarritoSesion();
+            this.Lista = ObtenerCarritoSesion();
             if (accion == "Cancelar")
             {
                 Lista.Clear();
@@ -191,7 +199,7 @@ namespace asp_presentaciones.Pages.Ventanas
                         foreach (var d in Lista)
                         {
                             table.Cell().Element(CellStyle).Text(d.Disco ?? "");
-                            table.Cell().Element(CellStyle).Text(d.Formato.ToString());
+                            table.Cell().Element(CellStyle).Text(d.Formato!.ToString());
                             table.Cell().Element(CellStyle).Text(d.Cantidad.ToString());
                             table.Cell().Element(CellStyle).Text(d.ValorUnitario.ToString("C"));
                             table.Cell().Element(CellStyle).Text((d.Cantidad * d.ValorUnitario).ToString("C"));
@@ -226,7 +234,7 @@ namespace asp_presentaciones.Pages.Ventanas
             foreach (var item in Lista)
             {
                 worksheet.Cell(row, 1).Value = item.Disco ?? "";
-                worksheet.Cell(row, 2).Value = item.Formato.ToString();
+                worksheet.Cell(row, 2).Value = item.Formato!.ToString();
                 worksheet.Cell(row, 3).Value = item.Cantidad;
                 worksheet.Cell(row, 4).Value = item.ValorUnitario;
                 worksheet.Cell(row, 5).Value = item.Cantidad * item.ValorUnitario;
