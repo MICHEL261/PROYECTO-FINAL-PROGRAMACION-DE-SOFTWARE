@@ -249,7 +249,7 @@ body {
 
 .navbar {
     background-color: maroon !important; 
-    color: white; 
+    color: black; 
 }
 
 
@@ -266,26 +266,35 @@ body {
     margin-top: 200px;
 }
 
-.form-control {
-    border: none;
-    outline:none;
+input.form-control {
+    color: black;
+    background-color: white;
     border: 2px solid rgb(128, 128, 128);
     border-radius: 40px;
-    background: transparent;
 }
+
+select.form-control,
+textarea.form-control {
+    color: black;
+    background-color: white;
+}
+
 .form-control {
+    color: black;
+    background-color: white;
     border: 2px solid rgb(128, 128, 128);
     border-radius: 40px;
-    background: transparent;
-    color: white;
+    padding: 10px;
+    box-shadow: none;
 }
 
     .form-control:focus {
-        background: transparent !important; 
-        color: black; 
-        outline: none; 
-        box-shadow: none;
+        background-color: white;
+        outline: none;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        border-color: #666;
     }
+
 
 footer.footer {
     height: 200px; /* altura fija */
@@ -294,4 +303,8 @@ footer.footer {
     color: white;
     text-align: center;
     border-top: 1px solid #ccc;
+}
+input.form-control {
+    color: black !important;
+    background-color: white !important;
 }

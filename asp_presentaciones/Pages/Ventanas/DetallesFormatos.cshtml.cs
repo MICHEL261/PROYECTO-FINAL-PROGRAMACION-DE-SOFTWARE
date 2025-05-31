@@ -39,14 +39,12 @@ namespace asp_presentacion.Pages.Ventanas
 
                 if (String.IsNullOrEmpty(variable_session))
                 {
-                    HttpContext.Response.Redirect("/");
+                    HttpContext.Response.Redirect("/Index");
                     return;
                 }
 
-                Filtro!.TipoFormato = Filtro!.TipoFormato ?? "";
-
                 Accion = Enumerables.Ventanas.Listas;
-                var task = this.iPresentacion!.PorNombre(Filtro!);
+                var task = this.iPresentacion!.Listar();
                 task.Wait();
                 Lista = task.Result;
                 Actual = null;
