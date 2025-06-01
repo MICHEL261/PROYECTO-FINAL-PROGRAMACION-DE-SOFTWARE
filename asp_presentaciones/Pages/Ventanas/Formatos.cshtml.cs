@@ -1,9 +1,15 @@
+using ClosedXML.Excel;
 using lib_dominio.Entidades;
 using lib_dominio.Nucleo;
 using lib_presentaciones.Implementaciones;
 using lib_presentaciones.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+
+using QuestPDF.Fluent;
+using QuestPDF.Helpers;
+using QuestPDF.Infrastructure;
+using System.IO;
 
 namespace asp_presentacion.Pages.Ventanas
 {
@@ -208,5 +214,7 @@ namespace asp_presentacion.Pages.Ventanas
 
             return Edita || Borra || Nuevo || Listar;
         }
+
+       
     }
 }

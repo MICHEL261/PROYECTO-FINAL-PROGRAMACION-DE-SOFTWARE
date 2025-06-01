@@ -1,6 +1,8 @@
 using ClosedXML.Excel;
+using DocumentFormat.OpenXml.Spreadsheet;
 using lib_dominio.Entidades;
 using lib_dominio.Nucleo;
+using lib_presentaciones.Implementaciones;
 using lib_presentaciones.Interfaces;
 using lib_presentaciones.models;
 using Microsoft.AspNetCore.Mvc;
@@ -45,7 +47,9 @@ namespace asp_presentaciones.Pages.Ventanas
 
         public void OnGet(string? disco, decimal? precio)
         {
+
             Lista = ObtenerCarritoSesion();
+            
 
             var task = this.IDiscosPresentacion!.Listar();
             task.Wait();
@@ -252,5 +256,7 @@ namespace asp_presentaciones.Pages.Ventanas
                 "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
                 "Listado_Carrito.xlsx");
         }
+
+        
     }
 }

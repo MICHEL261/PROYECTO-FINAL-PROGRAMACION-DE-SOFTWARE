@@ -19,6 +19,8 @@
                        asp-page-handler="BtRefrescar"
                        class="btn btn-secondary"
                        disabled="@(Model.Accion != lib_dominio.Nucleo.Enumerables.Ventanas.Listas)" />
+                       <input type="submit" value="Exportar a pdf" asp-page-handler="BtExportarPDF" class="btn btn-secondary" />
+                <input type="submit" value="Exportar a Excel" asp-page-handler="BtExportarExcel" class="btn btn-secondary" />
 
             </div>
 
