@@ -22,7 +22,7 @@ namespace asp_presentaciones.Pages.Ventanas
 
         private readonly ICarritoPresentacion? _carritoService;
         private readonly IDiscosPresentacion? IDiscosPresentacion;
-
+        private readonly IPagosPresentacion? IPagosPresentacion;
         private readonly IFormatosPresentacion? IFormatosPresentacion;
         private readonly IPreciosDiscosPresentacion? IPreciosDiscosPresentacion;
 
@@ -36,6 +36,7 @@ namespace asp_presentaciones.Pages.Ventanas
 
         [BindProperty] public List<Formatos> Formatos { get; set; }
         [BindProperty] public List<PreciosDiscos> PreciosDiscos { get; set; }
+        [BindProperty] public List<Pagos> Pagos { get; set; } = new List<Pagos>();
 
 
         [BindProperty]
@@ -43,12 +44,13 @@ namespace asp_presentaciones.Pages.Ventanas
         public bool ItemAgregado { get; set; } = false;
 
 
-        public CarritoModel(ICarritoPresentacion carritoService, IDiscosPresentacion IDiscosPresentacion, IFormatosPresentacion IFormatosPresentacion, IPreciosDiscosPresentacion IPreciosDiscosPresentacion)
+        public CarritoModel(ICarritoPresentacion carritoService, IDiscosPresentacion IDiscosPresentacion, IFormatosPresentacion IFormatosPresentacion, IPreciosDiscosPresentacion IPreciosDiscosPresentacion, IPagosPresentacion IPagosPresentacion)
         {
             this._carritoService = carritoService;
             this.IDiscosPresentacion = IDiscosPresentacion;
             this.IFormatosPresentacion = IFormatosPresentacion;
             this.IPreciosDiscosPresentacion = IPreciosDiscosPresentacion;
+            this.IPagosPresentacion = IPagosPresentacion;
         }
 
         public async Task OnGet(string? disco)
@@ -58,6 +60,7 @@ namespace asp_presentaciones.Pages.Ventanas
             Discos = await IDiscosPresentacion!.Listar() ?? new List<Discos>();
             Formatos = await IFormatosPresentacion!.Listar() ?? new List<Formatos>();
             PreciosDiscos = await IPreciosDiscosPresentacion!.Listar() ?? new List<PreciosDiscos>();
+            Pagos = await IPagosPresentacion!.Listar() ?? new List<Pagos>();
             if (!string.IsNullOrEmpty(disco))
             {
                 NuevoItem = new Carrito();
@@ -88,6 +91,7 @@ namespace asp_presentaciones.Pages.Ventanas
             {
                 Discos = IDiscosPresentacion!.Listar().Result ?? new List<Discos>();
                 Formatos = IFormatosPresentacion!.Listar().Result ?? new List<Formatos>();
+                Pagos = IPagosPresentacion!.Listar().Result ?? new List<Pagos>();
                 ItemAgregado = false;
                 return Page();
             }
@@ -99,6 +103,7 @@ namespace asp_presentaciones.Pages.Ventanas
 
             Discos = IDiscosPresentacion!.Listar().Result ?? new List<Discos>();
             Formatos = IFormatosPresentacion!.Listar().Result ?? new List<Formatos>();
+            Pagos = IPagosPresentacion!.Listar().Result ?? new List<Pagos>();
 
             NuevoItem = new Carrito();
 
