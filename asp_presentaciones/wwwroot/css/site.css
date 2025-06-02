@@ -282,7 +282,7 @@ body {
 
     .form-control:focus {
         background: transparent !important; 
-        color: white; 
+        color: black; 
         outline: none; 
         box-shadow: none;
     }
@@ -295,3 +295,4 @@ footer.footer {
     text-align: center;
     border-top: 1px solid #ccc;
 }
+

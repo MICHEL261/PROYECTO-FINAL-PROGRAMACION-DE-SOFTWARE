@@ -34,7 +34,23 @@ namespace asp_presentaciones.Pages.Ventanas
         [BindProperty] public List<Usuarios>? Usuarios { get; set; }
 
 
-        public virtual void OnGet() { OnPostBtRefrescar(); }
+        public virtual IActionResult OnGet()
+        {
+            Usuarios = new UsuariosPresentacion().Listar().Result;
+
+            if (ValidarPermisoRol())
+            {
+                Accion = lib_dominio.Nucleo.Enumerables.Ventanas.Editar;
+                Actual = new Clientes();
+            }
+            else
+            {
+                Accion = lib_dominio.Nucleo.Enumerables.Ventanas.Listas;
+                Lista = new ClientesPresentacion().Listar().Result;
+            }
+
+            return Page();
+        }
 
         public void OnPostBtRefrescar()
         {
@@ -84,12 +100,7 @@ namespace asp_presentaciones.Pages.Ventanas
         {
             try
             {
-                if (!ValidarPermiso())
-                {
-                   
-                    TempData["MensajeError"] = "No tienes permisos para Crear algo nuevo.";
-                    return;
-                }
+               
                 Accion = Enumerables.Ventanas.Editar;
                 Actual = new Clientes();
                 CargarCombox();
@@ -126,12 +137,7 @@ namespace asp_presentaciones.Pages.Ventanas
             try
             {
                 Accion = Enumerables.Ventanas.Editar;
-                if (!ValidarPermiso())
-                {
-                    
-                    TempData["MensajeError"] = "No tienes permisos para Guardar.";
-                    return;
-                }
+                
 
                 Task<Clientes>? task = null;
                 if (Actual!.Id == 0)
@@ -183,17 +189,22 @@ namespace asp_presentaciones.Pages.Ventanas
             }
         }
 
-        public void OnPostBtCancelar()
+        public IActionResult OnPostBtCancelar()
         {
-            try
+            if (ValidarPermisoRol())
             {
-                Accion = Enumerables.Ventanas.Listas;
-                OnPostBtRefrescar();
+                Accion = lib_dominio.Nucleo.Enumerables.Ventanas.Editar;
+                Actual = new Clientes(); 
             }
-            catch (Exception ex)
+            else
             {
-                LogConversor.Log(ex, ViewData!);
+                Accion = lib_dominio.Nucleo.Enumerables.Ventanas.Listas;
+                Lista = new ClientesPresentacion().Listar().Result;
             }
+
+            Usuarios = new UsuariosPresentacion().Listar().Result;
+
+            return Page();
         }
 
         public void OnPostBtCerrar()
@@ -246,7 +257,45 @@ namespace asp_presentaciones.Pages.Ventanas
             }
 
 
-            return Edita || Borra || Nuevo || Listar;
+            return Listar;
+        }
+
+        public bool ValidarPermisoRol()
+        {
+            var variable_session = HttpContext.Session.GetString("NombreUsuario");
+
+            if (string.IsNullOrEmpty(variable_session))
+                return false;
+
+            var UsuarioPresentacion = new UsuariosPresentacion();
+            var usuarios = UsuarioPresentacion.Listar().Result;
+
+            if (usuarios == null)
+                return false;
+
+            var usuario = usuarios.FirstOrDefault(x => x.NombreUsuario.ToLower() == variable_session.ToLower());
+
+            if (usuario == null)
+                return false;
+
+
+            bool Nuevo = false;
+           
+
+            switch (usuario.Rol)
+            {
+                case 1:
+                   
+                    break;
+                case 2:
+                    Nuevo = true;
+                    break;
+                default:
+                    return false;
+            }
+
+
+            return Nuevo;
         }
     }
 }

@@ -50,6 +50,7 @@ namespace asp_presentaciones.Pages.Ventanas
             if (!string.IsNullOrEmpty(disco))
             {
                 var discoEncontrado = Discos.FirstOrDefault(x => x.NombreDisco == disco);
+                
 
                 if (discoEncontrado != null)
                 {

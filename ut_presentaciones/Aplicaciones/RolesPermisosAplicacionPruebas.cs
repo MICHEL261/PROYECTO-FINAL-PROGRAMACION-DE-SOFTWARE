@@ -1,85 +1,65 @@
-﻿using lib_dominio.Entidades;
-using lib_dominio.Nucleo;
+﻿using lib_aplicaciones.Implementaciones;
+using lib_aplicaciones.Interfaces;
+using lib_dominio.Entidades;
 using lib_repositorios.Implementaciones;
 using lib_repositorios.Interfaces;
-using Microsoft.EntityFrameworkCore;
 using ut_presentacion.Nucleo;
 
-namespace ut_presentacion.Repositorios
+namespace ut_presentacion.Aplicaciones
 {
     [TestClass]
-    public class Roles_PermisosPruebas
+    public class RolesPermisosAplicacionPrueba
     {
+        private readonly IRoles_PermisosAplicacion? iAplicacion;
         private readonly IConexion? iConexion;
         private List<Roles_Permisos>? lista;
         private Roles_Permisos? entidad;
 
-        public Roles_PermisosPruebas()
+        public RolesPermisosAplicacionPrueba()
         {
             iConexion = new Conexion();
             iConexion.StringConexion = Configuracion.ObtenerValor("StringConexion");
+            iAplicacion = new Roles_PermisosAplicacion(iConexion);
         }
 
         [TestMethod]
         public void Ejecutar()
         {
-
-
             Assert.AreEqual(true, Guardar());
             Assert.AreEqual(true, Modificar());
             Assert.AreEqual(true, Listar());
             Assert.AreEqual(true, Borrar());
-
-
         }
 
         public bool Listar()
         {
-            this.lista = this.iConexion!.Roles_Permisos!.ToList();
+            this.lista = this.iAplicacion!.Listar();
             return lista.Count > 0;
         }
 
         public bool Guardar()
         {
 
-
-            var datos = JsonConversor.ConvertirAString(entidad!);
-            String operacion = "Guardar";
             var rol = this.iConexion!.Roles!.FirstOrDefault(x => x.NombreRol == "Administrador");
             var permiso = this.iConexion!.Permisos!.FirstOrDefault(x => x.Nombre == "Nuevo");
 
+            this.entidad = EntidadesNucleo.RolesPermisos(permiso, rol)!;
 
-            this.entidad = EntidadesNucleo.RolesPermisos(permiso, rol!)!;
-            this.iConexion!.Roles_Permisos!.Add(this.entidad);
-            this.iConexion.SaveChanges();
+            this.iAplicacion!.Guardar(this.entidad);
             return true;
         }
 
         public bool Modificar()
         {
-            this.entidad!.Rol = 2;
-            var datos = JsonConversor.ConvertirAString(entidad);
-            String operacion = "Modificar";
-
-           
-
-            var entry = this.iConexion!.Entry<Roles_Permisos>(this.entidad);
-            entry.State = EntityState.Modified;
-            this.iConexion!.SaveChanges();
+            this.iAplicacion!.Modificar(this.entidad);
             return true;
         }
 
         public bool Borrar()
         {
-            var datos = JsonConversor.ConvertirAString(entidad!);
-            String operacion = "Borrar";
-
-  
-            this.iConexion!.Roles_Permisos!.Remove(this.entidad!);
-            this.iConexion!.SaveChanges();
+            this.iAplicacion!.Borrar(this.entidad);
             return true;
         }
-
-       
     }
 }
+

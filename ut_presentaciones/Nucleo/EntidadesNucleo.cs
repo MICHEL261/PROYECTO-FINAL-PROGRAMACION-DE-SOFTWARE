@@ -5,13 +5,14 @@ namespace ut_presentacion.Nucleo
 
     public class EntidadesNucleo
     {
-        public static Clientes? Clientes()
+        public static Clientes? Clientes(Usuarios usuarios)
         {
             var entidad = new Clientes();
             entidad.NombreCliente = "Maria";
             entidad.ApellidoCliente = "Cardona";
             entidad.DireccionCliente = "Calle 12";
             entidad.TelefonoCliente = "3022016491";
+            entidad.Usuario = usuarios.Id; 
             return entidad;
         }
         public static Artistas? Artistas()
@@ -36,6 +37,7 @@ namespace ut_presentacion.Nucleo
             entidad.NombreDisco = "Touch Me";
             entidad.DuracionDisco = "2:40";
             entidad.FechaLanzamiento = new DateTime(1999, 6, 20);
+            entidad.Imagen="https://example.com/imagen.jpg";
             return entidad;
         }
         public static Formatos? Formatos()
@@ -69,7 +71,6 @@ namespace ut_presentacion.Nucleo
             entidad.Disco = disco.Id;
             entidad.Formato = formato.Id;
             entidad.Cantidad = 2;
-            entidad.ValorUnitario = 150;
             return entidad;
 
         }

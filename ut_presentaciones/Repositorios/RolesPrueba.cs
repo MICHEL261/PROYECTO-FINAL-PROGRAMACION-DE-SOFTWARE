@@ -46,7 +46,7 @@ namespace ut_presentacion.Repositorios
             var datos = JsonConversor.ConvertirAString(entidad!);
             String operacion = "Guardar";
 
-            GuardarAuditoria(operacion, datos);
+          
             this.entidad = EntidadesNucleo.Roles()!;
             this.iConexion!.Roles!.Add(this.entidad);
             this.iConexion.SaveChanges();
@@ -59,7 +59,6 @@ namespace ut_presentacion.Repositorios
             var datos = JsonConversor.ConvertirAString(entidad);
             String operacion = "Modificar";
 
-            GuardarAuditoria(operacion, datos);
 
             var entry = this.iConexion!.Entry<Roles>(this.entidad);
             entry.State = EntityState.Modified;
@@ -72,26 +71,11 @@ namespace ut_presentacion.Repositorios
             var datos = JsonConversor.ConvertirAString(entidad!);
             String operacion = "Borrar";
 
-            GuardarAuditoria(operacion, datos);
             this.iConexion!.Roles!.Remove(this.entidad!);
             this.iConexion!.SaveChanges();
             return true;
         }
 
-        public void GuardarAuditoria(String operacion, String datos)
-        {
-            var Auditorias = new Auditorias();
-            {
-                Auditorias.Entidad = "Roles";
-                Auditorias.Operacion = operacion;
-                Auditorias.Fecha = DateTime.Now;
-                Auditorias.Datos = datos;
-
-
-            }
-
-            iConexion!.Auditorias!.Add(Auditorias);
-            iConexion.SaveChanges();
-        }
+      
     }
 }

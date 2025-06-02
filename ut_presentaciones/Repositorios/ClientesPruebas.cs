@@ -43,13 +43,32 @@ namespace ut_presentacion.Repositorios
 
         public bool Guardar()
         {
-            this.entidad = EntidadesNucleo.Clientes()!;
-            var datos = JsonConversor.ConvertirAString(entidad);
-            String operacion = "Guardar";
+         
+            var nuevoUsuario = new Usuarios()
+            {
+                Nombre = "ANDRES",
+                Apellido = "gomes",
+                Email = "andres000@gmail",
+                NombreUsuario = "andrew",
+                Contraseña = "1234",
+                Rol = 2
+            };
 
-            GuardarAuditoria(operacion, datos);
-            this.iConexion!.Clientes!.Add(this.entidad);
+          
+            this.iConexion!.Usuarios!.Add(nuevoUsuario);
+            this.iConexion.SaveChanges(); 
+
+            this.entidad = EntidadesNucleo.Clientes(nuevoUsuario)!;
+
+           
+            var datos = JsonConversor.ConvertirAString(entidad);
+            string operacion = "Guardar";
+           
+
+           
+            this.iConexion.Clientes!.Add(this.entidad);
             this.iConexion.SaveChanges();
+
             return true;
         }
 
@@ -62,7 +81,6 @@ namespace ut_presentacion.Repositorios
             var datos = JsonConversor.ConvertirAString(entidad);
             String operacion = "modificar";
 
-            GuardarAuditoria(operacion, datos);
             entry.State = EntityState.Modified;
             this.iConexion!.SaveChanges();
             return true;
@@ -73,28 +91,13 @@ namespace ut_presentacion.Repositorios
             var datos = JsonConversor.ConvertirAString(entidad!);
             String operacion = "Borrar";
 
-            GuardarAuditoria(operacion, datos);
+           
             this.iConexion!.Clientes!.Remove(this.entidad!);
             this.iConexion!.SaveChanges();
             return true;
         }
 
-        public void GuardarAuditoria(String operacion, String datos)
-        {
-            var Auditorias = new Auditorias();
-            {
-                Auditorias.Entidad = "Clientes";
-                Auditorias.Operacion = operacion;
-                Auditorias.Fecha = DateTime.Now;
-                Auditorias.Datos = datos;
-
-
-            }
-
-            iConexion!.Auditorias!.Add(Auditorias);
-            iConexion.SaveChanges();
-        }
-
+        
 
     }
 }
