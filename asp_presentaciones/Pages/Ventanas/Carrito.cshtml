@@ -45,19 +45,25 @@
 
 
     <tbody>
-        @foreach (var item in Model.Lista)
+        @foreach (var carrito in Model.Lista)
         {
             <tr>
-                <td>@item.Disco</td>
-                <td>@item.Formato</td>
-                <td>@item.Cantidad</td>
-                <td>@item.ValorUnitario</td>
-                <td>@(item.Cantidad* item.ValorUnitario)</td>
+                <td>@carrito.Disco</td>
+                <td>
+                    @{
+                        var nombreFormato = Model.Formatos
+                        .FirstOrDefault(f => f.Id == carrito.Formato)?.TipoFormato ?? "Formato desconocido";
+                    }
+                    @nombreFormato
+                </td>
+                <td>@carrito.Cantidad</td>
+                <td>@carrito.ValorUnitario</td>
+                <td>@(carrito.Cantidad * carrito.ValorUnitario)</td>
                 <td>
                     <form method="post" asp-page-handler="Eliminar">
-                        <input type="hidden" name="discoNom" value="@item.Disco" />
-                        <input type="hidden" name="formatoId" value="@item.Formato" />
-                        <button type="submit" class="btn btn-danger">Eliminar</button>
+                        <input type="hidden" name="disco" value="@carrito.Disco" />
+                        <input type="hidden" name="formato" value="@carrito.Formato" />
+                        <button type="submit" class="btn btn-danger btn-sm">Eliminar</button>
                     </form>
                 </td>
             </tr>
@@ -65,27 +71,38 @@
     </tbody>
 </table>
 
-
-<form method="post" asp-page-handler="Agregar">
-    <div class="form-group">
-        <label>Disco:</label>
-        <input asp-for="NuevoItem.Disco" class="form-control" />
+@if (!Model.ItemAgregado)
+{
+    <form method="post" asp-page-handler="Agregar" id="formularioDisco">
+        <div class="form-group">
+            <label>Disco:</label>
+            <input asp-for="NuevoItem.Disco" class="form-control" />
+            <span asp-validation-for="NuevoItem.Disco" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label>Formato:</label>
+            <select asp-for="NuevoItem.Formato" class="form-control"
+                    asp-items="@(new SelectList(Model.Formatos, "Id", "TipoFormato"))">
+            </select>
+        </div>
+        <div class="form-group">
+            <label>Cantidad:</label>
+            <input asp-for="NuevoItem.Cantidad" class="form-control" />
+            <span asp-validation-for="NuevoItem.Cantidad" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label>Precio Unitario:</label>
+            <input asp-for="NuevoItem.ValorUnitario" class="form-control" readonly />
+        </div>
+        <button type="submit" class="btn btn-success">Agregar al Carrito</button>
+    </form>
+}
+else
+{
+    <div class="mt-4">
+        <a class="btn btn-primary" asp-page-handler="IrAlCatalogo">Ir al catálogo</a>
     </div>
-    <div class="form-group">
-        <label>Formato:</label>
-        <input asp-for="NuevoItem.Formato" class="form-control" />
-    </div>
-    <div class="form-group">
-        <label>Cantidad:</label>
-        <input asp-for="NuevoItem.Cantidad" class="form-control" />
-    </div>
-    <div class="form-group">
-        <label>Precio Unitario:</label>
-        <input asp-for="NuevoItem.ValorUnitario" class="form-control" />
-    </div>
-    <button type="submit" class="btn btn-success">Agregar al Carrito</button>
-</form>
-
+}
 
 <h4>
     <h4>Total: @Model.Total.ToString("C")</h4>

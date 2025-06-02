@@ -7,6 +7,15 @@ a.navbar-brand {
 a {
     color: #0366d6;
 }
+label {
+    color: black;
+}
+
+select.form-control {
+    background-color: white;
+    color: black;
+}
+
 
 .btn-primary {
     color: #fff;

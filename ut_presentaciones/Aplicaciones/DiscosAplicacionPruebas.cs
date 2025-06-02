@@ -8,18 +8,18 @@ using ut_presentacion.Nucleo;
 namespace ut_presentacion.Aplicaciones
 {
     [TestClass]
-    public class UsuariosAplicacionPrueba
+    public class DiscosAplicacionPrueba
     {
-        private readonly IUsuariosAplicacion? iAplicacion;
+        private readonly iDiscosAplicacion? iAplicacion;
         private readonly IConexion? iConexion;
-        private List<Usuarios>? lista;
-        private Usuarios? entidad;
+        private List<Discos>? lista;
+        private Discos? entidad;
 
-        public UsuariosAplicacionPrueba()
+        public DiscosAplicacionPrueba()
         {
             iConexion = new Conexion();
             iConexion.StringConexion = Configuracion.ObtenerValor("StringConexion");
-            iAplicacion = new UsuariosAplicacion(iConexion);
+            iAplicacion = new DiscosAplicacion(iConexion);
         }
 
         [TestMethod]
@@ -39,8 +39,9 @@ namespace ut_presentacion.Aplicaciones
 
         public bool Guardar()
         {
-            var rol = this.iConexion!.Roles!.FirstOrDefault(x => x.NombreRol == "Administrador");
-            this.entidad = EntidadesNucleo.Usuarios(rol!);
+            var artista = this.iConexion!.Artistas!.FirstOrDefault(x => x.NombreArtista == "The Doors");
+            var marca = this.iConexion.Marcas!.FirstOrDefault(x => x.NombreMarca == "Sony");
+            this.entidad = EntidadesNucleo.Discos(artista!, marca!);
 
             this.iAplicacion!.Guardar(this.entidad);
             return true;

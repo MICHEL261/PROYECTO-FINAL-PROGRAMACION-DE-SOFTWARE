@@ -3,6 +3,7 @@ using ClosedXML.Excel;
 using DocumentFormat.OpenXml.Spreadsheet;
 using lib_dominio.Entidades;
 using lib_dominio.Nucleo;
+using lib_presentaciones.Implementaciones;
 using lib_presentaciones.Interfaces;
 using lib_presentaciones.models;
 using Microsoft.AspNetCore.Mvc;
@@ -22,6 +23,10 @@ namespace asp_presentaciones.Pages.Ventanas
         private readonly ICarritoPresentacion? _carritoService;
         private readonly IDiscosPresentacion? IDiscosPresentacion;
 
+        private readonly IFormatosPresentacion? IFormatosPresentacion;
+        private readonly IPreciosDiscosPresentacion? IPreciosDiscosPresentacion;
+
+
 
         [BindProperty] public Enumerables.Ventanas Accion { get; set; }
         [BindProperty] public OrdenesDiscos? Actual { get; set; }
@@ -29,39 +34,49 @@ namespace asp_presentaciones.Pages.Ventanas
         [BindProperty] public List<Carrito> Lista { get; set; } = new List<Carrito>();
         [BindProperty] public List<Discos> Discos { get; set; }
 
+        [BindProperty] public List<Formatos> Formatos { get; set; }
+        [BindProperty] public List<PreciosDiscos> PreciosDiscos { get; set; }
+
 
         [BindProperty]
         public Carrito NuevoItem { get; set; } = new Carrito();
+        public bool ItemAgregado { get; set; } = false;
 
-        public CarritoModel(ICarritoPresentacion carritoService, IDiscosPresentacion IDiscosPresentacion)
+
+        public CarritoModel(ICarritoPresentacion carritoService, IDiscosPresentacion IDiscosPresentacion, IFormatosPresentacion IFormatosPresentacion, IPreciosDiscosPresentacion IPreciosDiscosPresentacion)
         {
             this._carritoService = carritoService;
             this.IDiscosPresentacion = IDiscosPresentacion;
+            this.IFormatosPresentacion = IFormatosPresentacion;
+            this.IPreciosDiscosPresentacion = IPreciosDiscosPresentacion;
         }
 
-        public void OnGet(string? disco)
+        public async Task OnGet(string? disco)
         {
             Lista = ObtenerCarritoSesion();
 
-            var task = this.IDiscosPresentacion!.Listar();
-            task.Wait();
-            Discos = task.Result;
-
+            Discos = await IDiscosPresentacion!.Listar() ?? new List<Discos>();
+            Formatos = await IFormatosPresentacion!.Listar() ?? new List<Formatos>();
+            PreciosDiscos = await IPreciosDiscosPresentacion!.Listar() ?? new List<PreciosDiscos>();
             if (!string.IsNullOrEmpty(disco))
             {
+                NuevoItem = new Carrito();
                 var discoEncontrado = Discos.FirstOrDefault(x => x.NombreDisco == disco);
-                
+                var discoId = Discos.FirstOrDefault(x => x.Id == discoEncontrado!.Id);
 
                 if (discoEncontrado != null)
                 {
-                    NuevoItem = new Carrito
-                    {
-                        Disco = discoEncontrado.NombreDisco,
-                        Formato = 0,
-                        Cantidad = 1,
-                        ValorUnitario = 0
-                    };
+
+                    NuevoItem.Disco = discoEncontrado.NombreDisco;
+                    NuevoItem.Formato = 1;
+                    NuevoItem.Cantidad = 1;
+                    var precioDisco = PreciosDiscos.FirstOrDefault(p => p.Disco == discoId!.Id && p.Formato == NuevoItem.Formato)?.Precio ?? 0;
+                    NuevoItem.ValorUnitario = precioDisco;
                 }
+            }
+            else
+            {
+                ItemAgregado = true;
             }
         }
 
@@ -69,14 +84,30 @@ namespace asp_presentaciones.Pages.Ventanas
         {
             Lista = ObtenerCarritoSesion();
 
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
-                AgregarAlCarrito(NuevoItem);
-                GuardarCarritoSesion(Lista);
-                NuevoItem = new Carrito();
+                Discos = IDiscosPresentacion!.Listar().Result ?? new List<Discos>();
+                Formatos = IFormatosPresentacion!.Listar().Result ?? new List<Formatos>();
+                ItemAgregado = false;
+                return Page();
             }
 
-            return RedirectToPage();
+            AgregarAlCarrito(NuevoItem);
+            GuardarCarritoSesion(Lista);
+
+            ItemAgregado = true;
+
+            Discos = IDiscosPresentacion!.Listar().Result ?? new List<Discos>();
+            Formatos = IFormatosPresentacion!.Listar().Result ?? new List<Formatos>();
+
+            NuevoItem = new Carrito();
+
+            return Page();
+        }
+        public IActionResult OnGetIrAlCatalogo()
+        {
+            return RedirectToPage("/Ventanas/Inicio");
+
         }
 
         public IActionResult OnPostEliminar(string discoNom, int formatoId)
@@ -113,7 +144,7 @@ namespace asp_presentaciones.Pages.Ventanas
                     TempData["MensajeError"] = ex.Message;
                 }
 
-                return RedirectToPage();
+                return RedirectToPage("/Ventanas/Inicio");
             }
 
             return Page();

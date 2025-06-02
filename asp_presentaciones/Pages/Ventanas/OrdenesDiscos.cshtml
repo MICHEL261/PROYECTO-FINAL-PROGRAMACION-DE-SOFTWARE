@@ -53,8 +53,7 @@
                        asp-for="@Model.Actual!.Formato" />
                 <input type="hidden"
                        asp-for="@Model.Actual!.Cantidad" />
-                <input type="hidden"
-                       asp-for="@Model.Actual!.ValorUnitario" />
+
 
             }
 
@@ -107,18 +106,7 @@
                                        class="cts_forms form-control"
                                        asp-for="@Model.Actual!.Cantidad" />
                             </div>
-                            <div class="form-group">
-                                <label class="col-lg-4 control-label">
-                                    ValorUnitario
-                                </label>
-                                <div class="col-lg-6">
-                                    <input id="nmValorUnitario"
-                                           class="cts_forms form-control"
-                                           asp-for="@Model.Actual!.ValorUnitario" />
-                                </div>
-
-                            </div>
-
+                          
 
 
                         </div>
@@ -159,7 +147,6 @@
                                 @Model.Actual!.Disco,
                                 @Model.Actual!.Formato,
                                 @Model.Actual!.Cantidad,
-                                @Model.Actual!.ValorUnitario
 
                             </h6>
                             <br />
@@ -286,10 +273,7 @@
                                     <td class="cl_hidden">
                                         @elemento.Cantidad
                                     </td>
-                                    <td class="cl_hidden">
-                                      @elemento.ValorUnitario
-                                     </td>
-
+                                
                                     <td>
                                         <input type="submit"
                                                value="Modificar"

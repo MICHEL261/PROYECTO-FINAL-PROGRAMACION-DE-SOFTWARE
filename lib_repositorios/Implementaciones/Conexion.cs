@@ -27,7 +27,8 @@ namespace lib_repositorios.Implementaciones
         public DbSet<Usuarios>? Usuarios { get; set; }
         public DbSet<Permisos>? Permisos { get; set; }
         public DbSet<Roles_Permisos>? Roles_Permisos { get; set; }
-       
+
+        public DbSet<PreciosDiscos> PreciosDiscos { get; set; }
 
 
 

@@ -80,8 +80,7 @@ namespace lib_presentaciones.Implementaciones
                     Orden = nuevaOrden!.Id,
                     Disco = disco.Id,
                     Formato = item.Formato,
-                    Cantidad = item.Cantidad,
-                    ValorUnitario = item.ValorUnitario
+                    Cantidad = item.Cantidad
                 };
 
                 await _ordenesDiscosPresentacion.Guardar(ordenDisco);

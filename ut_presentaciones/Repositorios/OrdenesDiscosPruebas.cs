@@ -79,24 +79,30 @@ namespace ut_presentacion.Repositorios
 
         public decimal CalcularMontoTotal(Ordenes? orden)
         {
-
             var respuesta = 0.0m;
 
             var entidades = this.iConexion!.OrdenesDiscos!.Where(p => p.Orden == orden!.Id).ToList();
-            if (orden == null)
+            if (entidades == null)
             {
                 throw new Exception("La orden no existe.");
             }
 
-
             foreach (var elemento in entidades)
-                respuesta += elemento.Cantidad * elemento.ValorUnitario;
+            {
+                var precio = this.iConexion.PreciosDiscos!
+                    .FirstOrDefault(p => p.Disco == elemento.Disco && p.Formato == elemento.Formato);
 
+                if (precio == null)
+                {
+                    throw new Exception($"No se encontró el precio para el disco {elemento.Disco} en el formato {elemento.Formato}.");
+                }
 
+                respuesta += elemento.Cantidad * precio.Precio;
+            }
 
             return respuesta;
         }
 
-      
+
     }
 }

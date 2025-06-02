@@ -45,7 +45,7 @@ namespace lib_aplicaciones.Implementaciones
             }
 
 
-            var datos = "Orden: " + entidad._Orden + ", " + "Formato: " + entidad._Formato!.TipoFormato + ", " + "Cantidad: " + entidad.Cantidad + ", " + "valor unitario: " + entidad.ValorUnitario + ", " + "Disco: " + entidad._Disco!.NombreDisco;
+            var datos = "Orden: " + entidad._Orden + ", " + "Formato: " + entidad._Formato!.TipoFormato + ", " + "Cantidad: " + entidad.Cantidad + ", "  + "Disco: " + entidad._Disco!.NombreDisco;
 
 
             this.IConexion!.OrdenesDiscos!.Remove(entidad);
@@ -78,7 +78,7 @@ namespace lib_aplicaciones.Implementaciones
             }
             
 
-            var datos = "Orden: " + entidad._Orden + ", " + "Formato: " + entidad._Formato!.TipoFormato + ", " + "Cantidad: " + entidad.Cantidad + ", " + "valor unitario: " + entidad.ValorUnitario + ", " + "Disco: " + entidad._Disco!.NombreDisco;
+            var datos = "Orden: " + entidad._Orden + ", " + "Formato: " + entidad._Formato!.TipoFormato + ", " + "Cantidad: " + entidad.Cantidad + ", " + "Disco: " + entidad._Disco!.NombreDisco;
 
             this.IConexion!.OrdenesDiscos!.Add(entidad);
             this.IConexion.SaveChanges();
@@ -132,7 +132,7 @@ namespace lib_aplicaciones.Implementaciones
             }
 
 
-            var datos = "Orden: " + entidad._Orden + ", " + "Formato: " + entidad._Formato!.TipoFormato + ", " + "Cantidad: " + entidad.Cantidad + ", " + "valor unitario: " + entidad.ValorUnitario + ", " + "Disco: " + entidad._Disco!.NombreDisco;
+            var datos = "Orden: " + entidad._Orden + ", " + "Formato: " + entidad._Formato!.TipoFormato + ", " + "Cantidad: " + entidad.Cantidad + ", " + "Disco: " + entidad._Disco!.NombreDisco;
 
             var entry = this.IConexion!.Entry<OrdenesDiscos>(entidad);
             entry.State = EntityState.Modified;
@@ -152,7 +152,17 @@ namespace lib_aplicaciones.Implementaciones
             }
 
             foreach (var elemento in entidades)
-                respuesta += elemento.Cantidad * elemento.ValorUnitario;
+            {
+                var precio = this.IConexion.PreciosDiscos!
+                    .FirstOrDefault(p => p.Disco == elemento.Disco && p.Formato == elemento.Formato);
+
+                if (precio == null)
+                {
+                    throw new Exception($"No se encontró el precio para el disco {elemento.Disco} en el formato {elemento.Formato}.");
+                }
+
+                respuesta += elemento.Cantidad * precio.Precio;
+            }
 
             return respuesta;
         }

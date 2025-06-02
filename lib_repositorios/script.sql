@@ -84,7 +84,6 @@ CREATE TABLE [OrdenesDiscos] (
     [Disco] INT NOT NULL,
     [Formato] INT NOT NULL,
     [Cantidad] INT NOT NULL,
-    [ValorUnitario] DECIMAL(10,2) NOT NULL,
     FOREIGN KEY ([Orden]) REFERENCES [Ordenes]([Id]),
     FOREIGN KEY ([Disco]) REFERENCES [Discos]([Id]),
     FOREIGN KEY ([Formato]) REFERENCES [Formatos]([Id])
@@ -116,13 +115,20 @@ CREATE TABLE [Permisos] (
    
 );
 
-cREATE TABLE Roles_Permisos (
+cREATE TABLE [Roles_Permisos] (
     Id INT IDENTITY(1,1) PRIMARY KEY,
     Rol INT,
     Permiso INT, 
     FOREIGN KEY (Rol) REFERENCES Roles(Id),
     FOREIGN KEY (Permiso) REFERENCES Permisos(Id) );
 
+CREATE TABLE [PreciosDiscos] (
+    [Id] INT IDENTITY(1,1) PRIMARY KEY,
+    [Disco] INT NOT NULL FOREIGN KEY REFERENCES [Discos](Id),
+    [Formato] INT NOT NULL FOREIGN KEY REFERENCES [Formatos](Id),
+    [Precio] DECIMAL(10, 2) NOT NULL,
+
+);
 
 ------------------------------------------------------------------------------------------------------------
 INSERT INTO [Usuarios] (Nombre, Apellido, Email, NombreUsuario, Contraseña, Rol)
@@ -158,8 +164,8 @@ VALUES ('Vinilo', 'Aluminio');
 INSERT INTO [Ordenes] ([Fecha], [Cliente], [Pago], [MontoTotal])
 VALUES ('2024-11-02', 1, 1, 1000);
 go
-INSERT INTO [OrdenesDiscos] ([Orden], [Disco], [Formato], [Cantidad], [ValorUnitario])
-VALUES (1, 1, 1, 1, 100);
+INSERT INTO [OrdenesDiscos] ([Orden], [Disco], [Formato], [Cantidad])
+VALUES (1, 1, 1, 1);
 
 
 INSERT INTO [Roles] (NombreRol, Descripcion)
@@ -183,3 +189,6 @@ VALUES (1, 1),(1, 2), (1, 3),(1, 4);
 go
 INSERT INTO [Roles_Permisos] (Rol, Permiso)
 VALUES (2, 1);
+INSERT INTO [PreciosDiscos] ([Disco], [Formato], [Precio]) VALUES (1, 1, 99);  
+INSERT INTO PreciosDiscos ([Disco], [Formato], [Precio]) VALUES (1, 1, 129); 
+INSERT INTO PreciosDiscos ([Disco], [Formato], [Precio]) VALUES (2, 1, 89); 

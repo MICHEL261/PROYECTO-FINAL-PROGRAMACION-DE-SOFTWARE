@@ -34,6 +34,8 @@ namespace asp_presentacion
 
             services.AddScoped<IPermisosPresentacion, PermisosPresentacion>();
             services.AddScoped<IRoles_PermisosPresentacion, Roles_PermisosPresentacion>();
+            services.AddScoped<IPreciosDiscosPresentacion, PreciosDiscosPresentacion>();
+
 
 
             services.AddControllers();

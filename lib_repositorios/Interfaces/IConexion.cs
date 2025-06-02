@@ -21,6 +21,7 @@ namespace lib_repositorios.Interfaces
         DbSet<Usuarios>? Usuarios { get; set; }
         DbSet<Permisos>? Permisos { get; set; }
         DbSet<Roles_Permisos>? Roles_Permisos { get; set; }
+        DbSet<PreciosDiscos> PreciosDiscos { get; set; }
 
 
 
