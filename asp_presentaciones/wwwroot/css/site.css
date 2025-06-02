@@ -288,8 +288,8 @@ body {
     }
 
 footer.footer {
-    height: 200px; /* altura fija */
-    line-height: 60px; /* para centrar texto verticalmente */
+    height: 200px; 
+    line-height: 60px;
     background-color: maroon;
     color: white;
     text-align: center;
