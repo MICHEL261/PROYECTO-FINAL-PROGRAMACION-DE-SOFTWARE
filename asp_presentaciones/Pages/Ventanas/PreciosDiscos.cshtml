@@ -45,7 +45,7 @@
                         <label class="col-lg-4 control-label">Disco</label>
                         <div class="col-lg-6">
                             <select id="nmDisco" class="cts_forms form-control" asp-for="@Model.Actual!.Disco"
-                                    asp-items="@(new SelectList(Model.Discos, "Id", "NombreArtista"))"></select>
+                                    asp-items="@(new SelectList(Model.Discos, "Id", "NombreDisco"))"></select>
                         </div>
                     </div>
                    
@@ -53,7 +53,7 @@
                         <label class="col-lg-4 control-label">Formato</label>
                         <div class="col-lg-6">
                             <select id="nmFormato" class="cts_forms form-control" asp-for="@Model.Actual!.Formato"
-                                    asp-items="@(new SelectList(Model.Formatos, "Id", "NombreMarca"))"></select>
+                                    asp-items="@(new SelectList(Model.Formatos, "Id", "TipoFormato"))"></select>
                         </div>
                     </div>
                     <div class="form-group">
@@ -133,7 +133,7 @@
                         <tr>
                             <th>Disco</th>
                             <th>Formato</th>
-                            <th class="cl_hidden">Precio</th>
+                            <th>Precio</th>
 
                         </tr>
                         @if (Model != null && Model.Lista != null)
@@ -143,7 +143,8 @@
                                 <tr>
                                     <td>@elemento._Disco!.NombreDisco</td>
                                     <td>@elemento._Formato!.TipoFormato</td>
-   
+                                    <td>@elemento.Precio</td>
+
                                     <td>
                                         <input type="submit" value="Modificar" asp-page-handler="BtModificar"
                                                class="btn btn-secondary" asp-route-data="@elemento.Id" />
