@@ -1,5 +1,4 @@
 using ClosedXML.Excel;
-using ClosedXML.Excel;
 using DocumentFormat.OpenXml.Spreadsheet;
 using lib_dominio.Entidades;
 using lib_dominio.Nucleo;

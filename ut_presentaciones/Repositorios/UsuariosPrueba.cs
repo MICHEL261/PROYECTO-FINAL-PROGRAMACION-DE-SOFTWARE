@@ -42,9 +42,6 @@ namespace ut_presentacion.Repositorios
         public bool Guardar()
         {
 
-
-            var datos = JsonConversor.ConvertirAString(entidad!);
-            String operacion = "Guardar";
             var rol = this.iConexion!.Roles!.FirstOrDefault(x => x.NombreRol == "Administrador");
 
     
@@ -57,9 +54,6 @@ namespace ut_presentacion.Repositorios
         public bool Modificar()
         {
             this.entidad!.Nombre = "Juan";
-            var datos = JsonConversor.ConvertirAString(entidad);
-            String operacion = "Modificar";
-
 
 
             var entry = this.iConexion!.Entry<Usuarios>(this.entidad);
@@ -70,8 +64,7 @@ namespace ut_presentacion.Repositorios
 
         public bool Borrar()
         {
-            var datos = JsonConversor.ConvertirAString(entidad!);
-            String operacion = "Borrar";
+
 
         
             this.iConexion!.Usuarios!.Remove(this.entidad!);

@@ -122,9 +122,9 @@ namespace lib_aplicaciones.Implementaciones
 
             var datos = "Nombre: " + entidad._Disco!.NombreDisco + ", " + "Formato: " + entidad._Formato?.TipoFormato + ", " + "Precio: " + entidad.Precio;
 
-            // Calculos
 
-            this.IConexion!.PreciosDiscos!.Add(entidad);
+            var entry = this.IConexion!.Entry<PreciosDiscos>(entidad);
+            entry.State = EntityState.Modified;
             this.IConexion.SaveChanges();
             GuardarAuditoria("Modificar", datos);
 

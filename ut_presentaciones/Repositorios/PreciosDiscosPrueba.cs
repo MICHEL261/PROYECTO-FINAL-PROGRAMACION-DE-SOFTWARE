@@ -8,12 +8,13 @@ using ut_presentacion.Nucleo;
 namespace ut_presentacion.Repositorios
 {
     [TestClass]
-    public class ClientesPruebas
+    public class PreciosDiscosPruebas
     {
         private readonly IConexion? iConexion;
-        private List<Clientes>? lista;
-        private Clientes? entidad;
-        public ClientesPruebas()
+        private List<PreciosDiscos>? lista;
+        private PreciosDiscos? entidad;
+
+        public PreciosDiscosPruebas()
         {
             iConexion = new Conexion();
             iConexion.StringConexion = Configuracion.ObtenerValor("StringConexion");
@@ -24,49 +25,44 @@ namespace ut_presentacion.Repositorios
         {
 
 
-
             Assert.AreEqual(true, Guardar());
             Assert.AreEqual(true, Modificar());
             Assert.AreEqual(true, Listar());
             Assert.AreEqual(true, Borrar());
 
 
-
         }
 
         public bool Listar()
         {
-            this.lista = this.iConexion!.Clientes!.ToList();
+            this.lista = this.iConexion!.PreciosDiscos!.ToList();
             return lista.Count > 0;
         }
 
         public bool Guardar()
         {
-            var rol = iConexion!.Roles!.FirstOrDefault(x => x.NombreRol == "Administrador");
-            Usuarios nuevoUsuario = new Usuarios
-            {
-                Nombre = "Prueba" + DateTime.Now + ("yyyyMMddhhss"),
-                Apellido = "Prueba" + DateTime.Now + ("yyyyMMddhhss"),
-                Email = "Prueba" + DateTime.Now + ("yyyyMMddhhss"),
-                NombreUsuario = "Prueba" + DateTime.Now + ("yyyyMMddhhss"),
-                Contraseña = "Prueba" + DateTime.Now + ("yyyyMMddhhss"),
-                Rol = rol!.Id
+            var disco = this.iConexion!.Discos!.FirstOrDefault(x => x.NombreDisco == "I Wonder");
+            var formato = this.iConexion.Formatos!.FirstOrDefault(x => x.TipoFormato == "Vinilo");
 
-            };
-            this.iConexion.Usuarios!.Add(nuevoUsuario);
-            this.iConexion.SaveChanges();
-            this.entidad = EntidadesNucleo.Clientes(nuevoUsuario);
-            this.iConexion!.Clientes!.Add(this.entidad!);
+            var datos = JsonConversor.ConvertirAString(entidad!);
+            String operacion = "Guardar";
+
+
+            this.entidad = EntidadesNucleo.PreciosDiscos(disco!, formato!)!;
+            this.iConexion!.PreciosDiscos!.Add(this.entidad);
             this.iConexion.SaveChanges();
             return true;
         }
 
         public bool Modificar()
         {
-            this.entidad!.TelefonoCliente = "3008543470";
+            this.entidad!.Precio = 300;
+            var datos = JsonConversor.ConvertirAString(entidad);
+            String operacion = "Modificar";
 
-            var entry = this.iConexion!.Entry<Clientes>(this.entidad);
 
+
+            var entry = this.iConexion!.Entry<PreciosDiscos>(this.entidad);
             entry.State = EntityState.Modified;
             this.iConexion!.SaveChanges();
             return true;
@@ -77,13 +73,12 @@ namespace ut_presentacion.Repositorios
             var datos = JsonConversor.ConvertirAString(entidad!);
             String operacion = "Borrar";
 
-           
-            this.iConexion!.Clientes!.Remove(this.entidad!);
+
+            this.iConexion!.PreciosDiscos!.Remove(this.entidad!);
             this.iConexion!.SaveChanges();
             return true;
         }
 
-        
 
     }
 }

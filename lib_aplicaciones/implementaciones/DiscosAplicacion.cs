@@ -47,7 +47,6 @@ namespace lib_aplicaciones.Implementaciones
             var datos = "Nombre: " + entidad.NombreDisco + ", " + "marca: " + entidad._Marca?.NombreMarca + ", " + "Duracion: " + entidad.DuracionDisco + ", " + "Artista: " + entidad._Artista?.NombreArtista;
 
 
-            // Calculos
 
             this.IConexion!.Discos!.Remove(entidad);
             this.IConexion.SaveChanges();
@@ -80,7 +79,6 @@ namespace lib_aplicaciones.Implementaciones
 
             var datos = "Nombre: " + entidad.NombreDisco + ", " + "marca: " + entidad._Marca?.NombreMarca + ", " + "Duracion: " + entidad.DuracionDisco + ", " + "Artista: " + entidad._Artista?.NombreArtista;
 
-            // Calculos
 
             this.IConexion!.Discos!.Add(entidad);
             this.IConexion.SaveChanges();
@@ -133,7 +131,8 @@ namespace lib_aplicaciones.Implementaciones
 
             // Calculos
 
-            this.IConexion!.Discos!.Add(entidad);
+            var entry = this.IConexion!.Entry<Discos>(entidad);
+            entry.State = EntityState.Modified;
             this.IConexion.SaveChanges();
             GuardarAuditoria("Modificar", datos);
 
