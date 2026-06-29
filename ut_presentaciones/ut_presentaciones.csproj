@@ -1,0 +1,21 @@
+﻿<Project Sdk="MSTest.Sdk/3.6.4">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<LangVersion>latest</LangVersion>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<UseVSTest>true</UseVSTest>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Remove="Repositorios\ClientesPruebas.cs~RFed9e055.TMP" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\lib_aplicaciones\lib_aplicaciones.csproj" />
+		<ProjectReference Include="..\lib_dominio\lib_dominio.csproj" />
+		<ProjectReference Include="..\lib_repositorios\lib_repositorios.csproj" />
+	</ItemGroup>
+
+</Project>

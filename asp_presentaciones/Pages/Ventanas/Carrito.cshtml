@@ -1,0 +1,128 @@
+﻿@page
+@model asp_presentaciones.Pages.Ventanas.CarritoModel
+@{
+    ViewData["Titulo"] = "Carrito de Compras";
+}
+<style>
+    input.form-control {
+        color: black !important;
+        background-color: white !important;
+    }
+</style>
+
+<div class="alert alert-danger">
+    "recuerde que debe crear un registro en clientes para poder crear una orden, si ya lo hizo haga caso omiso"
+    <br />
+    <a href="/ventanas/clientes" class="alert-link">Ir a Clientes</a>
+</div>
+
+
+
+
+
+<h3>Carrito de Compras</h3>
+<form method="post" asp-page-handler="BtExportarPDF">
+    <input type="submit" value="Exportar a pdf" class="btn btn-secondary" />
+
+</form>
+<form method="post" asp-page-handler="BtExportarEXCEL">
+    <input type="submit" value="Exportar a excel" class="btn btn-secondary" />
+
+</form>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Disco</th>
+            <th>Formato</th>
+            <th>Cantidad</th>
+            <th>Precio Unitario</th>
+            <th>Subtotal</th>
+            <th>Acciones</th>
+        </tr>
+
+    </thead>
+
+
+    <tbody>
+        @foreach (var carrito in Model.Lista)
+        {
+            <tr>
+                <td>@carrito.Disco</td>
+                <td>
+                    @{
+                        var nombreFormato = Model.Formatos
+                        .FirstOrDefault(f => f.Id == carrito.Formato)?.TipoFormato ?? "Formato desconocido";
+                    }
+                    @nombreFormato
+                </td>
+                <td>@carrito.Cantidad</td>
+                <td>@carrito.ValorUnitario</td>
+                <td>@(carrito.Cantidad * carrito.ValorUnitario)</td>
+                <td>
+                    <form method="post" asp-page-handler="Eliminar">
+                        <input type="hidden" name="disco" value="@carrito.Disco" />
+                        <input type="hidden" name="formato" value="@carrito.Formato" />
+                        <button type="submit" class="btn btn-danger btn-sm">Eliminar</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@if (!Model.ItemAgregado)
+{
+    <form method="post" asp-page-handler="Agregar" id="formularioDisco">
+        <div class="form-group">
+            <label>Disco:</label>
+            <input asp-for="NuevoItem.Disco" class="form-control" />
+            <span asp-validation-for="NuevoItem.Disco" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label>Formato:</label>
+            <select asp-for="NuevoItem.Formato" class="form-control"
+                    asp-items="@(new SelectList(Model.Formatos, "Id", "TipoFormato"))">
+            </select>
+        </div>
+        <div class="form-group">
+            <label>Cantidad:</label>
+            <input asp-for="NuevoItem.Cantidad" class="form-control" />
+            <span asp-validation-for="NuevoItem.Cantidad" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label>Precio Unitario:</label>
+            <input asp-for="NuevoItem.ValorUnitario" class="form-control" readonly />
+        </div>
+        <button type="submit" class="btn btn-success">Agregar al Carrito</button>
+    </form>
+}
+else
+{
+    <div class="mt-4">
+        <a class="btn btn-primary" asp-page-handler="IrAlCatalogo">Ir al catálogo</a>
+    </div>
+}
+
+    <h4>Total: @Model.Total.ToString("C")</h4>
+
+    <form method="post" asp-page-handler="Finalizar">
+        <div class="form-group">
+            <label>Cliente ID:</label>
+            <input type="number" name="clienteId" required class="form-control" />
+        </div>
+        <div class="form-group">
+            <label>Método de Pago:</label>
+            <select name="pagoId" class="form-control" required>
+                <option value="">-- Seleccione método de pago --</option>
+                @foreach (var pago in Model.Pagos)
+                {
+                    <option value="@pago.Id">@pago.TipoPago</option>
+                }
+            </select>
+        </div>
+        <div class="form-group mt-3">
+            <input type="submit" name="accion" value="Confirmar" class="btn btn-success" />
+            <input type="submit" name="accion" value="Cancelar" class="btn btn-danger ml-2" />
+        </div>
+    </form>

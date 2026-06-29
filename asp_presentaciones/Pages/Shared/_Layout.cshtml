@@ -1,0 +1,129 @@
+﻿@{
+    var rol = Context.Session.GetString("Rol");
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - asp_presentacion</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+ 
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <img src="~/imagenes/logo.png" alt="Logo" style="height: 30px; margin-right: 10px;" />
+                <a class="navbar-brand" asp-area="" asp-page="/Logout" style="color: white; font-family: Times New Roman, serif;">Beat and Track</a>
+                
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        @if (!string.IsNullOrEmpty(Context.Session.GetString("Rol")))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-danger" asp-page="/Logout">Cerrar sesión</a>
+                            </li>
+                        }
+
+                        @if (rol == "Administrador")
+                        {
+                            <a class="navbar-brand" asp-area="" asp-page="/Ventanas/Inicio" style="color: white; font-family: Times New Roman, serif;">Inicio</a>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-white" href="#" id="adminMenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Entidades
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="adminMenu">
+                                    <li><a class="dropdown-item" asp-page="/Index">Home</a></li>
+                                    <li><a class="dropdown-item" asp-page="/Privacy">Privacy</a></li>
+                                    <li><a class="dropdown-item" asp-page="/Ventanas/Discos">Discos</a></li>
+                                    <li><a class="dropdown-item" asp-page="/Ventanas/Clientes">Clientes</a></li>
+                                    <li><a class="dropdown-item" asp-page="/Ventanas/Artistas">Artistas</a></li>
+                                    <li><a class="dropdown-item" asp-page="/Ventanas/Ordenes">Ordenes</a></li>
+                                    <li><a class="dropdown-item" asp-page="/Ventanas/Pagos">Pagos</a></li>
+                                    <li><a class="dropdown-item" asp-page="/Ventanas/OrdenesDiscos">OrdenesDiscos</a></li>
+                                    <li><a class="dropdown-item" asp-page="/Ventanas/Marcas">Marcas</a></li>
+                                    <li><a class="dropdown-item" asp-page="/Ventanas/Formatos">Formatos</a></li>
+                                    <li><a class="dropdown-item" asp-page="/Ventanas/Roles">Roles</a></li>
+                                    <li><a class="dropdown-item" asp-page="/Ventanas/Usuarios">Usuarios</a></li>
+                                    <li><a class="dropdown-item" asp-page="/Ventanas/Auditorias">Auditorias</a></li>
+                                    <li><a class="dropdown-item" asp-page="/Ventanas/Permisos">Permisos</a></li>
+                                    <li><a class="dropdown-item" asp-page="/Ventanas/RolesPermisos">RolesPermisos</a></li>
+                                    <li><a class="dropdown-item" asp-page="/Ventanas/PreciosDiscos">PreciosDiscos</a></li>
+
+                                </ul>
+                            </li>
+                        }
+                        else if (rol == "Cliente" || rol==null)
+                        {
+                            
+                            <li class="nav-item">
+                                <a class="nav-link text-white" asp-page="/Ventanas/Inicio">Inicio</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-white" asp-page="/Ventanas/DetallesDiscos">Discos</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-white" asp-page="/Ventanas/DetallesFormatos">Formatos</a>
+                            </li>
+
+                            <a class="nav-link text-white" href="/Ventanas/Carrito">
+                                <i class="bi bi-cart3 fs-4"></i>
+                            </a>
+
+                            <a class="nav-link text-white" href="/Login">
+                                <i class="bi bi-person-circle fs-4"></i>
+                            </a>
+                            <form class="d-flex mx-auto" style="width:350px;">
+                                <input class="form-control"
+                                       type="search"
+                                       placeholder="Buscar discos...">
+
+                                <button class="btn btn-light ms-2">
+                                    Buscar
+                                </button>
+                            </form>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+  <div class="container text-center" style="font-size: 0.9rem; line-height: 1.4; padding: 10px 0;">
+    <p>&copy; 2025 - Beat and Track - <a asp-area="" asp-page="/Privacy">Privacy</a></p>
+    <p>Dirección: Calle Falsa 123, Ciudad</p>
+    <p>Teléfono: +123 456 7890</p>
+    <p>Email: soporte@beatandtrack.com</p>
+    <p>Horario: Lun - Vie, 9am - 6pm</p>
+  </div>
+</footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>

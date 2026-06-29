@@ -1,0 +1,97 @@
+﻿@page "/"
+@model asp_presentaciones.Pages.Ventanas.InicioModel
+@{
+    ViewData["Title"] = "Inicio";
+}
+
+<div class="text-center">
+    <h1 class="display-4">
+        Bienvenido, @HttpContext.Session.GetString("NombreUsuario")
+    </h1>
+
+    <form method="post">
+        <button asp-page-handler="BtClose" class="btn btn-danger">
+            Cerrar sesión
+        </button>
+    </form>
+
+    <!-- CARRUSEL -->
+    <div class="carrusel-container">
+        <div class="carrusel-slide" id="carrusel">
+
+            <div class="carrusel-item">
+                <img src="/Imagenes/disco.png" alt="Imagen 1">
+            </div>
+
+            <div class="carrusel-item">
+                <img src="/Imagenes/rock.png" alt="Imagen 2">
+            </div>
+
+            <div class="carrusel-item">
+                <img src="/Imagenes/vinilo.png" alt="Imagen 3">
+            </div>
+
+        </div>
+
+        <div class="carrusel-nav">
+            <span class="activo" id="punto1"></span>
+            <span id="punto2"></span>
+            <span id="punto3"></span>
+        </div>
+    </div>
+
+    <h2 style="margin-left:40px;margin-top:20px;">Catálogo</h2>
+
+    <div class="catalogo">
+        @foreach (var disco in Model.Lista!)
+        {
+            <div class="producto">
+                <a href="/Ventanas/DetallesDiscos">
+                    <img src="/Imagenes/@disco.Imagen" alt="Portada">
+                </a>
+
+                <p>
+                    <strong>@disco.NombreDisco</strong>
+                </p>
+
+                <p style="color:green;">● Disponible</p>
+
+                <a class="btn btn-primary boton-carrito"
+                   asp-page="/Ventanas/Carrito"
+                   asp-route-disco="@disco.NombreDisco">
+                    Añadir al carrito
+                </a>
+            </div>
+        }
+    </div>
+</div>
+
+<script>
+    const carrusel = document.getElementById("carrusel");
+    const puntos = document.querySelectorAll(".carrusel-nav span");
+    const total = document.querySelectorAll(".carrusel-item").length;
+
+    let indice = 0;
+
+    function mostrarImagen(i) {
+
+        carrusel.style.transform = `translateX(-${i * 100}%)`;
+
+        puntos.forEach(p => p.classList.remove("activo"));
+
+        puntos[i].classList.add("activo");
+    }
+
+    setInterval(() => {
+
+        indice++;
+
+        if (indice >= total) {
+            indice = 0;
+        }
+
+        mostrarImagen(indice);
+
+    }, 3000);
+</script>
+
