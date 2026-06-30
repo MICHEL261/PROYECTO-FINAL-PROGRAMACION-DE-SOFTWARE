@@ -1,48 +1,133 @@
-﻿@page
+@page "/Login"
 @model IndexModel
 @{
-    ViewData["Title"] = "";
+    ViewData["Title"] = "Login";
 }
+
 <style>
     body {
         background-image: url('/Imagenes/rojo.jpg');
-        background-size: cover; 
+        background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        justify-content: center; 
-        align-items: center; 
+        min-height: 100vh;
         margin: 0;
-        padding: 0;
-        color: white; 
-        height: 1100px;
     }
 
-  
+    .login-container {
+        min-height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .login-box {
+        width: 100%;
+        max-width: 700px;
+        padding: 40px;
+        background: rgba(30,30,30,.70);
+        backdrop-filter: blur(12px);
+        border-radius: 20px;
+        border: 1px solid rgba(255,255,255,.2);
+        box-shadow: 0 10px 30px rgba(0,0,0,.4);
+        color: white;
+    }
+
+        .login-box h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-weight: bold;
+        }
+
+        .login-box label {
+            color: white;
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+
+        .login-box .form-control {
+            height: 50px;
+            border-radius: 30px;
+            margin-bottom: 20px;
+            padding-left: 20px;
+            border: none;
+        }
+
+    .botones {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        margin-top: 20px;
+    }
+
+        .botones .btn {
+            width: 140px;
+            border-radius: 30px;
+        }
+
+    .registro {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+        .registro .btn {
+            border-radius: 30px;
+            width: 200px;
+        }
 </style>
 
 @if (!Model.EstaLogueado)
 {
-    <div class="container login-box" style="width:60%">
-        <h3>Login</h3>
-        <form method="post">
-            <div class="form-group">
-                <label>Usuario:</label>
-                <input asp-for="Email" class="form-control" />
-            </div>
-            <div class="form-group">
-                <label>Contraseña:</label>
-                <input type="password" asp-for="Contrasena" class="form-control" />
-            </div>
-            <button asp-page-handler="BtClean" class="btn btn-secondary">Limpiar</button>
-            <button asp-page-handler="BtEnter" class="btn btn-primary">Entrar</button>
-        </form>
+    <div class="login-container">
 
-        <a class="btn btn-secondary" asp-page="/Ventanas/Registrar">Registrarse</a>
+        <div class="login-box">
 
-        @if (ViewData["Error"] != null)
-        {
-            <div class="text-danger mt-2">@ViewData["Error"]</div>
-        }
+            <h2>Iniciar sesión</h2>
+
+            <form method="post">
+
+                <div class="mb-3">
+                    <label>Usuario</label>
+                    <input asp-for="Email" class="form-control" placeholder="Ingrese su usuario" />
+                </div>
+
+                <div class="mb-3">
+                    <label>Contraseña</label>
+                    <input asp-for="Contrasena"
+                           type="password"
+                           class="form-control"
+                           placeholder="Ingrese su contraseña" />
+                </div>
+
+                <div class="botones">
+                    <button asp-page-handler="BtClean"
+                            class="btn btn-secondary">
+                        Limpiar
+                    </button>
+
+                    <button asp-page-handler="BtEnter"
+                            class="btn btn-danger">
+                        Entrar
+                    </button>
+                </div>
+
+            </form>
+
+            <div class="registro">
+                <a asp-page="/Ventanas/Registrar"
+                   class="btn btn-outline-light">
+                    Crear una cuenta
+                </a>
+            </div>
+
+            @if (ViewData["Error"] != null)
+            {
+                <div class="alert alert-danger mt-4 text-center">
+                    @ViewData["Error"]
+                </div>
+            }
+
+        </div>
+
     </div>
 }
-

@@ -29,11 +29,10 @@ namespace asp_presentaciones.Pages.Ventanas
         }
         public async Task<IActionResult> OnGetAsync()
         {
-            if (HttpContext.Session.GetString("NombreUsuario") == null)
-                return RedirectToPage("/Index");
+
 
             Accion = Enumerables.Ventanas.Listas;
-            var task =  this.iPresentacion!.Listar();
+            var task = this.iPresentacion!.Listar();
             task.Wait();
             Lista = task.Result;
             return Page();
@@ -42,7 +41,7 @@ namespace asp_presentaciones.Pages.Ventanas
 
         public IActionResult OnPostBtClose()
         {
-        
+
             HttpContext.Session.Clear();
             return RedirectToPage("/Logout");
         }
