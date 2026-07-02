@@ -93,17 +93,12 @@ namespace asp_presentaciones.Pages.Ventanas
 
         public virtual void OnPostBtNuevo()
         {
-            try
+            Accion = Enumerables.Ventanas.Editar;
+            Actual = new Discos
             {
-                Accion = Enumerables.Ventanas.Editar;
-                Actual = new Discos();
-                CargarCombox();
-
-            }
-            catch (Exception ex)
-            {
-                LogConversor.Log(ex, ViewData!);
-            }
+                FechaLanzamiento = DateTime.Today
+            };
+            CargarCombox();
         }
 
         public virtual void OnPostBtModificar(string data)

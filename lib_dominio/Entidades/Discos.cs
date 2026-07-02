@@ -11,6 +11,7 @@ namespace lib_dominio.Entidades
         public int Marca { get; set; }
         public string? NombreDisco { get; set; }
         public string? DuracionDisco { get; set; }
+      
         public DateTime FechaLanzamiento { get; set; }
         public string? Imagen { get; set; }
         

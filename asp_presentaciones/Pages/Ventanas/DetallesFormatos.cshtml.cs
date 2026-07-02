@@ -44,11 +44,6 @@ namespace asp_presentacion.Pages.Ventanas
             {
                 var variable_session = HttpContext.Session.GetString("NombreUsuario");
 
-                if (String.IsNullOrEmpty(variable_session))
-                {
-                    HttpContext.Response.Redirect("/Index");
-                    return;
-                }
 
                 Accion = Enumerables.Ventanas.Listas;
                 var task = this.iPresentacion!.Listar();

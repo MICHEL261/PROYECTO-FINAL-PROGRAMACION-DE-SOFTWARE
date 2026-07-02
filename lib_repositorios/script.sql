@@ -47,7 +47,7 @@ CREATE TABLE [Discos] (
     [Marca] INT NOT NULL,
     [NombreDisco] NVARCHAR(150) NOT NULL,
     [DuracionDisco] NVARCHAR(20) NOT NULL,
-    [FechaLanzamiento] SMALLDATETIME NOT NULL,
+    [FechaLanzamiento] DateTime NOT NULL,
 	[Imagen] VARCHAR(MAX),
     FOREIGN KEY ([Artista]) REFERENCES [Artistas]([Id]),
     FOREIGN KEY ([Marca]) REFERENCES [Marcas]([Id])

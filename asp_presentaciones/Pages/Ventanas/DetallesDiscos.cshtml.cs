@@ -53,11 +53,6 @@ namespace asp_presentaciones.Pages.Ventanas
             {
                 var variable_session = HttpContext.Session.GetString("NombreUsuario");
 
-                if (String.IsNullOrEmpty(variable_session))
-                {
-                    HttpContext.Response.Redirect("/Index");
-                    return;
-                }
 
                 Filtro!.NombreDisco = Filtro!.NombreDisco ?? "";
 
